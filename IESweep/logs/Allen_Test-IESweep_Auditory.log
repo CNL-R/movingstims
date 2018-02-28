@@ -1,0 +1,40 @@
+Scenario - 
+Logfile written - 02/23/2018 13:21:12
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Allen_Test	1	Response	255	100592	100425	1
+Allen_Test	2	Sound	18	138892	260	1			260		other	0
+Allen_Test	2	Response	1	141390	2758	2
+Allen_Test	3	Sound	19	156565	260	1			260		other	0
+Allen_Test	3	Response	1	158910	2605	1
+Allen_Test	4	Sound	14	175413	268	1			260		other	0
+Allen_Test	4	Response	1	177709	2565	2
+Allen_Test	5	Sound	13	193077	260	1			260		other	0
+Allen_Test	5	Response	1	195549	2732	1
+Allen_Test	6	Sound	15	207415	260	1			260		other	0
+Allen_Test	6	Response	1	210029	2874	1
+Allen_Test	7	Sound	12	226254	260	1			260		other	0
+Allen_Test	7	Response	1	230509	4514	1
+Allen_Test	8	Sound	17	237091	260	1			260		other	0
+Allen_Test	8	Response	1	239948	3116	1
+Allen_Test	9	Sound	19	258432	260	1			260		other	0
+Allen_Test	9	Response	1	260427	2255	1
+Allen_Test	10	Sound	16	274770	260	1			260		other	0
+Allen_Test	10	Response	1	277067	2556	1
+Allen_Test	11	Sound	12	293277	260	1			260		other	0
+Allen_Test	11	Response	1	298506	5489	1
+Allen_Test	12	Sound	14	305781	260	1			260		other	0
+Allen_Test	12	Response	1	309146	3625	1
+Allen_Test	13	Sound	18	325120	260	1			260		other	0
+Allen_Test	13	Response	1	327706	2845	1
+Allen_Test	14	Sound	17	343960	260	1			260		other	0
+Allen_Test	14	Response	1	346745	3045	1
+Allen_Test	15	Sound	13	358465	260	1			260		other	0
+Allen_Test	15	Response	1	361625	3420	1
+Allen_Test	16	Sound	15	376308	263	1			260		other	0
+Allen_Test	16	Response	1	379064	3020	1
+Allen_Test	17	Sound	16	386808	260	1			260		other	0
+Allen_Test	17	Response	1	389784	3236	1
+Allen_Test	18	Sound	11	401479	260	1			260		other	0
+Allen_Test	19	Sound	11	417484	260	1			260		other	0

@@ -1,0 +1,88 @@
+Scenario - 
+Logfile written - 02/26/2018 13:46:43
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Allen_Test1	1	Response	255	8007	7841	1
+Allen_Test1	2	Sound	102	36343	260	1			260		other	0
+Allen_Test1	3	Sound	109	57508	260	1			260		other	0
+Allen_Test1	3	Response	1	60244	2996	1
+Allen_Test1	4	Sound	105	75839	260	1			260		other	0
+Allen_Test1	4	Response	1	78803	3223	1
+Allen_Test1	5	Sound	108	95837	260	1			260		other	0
+Allen_Test1	5	Response	1	98641	3064	1
+Allen_Test1	6	Sound	103	120002	260	1			260		other	0
+Allen_Test1	6	Response	1	123120	3378	1
+Allen_Test1	7	Sound	107	131001	260	1			260		other	0
+Allen_Test1	7	Response	1	134319	3578	1
+Allen_Test1	8	Sound	101	150350	277	1			260		other	0
+Allen_Test1	9	Sound	107	165998	260	1			260		other	0
+Allen_Test1	9	Response	1	168556	2819	1
+Allen_Test1	10	Sound	106	178691	287	1			260		other	0
+Allen_Test1	10	Response	1	181676	3272	1
+Allen_Test1	11	Sound	104	195350	281	1			260		other	0
+Allen_Test1	11	Response	1	198314	3246	1
+Allen_Test1	12	Sound	101	214854	287	1			260		other	0
+Allen_Test1	13	Sound	109	225325	260	1			260		other	0
+Allen_Test1	13	Response	1	227993	2927	1
+Allen_Test1	14	Sound	109	246343	280	1			260		other	0
+Allen_Test1	14	Response	1	249191	3127	1
+Allen_Test1	15	Sound	103	270654	260	1			260		other	0
+Allen_Test1	15	Response	1	273830	3435	1
+Allen_Test1	16	Sound	107	295001	274	1			260		other	0
+Allen_Test1	16	Response	1	298148	3422	1
+Allen_Test1	17	Sound	105	309323	265	1			260		other	0
+Allen_Test1	17	Response	1	312547	3489	1
+Allen_Test1	18	Sound	102	331671	282	1			260		other	0
+Allen_Test1	19	Sound	104	355814	260	1			260		other	0
+Allen_Test1	19	Response	1	358864	3310	1
+Allen_Test1	20	Sound	106	369979	260	1			260		other	0
+Allen_Test1	20	Response	1	372783	3064	1
+Allen_Test1	21	Sound	106	391810	260	1			260		other	0
+Allen_Test1	21	Response	1	394621	3071	1
+Allen_Test1	22	Sound	101	402809	260	1			260		other	0
+Allen_Test1	23	Sound	102	423141	260	1			260		other	0
+Allen_Test1	24	Sound	107	443139	260	1			260		other	0
+Allen_Test1	24	Response	1	445978	3099	1
+Allen_Test1	25	Sound	108	453804	260	1			260		other	0
+Allen_Test1	25	Response	1	456937	3392	1
+Allen_Test1	26	Sound	102	471141	265	1			260		other	0
+Allen_Test1	26	Response	1	475256	4379	1
+Allen_Test1	27	Sound	108	492301	260	1			260		other	0
+Allen_Test1	27	Response	1	494935	2894	1
+Allen_Test1	28	Sound	105	512992	286	1			260		other	0
+Allen_Test1	28	Response	1	516133	3427	1
+Allen_Test1	29	Sound	108	529797	260	1			260		other	0
+Allen_Test1	29	Response	1	532692	3154	1
+Allen_Test1	30	Sound	103	552129	260	1			260		other	0
+Allen_Test1	30	Response	1	555251	3382	1
+Allen_Test1	31	Sound	105	575972	272	1			260		other	0
+Allen_Test1	31	Response	1	578609	2909	1
+Allen_Test1	32	Sound	106	588466	267	1			260		other	0
+Allen_Test1	32	Response	1	591888	3689	1
+Allen_Test1	33	Sound	105	609291	260	1			260		other	0
+Allen_Test1	33	Response	1	612047	3016	1
+Allen_Test1	34	Sound	109	628794	265	1			260		other	0
+Allen_Test1	34	Response	1	631485	2956	1
+Allen_Test1	35	Sound	103	650953	260	1			260		other	0
+Allen_Test1	35	Response	1	654604	3911	1
+Allen_Test1	36	Sound	106	670951	260	1			260		other	0
+Allen_Test1	36	Response	1	673643	2951	1
+Allen_Test1	37	Sound	107	687450	260	1			260		other	0
+Allen_Test1	37	Response	1	689961	2771	1
+Allen_Test1	38	Sound	104	704115	260	1			260		other	0
+Allen_Test1	38	Response	1	707000	3145	1
+Allen_Test1	39	Sound	103	727632	279	1			260		other	0
+Allen_Test1	39	Response	1	730839	3486	1
+Allen_Test1	40	Sound	101	738112	260	1			260		other	0
+Allen_Test1	41	Sound	104	762276	260	1			260		other	0
+Allen_Test1	41	Response	1	765157	3140	1
+Allen_Test1	42	Sound	101	781469	288	1			260		other	0
+Allen_Test1	43	Sound	104	800606	260	1			260		other	0
+Allen_Test1	43	Response	1	803794	3448	1
+Allen_Test1	44	Sound	109	813605	260	1			260		other	0
+Allen_Test1	44	Response	1	817153	3808	1
+Allen_Test1	45	Sound	102	828298	287	1			260		other	0
+Allen_Test1	45	Response	1	835232	7221	1
+Allen_Test1	46	Sound	108	847102	260	1			260		other	0
+Allen_Test1	46	Response	1	850351	3509	1
