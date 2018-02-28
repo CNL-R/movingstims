@@ -10,74 +10,6 @@ no_logfile = false;
 begin;
 
 # in SDL
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_0/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_0;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_5/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_5;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_10/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_10;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_15/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_15;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_20/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_20;
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_25/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_25;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_30/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_30;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_35/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_35;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_40/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_40;
-
-array {
-   LOOP $i 150;
-   $k = '$i + 1';
-   bitmap { filename = "vis_noise/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_noise;
 
 text { caption = "+"; font_size = 16; font_color = 0,0,0; transparent_color = 128,128,128;
 } fixcross;
@@ -97,9 +29,7 @@ wavefile {filename = "aud_30.wav"; preload = true;} tone_30;
 wavefile {filename = "aud_35.wav"; preload = true;} tone_35;
 wavefile {filename = "aud_40.wav"; preload = true;} tone_40;
 
-
 wavefile {filename = "pnoise1000.wav"; preload = true;} isi_noise;
-
 
 sound { wavefile tone_0;} aud_0;
 sound { wavefile tone_5;} aud_5;
@@ -110,7 +40,6 @@ sound { wavefile tone_25;} aud_25;
 sound { wavefile tone_30;} aud_30;
 sound { wavefile tone_35;} aud_35;
 sound { wavefile tone_40;} aud_40;
-
 
 sound { wavefile isi_noise; loop_playback = true;} isi_aud;
 
@@ -202,7 +131,7 @@ loop
 	int j = 1
 until j > nstims*nreps begin
 	#isi_frames = random(60,144);
-	isi_frames = random(120,288);
+	isi_frames = random(90,180);
 	loop
 		int i = 1;
 	until i == isi_frames begin
@@ -234,7 +163,6 @@ until j > nstims*nreps begin
 		av_aud_evt.set_port_code(whichstim[j] + 10);	
 		av_aud_evt.set_stimulus(aud_20);
 		a_trl.present();
-		
 	elseif whichstim[j] == 6 then
 		av_aud_evt.set_event_code(string(whichstim[j] + 10));
 		av_aud_evt.set_port_code(whichstim[j] + 10);	
@@ -260,7 +188,6 @@ until j > nstims*nreps begin
 	term.print_line(nstims*nreps-j);
 	j = j +1;
 	
-
 	if j == nstims*nreps + 1 then
 		default.present();
 		isi_frames = random(60,144);

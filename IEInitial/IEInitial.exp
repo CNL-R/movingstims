@@ -1,5 +1,5 @@
-<ver>18.3</ver>
-<efn>C:\Users\lhshaw\Desktop\movingstims\IEInitial\IEInitial.exp</efn>
+<ver>20</ver>
+<efn>C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\IEInitial.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -12,6 +12,11 @@
 <resume_code></resume_code>
 <send_output>0</send_output>
 <start_code></start_code>
+<tqcs>130</tqcs>
+<tqds>2</tqds>
+<tqms>0</tqms>
+<tqt>9</tqt>
+<tqu>0</tqu>
 </con>
 <dbi></dbi>
 <dbs>button</dbs>
@@ -20,7 +25,7 @@
 <icm_profile></icm_profile>
 <use_icm>0</use_icm>
 </dds>
-<ddv>NVIDIA GeForce GTX 750 Ti</ddv>
+<ddv>NVIDIA GeForce GTX 1050 Ti</ddv>
 <depchg>1</depchg>
 <discard_windows_messages>0</discard_windows_messages>
 <display_status_window>1</display_status_window>
@@ -34,10 +39,10 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\lhshaw\Desktop\movingstims\IEInitial\stims</dsd>
+<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\stims</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\lhshaw\Desktop\movingstims\IEInitial\IEInitial.sce</filename>
+<filename>C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\IEInitial.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -45,7 +50,14 @@
 <man>
 <cfg>
 <dcfg>
+<en>0</en>
+<guid>{7D7D715C-F5ED-4B61-A432-BB3E5D8F2299}</guid>
 <name>Default configuration</name>
+<r>
+<plat>2147483647</plat>
+<rd>0</rd>
+<ss>0</ss>
+</r>
 <ss>
 <sd></sd>
 <sid>-1</sid>
@@ -105,7 +117,7 @@
 <idt>0</idt>
 <ilc>0</ilc>
 <ip_chans></ip_chans>
-<lfd>C:\Users\lhshaw\Desktop\movingstims\IEInitial\logs</lfd>
+<lfd>C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\logs</lfd>
 <lnb>2</lnb>
 <lno>3</lno>
 <log>
@@ -113,6 +125,7 @@
 <delimiter>9</delimiter>
 <general_list>1</general_list>
 <its>0</its>
+<meta>0</meta>
 <pien>0</pien>
 <set_def_file></set_def_file>
 <stimulus_list>0</stimulus_list>
@@ -123,8 +136,14 @@
 </log>
 <lol>1</lol>
 <lpr></lpr>
-<lsl>0</lsl>
-<maxpv>-1</maxpv>
+<lslset>
+<col>0</col>
+<def></def>
+<mod>0</mod>
+<name>Presentation</name>
+<use>0</use>
+</lslset>
+<maxpv></maxpv>
 <minpv>19</minpv>
 <nam>IE-Initial</nam>
 <one_processor>2</one_processor>
@@ -140,6 +159,7 @@
 <igm>0</igm>
 <il>0</il>
 <ivm>0</ivm>
+<mtype>dig</mtype>
 <piai>LPT3</piai>
 <pian>Parallel Port</pian>
 <pihpn>LPT3</pihpn>
@@ -150,6 +170,7 @@
 </oports>
 <out_encrypt_key></out_encrypt_key>
 <pi_list></pi_list>
+<plat>1</plat>
 <port_devices>
 <device>
 <parameters>
@@ -198,11 +219,12 @@
 <spr></spr>
 <sps></sps>
 </parameters>
-<piai>COM7</piai>
+<piai>COM6</piai>
 <pian>Serial Port</pian>
-<pihpn>COM7</pihpn>
+<pihpn>COM6</pihpn>
 </device>
 </port_devices>
+<pversion>2</pversion>
 <rdl>
 <device>
 <abs_axis>
@@ -252,48 +274,6 @@
 <name>Keyboard</name>
 </device>
 <device>
-<abs_axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>X-axis</name>
-<saturation>1</saturation>
-</abs_axis>
-<abs_axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>Y-axis</name>
-<saturation>1</saturation>
-</abs_axis>
-<axis>
-<max>1000</max>
-<min>-1000</min>
-<name>X-axis</name>
-<restricted>1</restricted>
-<scale>1</scale>
-</axis>
-<axis>
-<max>1000</max>
-<min>-1000</min>
-<name>Y-axis</name>
-<restricted>1</restricted>
-<scale>1</scale>
-</axis>
-<axis>
-<max>1000</max>
-<min>-1000</min>
-<name>Wheel</name>
-<restricted>1</restricted>
-<scale>1</scale>
-</axis>
-<device_type>2</device_type>
-<dx_device_type>0</dx_device_type>
-<max_raw_pos>65535</max_raw_pos>
-<min_raw_pos>0</min_raw_pos>
-<name>HID-compliant mouse</name>
-</device>
-<device>
 <device_type>3</device_type>
 <dx_device_type>0</dx_device_type>
 <name>HID Keyboard Device</name>
@@ -338,7 +318,12 @@
 <dx_device_type>0</dx_device_type>
 <max_raw_pos>65535</max_raw_pos>
 <min_raw_pos>0</min_raw_pos>
-<name>HID-compliant mouse 1</name>
+<name>HID-compliant mouse</name>
+</device>
+<device>
+<device_type>3</device_type>
+<dx_device_type>0</dx_device_type>
+<name>HID Keyboard Device 1</name>
 </device>
 <device>
 <axis>
@@ -382,6 +367,16 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Dell KB216 Wired Keyboard 1</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>Dell KB216 Wired Keyboard 2</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>Dell KB216 Wired Keyboard 3</name>
 </device>
 <device>
 <axis>
@@ -463,6 +458,7 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
+<overrides></overrides>
 <sfn>all_scenarios</sfn>
 </sce>
 <sce>
@@ -479,7 +475,8 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
-<sfn>C:\Users\lhshaw\Desktop\movingstims\IEInitial\IEInitial.sce</sfn>
+<overrides></overrides>
+<sfn>C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\IEInitial.sce</sfn>
 </sce>
 <sct>
 <capture_device>
@@ -524,7 +521,7 @@
 <side_speakers>1</side_speakers>
 <use_rewind_distance>0</use_rewind_distance>
 </sde>
-<sdv>Speakers (Sound Blaster Audigy 5/Rx)</sdv>
+<sdv>Speakers (2- Sound Blaster Audigy 5/Rx)</sdv>
 <show_dis>0</show_dis>
 <show_parm>0</show_parm>
 <show_term>1</show_term>

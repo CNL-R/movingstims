@@ -16,28 +16,24 @@ array {
    bitmap { filename = "vis_0/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_0;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
    bitmap { filename = "vis_5/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_5;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
    bitmap { filename = "vis_10/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_10;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
    bitmap { filename = "vis_15/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_15;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
@@ -50,28 +46,24 @@ array {
    bitmap { filename = "vis_25/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_25;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
    bitmap { filename = "vis_30/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_30;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
    bitmap { filename = "vis_35/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_35;
-
 array {
    LOOP $i 4;
    $k = '$i + 1';
    bitmap { filename = "vis_40/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_40;
-
 array {
    LOOP $i 150;
    $k = '$i + 1';
@@ -97,7 +89,6 @@ wavefile {filename = "aud_30.wav"; preload = true;} tone_30;
 wavefile {filename = "aud_35.wav"; preload = true;} tone_35;
 wavefile {filename = "aud_40.wav"; preload = true;} tone_40;
 
-
 wavefile {filename = "silence1000.wav"; preload = true;} isi_silence;
 
 sound { wavefile tone_0;} aud_0;
@@ -109,7 +100,6 @@ sound { wavefile tone_25;} aud_25;
 sound { wavefile tone_30;} aud_30;
 sound { wavefile tone_35;} aud_35;
 sound { wavefile tone_40;} aud_40;
-
 
 sound { wavefile isi_silence; loop_playback = true;} isi_aud;
 
@@ -201,7 +191,7 @@ end;
 loop
 	int j = 1
 until j > nstims*nreps begin
-	isi_frames = random(60,144);
+	isi_frames = random(90,180);
 	loop
 		int i = 1;
 	until i == isi_frames begin
@@ -210,7 +200,6 @@ until j > nstims*nreps begin
 			pic.present();
 			i = i + 1;
 	end;
-	
 	if whichstim[j] == 1 then
 		av_aud_evt.set_event_code(string(whichstim[j] + 100));
 		av_aud_evt.set_port_code(whichstim[j] + 100);		
@@ -291,7 +280,6 @@ until j > nstims*nreps begin
 				i = i +1;
 			end;
 		end;
-		
 	elseif whichstim[j] == 6 then
 		av_aud_evt.set_event_code(string(whichstim[j] + 100));
 		av_aud_evt.set_port_code(whichstim[j] + 100);		
@@ -357,21 +345,19 @@ until j > nstims*nreps begin
 			end;
 		end;
 	end;
-	
 	term.print_line(nstims*nreps-j);
 	j = j +1;
-	
-
-	if j == nstims*nreps + 1 then
-		isi_frames = random(60,144);
-		loop
-			int i = 1;
-		until i == isi_frames begin
-				flex = random(1,150);
-				pic.set_part(1,bmps_noise[flex]);
-				pic.present();
-				i = i + 1;
-		end;
-		audio_device.stop(isi_aud);
-	end;
 end 
+
+
+isi_frames = random(60,144);
+audio_device.stop(isi_aud);
+loop
+	int i = 1;
+until i == isi_frames begin
+	flex = random(1,150);
+	pic.set_part(1,bmps_noise[flex]);
+	pic.present();
+	i = i + 1;
+end;
+
