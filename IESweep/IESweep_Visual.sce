@@ -347,7 +347,7 @@ until j > nstims*nreps begin
 	end;
 	term.print_line(nstims*nreps-j);
 	j = j +1;
-end 
+end; 
 
 
 isi_frames = random(60,144);

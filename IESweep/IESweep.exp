@@ -1,4 +1,4 @@
-<ver>20</ver>
+<ver>18.3</ver>
 <efn>C:\Users\lhshaw\Documents\GitHub\movingstims\IESweep\IESweep.exp</efn>
 <author></author>
 <con>
@@ -12,11 +12,6 @@
 <resume_code></resume_code>
 <send_output>0</send_output>
 <start_code></start_code>
-<tqcs>130</tqcs>
-<tqds>2</tqds>
-<tqms>0</tqms>
-<tqt>9</tqt>
-<tqu>0</tqu>
 </con>
 <dbi></dbi>
 <dbs>button</dbs>
@@ -25,13 +20,13 @@
 <icm_profile></icm_profile>
 <use_icm>0</use_icm>
 </dds>
-<ddv>NVIDIA GeForce GTX 1050 Ti</ddv>
+<ddv>NVIDIA GeForce GTX 750 Ti</ddv>
 <depchg>1</depchg>
 <discard_windows_messages>0</discard_windows_messages>
 <display_status_window>1</display_status_window>
-<dmd>32</dmd>
+<dmd>16</dmd>
 <dmh>1080</dmh>
-<dmr>59.978</dmr>
+<dmr>60</dmr>
 <dmw>2560</dmw>
 <docs>
 <args></args>
@@ -51,14 +46,7 @@
 <man>
 <cfg>
 <dcfg>
-<en>0</en>
-<guid>{0EF313D9-97F6-4591-B218-C19E4BA0FF73}</guid>
 <name>Default configuration</name>
-<r>
-<plat>2147483647</plat>
-<rd>0</rd>
-<ss>0</ss>
-</r>
 <ss>
 <sd></sd>
 <sid>-1</sid>
@@ -130,7 +118,6 @@
 <delimiter>9</delimiter>
 <general_list>1</general_list>
 <its>0</its>
-<meta>0</meta>
 <pien>0</pien>
 <set_def_file></set_def_file>
 <stimulus_list>0</stimulus_list>
@@ -141,15 +128,9 @@
 </log>
 <lol>1</lol>
 <lpr></lpr>
-<lslset>
-<col>0</col>
-<def></def>
-<mod>0</mod>
-<name>Presentation</name>
-<use>0</use>
-</lslset>
-<maxpv></maxpv>
-<minpv>19.0</minpv>
+<lsl>0</lsl>
+<maxpv>-1</maxpv>
+<minpv>19</minpv>
 <nam>IESweep</nam>
 <one_processor>2</one_processor>
 <oports>
@@ -164,18 +145,16 @@
 <igm>0</igm>
 <il>0</il>
 <ivm>0</ivm>
-<mtype>dig</mtype>
 <piai>LPT3</piai>
 <pian>Parallel Port</pian>
 <pihpn>LPT3</pihpn>
-<pindex>3</pindex>
+<pindex>2</pindex>
 <rs>1</rs>
 <rt>0</rt>
 </p>
 </oports>
 <out_encrypt_key></out_encrypt_key>
 <pi_list></pi_list>
-<plat>1</plat>
 <port_devices>
 <device>
 <parameters>
@@ -211,25 +190,7 @@
 <pian>Serial Port</pian>
 <pihpn>COM3</pihpn>
 </device>
-<device>
-<parameters>
-<cts>0</cts>
-<dsrin>0</dsrin>
-<dsrout>0</dsrout>
-<dtr>disable</dtr>
-<rts>disable</rts>
-<set_fifo>1</set_fifo>
-<spd></spd>
-<spp></spp>
-<spr></spr>
-<sps></sps>
-</parameters>
-<piai>COM6</piai>
-<pian>Serial Port</pian>
-<pihpn>COM6</pihpn>
-</device>
 </port_devices>
-<pversion>2</pversion>
 <rdl>
 <device>
 <abs_axis>
@@ -326,11 +287,6 @@
 <name>HID-compliant mouse</name>
 </device>
 <device>
-<device_type>3</device_type>
-<dx_device_type>0</dx_device_type>
-<name>HID Keyboard Device 1</name>
-</device>
-<device>
 <axis>
 <dead_zone>0</dead_zone>
 <max>1000</max>
@@ -372,16 +328,6 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Dell KB216 Wired Keyboard 1</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>Dell KB216 Wired Keyboard 2</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>Dell KB216 Wired Keyboard 3</name>
 </device>
 <device>
 <axis>
@@ -463,7 +409,6 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
-<overrides></overrides>
 <sfn>all_scenarios</sfn>
 </sce>
 <sce>
@@ -480,7 +425,6 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
-<overrides></overrides>
 <sfn>C:\Users\lhshaw\Documents\GitHub\movingstims\IESweep\IESweep_Auditory.sce</sfn>
 </sce>
 <sce>
@@ -497,7 +441,6 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
-<overrides></overrides>
 <sfn>C:\Users\lhshaw\Documents\GitHub\movingstims\IESweep\IESweep_Visual.sce</sfn>
 </sce>
 <sct>
@@ -543,7 +486,7 @@
 <side_speakers>1</side_speakers>
 <use_rewind_distance>0</use_rewind_distance>
 </sde>
-<sdv>Speakers (2- Sound Blaster Audigy 5/Rx)</sdv>
+<sdv>Speakers (Sound Blaster Audigy 5/Rx)</sdv>
 <show_dis>0</show_dis>
 <show_parm>0</show_parm>
 <show_term>1</show_term>

@@ -1,5 +1,5 @@
 <ver>18.3</ver>
-<efn>C:\Users\lhshaw\Desktop\movingstims\smooth_moves_bkcup.exp</efn>
+<efn>C:\Users\lhshaw\Documents\GitHub\movingstims\dev code\smooth_moves.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -34,10 +34,10 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\lhshaw\Desktop\movingstims\stims</dsd>
+<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\dev code\stims</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\lhshaw\Desktop\movingstims\moves_noise.sce</filename>
+<filename>C:\Users\lhshaw\Documents\GitHub\movingstims\dev code\moves_noise.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -105,7 +105,7 @@
 <idt>0</idt>
 <ilc>0</ilc>
 <ip_chans></ip_chans>
-<lfd>C:\Users\lhshaw\Desktop\movingstims\logs</lfd>
+<lfd>C:\Users\lhshaw\Documents\GitHub\movingstims\dev code\logs</lfd>
 <lnb>2</lnb>
 <lno>3</lno>
 <log>
@@ -235,11 +235,6 @@
 <name>Keyboard</name>
 </device>
 <device>
-<device_type>3</device_type>
-<dx_device_type>0</dx_device_type>
-<name>HID Keyboard Device</name>
-</device>
-<device>
 <abs_axis>
 <dead_zone>0</dead_zone>
 <max>1000</max>
@@ -284,7 +279,7 @@
 <device>
 <device_type>3</device_type>
 <dx_device_type>0</dx_device_type>
-<name>HID Keyboard Device 1</name>
+<name>HID Keyboard Device</name>
 </device>
 <device>
 <abs_axis>
@@ -329,6 +324,39 @@
 <name>HID-compliant mouse 1</name>
 </device>
 <device>
+<axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>X Axis</name>
+<saturation>1</saturation>
+</axis>
+<axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>Y Axis</name>
+<saturation>1</saturation>
+</axis>
+<axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>Z Axis</name>
+<saturation>1</saturation>
+</axis>
+<axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>Z Rotation</name>
+<saturation>1</saturation>
+</axis>
+<device_type>1</device_type>
+<dx_device_type>20</dx_device_type>
+<name>Generic   USB  Joystick  </name>
+</device>
+<device>
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Dell KB216 Wired Keyboard</name>
@@ -337,16 +365,6 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Dell KB216 Wired Keyboard 1</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>Dell KB216 Wired Keyboard 2</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>Dell KB216 Wired Keyboard 3</name>
 </device>
 <device>
 <axis>
@@ -418,7 +436,7 @@
 <sfn>all_scenarios</sfn>
 </sce>
 <sce>
-<sfn>C:\Users\lhshaw\Desktop\movingstims\moves_noise.sce</sfn>
+<sfn>C:\Users\lhshaw\Documents\GitHub\movingstims\dev code\moves_noise.sce</sfn>
 </sce>
 <sct>
 <capture_device>

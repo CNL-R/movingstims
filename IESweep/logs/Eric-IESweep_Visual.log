@@ -1,80 +1,86 @@
 Scenario - 
-Logfile written - 02/28/2018 14:46:48
+Logfile written - 03/06/2018 11:31:34
 
 Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
 
-Eric	1	Response	255	22209	22008	1
-Eric	2	Sound	106	37618	260	1			260		other	0
-Eric	2	Response	1	39887	2529	1
-Eric	3	Sound	102	48168	260	1			260		other	0
-Eric	4	Sound	108	54766	260	1			260		other	0
-Eric	4	Response	1	56926	2420	1
-Eric	5	Sound	108	66667	260	1			260		other	0
-Eric	5	Response	1	69166	2759	1
-Eric	6	Sound	105	76035	260	1			260		other	0
-Eric	6	Response	1	79005	3230	1
-Eric	7	Sound	101	84972	260	1			260		other	0
-Eric	7	Response	1	95804	11092	1
-Eric	8	Sound	107	99429	260	1			260		other	0
-Eric	9	Sound	104	106536	260	1			260		other	0
-Eric	9	Response	1	111723	5447	1
-Eric	10	Sound	105	114429	260	1			260		other	0
-Eric	10	Response	1	121802	7633	1
-Eric	11	Sound	109	124584	260	1			260		other	0
-Eric	11	Response	1	130282	5958	1
-Eric	12	Sound	108	131167	260	1			260		other	0
-Eric	12	Response	1	136441	5534	1
-Eric	13	Sound	107	140912	265	1			260		other	0
-Eric	13	Response	1	145401	4754	1
-Eric	14	Sound	107	148448	260	1			260		other	0
-Eric	14	Response	1	151480	3292	1
-Eric	15	Sound	102	162610	264	1			260		other	0
-Eric	16	Sound	109	169445	260	1			260		other	0
-Eric	16	Response	1	172039	2854	1
-Eric	17	Sound	103	182214	260	1			260		other	0
-Eric	17	Response	1	186678	4724	1
-Eric	18	Sound	104	195729	260	1			260		other	0
-Eric	18	Response	1	198438	2969	1
-Eric	19	Sound	106	203865	260	1			260		other	0
-Eric	19	Response	1	208757	5152	1
-Eric	20	Sound	103	210107	274	1			260		other	0
-Eric	20	Response	1	216196	6363	1
-Eric	21	Sound	107	219856	260	1			260		other	0
-Eric	21	Response	1	226196	6600	1
-Eric	22	Sound	108	228206	276	1			260		other	0
-Eric	22	Response	1	235635	7705	1
-Eric	23	Sound	104	242376	260	1			260		other	0
-Eric	23	Response	1	246275	4158	1
-Eric	24	Sound	109	255730	260	1			260		other	0
-Eric	24	Response	1	258114	2644	1
-Eric	25	Sound	106	261954	260	1			260		other	0
-Eric	25	Response	1	266593	4899	1
-Eric	26	Sound	105	269785	260	1			260		other	0
-Eric	26	Response	1	274673	5148	1
-Eric	27	Sound	105	277719	260	1			260		other	0
-Eric	27	Response	1	282992	5534	1
-Eric	28	Sound	102	291773	260	1			260		other	0
-Eric	29	Sound	101	299506	260	1			260		other	0
-Eric	30	Sound	103	312958	260	1			260		other	0
-Eric	30	Response	1	315550	2852	1
-Eric	31	Sound	101	325006	260	1			260		other	0
-Eric	32	Sound	109	334744	260	1			260		other	0
-Eric	32	Response	1	338749	4264	1
-Eric	33	Sound	101	345592	260	1			260		other	0
-Eric	34	Sound	108	354549	260	1			260		other	0
-Eric	34	Response	1	358828	4538	1
-Eric	35	Sound	104	362140	260	1			260		other	0
-Eric	36	Sound	103	371970	260	1			260		other	0
-Eric	36	Response	1	374747	3036	1
-Eric	37	Sound	105	378306	260	1			260		other	0
-Eric	37	Response	1	383466	5420	1
-Eric	38	Sound	106	390290	260	1			260		other	0
-Eric	39	Sound	101	401895	269	1			260		other	0
-Eric	39	Response	1	408825	7198	1
-Eric	40	Sound	104	410303	260	1			260		other	0
-Eric	41	Sound	107	419040	260	1			260		other	0
-Eric	42	Sound	102	428544	260	1			260		other	0
-Eric	43	Sound	106	440966	260	1			260		other	0
-Eric	44	Sound	109	452856	260	1			260		other	0
-Eric	45	Sound	102	466206	260	1			260		other	0
-Eric	46	Sound	103	476523	260	1			260		other	0
+Eric	1	Response	255	694525	694402	1
+Eric	2	Sound	104	730434	260	1			260		other	0
+Eric	2	Response	1	733005	2830	1
+Eric	3	Sound	106	755776	260	1			260		other	0
+Eric	3	Response	1	757885	2368	1
+Eric	4	Sound	108	779118	260	1			260		other	0
+Eric	4	Response	1	781245	2386	1
+Eric	5	Sound	108	807461	260	1			260		other	0
+Eric	5	Response	1	809644	2443	1
+Eric	6	Sound	108	834971	260	1			260		other	0
+Eric	6	Response	1	837004	2293	1
+Eric	7	Sound	102	856145	260	1			260		other	0
+Eric	8	Sound	104	882154	260	1			260		other	0
+Eric	8	Response	1	884604	2709	1
+Eric	9	Sound	109	901160	260	1			260		other	0
+Eric	9	Response	1	904683	3782	1
+Eric	10	Sound	109	927337	260	1			260		other	0
+Eric	10	Response	1	929563	2486	2
+Eric	11	Sound	102	953679	260	1			260		other	0
+Eric	12	Sound	105	975353	260	1			260		other	0
+Eric	12	Response	1	978123	3029	1
+Eric	13	Sound	107	999862	260	1			260		other	0
+Eric	13	Response	1	1002763	3161	1
+Eric	14	Sound	101	1030210	265	1			260		other	0
+Eric	15	Sound	104	1049546	260	1			260		other	0
+Eric	15	Response	1	1052362	3076	1
+Eric	16	Sound	103	1067052	260	1			260		other	0
+Eric	16	Response	1	1071162	4370	1
+Eric	17	Sound	101	1094228	260	1			260		other	0
+Eric	18	Sound	102	1124410	264	1			260		other	0
+Eric	19	Sound	103	1143412	260	1			260		other	0
+Eric	19	Response	1	1147161	4009	1
+Eric	20	Sound	104	1162919	260	1			260		other	0
+Eric	20	Response	1	1165961	3302	1
+Eric	21	Sound	103	1193262	260	1			260		other	0
+Eric	21	Response	1	1196121	3118	1
+Eric	22	Sound	107	1209268	260	1			260		other	0
+Eric	22	Response	1	1212041	3032	1
+Eric	23	Sound	105	1233944	260	1			260		other	0
+Eric	23	Response	1	1236760	3077	1
+Eric	24	Sound	105	1251950	260	1			260		other	0
+Eric	24	Response	1	1254680	2990	1
+Eric	25	Sound	106	1278792	260	1			260		other	0
+Eric	25	Response	1	1281480	2948	1
+Eric	26	Sound	106	1297632	260	1			260		other	0
+Eric	26	Response	1	1300280	2908	1
+Eric	27	Sound	109	1318973	260	1			260		other	0
+Eric	27	Response	1	1321720	3006	1
+Eric	28	Sound	108	1346983	260	1			260		other	0
+Eric	28	Response	1	1351240	4517	1
+Eric	29	Sound	107	1372508	276	1			260		other	0
+Eric	29	Response	1	1375479	3247	1
+Eric	30	Sound	103	1393832	260	1			260		other	0
+Eric	30	Response	1	1396439	2866	1
+Eric	31	Sound	101	1415173	260	1			260		other	0
+Eric	32	Sound	108	1433180	260	1			260		other	0
+Eric	32	Response	1	1435959	3039	1
+Eric	33	Sound	103	1463690	260	1			260		other	0
+Eric	33	Response	1	1467639	4208	1
+Eric	34	Sound	101	1481030	260	1			260		other	0
+Eric	35	Sound	104	1501036	260	1			260		other	0
+Eric	35	Response	1	1504358	3581	1
+Eric	36	Sound	109	1531547	260	1			260		other	0
+Eric	36	Response	1	1534278	2990	1
+Eric	37	Sound	106	1562058	260	1			260		other	0
+Eric	37	Response	1	1564838	3040	1
+Eric	38	Sound	107	1586733	260	1			260		other	0
+Eric	38	Response	1	1589557	3084	1
+Eric	39	Sound	106	1611909	260	1			260		other	0
+Eric	39	Response	1	1614197	2548	1
+Eric	40	Sound	102	1632416	260	1			260		other	0
+Eric	41	Sound	102	1653090	260	1			260		other	0
+Eric	42	Sound	107	1672606	269	1			260		other	0
+Eric	42	Response	1	1675397	3060	1
+Eric	43	Sound	109	1696938	260	1			260		other	0
+Eric	43	Response	1	1701797	5118	1
+Eric	44	Sound	101	1726282	260	1			260		other	0
+Eric	45	Sound	105	1743455	260	1			260		other	0
+Eric	45	Response	1	1746196	3001	1
+Eric	46	Sound	105	1765805	270	1			260		other	0
+Eric	46	Response	1	1768436	2900	1

@@ -48,7 +48,7 @@ array {
 array {
    LOOP $i 150;
    $k = '$i + 1';
-   bitmap { filename = "vis_black/annulus_$i.bmp"; };
+   bitmap { filename = "vis_noise/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_noise;
 
@@ -66,8 +66,11 @@ wavefile {filename = "aud_050.wav"; preload = true;} tone_010;
 wavefile {filename = "aud_050.wav"; preload = true;} tone_015;
 wavefile {filename = "aud_050.wav"; preload = true;} tone_025;
 wavefile {filename = "aud_050.wav"; preload = true;} tone_050;
+wavefile {filename = "audNR_100.wav"; preload = true;} tone_100;
 
-wavefile {filename = "pnoise1000.wav"; preload = true;} isi_noise;
+#wavefile {filename = "PinkNoise.wav"; preload = true;} isi_noise;
+#wavefile {filename = "pnoise1000.wav"; preload = true;} isi_noise;
+wavefile {filename = "pinknoise10.wav"; preload = true;} isi_noise;
 
 sound { wavefile tone_001;} aud_001;
 sound { wavefile tone_005;} aud_005;
@@ -75,6 +78,7 @@ sound { wavefile tone_010;} aud_010;
 sound { wavefile tone_015;} aud_015;
 sound { wavefile tone_025;} aud_025;
 sound { wavefile tone_050;} aud_050;
+sound { wavefile tone_100;} aud_100;
 
 sound { wavefile isi_noise; loop_playback = true;} isi_aud;
 
@@ -90,7 +94,7 @@ trial {
 	#picture default;
 	#time = 0;
 	stimulus_event {
-		sound aud_001;
+		sound aud_100;
 		port_code = 1; 					#test port code added
 		code = "AV";
 		parallel = true;
@@ -179,7 +183,7 @@ until j > nstims*nreps begin
 			int i = 1
 		until i == 9 begin
 			if i == 1 then
-				av_aud_evt.set_stimulus(aud_050);
+				av_aud_evt.set_stimulus(aud_100);
 				pic.set_part(1,bmps_010[i]);
 				av_trl.present();
 				i = i + 1;
@@ -196,12 +200,12 @@ until j > nstims*nreps begin
 			int i = 1
 		until i == 9 begin
 			if i == 1 then
-				av_aud_evt.set_stimulus(aud_025);
-				pic.set_part(1,bmps_008[i]);
+				av_aud_evt.set_stimulus(aud_100);
+				pic.set_part(1,bmps_010[i]);
 				av_trl.present();
 				i = i + 1;
 			else
-				pic.set_part(1,bmps_008[i]);
+				pic.set_part(1,bmps_010[i]);
 				pic.present();
 				i = i +1;
 			end;
@@ -212,12 +216,12 @@ until j > nstims*nreps begin
 			int i = 1
 		until i == 9 begin
 			if i == 1 then
-				av_aud_evt.set_stimulus(aud_015);
-				pic.set_part(1,bmps_006[i]);
+				av_aud_evt.set_stimulus(aud_100);
+				pic.set_part(1,bmps_010[i]);
 				av_trl.present();
 				i = i + 1;
 			else
-				pic.set_part(1,bmps_006[i]);
+				pic.set_part(1,bmps_010[i]);
 				pic.present();
 				i = i +1;
 			end;
@@ -228,12 +232,12 @@ until j > nstims*nreps begin
 			int i = 1
 		until i == 9 begin
 			if i == 1 then
-				av_aud_evt.set_stimulus(aud_010);
-				pic.set_part(1,bmps_004[i]);
+				av_aud_evt.set_stimulus(aud_100);
+				pic.set_part(1,bmps_010[i]);
 				av_trl.present();
 				i = i + 1;
 			else
-				pic.set_part(1,bmps_004[i]);
+				pic.set_part(1,bmps_010[i]);
 				pic.present();
 				i = i +1;
 			end;
@@ -244,12 +248,12 @@ until j > nstims*nreps begin
 			int i = 1
 		until i == 9 begin
 			if i == 1 then
-				av_aud_evt.set_stimulus(aud_005);
-				pic.set_part(1,bmps_000[i]);
+				av_aud_evt.set_stimulus(aud_100);
+				pic.set_part(1,bmps_010[i]);
 				av_trl.present();
 				i = i + 1;
 			else
-				pic.set_part(1,bmps_000[i]);
+				pic.set_part(1,bmps_010[i]);
 				pic.present();
 				i = i +1;
 			end;
@@ -257,4 +261,5 @@ until j > nstims*nreps begin
 	end;
 	
 	j = j +1;
-end
+end;
+audio_device.stop(isi_aud);

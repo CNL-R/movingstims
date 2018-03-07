@@ -29,7 +29,7 @@ wavefile {filename = "aud_30.wav"; preload = true;} tone_30;
 wavefile {filename = "aud_35.wav"; preload = true;} tone_35;
 wavefile {filename = "aud_40.wav"; preload = true;} tone_40;
 
-wavefile {filename = "pnoise1000.wav"; preload = true;} isi_noise;
+wavefile {filename = "PinkNoise.wav"; preload = true;} isi_noise;
 
 sound { wavefile tone_0;} aud_0;
 sound { wavefile tone_5;} aud_5;

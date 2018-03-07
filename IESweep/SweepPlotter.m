@@ -1,11 +1,11 @@
 %% Auditory Plotter
 
 %Define your event codes and each respective intensity value
-conds = [11,12,13,14,15,16,17,18,19,20, 21];
+conds = [11,12,13,14,15,16,17,18,19];
 intensities = [0,0.05,0.10,0.15,0.2,0.25,0.3,0.35,0.4];
 
 %Loading log file 
-[filename, path] = uigetfile('C:\Users\lhshaw\Desktop\movingstims\IESweep\logs\*.log','Please select which AUDITORY .log file to analyze');
+[filename, path] = uigetfile('C:\Users\lhshaw\Documents\GitHub\movingstims\IESweep\logs\*.log','Please select which AUDITORY .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %Mining your log file
@@ -40,7 +40,7 @@ conds = [101,102,103,104,105,106,107,108,109];
 intensities = [0,0.05,0.10,0.15,0.2,0.25,0.3,0.35,0.4];
 
 %Loading log file 
-[filename, path] = uigetfile('C:\Users\lhshaw\Desktop\movingstims\IESweep\logs\*.log','Please select which VISUAL .log file to analyze');
+[filename, path] = uigetfile('C:\Users\lhshaw\Documents\GitHub\movingstims\IESweep\logs\*.log','Please select which VISUAL .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %Mining your log file

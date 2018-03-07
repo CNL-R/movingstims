@@ -46,6 +46,7 @@ picture { bitmap { filename = ""; preload = false;}; x = 0; y = 0; text fixcross
 #picture { bitmap { filename = "annulus_1.bmp"; }; x = 0; y = 0;} default;
 picture {text fixcross; x = 0; y = 0; } default;
 
+wavefile {filename = "aud_0.wav"; preload = true;} tone_0;
 wavefile {filename = "aud_1.wav"; preload = true;} tone_1;
 wavefile {filename = "aud_2.wav"; preload = true;} tone_2;
 wavefile {filename = "aud_3.wav"; preload = true;} tone_3;
@@ -53,6 +54,7 @@ wavefile {filename = "aud_3.wav"; preload = true;} tone_3;
 wavefile {filename = "PinkNoise.wav"; preload = true;} isi_noise;
 wavefile {filename = "silence1000.wav"; preload = true;} isi_silence;
 
+sound { wavefile tone_0;} aud_0;
 sound { wavefile tone_1;} aud_1;
 sound { wavefile tone_2;} aud_2;
 sound { wavefile tone_3;} aud_3;
@@ -68,7 +70,7 @@ trial {
 	stimulus_event {
 		sound aud_1;
 		port_code = 1; 					#test port code added
-		code = "AV";
+		code = "A";
 		parallel = true;
 	} a_aud_evt;
 	stimulus_event {
@@ -82,9 +84,9 @@ trial {
 	#picture default;
 	#time = 0;
 	stimulus_event {
-		sound aud_1;
+		sound aud_0;
 		port_code = 1; 					#test port code added
-		code = "AV";
+		code = "V";
 		parallel = true;
 	} v_aud_evt;
 	stimulus_event {
@@ -123,6 +125,9 @@ trial {
 		target_button = 2;
 		} break_event;
 	} break_time;
+	
+trial { nothing{}; time = 0; port_code = 253;} pause_off;
+trial { nothing{}; time = 0; port_code = 254;} pause_on;
 ############################################################################
 begin_pcl;
 ############################################################################
@@ -152,15 +157,15 @@ fixcross.set_formatted_text(true);
 fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
-int nstims = 16;
-int nreps = 4;
+int nstims = 3;
+int nreps = 17;
 int isi;
 int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-array<int> blockorder[] = {3,2,1};
-#blockorder.shuffle();
+array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
+blockorder.shuffle();
 
 loop
 	int blocknum = 0;
@@ -184,7 +189,8 @@ begin
 		i = i + 1;
 	end;
 	whichstim.shuffle();
-
+	
+	pause_off.present();
 	default.present();
 	wait_interval(3000);
 	
@@ -192,7 +198,7 @@ begin
 	if blockorder[blocknum] == 1 then
 		isi_aud.present();
 		default.present();
-		isi_frames = random(60,120);
+		isi_frames = random(90,168);
 		loop
 			int i = 1;
 		until i == isi_frames begin
@@ -203,7 +209,7 @@ begin
 		loop
 			int j = 1
 		until j > nstims*nreps begin
-			isi_frames = random(60,144);
+			isi_frames = random(90,168);
 			loop
 				int i = 1;
 			until i == isi_frames begin
@@ -232,7 +238,7 @@ begin
 			
 			if j == nstims*nreps + 1 then
 				default.present();
-				isi_frames = random(60,120);
+				isi_frames = random(90,168);
 				loop
 					int i = 1;
 				until i == isi_frames begin
@@ -246,7 +252,7 @@ begin
 #If Visual Block
 	elseif blockorder[blocknum] == 2 then
 		isi_vis.present();
-		isi_frames = random(60,120);
+		isi_frames = random(90,168);
 		loop
 			int i = 1;
 		until i == isi_frames begin
@@ -258,7 +264,7 @@ begin
 		loop
 			int j = 1
 		until j > nstims*nreps begin
-			isi_frames = random(60,144);
+			isi_frames = random(90,168);
 			loop
 				int i = 1;
 			until i == isi_frames begin
@@ -316,29 +322,39 @@ begin
 						i = i +1;
 					end;
 				end;
-			
-				term.print_line(nstims*nreps-j);
-				j = j +1;
-			
-				if j == nstims*nreps + 1 then
-					isi_frames = random(60,144);
-					loop
-						int i = 1;;
-					until i == isi_frames begin
-							flex = random(1,150);
-							pic.set_part(1,bmps_noise[flex]);
-							pic.present();
-							i = i + 1;
-					end;
-					audio_device.stop(isi_aud);
-				end; 
 			end;
+			term.print_line(nstims*nreps-j);
+			j = j +1;
+			
+			if j == nstims*nreps + 1 then
+				isi_frames = random(90,168);
+				loop
+					int i = 1;;
+				until i == isi_frames begin
+					flex = random(1,150);
+					pic.set_part(1,bmps_noise[flex]);
+					pic.present();
+					i = i + 1;
+				end;
+					audio_device.stop(isi_vis);
+			end; 
 		end;
 	else  #AV Block
+		isi_aud.present();
+		isi_frames = random(90,168);
 		loop
+			int i = 1;
+		until i == isi_frames begin
+				flex = random(1,150);
+				pic.set_part(1,bmps_noise[flex]);
+				pic.present();
+				i = i + 1;
+		end;
+		
+		loop	
 			int j = 1;
 		until j > nstims*nreps begin
-			isi_frames = random(90,180);
+			isi_frames = random(90,168);
 			loop
 				int i = 1;
 			until i == isi_frames begin
@@ -351,7 +367,7 @@ begin
 			if whichstim[j] == 1 then	
 				loop
 					int i = 1;
-				until i == 9 begin
+				until i == 4 begin
 					if i == 1 then
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
 						av_aud_evt.set_port_code(whichstim[j] + 30);	
@@ -368,7 +384,7 @@ begin
 			elseif whichstim[j] == 2 then	
 				loop
 					int i = 1;
-				until i == 9 begin
+				until i == 4 begin
 					if i == 1 then
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
 						av_aud_evt.set_port_code(whichstim[j] + 30);	
@@ -385,7 +401,7 @@ begin
 			else 	
 				loop
 					int i = 1;
-				until i == 9 begin
+				until i == 4 begin
 					if i == 1 then
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
 						av_aud_evt.set_port_code(whichstim[j] + 30);	
@@ -398,8 +414,22 @@ begin
 						pic.present();
 						i = i +1;
 					end;
-				end;
+				end;				
 			end;
-		end 
+			term.print_line(nstims*nreps-j);
+			j = j +1;
+		end;
+		isi_frames = random(90,168);
+		loop
+			int i = 1;
+		until i == isi_frames begin
+			flex = random(1,150);
+			pic.set_part(1,bmps_noise[flex]);
+			pic.present();
+			i = i + 1;
+		end;
+		audio_device.stop(isi_aud);
 	end;
+	
+	pause_on.present();
 end;

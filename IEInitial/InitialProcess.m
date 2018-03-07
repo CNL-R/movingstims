@@ -19,13 +19,12 @@ block(end) = 0;
 
 numberhits = zeros(1,numel(Aconds));                         %initializing arrays for: holding number of hits, intances and detection rate
 numberstims = zeros(1,numel(Aconds));                        %   for each stimuli
-numberstims(:,:) = 40;
 detection = zeros(1,numel(Aconds));
 for i = 1:numel(Aconds)                                      %looping through each condition: finding number of hits, number of instances of that stimuli
     stimIndcs = find(block==Aconds(i));                      %   and dividng for the detection rate
     responses = block(stimIndcs+1);
     numberhits(i) = numel(find(responses==1));
-    %numberstims(i) = numel(stimIndcs);
+    numberstims(i) = numel(stimIndcs);
     detection(i) = numberhits(i) / numberstims(i);
 end 
 
