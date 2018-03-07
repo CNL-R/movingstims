@@ -1,6 +1,9 @@
 %To be ran after InitialProcess
+addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
-intensities_aud = [aud30 aud70 aud90]; %aud30 aud70 and aud90 come from InitialProcess.m 
+basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Eric_stims';
+
+intensities_aud = [aud30 aud60 aud90]; %aud30 aud60 and aud90 come from InitialProcess.m 
 
 Hz = 1000;
 refreshRate = 60; %in Hz
@@ -34,14 +37,14 @@ for i = 1:size(intensities_aud,2)
     %test sound
     %sound(waveprod,Fs);
     %write sound
-    audiowrite(filename,waveprod,Fs);
+    audiowrite(strcat(basedir,'\',filename),waveprod,Fs);
 end 
 
-intensities_vis = [vis30 vis70 vis90];
+intensities_vis = [vis30 vis60 vis90];
 
 desired_frames = 4;
 
-basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\stims';
+
 for m = 1:size(intensities_vis, 2)
     foldername = ['vis_' num2str(m)];
     status = mkdir(basedir, foldername);
