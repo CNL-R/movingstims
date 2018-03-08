@@ -67,7 +67,7 @@ plot(intensities, detection,'Marker','o');
 title('Visual')
 
 %% Save Fig
-savedestination = 'C:\Users\lhshaw\Desktop\movingstims\IESweep\plots';
+savedestination = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IESweep\plots';
 participant = cond.subject{1};
 savefig(fig, strcat(savedestination, '\', participant, '_sweep.fig'));
 saveas(fig, strcat(savedestination, '\', participant, '_sweep.png'));
