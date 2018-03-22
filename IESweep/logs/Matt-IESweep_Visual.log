@@ -1,0 +1,87 @@
+Scenario - 
+Logfile written - 03/20/2018 11:41:03
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Matt	1	Response	255	24137	23971	1
+Matt	2	Sound	106	62364	260	1			260		other	0
+Matt	2	Response	1	66295	4190	1
+Matt	3	Sound	107	86038	260	1			260		other	0
+Matt	3	Response	1	89013	3235	1
+Matt	4	Sound	108	114546	260	1			260		other	0
+Matt	4	Response	1	117171	2885	1
+Matt	5	Sound	102	130885	260	1			260		other	0
+Matt	6	Sound	101	149407	277	1			260		other	0
+Matt	7	Sound	101	173730	260	1			260		other	0
+Matt	8	Sound	103	192569	260	1			260		other	0
+Matt	8	Response	1	196046	3737	1
+Matt	9	Sound	107	213742	260	1			260		other	0
+Matt	9	Response	1	216365	2883	1
+Matt	10	Sound	105	240083	260	1			260		other	0
+Matt	10	Response	1	242763	2940	1
+Matt	11	Sound	104	259755	260	1			260		other	0
+Matt	11	Response	1	263562	4066	1
+Matt	12	Sound	106	276927	260	1			260		other	0
+Matt	12	Response	1	279481	2813	1
+Matt	13	Sound	103	301268	260	1			260		other	0
+Matt	13	Response	1	304599	3591	3
+Matt	14	Sound	109	319440	260	1			260		other	0
+Matt	14	Response	1	321878	2698	1
+Matt	15	Sound	108	343795	275	1			260		other	0
+Matt	15	Response	1	346117	2597	1
+Matt	16	Sound	105	366620	260	1			260		other	0
+Matt	16	Response	1	369075	2715	1
+Matt	17	Sound	104	386793	260	1			260		other	0
+Matt	17	Response	1	389394	2861	1
+Matt	18	Sound	108	408632	260	1			260		other	0
+Matt	18	Response	1	410753	2380	1
+Matt	18	Response	1	431551	23178	1
+Matt	19	Sound	103	436807	260	1			260		other	0
+Matt	20	Sound	109	453812	260	1			260		other	0
+Matt	20	Response	1	456430	2877	1
+Matt	21	Sound	101	481487	260	1			260		other	0
+Matt	22	Sound	104	508662	260	1			260		other	0
+Matt	22	Response	1	511466	3064	1
+Matt	23	Sound	101	530168	260	1			260		other	0
+Matt	24	Sound	105	548840	260	1			260		other	0
+Matt	24	Response	1	551623	3043	1
+Matt	25	Sound	106	569181	261	1			260		other	0
+Matt	25	Response	1	573062	4142	1
+Matt	26	Sound	104	595854	260	1			260		other	0
+Matt	26	Response	1	599060	3466	1
+Matt	27	Sound	105	612025	260	1			260		other	0
+Matt	27	Response	1	615219	3454	1
+Matt	28	Sound	102	637366	260	1			260		other	0
+Matt	29	Sound	109	655538	260	1			260		other	0
+Matt	29	Response	1	658016	2738	1
+Matt	30	Sound	107	681379	260	1			260		other	0
+Matt	30	Response	1	684015	2896	1
+Matt	31	Sound	102	711221	260	1			260		other	0
+Matt	31	Response	1	717213	6252	1
+Matt	32	Sound	103	727726	260	1			260		other	0
+Matt	32	Response	1	731452	3986	1
+Matt	33	Sound	104	752570	263	1			260		other	0
+Matt	33	Response	1	755690	3384	1
+Matt	34	Sound	108	782075	260	1			260		other	0
+Matt	34	Response	1	784728	2913	1
+Matt	35	Sound	106	800914	260	1			260		other	0
+Matt	35	Response	1	803767	3113	1
+Matt	36	Sound	109	826088	260	1			260		other	0
+Matt	36	Response	1	828646	2817	1
+Matt	37	Sound	102	856597	260	1			260		other	0
+Matt	38	Sound	107	881271	260	1			260		other	0
+Matt	38	Response	1	883922	2911	1
+Matt	39	Sound	107	908779	260	1			260		other	0
+Matt	39	Response	1	911840	3321	1
+Matt	40	Sound	105	931959	266	1			260		other	0
+Matt	40	Response	1	934799	3106	1
+Matt	41	Sound	101	953125	260	1			260		other	0
+Matt	42	Sound	102	978799	260	1			260		other	0
+Matt	43	Sound	103	1002154	275	1			260		other	0
+Matt	43	Response	1	1005994	4115	1
+Matt	44	Sound	108	1032152	264	1			260		other	0
+Matt	44	Response	1	1034872	2984	1
+Matt	45	Sound	109	1053321	260	1			260		other	0
+Matt	45	Response	1	1056471	3409	1
+Matt	46	Sound	106	1079662	260	1			260		other	0
+Matt	46	Response	1	1082069	2667	1

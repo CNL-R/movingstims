@@ -1,0 +1,18 @@
+Scenario - 
+Logfile written - 03/21/2018 16:55:56
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+TESt	1	Response	255	130352	130019	1
+TESt	3	Sound	12	210574	260	1			260		other	0
+TESt	3	Response	1	214826	4512	1
+TESt	4	Sound	13	226079	260	1			260		other	0
+TESt	5	Sound	13	248419	260	1			260		other	0
+TESt	6	Sound	11	267258	260	1			260		other	0
+TESt	7	Sound	12	292100	261	1			260		other	0
+TESt	8	Sound	11	310104	260	1			260		other	0
+TESt	8	Quit		320342	10498	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	253	13035.3

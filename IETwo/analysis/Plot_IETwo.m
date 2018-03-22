@@ -37,12 +37,12 @@ for i = 1:numel(Aconds)                                      %looping through ea
 end 
 
 fig = figure;
-%subplot(3,1,1);
+subplot(3,1,1);
 % [param_aud, stat_aud] = sigm_fit(intensities, detection, [], [], 1);
 hold on;
 plot(intensities, detection(1,:),'Marker','o');
 set(gca,'ylim',[0 1]);
-%title('Auditory')
+title('Auditory')
 
 %VISUAL PLOTTING
 
@@ -66,12 +66,12 @@ for i = 1:numel(Vconds)                                      %looping through ea
     detection(2,i) = numberhits(2,i) / numberstims(2,i);
 end 
 
-%subplot(3,1,2)
+subplot(3,1,2)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
 plot(intensities, detection(2,:),'Marker','o');
 set(gca,'ylim',[0 1]);
-%title('Visual');
+title('Visual');
 
 %AUDIOVISUAL PLOTTING
 
@@ -95,14 +95,12 @@ for i = 1:numel(AVconds)                                      %looping through e
     detection(3,i) = numberhits(3,i) / numberstims(3,i);
 end 
 
-%subplot(3,1,3)
+subplot(3,1,3)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
 plot(intensities, detection(3,:),'Marker','o');
 set(gca,'ylim',[0 1]);
-title(strcat('Eric',': 30-60-90 Detection'));
-legend({'Auditory','Visual','Audiovisual'},'Location','southeast')
-
+title('Audiovisual');
  %% II: Save Fig
  savedestination = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\plots';
  participant = cond.subject{1};

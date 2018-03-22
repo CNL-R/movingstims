@@ -1,0 +1,1876 @@
+Scenario - 
+Logfile written - 03/20/2018 12:41:41
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Matt	1	Response	255	28681	28514	1
+Matt	2	Sound	14	110045	260	1			260		other	0
+Matt	3	Sound	15	134719	260	1			260		other	0
+Matt	4	Sound	26	157225	260	1			260		other	0
+Matt	4	Response	1	159792	2827	1
+Matt	5	Sound	15	186234	260	1			260		other	0
+Matt	6	Sound	16	211575	260	1			260		other	0
+Matt	7	Sound	17	235415	260	1			260		other	0
+Matt	7	Response	1	238427	3272	1
+Matt	8	Sound	20	255602	274	1			260		other	0
+Matt	8	Response	1	261305	5978	1
+Matt	9	Sound	14	277100	266	1			260		other	0
+Matt	10	Sound	13	302935	260	1			260		other	0
+Matt	11	Sound	20	331943	260	1			260		other	0
+Matt	11	Response	1	336741	5057	1
+Matt	12	Sound	13	349949	260	1			260		other	0
+Matt	13	Sound	19	373956	260	1			260		other	0
+Matt	14	Sound	17	389793	260	1			260		other	0
+Matt	15	Sound	23	404965	260	1			260		other	0
+Matt	15	Response	1	408096	3391	1
+Matt	16	Sound	24	421803	260	1			260		other	0
+Matt	16	Response	1	427135	5592	2
+Matt	17	Sound	23	437641	260	1			260		other	0
+Matt	17	Response	1	441134	3753	1
+Matt	18	Sound	23	460648	260	1			260		other	0
+Matt	18	Response	1	463613	3225	1
+Matt	19	Sound	26	484154	260	1			260		other	0
+Matt	19	Response	1	487451	3557	1
+Matt	20	Sound	18	513330	260	1			260		other	0
+Matt	20	Response	1	519129	6059	1
+Matt	21	Sound	18	532335	260	1			260		other	0
+Matt	21	Response	1	538728	6653	1
+Matt	22	Sound	15	555842	260	1			260		other	0
+Matt	23	Sound	24	575515	260	1			260		other	0
+Matt	23	Response	1	578325	3071	1
+Matt	24	Sound	16	601022	260	1			260		other	0
+Matt	25	Sound	22	622362	260	1			260		other	0
+Matt	25	Response	1	625282	3180	1
+Matt	26	Sound	25	638366	260	1			260		other	0
+Matt	26	Response	1	641202	3095	1
+Matt	27	Sound	17	659039	260	1			260		other	0
+Matt	28	Sound	18	677878	260	1			260		other	0
+Matt	29	Sound	21	703385	260	1			260		other	0
+Matt	29	Response	1	707197	4072	1
+Matt	30	Sound	13	725225	260	1			260		other	0
+Matt	31	Sound	11	741396	260	1			260		other	0
+Matt	32	Sound	11	767904	260	1			260		other	0
+Matt	33	Sound	19	789744	260	1			260		other	0
+Matt	34	Sound	19	814418	260	1			260		other	0
+Matt	34	Response	1	819910	5752	1
+Matt	35	Sound	12	838091	260	1			260		other	0
+Matt	36	Sound	21	858931	260	1			260		other	0
+Matt	36	Response	1	862467	3796	1
+Matt	37	Sound	26	887273	260	1			260		other	0
+Matt	37	Response	1	890865	3852	1
+Matt	38	Sound	12	904111	260	1			260		other	0
+Matt	39	Sound	22	930460	268	1			260		other	0
+Matt	39	Response	1	936782	6590	1
+Matt	40	Sound	22	958793	260	1			260		other	0
+Matt	40	Response	1	962541	4007	1
+Matt	41	Sound	15	976799	260	1			260		other	0
+Matt	42	Sound	20	994137	260	1			260		other	0
+Matt	42	Response	1	999898	6021	1
+Matt	43	Sound	12	1017811	260	1			260		other	0
+Matt	44	Sound	20	1046319	260	1			260		other	0
+Matt	45	Sound	25	1067158	260	1			260		other	0
+Matt	45	Response	1	1070214	3315	1
+Matt	46	Sound	13	1085330	260	1			260		other	0
+Matt	47	Sound	24	1110004	260	1			260		other	0
+Matt	47	Response	1	1113491	3746	1
+Matt	48	Sound	11	1134512	260	1			260		other	0
+Matt	49	Sound	21	1155851	260	1			260		other	0
+Matt	49	Response	1	1159568	3977	1
+Matt	50	Sound	16	1179191	260	1			260		other	0
+Matt	51	Sound	12	1200697	260	1			260		other	0
+Matt	52	Sound	11	1229373	260	1			260		other	0
+Matt	53	Sound	26	1245711	260	1			260		other	0
+Matt	53	Response	1	1248443	2992	1
+Matt	54	Sound	25	1262716	260	1			260		other	0
+Matt	54	Response	1	1266841	4385	1
+Matt	55	Sound	19	1278053	260	1			260		other	0
+Matt	55	Response	1	1282120	4326	1
+Matt	56	Sound	23	1301560	260	1			260		other	0
+Matt	56	Response	1	1304838	3538	1
+Matt	57	Sound	25	1322235	262	1			260		other	0
+Matt	57	Response	1	1324917	2944	1
+Matt	58	Sound	18	1341905	260	1			260		other	0
+Matt	59	Sound	24	1371581	260	1			260		other	0
+Matt	59	Response	1	1374754	3433	1
+Matt	60	Sound	21	1399930	268	1			260		other	0
+Matt	60	Response	1	1402912	3250	1
+Matt	61	Sound	16	1420595	260	1			260		other	0
+Matt	62	Sound	14	1437767	260	1			260		other	0
+Matt	63	Sound	14	1467275	260	1			260		other	0
+Matt	64	Sound	17	1492450	260	1			260		other	0
+Matt	65	Sound	22	1521291	260	1			260		other	0
+Matt	65	Response	1	1524584	3553	1
+Matt	66	Response	255	1580901	32782	1
+Matt	67	Sound	16	1663666	260	1			260		other	0
+Matt	68	Sound	18	1687840	260	1			260		other	0
+Matt	68	Response	1	1692094	4514	1
+Matt	69	Sound	23	1717849	260	1			260		other	0
+Matt	69	Response	1	1721212	3623	1
+Matt	70	Sound	11	1738688	260	1			260		other	0
+Matt	71	Sound	16	1765863	260	1			260		other	0
+Matt	72	Sound	19	1796038	260	1			260		other	0
+Matt	72	Response	1	1799607	3828	1
+Matt	73	Sound	23	1823213	260	1			260		other	0
+Matt	73	Response	1	1827525	4572	1
+Matt	74	Sound	20	1839051	260	1			260		other	0
+Matt	74	Response	1	1842884	4093	1
+Matt	75	Sound	21	1866893	260	1			260		other	0
+Matt	75	Response	1	1871682	5050	1
+Matt	76	Sound	22	1887232	260	1			260		other	0
+Matt	76	Response	1	1890881	3909	1
+Matt	77	Sound	13	1914907	260	1			260		other	0
+Matt	78	Sound	22	1935413	260	1			260		other	0
+Matt	78	Response	1	1939358	4205	1
+Matt	79	Sound	18	1956919	260	1			260		other	0
+Matt	80	Sound	21	1983594	261	1			260		other	0
+Matt	80	Response	1	1987435	4101	1
+Matt	81	Sound	11	2004433	260	1			260		other	0
+Matt	82	Sound	12	2019937	260	1			260		other	0
+Matt	83	Sound	15	2048112	260	1			260		other	0
+Matt	84	Sound	26	2073620	260	1			260		other	0
+Matt	84	Response	1	2077029	3669	1
+Matt	85	Sound	24	2099627	260	1			260		other	0
+Matt	85	Response	1	2104787	5419	1
+Matt	86	Sound	14	2115965	260	1			260		other	0
+Matt	87	Sound	14	2141139	260	1			260		other	0
+Matt	88	Sound	25	2168647	260	1			260		other	0
+Matt	88	Response	1	2171823	3435	1
+Matt	89	Sound	19	2191488	260	1			260		other	0
+Matt	89	Response	1	2194941	3714	1
+Matt	90	Sound	11	2216995	260	1			260		other	0
+Matt	91	Sound	15	2236000	260	1			260		other	0
+Matt	92	Sound	11	2262008	260	1			260		other	0
+Matt	93	Sound	12	2289016	260	1			260		other	0
+Matt	94	Sound	18	2311522	260	1			260		other	0
+Matt	94	Response	1	2316214	4951	1
+Matt	95	Sound	16	2331872	270	1			260		other	0
+Matt	96	Sound	25	2356371	262	1			260		other	0
+Matt	96	Response	1	2359251	3142	1
+Matt	97	Sound	12	2375041	260	1			260		other	0
+Matt	98	Sound	24	2393880	260	1			260		other	0
+Matt	98	Response	1	2397489	3868	1
+Matt	99	Sound	15	2422888	260	1			260		other	0
+Matt	100	Sound	13	2438727	260	1			260		other	0
+Matt	101	Sound	26	2464734	260	1			260		other	0
+Matt	101	Response	1	2467804	3329	1
+Matt	102	Sound	17	2484240	260	1			260		other	0
+Matt	103	Sound	25	2512415	260	1			260		other	0
+Matt	103	Response	1	2515641	3486	1
+Matt	104	Sound	23	2540423	260	1			260		other	0
+Matt	104	Response	1	2544919	4756	1
+Matt	105	Sound	12	2560429	260	1			260		other	0
+Matt	106	Sound	24	2589771	260	1			260		other	0
+Matt	106	Response	1	2593636	4125	1
+Matt	107	Sound	20	2610777	260	1			260		other	0
+Matt	107	Response	1	2614835	4317	1
+Matt	108	Sound	24	2637285	260	1			260		other	0
+Matt	108	Response	1	2640833	3808	1
+Matt	109	Sound	19	2654790	260	1			260		other	0
+Matt	110	Sound	17	2673462	260	1			260		other	0
+Matt	111	Sound	21	2703637	260	1			260		other	0
+Matt	112	Sound	17	2729312	260	1			260		other	0
+Matt	113	Sound	22	2747984	260	1			260		other	0
+Matt	113	Response	1	2752906	5182	1
+Matt	114	Sound	18	2776492	260	1			260		other	0
+Matt	115	Sound	14	2800166	260	1			260		other	0
+Matt	116	Sound	23	2824342	262	1			260		other	0
+Matt	116	Response	1	2827381	3301	1
+Matt	117	Sound	14	2847179	260	1			260		other	0
+Matt	118	Sound	16	2868852	260	1			260		other	0
+Matt	119	Sound	26	2898861	260	1			260		other	0
+Matt	119	Response	1	2901856	3254	1
+Matt	120	Sound	17	2919201	260	1			260		other	0
+Matt	121	Sound	13	2949376	260	1			260		other	0
+Matt	122	Sound	15	2974050	260	1			260		other	0
+Matt	123	Sound	21	2996231	268	1			260		other	0
+Matt	123	Response	1	2999690	3727	1
+Matt	124	Sound	26	3021731	260	1			260		other	0
+Matt	124	Response	1	3025048	3577	1
+Matt	125	Sound	20	3039402	260	1			260		other	0
+Matt	125	Response	1	3043367	4224	1
+Matt	126	Sound	20	3054907	260	1			260		other	0
+Matt	127	Sound	13	3083582	260	1			260		other	0
+Matt	128	Sound	25	3108256	260	1			260		other	0
+Matt	128	Response	1	3111122	3126	1
+Matt	129	Sound	19	3130929	260	1			260		other	0
+Matt	130	Sound	22	3146600	260	1			260		other	0
+Matt	130	Response	1	3150640	4299	1
+Matt	131	Response	255	3213996	49904	1
+Matt	132	Sound	110	3283974	260	1			260		other	0
+Matt	133	Sound	110	3308314	260	1			260		other	0
+Matt	134	Sound	115	3335489	260	1			260		other	0
+Matt	134	Response	1	3338708	3478	1
+Matt	135	Sound	111	3364831	260	1			260		other	0
+Matt	136	Sound	103	3384507	263	1			260		other	0
+Matt	137	Sound	112	3411178	260	1			260		other	0
+Matt	137	Response	1	3415423	4505	1
+Matt	138	Sound	102	3439353	260	1			260		other	0
+Matt	139	Sound	101	3467361	260	1			260		other	0
+Matt	140	Sound	105	3495036	260	1			260		other	0
+Matt	141	Sound	115	3514708	260	1			260		other	0
+Matt	141	Response	1	3518936	4488	1
+Matt	142	Sound	102	3537715	260	1			260		other	0
+Matt	143	Sound	108	3559221	260	1			260		other	0
+Matt	144	Sound	110	3589397	260	1			260		other	0
+Matt	144	Response	1	3593172	4035	1
+Matt	145	Sound	110	3616405	260	1			260		other	0
+Matt	146	Sound	106	3642746	260	1			260		other	0
+Matt	147	Sound	109	3662418	260	1			260		other	0
+Matt	147	Response	1	3666847	4689	1
+Matt	148	Sound	111	3679590	260	1			260		other	0
+Matt	148	Response	1	3683166	3836	1
+Matt	149	Sound	116	3705931	260	1			260		other	0
+Matt	149	Response	1	3708284	2613	1
+Matt	150	Sound	112	3729938	260	1			260		other	0
+Matt	151	Sound	114	3749944	260	1			260		other	0
+Matt	151	Response	1	3752681	2997	1
+Matt	152	Sound	116	3774784	260	1			260		other	0
+Matt	152	Response	1	3776920	2395	1
+Matt	153	Sound	104	3805293	260	1			260		other	0
+Matt	154	Sound	101	3828800	260	1			260		other	0
+Matt	154	Response	1	3831556	3016	1
+Matt	155	Sound	113	3853641	260	1			260		other	0
+Matt	155	Response	1	3856195	2814	1
+Matt	156	Sound	104	3874980	260	1			260		other	0
+Matt	157	Sound	113	3905156	260	1			260		other	0
+Matt	157	Response	1	3909071	4175	1
+Matt	158	Sound	107	3922174	272	1			260		other	0
+Matt	159	Sound	116	3950002	260	1			260		other	0
+Matt	159	Response	1	3952509	2766	1
+Matt	160	Sound	115	3967507	260	1			260		other	0
+Matt	160	Response	1	3970667	3420	1
+Matt	161	Sound	106	3985846	260	1			260		other	0
+Matt	162	Sound	113	4008519	260	1			260		other	0
+Matt	162	Response	1	4011945	3685	1
+Matt	163	Sound	105	4038695	260	1			260		other	0
+Matt	164	Sound	103	4067537	260	1			260		other	0
+Matt	165	Sound	109	4086042	260	1			260		other	0
+Matt	166	Sound	105	4109882	260	1			260		other	0
+Matt	167	Sound	106	4130722	260	1			260		other	0
+Matt	168	Sound	114	4146226	260	1			260		other	0
+Matt	168	Response	1	4149776	3809	1
+Matt	169	Sound	111	4175568	260	1			260		other	0
+Matt	169	Response	1	4180174	4865	1
+Matt	170	Sound	107	4194741	260	1			260		other	0
+Matt	171	Sound	104	4212579	260	1			260		other	0
+Matt	172	Sound	107	4241421	260	1			260		other	0
+Matt	173	Sound	109	4261594	260	1			260		other	0
+Matt	173	Response	1	4266408	5075	1
+Matt	174	Sound	114	4279099	260	1			260		other	0
+Matt	174	Response	1	4283287	4448	1
+Matt	175	Sound	109	4297104	260	1			260		other	0
+Matt	176	Sound	116	4325948	262	1			260		other	0
+Matt	176	Response	1	4328244	2558	1
+Matt	177	Sound	112	4344118	260	1			260		other	0
+Matt	177	Response	1	4347443	3585	1
+Matt	178	Sound	105	4365624	260	1			260		other	0
+Matt	179	Sound	107	4392298	260	1			260		other	0
+Matt	179	Response	1	4396880	4841	1
+Matt	180	Sound	106	4420473	260	1			260		other	0
+Matt	181	Sound	115	4440813	260	1			260		other	0
+Matt	181	Response	1	4443597	3044	1
+Matt	182	Sound	104	4469821	260	1			260		other	0
+Matt	183	Sound	103	4490494	260	1			260		other	0
+Matt	184	Sound	101	4515837	262	1			260		other	0
+Matt	185	Sound	112	4537674	260	1			260		other	0
+Matt	185	Response	1	4541671	4256	1
+Matt	186	Sound	108	4560681	260	1			260		other	0
+Matt	186	Response	1	4564629	4207	1
+Matt	187	Sound	111	4580520	260	1			260		other	0
+Matt	187	Response	1	4583828	3567	1
+Matt	188	Sound	108	4605361	260	1			260		other	0
+Matt	189	Sound	113	4630535	260	1			260		other	0
+Matt	189	Response	1	4634545	4269	1
+Matt	190	Sound	102	4648706	260	1			260		other	0
+Matt	190	Response	1	4656383	7937	1
+Matt	191	Sound	108	4671047	260	1			260		other	0
+Matt	192	Sound	103	4690886	260	1			260		other	0
+Matt	193	Sound	102	4712392	260	1			260		other	0
+Matt	194	Sound	101	4740901	260	1			260		other	0
+Matt	195	Sound	114	4761740	260	1			260		other	0
+Matt	195	Response	1	4765816	4336	1
+Matt	196	Response	255	4868210	76974	1
+Matt	197	Sound	14	4955630	260	1			260		other	0
+Matt	198	Sound	23	4972969	260	1			260		other	0
+Matt	198	Response	1	4976363	3654	1
+Matt	199	Sound	17	4997809	260	1			260		other	0
+Matt	200	Sound	17	5017815	260	1			260		other	0
+Matt	200	Response	1	5021799	4243	2
+Matt	201	Sound	12	5034487	260	1			260		other	0
+Matt	202	Sound	22	5055493	260	1			260		other	0
+Matt	202	Response	1	5058037	2804	1
+Matt	203	Sound	20	5082501	260	1			260		other	0
+Matt	203	Response	1	5085555	3315	1
+Matt	204	Sound	19	5105007	260	1			260		other	0
+Matt	204	Response	1	5108754	4006	1
+Matt	205	Sound	22	5121679	260	1			260		other	0
+Matt	205	Response	1	5124673	3254	1
+Matt	206	Sound	21	5137850	260	1			260		other	0
+Matt	206	Response	1	5140672	3082	1
+Matt	207	Sound	21	5157522	260	1			260		other	0
+Matt	207	Response	1	5160911	3648	1
+Matt	208	Sound	11	5185864	260	1			260		other	0
+Matt	209	Sound	18	5215540	260	1			260		other	0
+Matt	209	Response	1	5219307	4027	1
+Matt	210	Sound	26	5236546	260	1			260		other	0
+Matt	210	Response	1	5239386	3100	1
+Matt	211	Sound	15	5262220	260	1			260		other	0
+Matt	212	Sound	19	5285727	260	1			260		other	0
+Matt	212	Response	1	5290023	4555	1
+Matt	213	Sound	20	5304066	260	1			260		other	0
+Matt	213	Response	1	5308181	4376	1
+Matt	214	Sound	11	5320570	260	1			260		other	0
+Matt	215	Sound	18	5347912	260	1			260		other	0
+Matt	215	Response	1	5351459	3807	1
+Matt	216	Sound	24	5371585	260	1			260		other	0
+Matt	216	Response	1	5375057	3731	1
+Matt	217	Sound	16	5388090	260	1			260		other	0
+Matt	218	Sound	25	5403928	260	1			260		other	0
+Matt	218	Response	1	5406895	3227	1
+Matt	219	Sound	22	5419280	274	1			260		other	0
+Matt	219	Response	1	5425294	6288	1
+Matt	220	Sound	15	5446279	265	1			260		other	0
+Matt	221	Sound	12	5463446	260	1			260		other	0
+Matt	222	Sound	12	5485285	260	1			260		other	0
+Matt	223	Sound	14	5502624	260	1			260		other	0
+Matt	224	Sound	12	5519295	260	1			260		other	0
+Matt	225	Sound	23	5540802	260	1			260		other	0
+Matt	225	Response	1	5544086	3544	1
+Matt	226	Sound	22	5564809	260	1			260		other	0
+Matt	226	Response	1	5568325	3776	1
+Matt	227	Sound	16	5588482	260	1			260		other	0
+Matt	228	Sound	25	5612168	272	1			260		other	0
+Matt	228	Response	1	5615122	3226	1
+Matt	229	Sound	24	5639497	260	1			260		other	0
+Matt	229	Response	1	5643280	4042	1
+Matt	230	Sound	11	5661337	260	1			260		other	0
+Matt	231	Sound	18	5689679	260	1			260		other	0
+Matt	231	Response	1	5693517	4098	1
+Matt	232	Sound	26	5714686	260	1			260		other	0
+Matt	232	Response	1	5717755	3329	1
+Matt	233	Sound	20	5743694	260	1			260		other	0
+Matt	233	Response	1	5748553	5118	1
+Matt	234	Sound	23	5765367	260	1			260		other	0
+Matt	234	Response	1	5771032	5924	1
+Matt	235	Sound	11	5789708	260	1			260		other	0
+Matt	236	Sound	14	5812714	260	1			260		other	0
+Matt	237	Sound	26	5829886	260	1			260		other	0
+Matt	237	Response	1	5832868	3241	1
+Matt	238	Sound	13	5856727	260	1			260		other	0
+Matt	239	Sound	19	5884069	260	1			260		other	0
+Matt	240	Sound	13	5907742	260	1			260		other	0
+Matt	241	Sound	23	5924749	261	1			260		other	0
+Matt	241	Response	1	5927421	2934	1
+Matt	242	Sound	13	5947421	260	1			260		other	0
+Matt	243	Sound	14	5976762	260	1			260		other	0
+Matt	244	Sound	16	5994268	260	1			260		other	0
+Matt	245	Sound	18	6023943	260	1			260		other	0
+Matt	246	Sound	25	6041282	260	1			260		other	0
+Matt	246	Response	1	6044294	3272	1
+Matt	247	Sound	26	6069290	260	1			260		other	0
+Matt	247	Response	1	6072052	3022	1
+Matt	248	Sound	24	6092463	260	1			260		other	0
+Matt	248	Response	1	6095891	3687	1
+Matt	249	Sound	17	6112302	260	1			260		other	0
+Matt	250	Sound	25	6132308	260	1			260		other	0
+Matt	250	Response	1	6135408	3360	1
+Matt	251	Sound	20	6160650	260	1			260		other	0
+Matt	252	Sound	24	6190158	260	1			260		other	0
+Matt	252	Response	1	6193325	3426	1
+Matt	253	Sound	19	6205997	260	1			260		other	0
+Matt	254	Sound	21	6230337	260	1			260		other	0
+Matt	254	Response	1	6234362	4284	2
+Matt	255	Sound	16	6260179	260	1			260		other	0
+Matt	256	Sound	15	6277517	260	1			260		other	0
+Matt	257	Sound	13	6294356	260	1			260		other	0
+Matt	258	Sound	17	6323197	260	1			260		other	0
+Matt	259	Sound	21	6347204	260	1			260		other	0
+Matt	260	Sound	15	6376880	260	1			260		other	0
+Matt	261	Response	255	6457388	54346	1
+Matt	262	Sound	112	6535259	260	1			260		other	0
+Matt	262	Response	1	6539942	4942	1
+Matt	263	Sound	105	6555766	260	1			260		other	0
+Matt	264	Sound	106	6573437	260	1			260		other	0
+Matt	265	Sound	111	6592276	260	1			260		other	0
+Matt	265	Response	1	6595859	3842	1
+Matt	266	Sound	109	6609114	260	1			260		other	0
+Matt	267	Sound	101	6627286	260	1			260		other	0
+Matt	268	Sound	109	6656795	260	1			260		other	0
+Matt	268	Response	1	6660734	4199	1
+Matt	269	Sound	107	6673133	260	1			260		other	0
+Matt	270	Sound	104	6694640	260	1			260		other	0
+Matt	271	Sound	110	6717646	260	1			260		other	0
+Matt	272	Sound	114	6743153	260	1			260		other	0
+Matt	272	Response	1	6747288	4395	1
+Matt	273	Sound	113	6771496	261	1			260		other	0
+Matt	273	Response	1	6774967	3731	1
+Matt	274	Sound	105	6789001	260	1			260		other	0
+Matt	275	Sound	113	6818509	260	1			260		other	0
+Matt	275	Response	1	6822644	4395	1
+Matt	276	Sound	105	6846192	267	1			260		other	0
+Matt	277	Sound	111	6870024	260	1			260		other	0
+Matt	277	Response	1	6873921	4156	1
+Matt	278	Sound	112	6894698	260	1			260		other	0
+Matt	278	Response	1	6900799	6360	1
+Matt	279	Sound	109	6920706	260	1			260		other	0
+Matt	280	Sound	110	6944046	260	1			260		other	0
+Matt	280	Response	1	6947996	4210	1
+Matt	281	Sound	116	6967219	260	1			260		other	0
+Matt	281	Response	1	6969595	2635	1
+Matt	282	Sound	102	6992894	260	1			260		other	0
+Matt	283	Sound	106	7013581	275	1			260		other	0
+Matt	284	Sound	104	7036740	260	1			260		other	0
+Matt	285	Sound	115	7052579	261	1			260		other	0
+Matt	285	Response	1	7057189	4871	1
+Matt	286	Sound	112	7080753	260	1			260		other	0
+Matt	286	Response	1	7084787	4294	1
+Matt	287	Sound	116	7105093	260	1			260		other	0
+Matt	287	Response	1	7107906	3072	1
+Matt	288	Sound	115	7121765	260	1			260		other	0
+Matt	288	Response	1	7125824	4320	1
+Matt	289	Sound	104	7142604	260	1			260		other	0
+Matt	290	Sound	114	7161443	260	1			260		other	0
+Matt	290	Response	1	7165102	3919	1
+Matt	291	Sound	102	7182282	260	1			260		other	0
+Matt	292	Sound	107	7209124	260	1			260		other	0
+Matt	293	Sound	107	7238799	260	1			260		other	0
+Matt	294	Sound	108	7256971	260	1			260		other	0
+Matt	295	Sound	106	7272642	260	1			260		other	0
+Matt	296	Sound	106	7298816	260	1			260		other	0
+Matt	297	Sound	116	7326162	264	1			260		other	0
+Matt	297	Response	1	7328531	2633	1
+Matt	298	Sound	109	7347498	260	1			260		other	0
+Matt	298	Response	1	7349090	1852	1
+Matt	299	Sound	105	7374672	260	1			260		other	0
+Matt	300	Sound	103	7393177	260	1			260		other	0
+Matt	301	Sound	111	7414517	260	1			260		other	0
+Matt	301	Response	1	7418526	4268	1
+Matt	302	Sound	113	7438691	260	1			260		other	0
+Matt	303	Sound	108	7461531	260	1			260		other	0
+Matt	304	Sound	102	7481704	260	1			260		other	0
+Matt	305	Sound	116	7506711	260	1			260		other	0
+Matt	305	Response	1	7509639	3188	1
+Matt	306	Sound	111	7533885	260	1			260		other	0
+Matt	306	Response	1	7542998	9372	1
+Matt	307	Sound	110	7550057	260	1			260		other	0
+Matt	307	Response	1	7554357	4560	1
+Matt	308	Sound	101	7565895	260	1			260		other	0
+Matt	309	Sound	110	7582900	260	1			260		other	0
+Matt	309	Response	1	7586915	4274	1
+Matt	310	Sound	101	7611744	262	1			260		other	0
+Matt	311	Sound	104	7629413	260	1			260		other	0
+Matt	312	Sound	108	7656421	260	1			260		other	0
+Matt	313	Sound	115	7675260	260	1			260		other	0
+Matt	313	Response	1	7678269	3268	1
+Matt	314	Sound	115	7697100	260	1			260		other	0
+Matt	314	Response	1	7700508	3667	1
+Matt	315	Sound	101	7726942	260	1			260		other	0
+Matt	316	Sound	108	7749115	260	1			260		other	0
+Matt	317	Sound	113	7777957	260	1			260		other	0
+Matt	317	Response	1	7781542	3845	1
+Matt	318	Sound	103	7801297	260	1			260		other	0
+Matt	319	Sound	103	7824471	260	1			260		other	0
+Matt	320	Sound	114	7851978	260	1			260		other	0
+Matt	320	Response	1	7855858	4139	1
+Matt	321	Sound	114	7867650	260	1			260		other	0
+Matt	321	Response	1	7871377	3986	1
+Matt	322	Sound	107	7886656	260	1			260		other	0
+Matt	323	Sound	102	7910496	260	1			260		other	0
+Matt	324	Sound	103	7926501	260	1			260		other	0
+Matt	325	Sound	112	7950174	260	1			260		other	0
+Matt	326	Response	255	8065524	89689	1
+Matt	327	Sound	103	8148732	260	1			260		other	0
+Matt	328	Sound	106	8174573	260	1			260		other	0
+Matt	329	Sound	114	8203582	260	1			260		other	0
+Matt	329	Response	1	8207275	3953	1
+Matt	330	Sound	116	8232590	260	1			260		other	0
+Matt	330	Response	1	8235673	3342	1
+Matt	331	Sound	102	8262103	264	1			260		other	0
+Matt	332	Sound	103	8277937	260	1			260		other	0
+Matt	333	Sound	109	8294442	260	1			260		other	0
+Matt	334	Sound	112	8324951	260	1			260		other	0
+Matt	334	Response	1	8328147	3456	1
+Matt	335	Sound	111	8346298	268	1			260		other	0
+Matt	335	Response	1	8349986	3956	1
+Matt	336	Sound	108	8374465	260	1			260		other	0
+Matt	337	Sound	110	8392137	260	1			260		other	0
+Matt	337	Response	1	8400222	8345	1
+Matt	338	Sound	109	8420145	260	1			260		other	0
+Matt	339	Sound	115	8437650	260	1			260		other	0
+Matt	339	Response	1	8441020	3629	1
+Matt	340	Sound	113	8466825	260	1			260		other	0
+Matt	341	Sound	104	8482330	260	1			260		other	0
+Matt	342	Sound	116	8510338	260	1			260		other	0
+Matt	342	Response	1	8513095	3017	1
+Matt	343	Sound	101	8525843	260	1			260		other	0
+Matt	344	Sound	110	8544686	264	1			260		other	0
+Matt	344	Response	1	8548933	4511	1
+Matt	345	Sound	107	8568355	260	1			260		other	0
+Matt	346	Sound	112	8596029	260	1			260		other	0
+Matt	346	Response	1	8599810	4040	1
+Matt	347	Sound	111	8614535	260	1			260		other	0
+Matt	348	Sound	104	8640543	260	1			260		other	0
+Matt	349	Sound	104	8660549	260	1			260		other	0
+Matt	350	Sound	103	8685890	260	1			260		other	0
+Matt	351	Sound	111	8705395	260	1			260		other	0
+Matt	351	Response	1	8709723	4587	1
+Matt	352	Sound	114	8725575	266	1			260		other	0
+Matt	352	Response	1	8729400	4091	3
+Matt	353	Sound	113	8741406	260	1			260		other	0
+Matt	353	Response	1	8745800	4654	1
+Matt	354	Sound	112	8764579	260	1			260		other	0
+Matt	354	Response	1	8768039	3719	1
+Matt	355	Sound	101	8782585	260	1			260		other	0
+Matt	356	Sound	115	8808769	270	1			260		other	0
+Matt	356	Response	1	8813236	4737	1
+Matt	357	Sound	110	8826764	260	1			260		other	0
+Matt	358	Sound	116	8852772	260	1			260		other	0
+Matt	358	Response	1	8855873	3361	1
+Matt	359	Sound	101	8880113	260	1			260		other	0
+Matt	360	Sound	102	8898952	260	1			260		other	0
+Matt	361	Sound	107	8927294	260	1			260		other	0
+Matt	362	Sound	106	8950967	260	1			260		other	0
+Matt	363	Sound	108	8978642	260	1			260		other	0
+Matt	364	Sound	109	9007817	260	1			260		other	0
+Matt	365	Sound	102	9029157	260	1			260		other	0
+Matt	366	Sound	107	9052664	260	1			260		other	0
+Matt	367	Sound	109	9071669	260	1			260		other	0
+Matt	368	Sound	113	9101345	260	1			260		other	0
+Matt	369	Sound	113	9126519	260	1			260		other	0
+Matt	369	Response	1	9131295	5036	1
+Matt	370	Sound	106	9143691	260	1			260		other	0
+Matt	371	Sound	108	9165364	260	1			260		other	0
+Matt	372	Sound	114	9181201	260	1			260		other	0
+Matt	373	Sound	107	9196706	260	1			260		other	0
+Matt	374	Sound	101	9218712	260	1			260		other	0
+Matt	375	Sound	105	9236551	260	1			260		other	0
+Matt	376	Sound	111	9253223	260	1			260		other	0
+Matt	377	Sound	115	9274396	260	1			260		other	0
+Matt	377	Response	1	9278966	4830	1
+Matt	378	Sound	112	9304571	260	1			260		other	0
+Matt	379	Sound	114	9324910	260	1			260		other	0
+Matt	379	Response	1	9332963	8312	1
+Matt	380	Sound	103	9354085	260	1			260		other	0
+Matt	381	Sound	102	9377092	260	1			260		other	0
+Matt	382	Sound	110	9403100	260	1			260		other	0
+Matt	383	Sound	104	9424273	260	1			260		other	0
+Matt	384	Sound	115	9443111	260	1			260		other	0
+Matt	385	Sound	105	9472628	268	1			260		other	0
+Matt	386	Sound	108	9502129	260	1			260		other	0
+Matt	387	Sound	106	9527303	260	1			260		other	0
+Matt	388	Sound	105	9544641	260	1			260		other	0
+Matt	389	Sound	116	9572149	260	1			260		other	0
+Matt	389	Response	1	9574947	3057	1
+Matt	390	Sound	105	9592989	260	1			260		other	0
+Matt	391	Response	255	9735497	120681	1
+Matt	392	Sound	102	9806218	260	1			260		other	0
+Matt	393	Sound	108	9836060	260	1			260		other	0
+Matt	394	Sound	114	9860067	260	1			260		other	0
+Matt	394	Response	1	9864208	4401	1
+Matt	395	Sound	105	9888575	260	1			260		other	0
+Matt	396	Sound	116	9916083	260	1			260		other	0
+Matt	396	Response	1	9918605	2781	1
+Matt	397	Sound	106	9939599	268	1			260		other	0
+Matt	398	Sound	112	9957762	260	1			260		other	0
+Matt	399	Sound	101	9980936	260	1			260		other	0
+Matt	400	Sound	113	10000608	260	1			260		other	0
+Matt	400	Response	1	10004199	3851	2
+Matt	401	Sound	101	10027449	260	1			260		other	0
+Matt	402	Sound	116	10050956	260	1			260		other	0
+Matt	402	Response	1	10053796	3100	1
+Matt	403	Sound	108	10070295	260	1			260		other	0
+Matt	404	Sound	101	10094803	260	1			260		other	0
+Matt	405	Sound	115	10112974	260	1			260		other	0
+Matt	405	Response	1	10117792	5077	1
+Matt	406	Sound	106	10136815	260	1			260		other	0
+Matt	407	Sound	111	10153486	260	1			260		other	0
+Matt	408	Sound	116	10177327	260	1			260		other	0
+Matt	408	Response	1	10179789	2722	1
+Matt	409	Sound	111	10197166	260	1			260		other	0
+Matt	410	Sound	112	10216838	260	1			260		other	0
+Matt	411	Sound	107	10242512	260	1			260		other	0
+Matt	412	Sound	116	10258684	260	1			260		other	0
+Matt	412	Response	1	10261303	2879	1
+Matt	413	Sound	110	10278023	260	1			260		other	0
+Matt	414	Sound	111	10297862	260	1			260		other	0
+Matt	415	Sound	109	10322375	266	1			260		other	0
+Matt	416	Sound	114	10349377	260	1			260		other	0
+Matt	416	Response	1	10352817	3700	1
+Matt	417	Sound	105	10371217	260	1			260		other	0
+Matt	418	Sound	107	10396224	260	1			260		other	0
+Matt	419	Sound	112	10414070	267	1			260		other	0
+Matt	419	Response	1	10418573	4770	1
+Matt	420	Sound	109	10434069	260	1			260		other	0
+Matt	421	Sound	106	10451240	260	1			260		other	0
+Matt	422	Sound	103	10470746	260	1			260		other	0
+Matt	423	Sound	107	10500421	260	1			260		other	0
+Matt	424	Sound	108	10519263	262	1			260		other	0
+Matt	425	Sound	109	10545768	260	1			260		other	0
+Matt	426	Sound	113	10568108	260	1			260		other	0
+Matt	426	Response	1	10572563	4715	1
+Matt	427	Sound	104	10591958	270	1			260		other	0
+Matt	428	Sound	114	10610957	263	1			260		other	0
+Matt	428	Response	1	10615360	4666	1
+Matt	429	Sound	104	10636461	260	1			260		other	0
+Matt	430	Sound	102	10660302	260	1			260		other	0
+Matt	431	Sound	115	10680474	260	1			260		other	0
+Matt	431	Response	1	10684396	4181	1
+Matt	432	Sound	113	10697812	260	1			260		other	0
+Matt	432	Response	1	10702554	5001	1
+Matt	433	Sound	106	10717485	260	1			260		other	0
+Matt	434	Sound	103	10742993	260	1			260		other	0
+Matt	435	Sound	102	10763498	260	1			260		other	0
+Matt	436	Sound	111	10793507	260	1			260		other	0
+Matt	437	Sound	110	10822849	260	1			260		other	0
+Matt	438	Sound	104	10849857	260	1			260		other	0
+Matt	439	Sound	110	10879699	260	1			260		other	0
+Matt	440	Sound	101	10901706	260	1			260		other	0
+Matt	441	Sound	102	10929047	260	1			260		other	0
+Matt	442	Sound	115	10959056	260	1			260		other	0
+Matt	442	Response	1	10962298	3502	1
+Matt	443	Sound	108	10986397	260	1			260		other	0
+Matt	444	Sound	105	11015739	260	1			260		other	0
+Matt	445	Sound	109	11034912	260	1			260		other	0
+Matt	446	Sound	115	11055751	260	1			260		other	0
+Matt	446	Response	1	11059492	4000	1
+Matt	447	Sound	107	11074590	260	1			260		other	0
+Matt	448	Sound	110	11104932	260	1			260		other	0
+Matt	449	Sound	114	11129106	260	1			260		other	0
+Matt	449	Response	1	11133727	4881	1
+Matt	450	Sound	112	11151612	260	1			260		other	0
+Matt	450	Response	1	11155165	3813	1
+Matt	451	Sound	103	11178287	260	1			260		other	0
+Matt	452	Sound	104	11203127	260	1			260		other	0
+Matt	453	Sound	113	11233636	260	1			260		other	0
+Matt	453	Response	1	11238200	4824	1
+Matt	454	Sound	105	11258644	260	1			260		other	0
+Matt	455	Sound	103	11286152	260	1			260		other	0
+Matt	456	Response	255	11384111	75299	1
+Matt	457	Sound	102	11461036	260	1			260		other	0
+Matt	458	Sound	107	11477541	260	1			260		other	0
+Matt	459	Sound	101	11500048	260	1			260		other	0
+Matt	460	Sound	108	11526555	260	1			260		other	0
+Matt	461	Sound	109	11554063	260	1			260		other	0
+Matt	462	Sound	106	11575737	260	1			260		other	0
+Matt	463	Sound	107	11601911	260	1			260		other	0
+Matt	464	Sound	106	11620250	260	1			260		other	0
+Matt	465	Sound	116	11639255	260	1			260		other	0
+Matt	465	Response	1	11641854	2859	1
+Matt	466	Sound	112	11666763	260	1			260		other	0
+Matt	466	Response	1	11671132	4629	1
+Matt	467	Sound	107	11684268	260	1			260		other	0
+Matt	468	Sound	109	11702789	275	1			260		other	0
+Matt	469	Sound	114	11730115	260	1			260		other	0
+Matt	469	Response	1	11735368	5512	1
+Matt	470	Sound	104	11747787	260	1			260		other	0
+Matt	471	Sound	108	11766293	260	1			260		other	0
+Matt	472	Sound	104	11793967	260	1			260		other	0
+Matt	473	Sound	105	11809639	260	1			260		other	0
+Matt	474	Sound	103	11834146	260	1			260		other	0
+Matt	475	Sound	115	11849984	260	1			260		other	0
+Matt	476	Sound	104	11871490	260	1			260		other	0
+Matt	477	Sound	102	11892663	260	1			260		other	0
+Matt	478	Sound	111	11911176	268	1			260		other	0
+Matt	478	Response	1	11917916	7008	1
+Matt	479	Sound	114	11931341	260	1			260		other	0
+Matt	480	Sound	110	11959349	260	1			260		other	0
+Matt	481	Sound	103	11977354	260	1			260		other	0
+Matt	482	Sound	105	12004862	260	1			260		other	0
+Matt	483	Sound	113	12035205	260	1			260		other	0
+Matt	484	Sound	107	12059045	260	1			260		other	0
+Matt	485	Sound	111	12084219	260	1			260		other	0
+Matt	485	Response	1	12088305	4346	1
+Matt	486	Sound	111	12099723	260	1			260		other	0
+Matt	487	Sound	103	12124898	260	1			260		other	0
+Matt	488	Sound	110	12140902	260	1			260		other	0
+Matt	489	Sound	113	12164076	260	1			260		other	0
+Matt	489	Response	1	12168300	4484	1
+Matt	490	Sound	112	12185915	260	1			260		other	0
+Matt	490	Response	1	12190139	4483	1
+Matt	491	Sound	109	12210923	260	1			260		other	0
+Matt	492	Sound	116	12237764	260	1			260		other	0
+Matt	492	Response	1	12240615	3111	1
+Matt	493	Sound	108	12268106	260	1			260		other	0
+Matt	494	Sound	109	12284778	260	1			260		other	0
+Matt	495	Sound	110	12311619	260	1			260		other	0
+Matt	496	Sound	105	12334626	260	1			260		other	0
+Matt	497	Sound	114	12355298	260	1			260		other	0
+Matt	497	Response	1	12359008	3969	1
+Matt	498	Sound	114	12374971	260	1			260		other	0
+Matt	499	Sound	102	12400978	260	1			260		other	0
+Matt	500	Sound	105	12426486	260	1			260		other	0
+Matt	501	Sound	113	12443991	260	1			260		other	0
+Matt	502	Sound	112	12474000	260	1			260		other	0
+Matt	503	Sound	115	12493840	261	1			260		other	0
+Matt	503	Response	1	12497719	4140	1
+Matt	504	Sound	101	12514845	260	1			260		other	0
+Matt	505	Sound	115	12542853	260	1			260		other	0
+Matt	505	Response	1	12545956	3362	1
+Matt	506	Sound	116	12564360	260	1			260		other	0
+Matt	506	Response	1	12567154	3055	1
+Matt	507	Sound	108	12590701	260	1			260		other	0
+Matt	508	Sound	111	12621210	260	1			260		other	0
+Matt	509	Sound	104	12638548	260	1			260		other	0
+Matt	510	Sound	106	12659554	260	1			260		other	0
+Matt	511	Sound	101	12683895	260	1			260		other	0
+Matt	512	Sound	103	12703734	260	1			260		other	0
+Matt	513	Sound	116	12733576	260	1			260		other	0
+Matt	513	Response	1	12736264	2947	1
+Matt	514	Sound	102	12749747	260	1			260		other	0
+Matt	515	Sound	112	12779756	260	1			260		other	0
+Matt	515	Response	1	12784260	4764	1
+Matt	516	Sound	106	12797928	260	1			260		other	0
+Matt	517	Sound	101	12814433	260	1			260		other	0
+Matt	518	Sound	115	12833272	260	1			260		other	0
+Matt	518	Response	1	12837617	4605	1
+Matt	519	Sound	110	12855945	260	1			260		other	0
+Matt	520	Sound	113	12876118	260	1			260		other	0
+Matt	520	Response	1	12879774	3916	1
+Matt	521	Response	255	13038964	136018	1
+Matt	522	Sound	108	13103684	260	1			260		other	0
+Matt	523	Sound	103	13120701	271	1			260		other	0
+Matt	524	Sound	114	13146363	260	1			260		other	0
+Matt	525	Sound	107	13175706	260	1			260		other	0
+Matt	526	Sound	115	13205047	260	1			260		other	0
+Matt	526	Response	1	13209113	4326	1
+Matt	527	Sound	113	13227887	260	1			260		other	0
+Matt	527	Response	1	13232072	4444	1
+Matt	528	Sound	112	13248060	260	1			260		other	0
+Matt	528	Response	1	13251271	3470	1
+Matt	529	Sound	108	13274068	260	1			260		other	0
+Matt	530	Sound	102	13289739	260	1			260		other	0
+Matt	531	Sound	101	13316747	260	1			260		other	0
+Matt	532	Sound	115	13346589	260	1			260		other	0
+Matt	532	Response	1	13350705	4375	1
+Matt	533	Sound	114	13374597	260	1			260		other	0
+Matt	533	Response	1	13378862	4525	1
+Matt	534	Sound	102	13400784	272	1			260		other	0
+Matt	535	Sound	105	13424282	264	1			260		other	0
+Matt	536	Sound	104	13451120	260	1			260		other	0
+Matt	537	Sound	105	13472959	260	1			260		other	0
+Matt	538	Sound	104	13496300	260	1			260		other	0
+Matt	539	Sound	110	13522307	260	1			260		other	0
+Matt	540	Sound	116	13547148	260	1			260		other	0
+Matt	540	Response	1	13549891	3003	1
+Matt	541	Sound	109	13566653	260	1			260		other	0
+Matt	542	Sound	103	13595495	260	1			260		other	0
+Matt	543	Sound	109	13624671	260	1			260		other	0
+Matt	544	Sound	107	13645177	260	1			260		other	0
+Matt	545	Sound	107	13673518	260	1			260		other	0
+Matt	546	Sound	102	13698692	260	1			260		other	0
+Matt	547	Sound	104	13725033	260	1			260		other	0
+Matt	548	Sound	116	13749374	260	1			260		other	0
+Matt	548	Response	1	13752598	3484	1
+Matt	549	Sound	108	13774548	260	1			260		other	0
+Matt	550	Sound	112	13793059	266	1			260		other	0
+Matt	551	Sound	105	13808891	260	1			260		other	0
+Matt	552	Sound	114	13828397	260	1			260		other	0
+Matt	553	Sound	113	13858406	260	1			260		other	0
+Matt	553	Response	1	13863151	5005	1
+Matt	554	Sound	102	13883254	267	1			260		other	0
+Matt	555	Sound	116	13901585	260	1			260		other	0
+Matt	555	Response	1	13905069	3743	1
+Matt	556	Sound	107	13921591	260	1			260		other	0
+Matt	557	Sound	111	13944098	260	1			260		other	0
+Matt	558	Sound	101	13962103	260	1			260		other	0
+Matt	559	Sound	108	13990111	260	1			260		other	0
+Matt	560	Sound	103	14020453	260	1			260		other	0
+Matt	561	Sound	112	14046127	260	1			260		other	0
+Matt	562	Sound	111	14067800	260	1			260		other	0
+Matt	563	Sound	111	14098309	260	1			260		other	0
+Matt	564	Sound	101	14115481	260	1			260		other	0
+Matt	565	Sound	106	14132819	260	1			260		other	0
+Matt	566	Sound	110	14159494	260	1			260		other	0
+Matt	567	Sound	101	14180000	260	1			260		other	0
+Matt	568	Sound	110	14208675	260	1			260		other	0
+Matt	569	Sound	116	14238517	260	1			260		other	0
+Matt	569	Response	1	14241287	3029	1
+Matt	570	Sound	113	14260690	260	1			260		other	0
+Matt	571	Sound	106	14290699	260	1			260		other	0
+Matt	572	Sound	111	14309705	260	1			260		other	0
+Matt	573	Sound	113	14339046	260	1			260		other	0
+Matt	573	Response	1	14343040	4254	1
+Matt	574	Sound	114	14360886	260	1			260		other	0
+Matt	574	Response	1	14365359	4732	1
+Matt	575	Sound	112	14380892	260	1			260		other	0
+Matt	575	Response	1	14384557	3925	3
+Matt	576	Sound	110	14403565	260	1			260		other	0
+Matt	576	Response	1	14408156	4850	1
+Matt	577	Sound	106	14427406	260	1			260		other	0
+Matt	578	Sound	103	14456081	260	1			260		other	0
+Matt	579	Sound	109	14474086	260	1			260		other	0
+Matt	580	Sound	105	14502761	260	1			260		other	0
+Matt	581	Sound	109	14520266	260	1			260		other	0
+Matt	582	Sound	115	14543773	260	1			260		other	0
+Matt	582	Response	1	14547107	3594	1
+Matt	583	Sound	104	14568614	260	1			260		other	0
+Matt	584	Sound	115	14590787	260	1			260		other	0
+Matt	584	Response	1	14594944	4417	1
+Matt	585	Sound	106	14611793	260	1			260		other	0
+Matt	586	Response	255	14765733	128612	1
+Matt	587	Sound	24	14836694	262	1			260		other	0
+Matt	587	Response	1	14839329	2896	1
+Matt	588	Sound	24	14856865	260	1			260		other	0
+Matt	588	Response	1	14859887	3282	1
+Matt	589	Sound	18	14878538	260	1			260		other	0
+Matt	589	Response	1	14882606	4327	1
+Matt	590	Sound	19	14907046	260	1			260		other	0
+Matt	590	Response	1	14909884	3097	1
+Matt	591	Sound	16	14933388	261	1			260		other	0
+Matt	591	Response	1	14937882	4754	1
+Matt	592	Sound	25	14955727	260	1			260		other	0
+Matt	592	Response	1	14958441	2973	1
+Matt	593	Sound	11	14981068	260	1			260		other	0
+Matt	594	Sound	26	14998406	260	1			260		other	0
+Matt	594	Response	1	15000758	2611	1
+Matt	595	Sound	23	15020583	263	1			260		other	0
+Matt	595	Response	1	15023717	3397	1
+Matt	596	Sound	22	15046754	260	1			260		other	0
+Matt	596	Response	1	15050195	3700	1
+Matt	597	Sound	15	15074095	260	1			260		other	0
+Matt	598	Sound	21	15101270	260	1			260		other	0
+Matt	598	Response	1	15104351	3341	1
+Matt	599	Sound	25	15130779	260	1			260		other	0
+Matt	599	Response	1	15133789	3270	1
+Matt	600	Sound	18	15158453	260	1			260		other	0
+Matt	601	Sound	16	15185795	260	1			260		other	0
+Matt	601	Response	1	15188666	3131	1
+Matt	602	Sound	21	15209471	263	1			260		other	0
+Matt	602	Response	1	15213144	3935	1
+Matt	603	Sound	12	15225807	260	1			260		other	0
+Matt	604	Sound	20	15243312	260	1			260		other	0
+Matt	604	Response	1	15246502	3450	1
+Matt	605	Sound	12	15260483	260	1			260		other	0
+Matt	606	Sound	25	15289492	260	1			260		other	0
+Matt	606	Response	1	15291939	2707	1
+Matt	607	Sound	12	15308165	261	1			260		other	0
+Matt	608	Sound	19	15325669	260	1			260		other	0
+Matt	608	Response	1	15329777	4368	1
+Matt	609	Sound	13	15346175	260	1			260		other	0
+Matt	610	Sound	17	15362013	260	1			260		other	0
+Matt	611	Sound	15	15378017	260	1			260		other	0
+Matt	612	Sound	14	15407026	260	1			260		other	0
+Matt	613	Sound	17	15428199	260	1			260		other	0
+Matt	613	Response	1	15432410	4471	1
+Matt	614	Sound	17	15451206	260	1			260		other	0
+Matt	615	Sound	25	15473546	260	1			260		other	0
+Matt	615	Response	1	15476327	3041	1
+Matt	616	Sound	14	15498387	260	1			260		other	0
+Matt	617	Sound	13	15525895	260	1			260		other	0
+Matt	618	Sound	15	15545400	260	1			260		other	0
+Matt	619	Sound	24	15568740	260	1			260		other	0
+Matt	619	Response	1	15571761	3281	1
+Matt	620	Sound	20	15587079	260	1			260		other	0
+Matt	621	Sound	22	15613420	260	1			260		other	0
+Matt	621	Response	1	15616559	3398	1
+Matt	622	Sound	16	15629925	260	1			260		other	0
+Matt	623	Sound	19	15647597	260	1			260		other	0
+Matt	623	Response	1	15651516	4179	1
+Matt	624	Sound	13	15674605	260	1			260		other	0
+Matt	625	Sound	12	15701279	260	1			260		other	0
+Matt	626	Sound	23	15721118	260	1			260		other	0
+Matt	626	Response	1	15724952	4093	1
+Matt	627	Sound	21	15736956	260	1			260		other	0
+Matt	627	Response	1	15739990	3294	1
+Matt	628	Sound	11	15754128	260	1			260		other	0
+Matt	629	Sound	20	15775468	260	1			260		other	0
+Matt	629	Response	1	15780388	5180	1
+Matt	630	Sound	26	15795640	260	1			260		other	0
+Matt	630	Response	1	15798547	3166	1
+Matt	631	Sound	11	15823482	260	1			260		other	0
+Matt	632	Sound	18	15845655	260	1			260		other	0
+Matt	633	Sound	17	15875497	260	1			260		other	0
+Matt	634	Sound	11	15901005	260	1			260		other	0
+Matt	635	Sound	26	15930180	260	1			260		other	0
+Matt	635	Response	1	15932858	2938	1
+Matt	636	Sound	24	15954025	265	1			260		other	0
+Matt	636	Response	1	15957096	3336	1
+Matt	637	Sound	20	15983028	260	1			260		other	0
+Matt	637	Response	1	15986615	3846	1
+Matt	638	Sound	22	16010370	260	1			260		other	0
+Matt	638	Response	1	16013493	3383	1
+Matt	639	Sound	23	16034210	260	1			260		other	0
+Matt	639	Response	1	16037332	3381	1
+Matt	640	Sound	21	16060885	260	1			260		other	0
+Matt	640	Response	1	16064850	4225	1
+Matt	641	Sound	15	16085392	260	1			260		other	0
+Matt	642	Sound	19	16104397	260	1			260		other	0
+Matt	643	Sound	16	16133573	260	1			260		other	0
+Matt	644	Sound	14	16154745	260	1			260		other	0
+Matt	645	Sound	22	16182920	260	1			260		other	0
+Matt	645	Response	1	16186282	3621	1
+Matt	646	Sound	26	16210595	260	1			260		other	0
+Matt	646	Response	1	16214040	3705	1
+Matt	647	Sound	14	16231768	260	1			260		other	0
+Matt	648	Sound	13	16257442	260	1			260		other	0
+Matt	649	Sound	23	16274947	260	1			260		other	0
+Matt	649	Response	1	16280836	6148	1
+Matt	650	Sound	18	16296454	260	1			260		other	0
+Matt	651	Response	255	16360591	46812	1
+Matt	652	Sound	23	16441329	260	1			260		other	0
+Matt	652	Response	1	16444905	3836	1
+Matt	653	Sound	22	16468671	260	1			260		other	0
+Matt	653	Response	1	16471543	3132	1
+Matt	654	Sound	17	16498013	260	1			260		other	0
+Matt	655	Sound	19	16524020	260	1			260		other	0
+Matt	656	Sound	15	16544860	260	1			260		other	0
+Matt	657	Sound	14	16568367	260	1			260		other	0
+Matt	658	Sound	20	16583871	260	1			260		other	0
+Matt	658	Response	1	16587136	3524	1
+Matt	659	Sound	19	16609545	260	1			260		other	0
+Matt	659	Response	1	16614174	4888	1
+Matt	660	Sound	22	16637887	260	1			260		other	0
+Matt	660	Response	1	16641052	3424	2
+Matt	661	Sound	11	16662728	260	1			260		other	0
+Matt	662	Sound	19	16685234	260	1			260		other	0
+Matt	663	Sound	24	16714578	261	1			260		other	0
+Matt	663	Response	1	16717528	3211	1
+Matt	664	Sound	13	16741418	260	1			260		other	0
+Matt	665	Sound	16	16765424	260	1			260		other	0
+Matt	666	Sound	14	16789098	260	1			260		other	0
+Matt	667	Sound	25	16811438	260	1			260		other	0
+Matt	667	Response	1	16814721	3543	1
+Matt	668	Sound	16	16832611	260	1			260		other	0
+Matt	669	Sound	17	16861786	260	1			260		other	0
+Matt	670	Sound	18	16879625	260	1			260		other	0
+Matt	670	Response	1	16883757	4392	1
+Matt	671	Sound	25	16894966	264	1			260		other	0
+Matt	671	Response	1	16897756	3053	1
+Matt	672	Sound	18	16918803	260	1			260		other	0
+Matt	673	Sound	16	16939642	260	1			260		other	0
+Matt	674	Sound	17	16958648	260	1			260		other	0
+Matt	675	Sound	14	16981161	267	1			260		other	0
+Matt	676	Sound	13	17006828	260	1			260		other	0
+Matt	677	Sound	15	17035504	260	1			260		other	0
+Matt	678	Sound	12	17059511	260	1			260		other	0
+Matt	679	Sound	24	17085355	263	1			260		other	0
+Matt	679	Response	1	17088623	3532	1
+Matt	680	Sound	14	17109192	260	1			260		other	0
+Matt	681	Sound	22	17137700	260	1			260		other	0
+Matt	681	Response	1	17140620	3180	1
+Matt	682	Sound	23	17156050	271	1			260		other	0
+Matt	682	Response	1	17159179	3400	1
+Matt	683	Sound	23	17178212	260	1			260		other	0
+Matt	683	Response	1	17181018	3065	1
+Matt	684	Sound	13	17193884	260	1			260		other	0
+Matt	685	Sound	13	17217390	260	1			260		other	0
+Matt	686	Sound	21	17246245	272	1			260		other	0
+Matt	686	Response	1	17249173	3201	1
+Matt	687	Sound	21	17263404	260	1			260		other	0
+Matt	687	Response	1	17266852	3708	1
+Matt	688	Sound	21	17282409	260	1			260		other	0
+Matt	688	Response	1	17285491	3342	1
+Matt	689	Sound	26	17310751	260	1			260		other	0
+Matt	689	Response	1	17313409	2918	1
+Matt	690	Sound	17	17334258	260	1			260		other	0
+Matt	691	Sound	19	17354931	260	1			260		other	0
+Matt	691	Response	1	17358607	3936	1
+Matt	692	Sound	20	17382605	260	1			260		other	0
+Matt	692	Response	1	17388125	5779	1
+Matt	693	Sound	24	17409113	260	1			260		other	0
+Matt	693	Response	1	17412123	3270	1
+Matt	694	Sound	25	17431133	273	1			260		other	0
+Matt	694	Response	1	17434682	3822	1
+Matt	695	Sound	24	17456632	264	1			260		other	0
+Matt	695	Response	1	17459800	3432	1
+Matt	696	Sound	18	17485969	260	1			260		other	0
+Matt	697	Sound	21	17511476	260	1			260		other	0
+Matt	697	Response	1	17514357	3140	1
+Matt	698	Sound	20	17533816	260	1			260		other	0
+Matt	698	Response	1	17536675	3118	1
+Matt	699	Sound	26	17559991	260	1			260		other	0
+Matt	699	Response	1	17562673	2942	1
+Matt	700	Sound	16	17589333	260	1			260		other	0
+Matt	701	Sound	18	17612172	260	1			260		other	0
+Matt	701	Response	1	17615070	3157	1
+Matt	702	Sound	26	17635179	260	1			260		other	0
+Matt	702	Response	1	17637789	2869	1
+Matt	703	Sound	25	17653185	260	1			260		other	0
+Matt	703	Response	1	17656187	3262	1
+Matt	704	Sound	26	17680026	260	1			260		other	0
+Matt	704	Response	1	17682986	3220	1
+Matt	705	Sound	23	17702366	260	1			260		other	0
+Matt	705	Response	1	17705064	2958	1
+Matt	706	Sound	15	17723205	260	1			260		other	0
+Matt	707	Sound	11	17742377	260	1			260		other	0
+Matt	708	Sound	12	17764884	260	1			260		other	0
+Matt	709	Sound	22	17791058	260	1			260		other	0
+Matt	709	Response	1	17798578	7779	1
+Matt	710	Sound	15	17809410	272	1			260		other	0
+Matt	711	Sound	12	17827736	260	1			260		other	0
+Matt	712	Sound	20	17857745	260	1			260		other	0
+Matt	712	Response	1	17860574	3089	1
+Matt	713	Sound	12	17884586	260	1			260		other	0
+Matt	714	Sound	11	17906759	260	1			260		other	0
+Matt	715	Sound	11	17923764	260	1			260		other	0
+Matt	716	Response	255	18066401	119643	1
+Matt	717	Sound	104	18135826	260	1			260		other	0
+Matt	718	Sound	107	18166335	260	1			260		other	0
+Matt	719	Sound	105	18186686	272	1			260		other	0
+Matt	720	Sound	103	18217016	260	1			260		other	0
+Matt	721	Sound	112	18243691	260	1			260		other	0
+Matt	721	Response	1	18247909	4478	1
+Matt	722	Sound	108	18259362	260	1			260		other	0
+Matt	723	Sound	102	18284203	260	1			260		other	0
+Matt	724	Sound	111	18307043	260	1			260		other	0
+Matt	724	Response	1	18310625	3842	1
+Matt	725	Sound	114	18323048	260	1			260		other	0
+Matt	725	Response	1	18326544	3756	2
+Matt	726	Sound	116	18341887	260	1			260		other	0
+Matt	726	Response	1	18344703	3076	1
+Matt	727	Sound	115	18362392	260	1			260		other	0
+Matt	727	Response	1	18365422	3289	1
+Matt	728	Sound	112	18378064	260	1			260		other	0
+Matt	729	Sound	103	18393735	260	1			260		other	0
+Matt	730	Sound	115	18420910	260	1			260		other	0
+Matt	730	Response	1	18423978	3328	1
+Matt	731	Sound	106	18450585	260	1			260		other	0
+Matt	732	Sound	110	18479927	260	1			260		other	0
+Matt	732	Response	1	18483414	3747	1
+Matt	733	Sound	106	18498933	260	1			260		other	0
+Matt	734	Sound	104	18516604	260	1			260		other	0
+Matt	735	Sound	109	18546947	260	1			260		other	0
+Matt	735	Response	1	18551090	4403	1
+Matt	736	Sound	108	18563285	260	1			260		other	0
+Matt	736	Response	1	18567009	3984	1
+Matt	737	Sound	114	18588626	260	1			260		other	0
+Matt	737	Response	1	18592367	4001	1
+Matt	738	Sound	104	18615467	260	1			260		other	0
+Matt	739	Sound	102	18631971	260	1			260		other	0
+Matt	740	Sound	110	18655312	260	1			260		other	0
+Matt	740	Response	1	18659483	4431	1
+Matt	741	Sound	114	18677485	260	1			260		other	0
+Matt	741	Response	1	18680842	3616	1
+Matt	742	Sound	116	18703326	260	1			260		other	0
+Matt	742	Response	1	18706200	3134	1
+Matt	743	Sound	103	18728500	260	1			260		other	0
+Matt	744	Sound	105	18753507	260	1			260		other	0
+Matt	745	Sound	106	18776681	260	1			260		other	0
+Matt	746	Sound	105	18802021	260	1			260		other	0
+Matt	747	Sound	108	18824194	260	1			260		other	0
+Matt	748	Sound	101	18840866	260	1			260		other	0
+Matt	749	Sound	113	18859872	260	1			260		other	0
+Matt	749	Response	1	18863710	4098	1
+Matt	750	Sound	116	18880878	260	1			260		other	0
+Matt	750	Response	1	18883788	3170	1
+Matt	751	Sound	107	18910053	260	1			260		other	0
+Matt	752	Sound	103	18935060	260	1			260		other	0
+Matt	753	Sound	105	18961738	263	1			260		other	0
+Matt	754	Sound	115	18979240	260	1			260		other	0
+Matt	754	Response	1	18983382	4402	1
+Matt	755	Sound	106	18998913	260	1			260		other	0
+Matt	756	Sound	113	19018751	260	1			260		other	0
+Matt	756	Response	1	19023140	4648	2
+Matt	757	Sound	109	19035256	260	1			260		other	0
+Matt	758	Sound	109	19058932	262	1			260		other	0
+Matt	759	Sound	109	19089439	260	1			260		other	0
+Matt	760	Sound	116	19113946	260	1			260		other	0
+Matt	760	Response	1	19116653	2967	1
+Matt	761	Sound	113	19140621	260	1			260		other	0
+Matt	762	Sound	111	19157292	260	1			260		other	0
+Matt	763	Sound	107	19180466	260	1			260		other	0
+Matt	764	Sound	113	19199304	260	1			260		other	0
+Matt	764	Response	1	19203608	4563	1
+Matt	765	Sound	102	19217322	272	1			260		other	0
+Matt	766	Sound	115	19239983	260	1			260		other	0
+Matt	766	Response	1	19243765	4042	1
+Matt	767	Sound	108	19260989	260	1			260		other	0
+Matt	768	Sound	112	19284996	260	1			260		other	0
+Matt	768	Response	1	19287683	2946	1
+Matt	769	Sound	112	19312338	260	1			260		other	0
+Matt	769	Response	1	19315441	3363	1
+Matt	770	Sound	110	19334011	260	1			260		other	0
+Matt	770	Response	1	19338159	4408	1
+Matt	771	Sound	110	19356851	260	1			260		other	0
+Matt	772	Sound	114	19378524	260	1			260		other	0
+Matt	772	Response	1	19382236	3972	1
+Matt	773	Sound	111	19408532	260	1			260		other	0
+Matt	774	Sound	104	19426709	265	1			260		other	0
+Matt	775	Sound	107	19449044	260	1			260		other	0
+Matt	776	Sound	101	19464549	260	1			260		other	0
+Matt	777	Sound	101	19485055	260	1			260		other	0
+Matt	778	Sound	102	19510896	260	1			260		other	0
+Matt	779	Sound	111	19531735	260	1			260		other	0
+Matt	779	Response	1	19537106	5631	1
+Matt	780	Sound	101	19558410	260	1			260		other	0
+Matt	781	Response	255	19605742	25005	1
+Matt	782	Sound	24	19689448	260	1			260		other	0
+Matt	782	Response	1	19692696	3508	1
+Matt	783	Sound	15	19705292	265	1			260		other	0
+Matt	783	Response	1	19709495	4469	1
+Matt	784	Sound	18	19728460	260	1			260		other	0
+Matt	784	Response	1	19733334	5134	1
+Matt	785	Sound	18	19743631	260	1			260		other	0
+Matt	785	Response	1	19747252	3882	1
+Matt	786	Sound	26	19767804	260	1			260		other	0
+Matt	786	Response	1	19770451	2906	1
+Matt	787	Sound	24	19791645	260	1			260		other	0
+Matt	787	Response	1	19794449	3064	1
+Matt	788	Sound	16	19817319	260	1			260		other	0
+Matt	789	Sound	20	19839325	260	1			260		other	0
+Matt	789	Response	1	19842527	3461	1
+Matt	790	Sound	18	19857998	260	1			260		other	0
+Matt	790	Response	1	19860846	3108	1
+Matt	791	Sound	20	19874836	260	1			260		other	0
+Matt	791	Response	1	19878764	4188	1
+Matt	792	Sound	23	19891341	260	1			260		other	0
+Matt	792	Response	1	19894283	3203	1
+Matt	793	Sound	26	19916181	260	1			260		other	0
+Matt	793	Response	1	19919002	3080	1
+Matt	794	Sound	26	19944356	260	1			260		other	0
+Matt	794	Response	1	19946680	2584	1
+Matt	795	Sound	18	19974532	260	1			260		other	0
+Matt	795	Response	1	19980118	5846	1
+Matt	796	Sound	25	19998874	261	1			260		other	0
+Matt	796	Response	1	20001797	3184	1
+Matt	797	Sound	14	20023713	260	1			260		other	0
+Matt	798	Sound	16	20046553	260	1			260		other	0
+Matt	799	Sound	17	20072227	260	1			260		other	0
+Matt	800	Sound	17	20091399	260	1			260		other	0
+Matt	800	Response	1	20096111	4971	1
+Matt	801	Sound	19	20108238	260	1			260		other	0
+Matt	801	Response	1	20111229	3252	1
+Matt	802	Sound	13	20131911	260	1			260		other	0
+Matt	803	Sound	11	20159086	260	1			260		other	0
+Matt	804	Sound	14	20179762	263	1			260		other	0
+Matt	805	Sound	24	20202098	260	1			260		other	0
+Matt	805	Response	1	20204903	3065	1
+Matt	806	Sound	14	20221271	260	1			260		other	0
+Matt	807	Sound	17	20246958	273	1			260		other	0
+Matt	807	Response	1	20250581	3895	1
+Matt	808	Sound	22	20267451	260	1			260		other	0
+Matt	808	Response	1	20270019	2828	1
+Matt	809	Sound	19	20292625	260	1			260		other	0
+Matt	809	Response	1	20296417	4052	1
+Matt	810	Sound	16	20316298	260	1			260		other	0
+Matt	810	Response	1	20320656	4617	1
+Matt	811	Sound	12	20332637	260	1			260		other	0
+Matt	812	Sound	21	20354810	260	1			260		other	0
+Matt	812	Response	1	20358254	3703	1
+Matt	813	Sound	21	20383485	260	1			260		other	0
+Matt	813	Response	1	20387292	4066	1
+Matt	814	Sound	25	20398823	260	1			260		other	0
+Matt	814	Response	1	20402171	3608	1
+Matt	815	Sound	15	20419329	260	1			260		other	0
+Matt	816	Sound	23	20437501	260	1			260		other	0
+Matt	816	Response	1	20439928	2687	1
+Matt	817	Sound	13	20455506	260	1			260		other	0
+Matt	818	Sound	15	20483848	260	1			260		other	0
+Matt	819	Sound	22	20501853	260	1			260		other	0
+Matt	819	Response	1	20505044	3451	1
+Matt	820	Sound	12	20523859	260	1			260		other	0
+Matt	821	Sound	11	20546866	260	1			260		other	0
+Matt	822	Sound	20	20572374	260	1			260		other	0
+Matt	822	Response	1	20575360	3246	1
+Matt	823	Sound	12	20587878	260	1			260		other	0
+Matt	824	Sound	13	20614219	260	1			260		other	0
+Matt	825	Sound	11	20637059	260	1			260		other	0
+Matt	826	Sound	25	20663734	260	1			260		other	0
+Matt	826	Response	1	20666714	3240	1
+Matt	827	Sound	21	20690575	260	1			260		other	0
+Matt	827	Response	1	20693592	3276	1
+Matt	828	Sound	22	20714749	260	1			260		other	0
+Matt	828	Response	1	20718471	3981	1
+Matt	829	Sound	11	20737089	260	1			260		other	0
+Matt	830	Sound	22	20753927	260	1			260		other	0
+Matt	830	Response	1	20757108	3441	1
+Matt	831	Sound	25	20773933	260	1			260		other	0
+Matt	831	Response	1	20778547	4874	1
+Matt	832	Sound	19	20789271	260	1			260		other	0
+Matt	832	Response	1	20793826	4815	1
+Matt	833	Sound	19	20816779	260	1			260		other	0
+Matt	833	Response	1	20820944	4425	2
+Matt	834	Sound	21	20835284	260	1			260		other	0
+Matt	834	Response	1	20839503	4478	1
+Matt	835	Sound	16	20853123	260	1			260		other	0
+Matt	835	Response	1	20857581	4718	1
+Matt	836	Sound	24	20880297	260	1			260		other	0
+Matt	836	Response	1	20883820	3782	1
+Matt	837	Sound	17	20895968	260	1			260		other	0
+Matt	838	Sound	13	20916141	260	1			260		other	0
+Matt	839	Sound	12	20940315	260	1			260		other	0
+Matt	840	Sound	20	20965322	260	1			260		other	0
+Matt	840	Response	1	20968774	3712	1
+Matt	841	Sound	23	20992330	260	1			260		other	0
+Matt	841	Response	1	20995252	3182	1
+Matt	842	Sound	26	21012336	260	1			260		other	0
+Matt	842	Response	1	21015571	3495	1
+Matt	843	Sound	14	21041011	260	1			260		other	0
+Matt	844	Sound	15	21061017	260	1			260		other	0
+Matt	845	Sound	23	21078856	260	1			260		other	0
+Matt	845	Response	1	21081487	2891	1
+Matt	846	Response	255	21220198	114515	1
+Matt	847	Sound	14	21300420	260	1			260		other	0
+Matt	848	Sound	15	21317759	260	1			260		other	0
+Matt	849	Sound	20	21336264	260	1			260		other	0
+Matt	849	Response	1	21339230	3226	1
+Matt	850	Sound	25	21359604	260	1			260		other	0
+Matt	850	Response	1	21362429	3084	1
+Matt	851	Sound	15	21389287	267	1			260		other	0
+Matt	852	Sound	11	21409952	260	1			260		other	0
+Matt	853	Sound	24	21430458	260	1			260		other	0
+Matt	853	Response	1	21433224	3026	1
+Matt	854	Sound	21	21445963	260	1			260		other	0
+Matt	854	Response	1	21449144	3440	1
+Matt	855	Sound	13	21467469	260	1			260		other	0
+Matt	856	Sound	16	21486808	260	1			260		other	0
+Matt	857	Sound	23	21515650	260	1			260		other	0
+Matt	857	Response	1	21519059	3669	1
+Matt	858	Sound	20	21535323	260	1			260		other	0
+Matt	858	Response	1	21539138	4075	1
+Matt	859	Sound	26	21564665	260	1			260		other	0
+Matt	859	Response	1	21567296	2891	1
+Matt	860	Sound	16	21589338	260	1			260		other	0
+Matt	861	Sound	17	21607010	260	1			260		other	0
+Matt	861	Response	1	21611213	4462	1
+Matt	862	Sound	16	21636019	260	1			260		other	0
+Matt	863	Sound	12	21655024	260	1			260		other	0
+Matt	864	Sound	26	21672696	260	1			260		other	0
+Matt	864	Response	1	21674809	2372	2
+Matt	865	Sound	22	21695036	260	1			260		other	0
+Matt	865	Response	1	21697927	3151	1
+Matt	866	Sound	11	21721210	260	1			260		other	0
+Matt	867	Sound	25	21746718	260	1			260		other	0
+Matt	867	Response	1	21749524	3066	1
+Matt	868	Sound	20	21771225	260	1			260		other	0
+Matt	868	Response	1	21775282	4317	1
+Matt	869	Sound	14	21788230	260	1			260		other	0
+Matt	870	Sound	17	21812904	260	1			260		other	0
+Matt	871	Sound	13	21840259	273	1			260		other	0
+Matt	872	Sound	21	21856083	260	1			260		other	0
+Matt	873	Sound	17	21885758	260	1			260		other	0
+Matt	874	Sound	18	21907932	260	1			260		other	0
+Matt	874	Response	1	21911114	3442	1
+Matt	875	Sound	22	21930605	260	1			260		other	0
+Matt	875	Response	1	21934712	4367	1
+Matt	876	Sound	11	21954112	260	1			260		other	0
+Matt	877	Sound	19	21980286	260	1			260		other	0
+Matt	877	Response	1	21984069	4043	1
+Matt	878	Sound	12	21998292	260	1			260		other	0
+Matt	879	Sound	13	22017631	260	1			260		other	0
+Matt	880	Sound	24	22044138	260	1			260		other	0
+Matt	880	Response	1	22047425	3546	1
+Matt	881	Sound	19	22069146	260	1			260		other	0
+Matt	881	Response	1	22075183	6297	1
+Matt	882	Sound	23	22084317	260	1			260		other	0
+Matt	882	Response	1	22087822	3765	1
+Matt	883	Sound	23	22109324	260	1			260		other	0
+Matt	883	Response	1	22112941	3876	1
+Matt	884	Sound	20	22131164	260	1			260		other	0
+Matt	884	Response	1	22135499	4595	1
+Matt	885	Sound	18	22147840	264	1			260		other	0
+Matt	886	Sound	21	22165174	260	1			260		other	0
+Matt	886	Response	1	22168057	3143	1
+Matt	887	Sound	15	22184346	260	1			260		other	0
+Matt	888	Sound	12	22213188	260	1			260		other	0
+Matt	889	Sound	25	22240696	260	1			260		other	0
+Matt	889	Response	1	22243812	3376	1
+Matt	890	Sound	22	22257201	260	1			260		other	0
+Matt	890	Response	1	22261731	4790	1
+Matt	891	Sound	19	22281875	260	1			260		other	0
+Matt	892	Sound	25	22304048	260	1			260		other	0
+Matt	892	Response	1	22306768	2980	1
+Matt	893	Sound	26	22323053	260	1			260		other	0
+Matt	893	Response	1	22325727	2933	1
+Matt	894	Sound	24	22345728	261	1			260		other	0
+Matt	894	Response	1	22349085	3618	1
+Matt	895	Sound	24	22372401	260	1			260		other	0
+Matt	895	Response	1	22375324	3182	1
+Matt	896	Sound	13	22402577	260	1			260		other	0
+Matt	897	Sound	14	22432252	260	1			260		other	0
+Matt	898	Sound	18	22447757	260	1			260		other	0
+Matt	898	Response	1	22451559	4062	1
+Matt	899	Sound	26	22463261	260	1			260		other	0
+Matt	899	Response	1	22465958	2956	1
+Matt	900	Sound	14	22492937	260	1			260		other	0
+Matt	901	Sound	18	22519944	260	1			260		other	0
+Matt	902	Sound	15	22538617	260	1			260		other	0
+Matt	903	Sound	16	22558956	260	1			260		other	0
+Matt	904	Sound	21	22581963	260	1			260		other	0
+Matt	904	Response	1	22585230	3527	1
+Matt	905	Sound	22	22610638	260	1			260		other	0
+Matt	905	Response	1	22613629	3251	1
+Matt	906	Sound	17	22638313	260	1			260		other	0
+Matt	907	Sound	11	22665820	260	1			260		other	0
+Matt	908	Sound	19	22681658	260	1			260		other	0
+Matt	908	Response	1	22685544	4145	1
+Matt	909	Sound	12	22698497	260	1			260		other	0
+Matt	910	Sound	23	22722004	260	1			260		other	0
+Matt	910	Response	1	22725301	3557	1
+Matt	911	Response	255	22831615	87117	1
+Matt	912	Sound	107	22893221	260	1			260		other	0
+Matt	913	Sound	111	22920395	260	1			260		other	0
+Matt	913	Response	1	22924009	3873	1
+Matt	914	Sound	101	22942235	260	1			260		other	0
+Matt	915	Sound	109	22968909	260	1			260		other	0
+Matt	916	Sound	112	22994917	260	1			260		other	0
+Matt	916	Response	1	22998564	3907	1
+Matt	917	Sound	106	23025259	260	1			260		other	0
+Matt	918	Sound	108	23041598	260	1			260		other	0
+Matt	919	Sound	113	23060603	260	1			260		other	0
+Matt	919	Response	1	23064320	3976	1
+Matt	920	Sound	106	23086282	264	1			260		other	0
+Matt	921	Sound	107	23107450	260	1			260		other	0
+Matt	922	Sound	104	23135625	260	1			260		other	0
+Matt	923	Sound	113	23154797	260	1			260		other	0
+Matt	923	Response	1	23158473	3936	1
+Matt	924	Sound	112	23182305	260	1			260		other	0
+Matt	924	Response	1	23185272	3226	1
+Matt	925	Sound	106	23202478	260	1			260		other	0
+Matt	926	Sound	112	23232820	260	1			260		other	0
+Matt	926	Response	1	23237508	4948	1
+Matt	927	Sound	102	23259495	260	1			260		other	0
+Matt	928	Sound	114	23279334	260	1			260		other	0
+Matt	928	Response	1	23282305	3231	1
+Matt	929	Sound	103	23305008	260	1			260		other	0
+Matt	930	Sound	116	23322180	260	1			260		other	0
+Matt	930	Response	1	23324863	2943	1
+Matt	931	Sound	108	23346020	260	1			260		other	0
+Matt	932	Sound	114	23372528	260	1			260		other	0
+Matt	932	Response	1	23375579	3311	1
+Matt	933	Sound	105	23390866	260	1			260		other	0
+Matt	934	Sound	109	23420542	260	1			260		other	0
+Matt	935	Sound	107	23441215	260	1			260		other	0
+Matt	936	Sound	113	23464888	260	1			260		other	0
+Matt	936	Response	1	23467734	3105	1
+Matt	937	Sound	102	23491729	260	1			260		other	0
+Matt	938	Sound	105	23513736	260	1			260		other	0
+Matt	939	Sound	106	23534075	260	1			260		other	0
+Matt	940	Sound	101	23556752	264	1			260		other	0
+Matt	941	Sound	115	23572253	260	1			260		other	0
+Matt	941	Response	1	23575647	3654	1
+Matt	942	Sound	115	23599427	260	1			260		other	0
+Matt	942	Response	1	23602765	3597	1
+Matt	943	Sound	102	23620767	260	1			260		other	0
+Matt	944	Sound	104	23637105	260	1			260		other	0
+Matt	945	Sound	108	23662779	260	1			260		other	0
+Matt	945	Response	1	23667641	5121	1
+Matt	946	Sound	116	23686286	260	1			260		other	0
+Matt	946	Response	1	23688999	2973	1
+Matt	947	Sound	103	23703958	260	1			260		other	0
+Matt	948	Sound	115	23731800	260	1			260		other	0
+Matt	948	Response	1	23735077	3537	1
+Matt	949	Sound	111	23755807	260	1			260		other	0
+Matt	949	Response	1	23759395	3848	1
+Matt	950	Sound	102	23782815	260	1			260		other	0
+Matt	951	Sound	101	23800320	260	1			260		other	0
+Matt	952	Sound	107	23822660	260	1			260		other	0
+Matt	953	Sound	105	23852501	260	1			260		other	0
+Matt	954	Sound	111	23868840	260	1			260		other	0
+Matt	954	Response	1	23872508	3927	1
+Matt	955	Sound	110	23885178	260	1			260		other	0
+Matt	955	Response	1	23890027	5108	1
+Matt	956	Sound	108	23912353	260	1			260		other	0
+Matt	957	Sound	111	23941528	260	1			260		other	0
+Matt	957	Response	1	23945703	4435	1
+Matt	958	Sound	109	23969536	260	1			260		other	0
+Matt	959	Sound	114	23988041	260	1			260		other	0
+Matt	959	Response	1	23992660	4878	1
+Matt	960	Sound	103	24015383	260	1			260		other	0
+Matt	961	Sound	105	24032554	260	1			260		other	0
+Matt	962	Sound	110	24055728	260	1			260		other	0
+Matt	962	Response	1	24058656	3187	1
+Matt	963	Sound	114	24075234	260	1			260		other	0
+Matt	963	Response	1	24079774	4800	1
+Matt	964	Sound	104	24096740	260	1			260		other	0
+Matt	965	Sound	113	24113078	260	1			260		other	0
+Matt	965	Response	1	24117372	4554	1
+Matt	966	Sound	110	24132084	260	1			260		other	0
+Matt	966	Response	1	24135931	4107	1
+Matt	967	Sound	103	24153423	260	1			260		other	0
+Matt	968	Sound	116	24176430	260	1			260		other	0
+Matt	968	Response	1	24179208	3037	1
+Matt	969	Sound	112	24192268	260	1			260		other	0
+Matt	969	Response	1	24197127	5119	1
+Matt	970	Sound	109	24213774	260	1			260		other	0
+Matt	970	Response	1	24217446	3931	1
+Matt	971	Sound	110	24239115	260	1			260		other	0
+Matt	972	Sound	115	24260788	260	1			260		other	0
+Matt	972	Response	1	24264802	4274	1
+Matt	973	Sound	101	24276808	275	1			260		other	0
+Matt	974	Sound	116	24293131	260	1			260		other	0
+Matt	974	Response	1	24296080	3209	1
+Matt	975	Sound	104	24313804	260	1			260		other	0
+Matt	976	Response	255	24454470	111838	1
+Matt	977	Sound	17	24517197	260	1			260		other	0
+Matt	978	Sound	12	24538536	260	1			260		other	0
+Matt	979	Sound	13	24558209	260	1			260		other	0
+Matt	980	Sound	11	24587551	260	1			260		other	0
+Matt	981	Sound	22	24613558	260	1			260		other	0
+Matt	981	Response	1	24616060	2761	1
+Matt	982	Sound	15	24632730	260	1			260		other	0
+Matt	983	Sound	24	24659072	260	1			260		other	0
+Matt	983	Response	1	24661736	2924	2
+Matt	984	Sound	23	24676410	260	1			260		other	0
+Matt	984	Response	1	24679416	3265	1
+Matt	985	Sound	22	24704085	260	1			260		other	0
+Matt	985	Response	1	24707174	3349	1
+Matt	986	Sound	11	24733093	260	1			260		other	0
+Matt	987	Sound	21	24763269	260	1			260		other	0
+Matt	987	Response	1	24765730	2721	1
+Matt	988	Sound	16	24790443	260	1			260		other	0
+Matt	989	Sound	14	24812616	260	1			260		other	0
+Matt	990	Sound	22	24831789	260	1			260		other	0
+Matt	990	Response	1	24835166	3636	1
+Matt	991	Sound	15	24858471	268	1			260		other	0
+Matt	992	Sound	20	24882137	260	1			260		other	0
+Matt	992	Response	1	24885403	3525	1
+Matt	993	Sound	15	24905810	260	1			260		other	0
+Matt	994	Sound	18	24930484	260	1			260		other	0
+Matt	994	Response	1	24933080	2855	1
+Matt	995	Sound	20	24958659	260	1			260		other	0
+Matt	995	Response	1	24961638	3238	1
+Matt	996	Sound	11	24982166	260	1			260		other	0
+Matt	997	Sound	21	25012175	260	1			260		other	0
+Matt	997	Response	1	25016274	4359	1
+Matt	998	Sound	14	25031014	260	1			260		other	0
+Matt	999	Sound	13	25050359	266	1			260		other	0
+Matt	1000	Sound	17	25076861	260	1			260		other	0
+Matt	1000	Response	1	25081390	4789	1
+Matt	1001	Sound	26	25099534	260	1			260		other	0
+Matt	1001	Response	1	25102108	2834	1
+Matt	1002	Sound	13	25125875	260	1			260		other	0
+Matt	1003	Sound	16	25150716	260	1			260		other	0
+Matt	1004	Sound	14	25176390	260	1			260		other	0
+Matt	1005	Sound	22	25198563	260	1			260		other	0
+Matt	1005	Response	1	25201702	3399	1
+Matt	1006	Sound	26	25219403	260	1			260		other	0
+Matt	1006	Response	1	25221621	2478	1
+Matt	1007	Sound	19	25241909	260	1			260		other	0
+Matt	1007	Response	1	25244739	3090	1
+Matt	1008	Sound	23	25269250	260	1			260		other	0
+Matt	1008	Response	1	25272498	3507	1
+Matt	1009	Sound	17	25298426	260	1			260		other	0
+Matt	1009	Response	1	25302416	4250	1
+Matt	1010	Sound	24	25328101	260	1			260		other	0
+Matt	1010	Response	1	25331294	3452	1
+Matt	1011	Sound	26	25349107	260	1			260		other	0
+Matt	1011	Response	1	25351772	2924	2
+Matt	1012	Sound	25	25375448	260	1			260		other	0
+Matt	1012	Response	1	25378891	3702	1
+Matt	1013	Sound	18	25398955	260	1			260		other	0
+Matt	1014	Sound	11	25417627	260	1			260		other	0
+Matt	1015	Sound	24	25441135	261	1			260		other	0
+Matt	1015	Response	1	25444006	3132	1
+Matt	1016	Sound	12	25463474	260	1			260		other	0
+Matt	1017	Sound	18	25488648	260	1			260		other	0
+Matt	1017	Response	1	25493123	4735	1
+Matt	1018	Sound	20	25515331	268	1			260		other	0
+Matt	1018	Response	1	25519122	4059	1
+Matt	1019	Sound	20	25531660	260	1			260		other	0
+Matt	1020	Sound	16	25552833	260	1			260		other	0
+Matt	1021	Sound	19	25579341	260	1			260		other	0
+Matt	1022	Sound	12	25600348	260	1			260		other	0
+Matt	1023	Sound	23	25616852	260	1			260		other	0
+Matt	1023	Response	1	25619836	3243	1
+Matt	1024	Sound	19	25640359	260	1			260		other	0
+Matt	1024	Response	1	25644714	4614	1
+Matt	1025	Sound	24	25670201	260	1			260		other	0
+Matt	1025	Response	1	25673752	3810	1
+Matt	1026	Sound	25	25695209	260	1			260		other	0
+Matt	1026	Response	1	25698870	3921	1
+Matt	1027	Sound	25	25720718	261	1			260		other	0
+Matt	1027	Response	1	25723589	3132	1
+Matt	1028	Sound	16	25746724	260	1			260		other	0
+Matt	1029	Sound	21	25776732	260	1			260		other	0
+Matt	1029	Response	1	25779905	3432	1
+Matt	1030	Sound	21	25793237	260	1			260		other	0
+Matt	1030	Response	1	25796544	3566	1
+Matt	1031	Sound	12	25817912	260	1			260		other	0
+Matt	1032	Sound	17	25847420	260	1			260		other	0
+Matt	1032	Response	1	25850700	3540	1
+Matt	1033	Sound	25	25874761	260	1			260		other	0
+Matt	1033	Response	1	25877979	3477	1
+Matt	1034	Sound	18	25901107	264	1			260		other	0
+Matt	1035	Sound	13	25920941	260	1			260		other	0
+Matt	1036	Sound	19	25942281	260	1			260		other	0
+Matt	1037	Sound	15	25958452	260	1			260		other	0
+Matt	1037	Response	1	25962293	4100	1
+Matt	1038	Sound	26	25974957	260	1			260		other	0
+Matt	1038	Response	1	25977412	2715	1
+Matt	1039	Sound	23	25992301	265	1			260		other	0
+Matt	1039	Response	1	25996371	4335	1
+Matt	1040	Sound	14	26019470	260	1			260		other	0
+Matt	1041	Response	255	26089005	42540	1
+Matt	1042	Sound	16	26157344	260	1			260		other	0
+Matt	1043	Sound	25	26185189	263	1			260		other	0
+Matt	1043	Response	1	26187959	3033	1
+Matt	1044	Sound	21	26206192	260	1			260		other	0
+Matt	1044	Response	1	26209797	3865	1
+Matt	1045	Sound	24	26223030	260	1			260		other	0
+Matt	1045	Response	1	26225556	2786	1
+Matt	1046	Sound	11	26246537	260	1			260		other	0
+Matt	1047	Sound	15	26274383	265	1			260		other	0
+Matt	1048	Sound	14	26304220	260	1			260		other	0
+Matt	1049	Sound	14	26331728	260	1			260		other	0
+Matt	1050	Sound	13	26356069	260	1			260		other	0
+Matt	1051	Sound	24	26374908	260	1			260		other	0
+Matt	1051	Response	1	26378667	4018	1
+Matt	1052	Sound	25	26393247	260	1			260		other	0
+Matt	1052	Response	1	26396345	3358	1
+Matt	1053	Sound	20	26418921	260	1			260		other	0
+Matt	1053	Response	1	26421944	3283	1
+Matt	1054	Sound	18	26447262	260	1			260		other	0
+Matt	1054	Response	1	26451222	4219	1
+Matt	1055	Sound	12	26462767	260	1			260		other	0
+Matt	1056	Sound	26	26481606	260	1			260		other	0
+Matt	1056	Response	1	26484580	3234	1
+Matt	1057	Sound	22	26500111	260	1			260		other	0
+Matt	1057	Response	1	26504258	4407	1
+Matt	1058	Sound	20	26521784	260	1			260		other	0
+Matt	1058	Response	1	26525457	3932	1
+Matt	1059	Sound	26	26548625	260	1			260		other	0
+Matt	1059	Response	1	26551695	3330	1
+Matt	1060	Sound	12	26566131	260	1			260		other	0
+Matt	1061	Sound	22	26595139	260	1			260		other	0
+Matt	1061	Response	1	26599932	5053	1
+Matt	1062	Sound	15	26622314	260	1			260		other	0
+Matt	1063	Sound	21	26637485	260	1			260		other	0
+Matt	1063	Response	1	26641450	4225	1
+Matt	1064	Sound	19	26655657	260	1			260		other	0
+Matt	1064	Response	1	26659608	4211	1
+Matt	1065	Sound	15	26685165	260	1			260		other	0
+Matt	1066	Sound	23	26700503	260	1			260		other	0
+Matt	1066	Response	1	26703686	3442	1
+Matt	1067	Sound	23	26717008	260	1			260		other	0
+Matt	1067	Response	1	26720084	3336	1
+Matt	1068	Sound	11	26745354	264	1			260		other	0
+Matt	1069	Sound	12	26769357	260	1			260		other	0
+Matt	1070	Sound	15	26794698	260	1			260		other	0
+Matt	1071	Sound	21	26813870	260	1			260		other	0
+Matt	1071	Response	1	26818798	5188	1
+Matt	1072	Sound	19	26835209	260	1			260		other	0
+Matt	1072	Response	1	26839117	4167	1
+Matt	1073	Sound	16	26857549	260	1			260		other	0
+Matt	1074	Sound	21	26874554	260	1			260		other	0
+Matt	1074	Response	1	26877354	3060	1
+Matt	1075	Sound	19	26896394	260	1			260		other	0
+Matt	1075	Response	1	26899193	3059	1
+Matt	1076	Sound	11	26917900	260	1			260		other	0
+Matt	1077	Sound	23	26946409	260	1			260		other	0
+Matt	1077	Response	1	26949270	3121	1
+Matt	1078	Sound	17	26973917	260	1			260		other	0
+Matt	1079	Sound	17	26993923	260	1			260		other	0
+Matt	1080	Sound	25	27009927	260	1			260		other	0
+Matt	1080	Response	1	27012785	3118	1
+Matt	1081	Sound	20	27026437	264	1			260		other	0
+Matt	1081	Response	1	27030305	4132	1
+Matt	1082	Sound	18	27050773	260	1			260		other	0
+Matt	1082	Response	1	27054303	3790	1
+Matt	1083	Sound	14	27066110	260	1			260		other	0
+Matt	1084	Sound	11	27085283	260	1			260		other	0
+Matt	1085	Sound	25	27101132	271	1			260		other	0
+Matt	1085	Response	1	27104780	3919	1
+Matt	1086	Sound	26	27125461	260	1			260		other	0
+Matt	1086	Response	1	27128138	2937	1
+Matt	1087	Sound	20	27146634	260	1			260		other	0
+Matt	1087	Response	1	27151497	5123	1
+Matt	1088	Sound	22	27175309	260	1			260		other	0
+Matt	1088	Response	1	27178855	3806	1
+Matt	1089	Sound	18	27194315	260	1			260		other	0
+Matt	1089	Response	1	27199974	5919	1
+Matt	1090	Sound	17	27214825	264	1			260		other	0
+Matt	1091	Sound	13	27239995	260	1			260		other	0
+Matt	1092	Sound	13	27263168	260	1			260		other	0
+Matt	1093	Sound	17	27279506	260	1			260		other	0
+Matt	1094	Sound	16	27306848	260	1			260		other	0
+Matt	1095	Sound	19	27333189	260	1			260		other	0
+Matt	1095	Response	1	27337005	4076	1
+Matt	1096	Sound	23	27362531	260	1			260		other	0
+Matt	1096	Response	1	27365403	3132	1
+Matt	1097	Sound	18	27380536	260	1			260		other	0
+Matt	1098	Sound	14	27410045	260	1			260		other	0
+Matt	1099	Sound	22	27429550	260	1			260		other	0
+Matt	1099	Response	1	27432439	3148	1
+Matt	1100	Sound	12	27450223	260	1			260		other	0
+Matt	1101	Sound	16	27479065	260	1			260		other	0
+Matt	1101	Response	1	27482676	3870	1
+Matt	1102	Sound	24	27497570	260	1			260		other	0
+Matt	1102	Response	1	27500355	3044	1
+Matt	1103	Sound	24	27525578	260	1			260		other	0
+Matt	1103	Response	1	27527872	2554	1
+Matt	1104	Sound	26	27551919	260	1			260		other	0
+Matt	1104	Response	1	27554511	2851	1
+Matt	1105	Sound	13	27576760	260	1			260		other	0
+Matt	1106	Response	1	27594748	2330	1
+Matt	1106	Response	255	27694742	102323	1
+Matt	1107	Sound	104	27780987	260	1			260		other	0
+Matt	1108	Sound	111	27808828	260	1			260		other	0
+Matt	1109	Sound	112	27839004	260	1			260		other	0
+Matt	1109	Response	1	27842652	3908	1
+Matt	1110	Sound	105	27864344	260	1			260		other	0
+Matt	1111	Sound	101	27884350	260	1			260		other	0
+Matt	1112	Sound	111	27912358	260	1			260		other	0
+Matt	1112	Response	1	27916247	4149	1
+Matt	1113	Sound	104	27934865	260	1			260		other	0
+Matt	1114	Sound	101	27963378	265	1			260		other	0
+Matt	1115	Sound	105	27986380	260	1			260		other	0
+Matt	1116	Sound	104	28014555	260	1			260		other	0
+Matt	1117	Sound	109	28042730	260	1			260		other	0
+Matt	1118	Sound	115	28068404	260	1			260		other	0
+Matt	1118	Response	1	28071358	3213	1
+Matt	1119	Sound	106	28098580	260	1			260		other	0
+Matt	1120	Sound	113	28115585	260	1			260		other	0
+Matt	1120	Response	1	28119435	4110	1
+Matt	1121	Sound	109	28137768	269	1			260		other	0
+Matt	1122	Sound	112	28159597	260	1			260		other	0
+Matt	1122	Response	1	28163352	4014	1
+Matt	1123	Sound	110	28179103	260	1			260		other	0
+Matt	1124	Sound	107	28199776	260	1			260		other	0
+Matt	1125	Sound	114	28228618	260	1			260		other	0
+Matt	1125	Response	1	28231507	3149	1
+Matt	1126	Sound	116	28255959	260	1			260		other	0
+Matt	1126	Response	1	28259026	3326	1
+Matt	1127	Sound	107	28284301	260	1			260		other	0
+Matt	1128	Sound	108	28300972	260	1			260		other	0
+Matt	1129	Sound	110	28323979	260	1			260		other	0
+Matt	1130	Sound	113	28346986	260	1			260		other	0
+Matt	1130	Response	1	28350060	3334	1
+Matt	1131	Sound	114	28364324	260	1			260		other	0
+Matt	1131	Response	1	28367579	3514	1
+Matt	1132	Sound	116	28380496	260	1			260		other	0
+Matt	1132	Response	1	28382858	2622	1
+Matt	1133	Sound	108	28398168	260	1			260		other	0
+Matt	1134	Sound	115	28416840	260	1			260		other	0
+Matt	1134	Response	1	28419975	3395	1
+Matt	1135	Sound	101	28445348	260	1			260		other	0
+Matt	1136	Sound	102	28466354	260	1			260		other	0
+Matt	1137	Sound	114	28486694	260	1			260		other	0
+Matt	1137	Response	1	28489651	3217	1
+Matt	1138	Sound	114	28506366	260	1			260		other	0
+Matt	1138	Response	1	28509570	3463	1
+Matt	1139	Sound	110	28524205	260	1			260		other	0
+Matt	1140	Sound	101	28550379	260	1			260		other	0
+Matt	1141	Sound	108	28578220	260	1			260		other	0
+Matt	1142	Sound	102	28604739	270	1			260		other	0
+Matt	1143	Sound	107	28628068	260	1			260		other	0
+Matt	1144	Sound	115	28657243	260	1			260		other	0
+Matt	1144	Response	1	28660520	3536	1
+Matt	1145	Sound	102	28675582	260	1			260		other	0
+Matt	1146	Sound	106	28702590	260	1			260		other	0
+Matt	1147	Sound	113	28730431	260	1			260		other	0
+Matt	1147	Response	1	28734755	4583	1
+Matt	1148	Sound	103	28748770	260	1			260		other	0
+Matt	1149	Sound	112	28774128	277	1			260		other	0
+Matt	1149	Response	1	28778032	4181	1
+Matt	1150	Sound	105	28792617	260	1			260		other	0
+Matt	1151	Sound	110	28808626	264	1			260		other	0
+Matt	1151	Response	1	28812750	4388	1
+Matt	1152	Sound	109	28836463	260	1			260		other	0
+Matt	1153	Sound	106	28861470	260	1			260		other	0
+Matt	1154	Sound	112	28888321	269	1			260		other	0
+Matt	1154	Response	1	28892025	3973	1
+Matt	1155	Sound	115	28908651	260	1			260		other	0
+Matt	1155	Response	1	28912344	3953	1
+Matt	1156	Sound	103	28928323	260	1			260		other	0
+Matt	1157	Sound	111	28954497	260	1			260		other	0
+Matt	1157	Response	1	28958261	4023	1
+Matt	1158	Sound	107	28972002	260	1			260		other	0
+Matt	1159	Sound	105	29000844	260	1			260		other	0
+Matt	1160	Sound	103	29020850	260	1			260		other	0
+Matt	1161	Sound	111	29042690	260	1			260		other	0
+Matt	1161	Response	1	29046895	4465	1
+Matt	1162	Sound	113	29062862	260	1			260		other	0
+Matt	1162	Response	1	29066574	3971	1
+Matt	1163	Sound	116	29080868	260	1			260		other	0
+Matt	1163	Response	1	29083372	2764	2
+Matt	1164	Sound	116	29103208	260	1			260		other	0
+Matt	1164	Response	1	29105451	2503	1
+Matt	1165	Sound	104	29123380	260	1			260		other	0
+Matt	1166	Sound	106	29139218	260	1			260		other	0
+Matt	1167	Sound	103	29157390	260	1			260		other	0
+Matt	1168	Sound	109	29183403	265	1			260		other	0
+Matt	1168	Response	1	29188006	4868	1
+Matt	1169	Sound	108	29205071	260	1			260		other	0
+Matt	1170	Sound	102	29230245	260	1			260		other	0
+Matt	1171	Response	255	29316718	57644	1
+Matt	1172	Sound	115	29388291	260	1			260		other	0
+Matt	1172	Response	1	29391832	3801	1
+Matt	1173	Sound	102	29404629	260	1			260		other	0
+Matt	1174	Sound	116	29431804	260	1			260		other	0
+Matt	1174	Response	1	29434230	2685	1
+Matt	1175	Sound	115	29454144	260	1			260		other	0
+Matt	1175	Response	1	29457828	3944	1
+Matt	1176	Sound	110	29472485	262	1			260		other	0
+Matt	1177	Sound	109	29501324	260	1			260		other	0
+Matt	1177	Response	1	29504545	3481	1
+Matt	1178	Sound	111	29527499	260	1			260		other	0
+Matt	1178	Response	1	29530544	3305	1
+Matt	1179	Sound	116	29557341	260	1			260		other	0
+Matt	1179	Response	1	29560062	2981	1
+Matt	1180	Sound	107	29587350	260	1			260		other	0
+Matt	1181	Sound	101	29617025	260	1			260		other	0
+Matt	1182	Sound	115	29638364	260	1			260		other	0
+Matt	1182	Response	1	29641737	3632	1
+Matt	1183	Sound	111	29661038	260	1			260		other	0
+Matt	1184	Sound	106	29691047	260	1			260		other	0
+Matt	1185	Sound	105	29719388	260	1			260		other	0
+Matt	1186	Sound	111	29737727	260	1			260		other	0
+Matt	1186	Response	1	29742210	4743	1
+Matt	1187	Sound	101	29759567	260	1			260		other	0
+Matt	1188	Sound	105	29786908	260	1			260		other	0
+Matt	1189	Sound	103	29808248	260	1			260		other	0
+Matt	1190	Sound	101	29838262	265	1			260		other	0
+Matt	1191	Sound	104	29859929	260	1			260		other	0
+Matt	1192	Sound	108	29881769	260	1			260		other	0
+Matt	1193	Sound	110	29906443	260	1			260		other	0
+Matt	1193	Response	1	29910439	4256	1
+Matt	1194	Sound	104	29925282	260	1			260		other	0
+Matt	1195	Sound	112	29946288	260	1			260		other	0
+Matt	1195	Response	1	29949957	3929	1
+Matt	1196	Sound	110	29970628	260	1			260		other	0
+Matt	1197	Sound	103	29998470	260	1			260		other	0
+Matt	1198	Sound	107	30019651	267	1			260		other	0
+Matt	1199	Sound	116	30043316	260	1			260		other	0
+Matt	1199	Response	1	30045871	2814	1
+Matt	1200	Sound	114	30066157	260	1			260		other	0
+Matt	1201	Sound	106	30091331	260	1			260		other	0
+Matt	1202	Sound	109	30114337	260	1			260		other	0
+Matt	1203	Sound	116	30143513	260	1			260		other	0
+Matt	1203	Response	1	30146344	3091	3
+Matt	1204	Sound	114	30168187	260	1			260		other	0
+Matt	1204	Response	1	30172102	4176	1
+Matt	1205	Sound	110	30183858	260	1			260		other	0
+Matt	1206	Sound	107	30212039	266	1			260		other	0
+Matt	1207	Sound	114	30232705	260	1			260		other	0
+Matt	1207	Response	1	30236338	3893	1
+Matt	1208	Sound	115	30258380	260	1			260		other	0
+Matt	1208	Response	1	30261857	3737	1
+Matt	1209	Sound	102	30279386	260	1			260		other	0
+Matt	1210	Sound	105	30309233	265	1			260		other	0
+Matt	1211	Sound	112	30329900	260	1			260		other	0
+Matt	1211	Response	1	30333132	3491	1
+Matt	1212	Sound	113	30358075	260	1			260		other	0
+Matt	1212	Response	1	30361290	3475	1
+Matt	1213	Sound	105	30382428	272	1			260		other	0
+Matt	1214	Sound	113	30402088	260	1			260		other	0
+Matt	1214	Response	1	30406888	5059	1
+Matt	1215	Sound	109	30426762	260	1			260		other	0
+Matt	1216	Sound	101	30443267	260	1			260		other	0
+Matt	1217	Sound	106	30460272	260	1			260		other	0
+Matt	1218	Sound	108	30488447	260	1			260		other	0
+Matt	1219	Sound	106	30509286	260	1			260		other	0
+Matt	1220	Sound	109	30531793	260	1			260		other	0
+Matt	1221	Sound	114	30547631	260	1			260		other	0
+Matt	1221	Response	1	30551758	4387	1
+Matt	1222	Sound	103	30577640	260	1			260		other	0
+Matt	1223	Sound	111	30597979	260	1			260		other	0
+Matt	1224	Sound	102	30613484	260	1			260		other	0
+Matt	1225	Sound	103	30636157	260	1			260		other	0
+Matt	1226	Sound	107	30657663	260	1			260		other	0
+Matt	1227	Sound	108	30675169	260	1			260		other	0
+Matt	1228	Sound	108	30695341	260	1			260		other	0
+Matt	1229	Sound	112	30716514	260	1			260		other	0
+Matt	1229	Response	1	30720387	4133	1
+Matt	1230	Sound	112	30737020	260	1			260		other	0
+Matt	1230	Response	1	30741346	4586	1
+Matt	1231	Sound	104	30753205	273	1			260		other	0
+Matt	1232	Sound	113	30782703	263	1			260		other	0
+Matt	1233	Sound	104	30809208	260	1			260		other	0
+Matt	1234	Sound	113	30828713	260	1			260		other	0
+Matt	1234	Response	1	30832220	3766	1
+Matt	1235	Sound	102	30852220	260	1			260		other	0
+Matt	1236	Response	255	30937493	54944	1
+Matt	1237	Sound	18	31010767	260	1			260		other	0
+Matt	1237	Response	1	31013568	3061	1
+Matt	1238	Sound	16	31040942	260	1			260		other	0
+Matt	1239	Sound	14	31058286	265	1			260		other	0
+Matt	1240	Sound	12	31085789	260	1			260		other	0
+Matt	1241	Sound	15	31113130	260	1			260		other	0
+Matt	1242	Sound	20	31131636	260	1			260		other	0
+Matt	1242	Response	1	31134121	2745	1
+Matt	1243	Sound	14	31147980	266	1			260		other	0
+Matt	1244	Sound	24	31164645	260	1			260		other	0
+Matt	1244	Response	1	31167079	2693	1
+Matt	1245	Sound	25	31194654	260	1			260		other	0
+Matt	1245	Response	1	31197717	3322	1
+Matt	1246	Sound	16	31224496	260	1			260		other	0
+Matt	1247	Sound	25	31248503	260	1			260		other	0
+Matt	1247	Response	1	31250993	2750	1
+Matt	1248	Sound	23	31278679	260	1			260		other	0
+Matt	1248	Response	1	31281791	3372	1
+Matt	1249	Sound	24	31295184	260	1			260		other	0
+Matt	1249	Response	1	31299070	4146	1
+Matt	1250	Sound	24	31323370	271	1			260		other	0
+Matt	1250	Response	1	31325868	2770	1
+Matt	1251	Sound	18	31340697	260	1			260		other	0
+Matt	1252	Sound	15	31357202	260	1			260		other	0
+Matt	1252	Response	1	31359946	3004	1
+Matt	1253	Sound	11	31386544	260	1			260		other	0
+Matt	1254	Sound	21	31414064	272	1			260		other	0
+Matt	1254	Response	1	31416343	2551	1
+Matt	1255	Sound	17	31441226	260	1			260		other	0
+Matt	1255	Response	1	31443861	2894	1
+Matt	1256	Sound	26	31456731	260	1			260		other	0
+Matt	1256	Response	1	31459380	2909	1
+Matt	1257	Sound	20	31481572	260	1			260		other	0
+Matt	1257	Response	1	31484738	3426	1
+Matt	1258	Sound	26	31510080	260	1			260		other	0
+Matt	1258	Response	1	31512256	2436	1
+Matt	1259	Sound	26	31530086	260	1			260		other	0
+Matt	1259	Response	1	31533855	4029	1
+Matt	1260	Sound	26	31551925	260	1			260		other	0
+Matt	1260	Response	1	31554174	2508	1
+Matt	1261	Sound	12	31574099	260	1			260		other	0
+Matt	1262	Sound	19	31596105	260	1			260		other	0
+Matt	1262	Response	1	31599851	4005	1
+Matt	1263	Sound	14	31624113	260	1			260		other	0
+Matt	1264	Sound	15	31649954	260	1			260		other	0
+Matt	1265	Sound	18	31666459	260	1			260		other	0
+Matt	1265	Response	1	31669766	3567	1
+Matt	1266	Sound	21	31685298	260	1			260		other	0
+Matt	1266	Response	1	31687845	2807	1
+Matt	1267	Sound	23	31710972	260	1			260		other	0
+Matt	1267	Response	1	31713843	3131	1
+Matt	1268	Sound	20	31726310	260	1			260		other	0
+Matt	1268	Response	1	31730242	4192	1
+Matt	1269	Sound	20	31746649	260	1			260		other	0
+Matt	1269	Response	1	31749441	3051	1
+Matt	1270	Sound	16	31768656	260	1			260		other	0
+Matt	1271	Sound	18	31798165	260	1			260		other	0
+Matt	1271	Response	1	31802318	4413	1
+Matt	1272	Sound	13	31815169	260	1			260		other	0
+Matt	1273	Sound	15	31842344	260	1			260		other	0
+Matt	1274	Sound	11	31871036	276	1			260		other	0
+Matt	1275	Sound	23	31900194	260	1			260		other	0
+Matt	1275	Response	1	31903031	3097	1
+Matt	1276	Sound	17	31919033	260	1			260		other	0
+Matt	1276	Response	1	31922870	4096	1
+Matt	1277	Sound	19	31944707	260	1			260		other	0
+Matt	1277	Response	1	31948228	3781	1
+Matt	1278	Sound	22	31969715	260	1			260		other	0
+Matt	1278	Response	1	31972467	3012	1
+Matt	1279	Sound	25	31988554	260	1			260		other	0
+Matt	1279	Response	1	31991026	2732	1
+Matt	1280	Sound	19	32007059	260	1			260		other	0
+Matt	1280	Response	1	32012464	5665	1
+Matt	1281	Sound	11	32027565	260	1			260		other	0
+Matt	1282	Sound	12	32049905	260	1			260		other	0
+Matt	1283	Sound	17	32075912	260	1			260		other	0
+Matt	1283	Response	1	32078220	2567	1
+Matt	1284	Sound	21	32103421	260	1			260		other	0
+Matt	1284	Response	1	32106378	3217	1
+Matt	1285	Sound	22	32122092	260	1			260		other	0
+Matt	1285	Response	1	32125817	3984	1
+Matt	1286	Sound	22	32147934	260	1			260		other	0
+Matt	1286	Response	1	32151175	3502	1
+Matt	1287	Sound	21	32163438	260	1			260		other	0
+Matt	1287	Response	1	32167334	4156	1
+Matt	1288	Sound	19	32183944	260	1			260		other	0
+Matt	1288	Response	1	32187173	3489	1
+Matt	1289	Sound	22	32212619	260	1			260		other	0
+Matt	1289	Response	1	32215571	3212	1
+Matt	1290	Sound	25	32232458	260	1			260		other	0
+Matt	1290	Response	1	32235090	2891	1
+Matt	1291	Sound	12	32249312	275	1			260		other	0
+Matt	1292	Sound	13	32266311	269	1			260		other	0
+Matt	1293	Sound	13	32287975	260	1			260		other	0
+Matt	1294	Sound	14	32310981	260	1			260		other	0
+Matt	1295	Sound	24	32330321	260	1			260		other	0
+Matt	1295	Response	1	32333164	3103	1
+Matt	1296	Sound	16	32350326	260	1			260		other	0
+Matt	1297	Sound	23	32373166	260	1			260		other	0
+Matt	1297	Response	1	32376361	3454	1
+Matt	1298	Sound	13	32391838	260	1			260		other	0
+Matt	1299	Sound	11	32417179	260	1			260		other	0
+Matt	1300	Sound	17	32433017	260	1			260		other	0
