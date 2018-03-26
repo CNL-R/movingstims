@@ -33,7 +33,7 @@ for i = 1:size(id,2)
 end
 
 erpPlot = squeeze(mean(ERPavg,1));
-erpErr = squeeze(std(ERPavg,1))/sqrt(16); %16=number of subjects. do change accordingly.
+erpErr = squeeze(std(ERPavg,1))/sqrt(4); %16=number of subjects. do change accordingly.
 
 for i = 1:length(chanlocs)
     chans{i} = chanlocs(i).labels;
@@ -41,15 +41,16 @@ end
 
 %% Plot function #1 - New figure for each channel, n-conditions on plot.
 trange = [-50 300];
-
-electrodes = {'B18'};
+%{'A3' 'A6' 'H2' 'H23'}
+electrodes = {'H23'};
 
 for i = 1:length(electrodes)
     es(i) = find(strcmp(electrodes{i},chans));
 end
 
-% conds = [4,11]; %LOW
-% conds = [7,12]; %MED
+conds = [7,8,9]; %AV-A,V,AV
+%conds = [4,11]; %LOW
+%conds = [7,12]; %MED
 %conds = [10,13]; %HIGH
 % condLabels = {'AVL','AL + VL'}; %LOW
 %condLabels = {'AVM','AM + VM'}; %MED
