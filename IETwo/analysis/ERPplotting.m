@@ -156,18 +156,18 @@ axarray = {chan1_ax chan2_ax chan3_ax chan4_ax chan5_ax chan6_ax chan7_ax chan8_
 set(gcf,'color','w');
 
 for h = 1:size(id,2)
-for i = 1:length(electrodes)
-    for j = 1:(length(conds))
-        patch(axarray{i},[t fliplr(t)],[squeeze(erpPlot(conds(j),es(i),:)+erpErr(conds(j),es(i),:))' fliplr(squeeze(erpPlot(conds(j),es(i),:)-erpErr(conds(j),es(i),:))')],[0.8 0.8 0.8],'Edgecolor','none','FaceAlpha',0.4);hold on;
-        plot(axarray{i},t,squeeze(erpPlot(conds(j),es(i),:)),'LineWidth',1); hold on;
-        plot(axarray{i},[0,0],ys,'--k')
-    end
+    for i = 1:length(electrodes)
+        for j = 1:(length(conds))
+            patch(axarray{i},[t fliplr(t)],[squeeze(erpPlot(conds(j),es(i),:)+erpErr(conds(j),es(i),:))' fliplr(squeeze(erpPlot(conds(j),es(i),:)-erpErr(conds(j),es(i),:))')],[0.8 0.8 0.8],'Edgecolor','none','FaceAlpha',0.4);hold on;
+            plot(axarray{i},t,squeeze(erpPlot(conds(j),es(i),:)),'LineWidth',1); hold on;
+            plot(axarray{i},[0,0],ys,'--k')
+        end
         %plot(axarray{i},t,squeeze(erpPlot(conds(3),es(i),:)),'LineWidth',1); hold on;
         %plot(axarray{i},[0,0],ys,'--k')
         set(axarray{i},'layer','bottom','ylim',ys,'xlim',trange)
         text(axarray{i},mean(trange),ys(2),electrodes{i},'horizontalalignment','center','verticalalignment','top','fontweight','bold')
+    end
 end
-
 
 %% Plot function #3 - One figure four channels, n-conditions on plot.
 trange = [-100 350];
