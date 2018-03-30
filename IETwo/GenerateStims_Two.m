@@ -1,7 +1,8 @@
 %To be ran after InitialProcess
 addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
-basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Matt_stims';
+%basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Matt_stims';
+basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\Eric_stims';
 
 intensities_aud = [aud30 aud60 aud90]; %aud30 aud60 and aud90 come from InitialProcess.m 
 
@@ -126,6 +127,7 @@ for m = 1:size(intensities_vis, 2)
         im = imshow(grating);
         im.CDataMapping = 'scaled';
         im.AlphaData = gaussring.*fudge;
+        print(strcat(folderdir,'\annulus_',num2str(n-1)),'-dsvg')
         
         final = getframe(gca);
         imageout = final.cdata;
@@ -134,6 +136,7 @@ for m = 1:size(intensities_vis, 2)
         %axis('square'); box off; axis off;
         %print(strcat('annulus_',num2str(n-1)), '-dbmp');
         imwrite(imageout,strcat(folderdir,'\annulus_',num2str(n-1),'.bmp'),'bmp')
+        
         close
         clear final
     end

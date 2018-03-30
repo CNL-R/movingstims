@@ -70,7 +70,7 @@ hold on;
 plot(intensities, detection(2,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Visual');
-
+%print('Allen','-dsvg')
 %% Save Figs
 savedestination = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\plots';
 participant = cond.subject{1};
