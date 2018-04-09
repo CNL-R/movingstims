@@ -108,8 +108,8 @@ trial {
 	stimulus_event {
 		picture pic;
 	} av_vis_evt;
-
 } av_trl;
+
 text { caption = "Take a short break, press the '1' button when you are ready to proceed"; font_size = 20; font_color = 0,255,255;
 } breaktxt;
 text { caption = "a"; font_size = 20; font_color = 0,255,255;
@@ -157,15 +157,18 @@ fixcross.set_formatted_text(true);
 fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
-int nstims = 3;
-int nreps = 17;
+int nstims = 4;
+#int nreps = 17;
+int nreps = 1;
 int isi;
 int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-blockorder.shuffle();
+#array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
+array<int> blockorder[] = {1,2,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
+
+#blockorder.shuffle();
 
 loop
 	int blocknum = 0;
@@ -226,10 +229,15 @@ begin
 				a_aud_evt.set_port_code(whichstim[j] + 10);		
 				a_aud_evt.set_stimulus(aud_2);
 				a_trl.present();
-			else
+			elseif whichstim[j] == 3 then
 				a_aud_evt.set_event_code(string(whichstim[j] + 10));
 				a_aud_evt.set_port_code(whichstim[j] + 10);	
 				a_aud_evt.set_stimulus(aud_3);
+				a_trl.present();
+			else
+				a_aud_evt.set_event_code(string(0));
+				a_aud_evt.set_port_code(0);	
+				a_aud_evt.set_stimulus(aud_0);
 				a_trl.present();
 			end;
 			
@@ -322,6 +330,25 @@ begin
 						i = i +1;
 					end;
 				end;
+				
+				else
+				v_aud_evt.set_event_code(string(0));
+				v_aud_evt.set_port_code(0);		
+				loop
+					int i = 1;
+				until i == 4 begin
+					if i == 1 then
+						flex = random(1,150);
+						pic.set_part(1,bmps_noise[flex]);
+						pic.present();
+						i = i + 1;
+					else
+						flex = random(1,150);
+						pic.set_part(1,bmps_noise[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
 			end;
 			term.print_line(nstims*nreps-j);
 			j = j +1;
@@ -398,7 +425,7 @@ begin
 						i = i +1;
 					end;
 				end;
-			else 	
+			elseif whichstim[j] == 3 then
 				loop
 					int i = 1;
 				until i == 4 begin
@@ -414,6 +441,25 @@ begin
 						pic.present();
 						i = i +1;
 					end;
+				end; 
+			else 
+				loop
+					int i = 1;
+				until i == 4 begin
+					if i == 1 then
+						av_aud_evt.set_event_code(string(0));
+						av_aud_evt.set_port_code(0);	
+						av_aud_evt.set_stimulus(aud_0);
+						flex = random(1,150);
+						pic.set_part(1,bmps_noise[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,150);
+						pic.set_part(1,bmps_noise[flex]);
+						pic.present();
+						i = i +1;
+					end;					
 				end;				
 			end;
 			term.print_line(nstims*nreps-j);
