@@ -1,6 +1,6 @@
 %% Auditory Stimuli
 min = 0.01;
-max = 0.1;
+max = 0.075;
 
 intensities = GenerateParameters(min, max);
 
@@ -143,17 +143,17 @@ for m = 1:size(intensities, 2)
     end
 end
 
-%% Visual Noise
-basedir = 'C:\Users\lhshaw\Desktop\movingstims\IESweep\stims\vis_noise';
-numnoises = 200;
-%size of complete stimulus output (in pixels)
-% sizex = 1024;
-% sizey = 1024;
-sizex = 683;
-sizey = 683;
-for m = 1:numnoises
-    noise = rand(sizex,sizey);
-    imwrite(noise,strcat(basedir,'\annulus_',num2str(m-1),'.bmp'),'bmp')
-    close
-    clear final
-end
+% %% Visual Noise
+% basedir = 'C:\Users\lhshaw\Desktop\movingstims\IESweep\stims\vis_noise';
+% numnoises = 200;
+% %size of complete stimulus output (in pixels)
+% % sizex = 1024;
+% % sizey = 1024;
+% sizex = 683;
+% sizey = 683;
+% for m = 1:numnoises
+%     noise = rand(sizex,sizey);
+%     imwrite(noise,strcat(basedir,'\annulus_',num2str(m-1),'.bmp'),'bmp')
+%     close
+%     clear final
+% end

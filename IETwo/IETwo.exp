@@ -15,12 +15,12 @@
 </con>
 <dbi></dbi>
 <dbs>button</dbs>
-<ddi>1</ddi>
+<ddi>0</ddi>
 <dds>
 <icm_profile></icm_profile>
 <use_icm>0</use_icm>
 </dds>
-<ddv>NVIDIA GeForce GTX 750 Ti</ddv>
+<ddv>Primary Display Driver</ddv>
 <depchg>1</depchg>
 <discard_windows_messages>0</discard_windows_messages>
 <display_status_window>1</display_status_window>
@@ -241,6 +241,11 @@
 <name>HID Keyboard Device</name>
 </device>
 <device>
+<device_type>3</device_type>
+<dx_device_type>0</dx_device_type>
+<name>HID Keyboard Device 1</name>
+</device>
+<device>
 <abs_axis>
 <dead_zone>0</dead_zone>
 <max>1000</max>
@@ -324,6 +329,16 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Dell KB216 Wired Keyboard 1</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>Dell KB216 Wired Keyboard 2</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>Dell KB216 Wired Keyboard 3</name>
 </device>
 <device>
 <axis>
@@ -454,7 +469,7 @@
 <sde>
 <buffer_length>2000</buffer_length>
 <custom_buf>primary</custom_buf>
-<default>0</default>
+<default>1</default>
 <dup_channels>1</dup_channels>
 <ex_period>10</ex_period>
 <halt_on_underrun>0</halt_on_underrun>
@@ -466,7 +481,7 @@
 <side_speakers>1</side_speakers>
 <use_rewind_distance>0</use_rewind_distance>
 </sde>
-<sdv>Speakers (Sound Blaster Audigy 5/Rx)</sdv>
+<sdv>Primary Sound Driver</sdv>
 <show_dis>0</show_dis>
 <show_parm>0</show_parm>
 <show_term>1</show_term>
