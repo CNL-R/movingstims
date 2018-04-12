@@ -158,17 +158,16 @@ fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
 int nstims = 4;
-#int nreps = 17;
-int nreps = 1;
+int nreps = 17;
 int isi;
 int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-#array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-array<int> blockorder[] = {1,2,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
+array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
 
-#blockorder.shuffle();
+
+blockorder.shuffle();
 
 loop
 	int blocknum = 0;
