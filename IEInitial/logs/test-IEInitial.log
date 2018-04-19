@@ -1,0 +1,17 @@
+Scenario - 
+Logfile written - 04/16/2018 14:19:55
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+test	1	Response	255	106426	106093	1
+test	2	Sound	113	180914	267	1			260		other	0
+test	2	Response	1	185224	4577	1
+test	3	Sound	110	203914	260	1			260		other	0
+test	3	Response	1	207543	3889	1
+test	4	Sound	101	219419	260	1			260		other	0
+test	5	Sound	107	235091	260	1			260		other	0
+test	6	Sound	106	258266	260	1			260		other	0
+test	7	Sound	108	279273	260	1			260		other	0
+test	8	Sound	103	306282	260	1			260		other	0
+test	9	Sound	108	333624	260	1			260		other	0
+test	9	Quit		361703	28338	NA

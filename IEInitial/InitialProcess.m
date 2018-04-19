@@ -9,7 +9,7 @@ addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
 %Define your event codes and each respective intensity value
 Aconds = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26];
-intensities = [0 0.0050 0.0100 0.0181 0.0262 0.0303 0.0344 0.0384 0.0425 0.0466 0.0506 0.0547 0.0587 0.0669 0.0750 0.3000;
+intensities = [0 0.0050 0.0100 0.0181 0.0262 0.0303 0.0344 0.0384 0.0425 0.0466 0.0506 0.0547 0.0587 0.0669 0.0750 0.3000];
 
 %Loading log file 
 [filename, path] = uigetfile('C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\logs\*.log','Please select which AUDITORY .log file to analyze');
