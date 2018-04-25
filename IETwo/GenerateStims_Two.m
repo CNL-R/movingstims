@@ -1,7 +1,7 @@
 %To be ran after InitialProcess.m
 addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
-%basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Matt_stims';
+%basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\SUBJECTID_stims';
 basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Allen_stims';
 
 intensities_aud = [aud30 aud60 aud90]; %aud30 aud60 and aud90 come from InitialProcess.m 
