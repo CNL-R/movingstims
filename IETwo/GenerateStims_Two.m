@@ -1,14 +1,14 @@
-%To be ran after InitialProcess
+%To be ran after InitialProcess.m
 addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
 %basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Matt_stims';
-basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\Eric_stims';
+basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Allen_stims';
 
 intensities_aud = [aud30 aud60 aud90]; %aud30 aud60 and aud90 come from InitialProcess.m 
 
 Hz = 1000;
 refreshRate = 60; %in Hz
-frames = 4;
+frames = 4; %duration of stimuli in frames
 Ttime = (1/refreshRate) * frames; %Duration of sound (seconds)
 Fs = 44100;
 timeVec = (1/Fs:1/Fs:Ttime);

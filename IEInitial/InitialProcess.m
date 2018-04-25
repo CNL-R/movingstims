@@ -1,34 +1,36 @@
 %Plotter for A & V Initial Psych Curves. Be sure to ctrl+enter instead of
-%just hitting run unless you want data files to be accidentally
-%overwritten! 
-%I - Plotter
+%just hitting run unless you want to save the data! (Be careful of
+%overwriting)
+
 %% A & V Psychometric Plotting
+%IF YOU'VE CHANGED the intensity values from what is normally used in the
+%experiment change the intensities variables! 
 addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
 %AUDITORY PLOTTER
 
 %Define your event codes and each respective intensity value
 Aconds = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26];
-intensities = [0 0.0050 0.0100 0.0181 0.0262 0.0303 0.0344 0.0384 0.0425 0.0466 0.0506 0.0547 0.0587 0.0669 0.0750 0.3000];
+intensities = [0 0.0050 0.0100 0.0181 0.0262 0.0303 0.0344 0.0384 0.0425 0.0466 0.0506 0.0547 0.0587 0.0669 0.0750 0.3000]; %%CHANGE THIS if you change the stim intensities
 
 %Loading log file 
 [filename, path] = uigetfile('C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\logs\*.log','Please select which AUDITORY .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %Mining your log file
-block = cond.code;                                          %block is a cell array
-tempblock = [];                                             %converting block to a double array
+block = cond.code;                                                         %block is a cell array
+tempblock = [];                                                            %converting block to a double array
 for i = 1:size(block)                                       
     tempblock = [tempblock str2num(cell2mat(block(i)))];
 end 
 block = tempblock;
-block(end) = 0; 
+block(end) = 0;                                                            %sometimes the end of the block array is a nondouble, so we make it 0 to prevent errors
 
-numberhits = zeros(2,numel(Aconds));                         %initializing arrays for: holding number of hits, intances and detection rate
-numberstims = zeros(2,numel(Aconds));                        %   for each stimuli
+numberhits = zeros(2,numel(Aconds));                                       %initializing arrays for: holding number of hits, instances and detection rate
+numberstims = zeros(2,numel(Aconds));                                      %   for each stimuli
 detection = zeros(2,numel(Aconds));
-for i = 1:numel(Aconds)                                      %looping through each condition: finding number of hits, number of instances of that stimuli
-    stimIndcs = find(block==Aconds(i));                      %   and dividng for the detection rate
+for i = 1:numel(Aconds)                                                    %looping through each condition: finding number of hits, number of instances of that stimuli
+    stimIndcs = find(block==Aconds(i));                                    %   and dividng for the detection rate
     responses = block(stimIndcs+1);
     numberhits(1,i) = numel(find(responses==1));
     numberstims(1,i) = numel(stimIndcs);
@@ -36,7 +38,7 @@ end
 detection(1,:) = numberhits(1,:) ./ numberstims(1,:);
 fig = figure;
 subplot(2,1,1);
-[param_aud, stat_aud] = sigm_fit(intensities, detection(1,:), [], [], 1);
+[param_aud, stat_aud] = sigm_fit(intensities, detection(1,:), [], [], 1);  %sigmoid fitting function
 hold on;
 plot(intensities, detection(1,:),'Marker','o');
 set(gca,'ylim',[0 1]);
@@ -77,13 +79,13 @@ participant = cond.subject{1};
 savefig(fig, strcat(savedestination, '\', participant, '_initial.fig'));
 saveas(fig, strcat(savedestination, '\', participant, '_initial.png'));
 
-%% Pulling out 30-60-90
+%% Calculating 30-60-90
 x = 0:0.00001:1;
 audOutput = sigm_fit_val(param_aud, x);
 visOutput = sigm_fit_val(param_vis, x);
 
-aud30greater = find(audOutput>=.3);
-aud30 = aud30greater(1) * .00001
+aud30greater = find(audOutput>=.3);                                        %All elements greater than 0.3 in audOutput
+aud30 = aud30greater(1) * .00001                                           %The first element of aud30greater is the smallest element greater or equal to 0.3
 aud60greater = find(audOutput>=.6);
 aud60 = aud60greater(1) * .00001
 aud90greater = find(audOutput>=.9);

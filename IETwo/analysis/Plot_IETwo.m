@@ -109,3 +109,5 @@ title('Audiovisual');
 
  
  % notes - code could be written to be more efficient, but currently works.
+ %  code currently reloads the log file for every modality. It could just
+ %  do it once and reuse that variable...

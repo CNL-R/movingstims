@@ -1,12 +1,12 @@
 %% Auditory Stimuli
-min = 0.01;
-max = 0.075;
+min = 0.01;                                                                %The range of stimuli that you want generated
+max = 0.075;                                                               
 
-intensities = GenerateParameters(min, max);
+intensities = GenerateParameters(min, max);                                %Generates stims in the range of 0 --> min --> ... --> max --> 0.3
 
 Hz = 1000;
 refreshRate = 60; %in Hz
-frames = 4;
+frames = 4; %length of stimuli in frames
 Ttime = (1/refreshRate) * frames; %Duration of sound (seconds)
 Fs = 44100;
 timeVec = (1/Fs:1/Fs:Ttime);

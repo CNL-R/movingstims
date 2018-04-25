@@ -34,7 +34,7 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Matt_stims</dsd>
+<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Allen_stims</dsd>
 <dxv>8</dxv>
 <efs>
 <filename>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\IETwo.sce</filename>
@@ -288,39 +288,6 @@
 <name>HID-compliant mouse</name>
 </device>
 <device>
-<axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>X Axis</name>
-<saturation>1</saturation>
-</axis>
-<axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>Y Axis</name>
-<saturation>1</saturation>
-</axis>
-<axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>Z Axis</name>
-<saturation>1</saturation>
-</axis>
-<axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>Z Rotation</name>
-<saturation>1</saturation>
-</axis>
-<device_type>1</device_type>
-<dx_device_type>20</dx_device_type>
-<name>Generic   USB  Joystick  </name>
-</device>
-<device>
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Dell KB216 Wired Keyboard</name>
@@ -407,35 +374,9 @@
 <rng>1</rng>
 <rts>1</rts>
 <sce>
-<idv>
-<device_type>1</device_type>
-<dx_device_type>20</dx_device_type>
-<ibn>Button 2</ibn>
-<ibn>Button 0</ibn>
-<idn>Generic   USB  Joystick  </idn>
-<index>0</index>
-<index>1</index>
-<label></label>
-<label></label>
-<offset>50</offset>
-<offset>48</offset>
-</idv>
 <sfn>all_scenarios</sfn>
 </sce>
 <sce>
-<idv>
-<device_type>1</device_type>
-<dx_device_type>20</dx_device_type>
-<ibn>Button 2</ibn>
-<ibn>Button 0</ibn>
-<idn>Generic   USB  Joystick  </idn>
-<index>0</index>
-<index>1</index>
-<label></label>
-<label></label>
-<offset>50</offset>
-<offset>48</offset>
-</idv>
 <sfn>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\IETwo.sce</sfn>
 </sce>
 <sct>
