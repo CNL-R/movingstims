@@ -4,7 +4,9 @@ addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 %basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\SUBJECTID_stims';
 basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Allen_stims';
 
-intensities_aud = [aud30 aud60 aud90]; %aud30 aud60 and aud90 come from InitialProcess.m 
+supra = 0.3;
+
+intensities_aud = [aud30 aud60 supra]; %aud30 aud60 and supra come from InitialProcess.m 
 
 Hz = 1000;
 refreshRate = 60; %in Hz
@@ -41,7 +43,7 @@ for i = 1:size(intensities_aud,2)
     audiowrite(strcat(basedir,'\',filename),waveprod,Fs);
 end 
 
-intensities_vis = [vis30 vis60 vis90];
+intensities_vis = [vis30 vis60 supra];
 
 desired_frames = 4;
 

@@ -1,8 +1,10 @@
 %% Auditory Stimuli
-min = 0.01;                                                                %The range of stimuli that you want generated
+min = 0;                                                                %The range of stimuli that you want generated
 max = 0.075;                                                               
+supra = 0.3;
 
-intensities = GenerateParameters(min, max);                                %Generates stims in the range of 0 --> min --> ... --> max --> 0.3
+%intensities = GenerateParameters(min, max);                                %Generates stims in the range of 0 --> min --> ... --> max --> 0.3
+intensities = [linspace(min,max,11) supra];
 
 Hz = 1000;
 refreshRate = 60; %in Hz
@@ -40,10 +42,11 @@ for i = 1:size(intensities,2)
 end 
 
 %% Visual Stimuli
-min = 0.01;
+min = .025;
 max = 0.1;
+supra = 0.3;
 
-intensities = GenerateParameters(min, max);
+intensities = [0 linspace(min,max,10) supra];
 
 
 desired_frames = 4;
