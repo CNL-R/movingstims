@@ -234,8 +234,8 @@ begin
 				a_aud_evt.set_stimulus(aud_3);
 				a_trl.present();
 			else
-				a_aud_evt.set_event_code(string(0));
-				a_aud_evt.set_port_code(0);	
+				a_aud_evt.set_event_code(string(10));
+				a_aud_evt.set_port_code(0 + 10);	
 				a_aud_evt.set_stimulus(aud_0);
 				a_trl.present();
 			end;
@@ -331,8 +331,8 @@ begin
 				end;
 				
 				else
-				v_aud_evt.set_event_code(string(0));
-				v_aud_evt.set_port_code(0);		
+				v_aud_evt.set_event_code(string(20));
+				v_aud_evt.set_port_code(0 + 20);		
 				loop
 					int i = 1;
 				until i == 4 begin
@@ -446,8 +446,8 @@ begin
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
-						av_aud_evt.set_event_code(string(0));
-						av_aud_evt.set_port_code(0);	
+						av_aud_evt.set_event_code(string(0 + 30));
+						av_aud_evt.set_port_code(0 + 30);	
 						av_aud_evt.set_stimulus(aud_0);
 						flex = random(1,150);
 						pic.set_part(1,bmps_noise[flex]);

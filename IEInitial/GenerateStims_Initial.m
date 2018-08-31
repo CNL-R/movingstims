@@ -51,7 +51,7 @@ intensities = [0 linspace(min,max,10) supra];
 
 desired_frames = 4;
 
-basedir = 'C:\Users\lhshaw\Desktop\Allen\movingstims\IEInitial\stims';
+basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\stims';
 for m = 1:size(intensities, 2)
     foldername = ['vis_' num2str(m)];
     status = mkdir(basedir, foldername);

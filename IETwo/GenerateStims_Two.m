@@ -6,10 +6,10 @@ basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Allen_stims';
 
 supra = 0.3;
 
-intensities_aud = [aud30 aud60 supra]; %aud30 aud60 and supra come from InitialProcess.m 
+intensities_aud = [aud25 aud50 supra]; %aud25 aud50 and supra come from InitialProcess.m 
 
 Hz = 1000;
-refreshRate = 60; %in Hz
+refreshRate = 50; %in Hz
 frames = 4; %duration of stimuli in frames
 Ttime = (1/refreshRate) * frames; %Duration of sound (seconds)
 Fs = 44100;
@@ -43,7 +43,7 @@ for i = 1:size(intensities_aud,2)
     audiowrite(strcat(basedir,'\',filename),waveprod,Fs);
 end 
 
-intensities_vis = [vis30 vis60 supra];
+intensities_vis = [vis25 vis50 supra];
 
 desired_frames = 4;
 
@@ -103,7 +103,7 @@ for m = 1:size(intensities_vis, 2)
         X0 = 1:Gabor_Diameter;
         X0 = (X0 / Gabor_Diameter) - .5;
         [Xm, Ym] = meshgrid(X0, X0);
-        Lambda = 60;
+        Lambda = 50;
         theta = 90;
         Xt = Xm * cos(theta);
         Yt = Ym * sin(theta);

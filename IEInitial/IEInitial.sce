@@ -93,33 +93,6 @@ array {
 } bmps_12;
 
 array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_13/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_13;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_14/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_14;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_15/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_15;
-
-array {
-   LOOP $i 4;
-   $k = '$i + 1';
-   bitmap { filename = "vis_16/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_16;
-array {
    LOOP $i 150;
    $k = '$i + 1';
    bitmap { filename = "vis_noise/annulus_$i.bmp"; };
@@ -146,10 +119,6 @@ wavefile {filename = "aud_9.wav"; preload = true;} tone_9;
 wavefile {filename = "aud_10.wav"; preload = true;} tone_10;
 wavefile {filename = "aud_11.wav"; preload = true;} tone_11;
 wavefile {filename = "aud_12.wav"; preload = true;} tone_12;
-wavefile {filename = "aud_13.wav"; preload = true;} tone_13;
-wavefile {filename = "aud_14.wav"; preload = true;} tone_14;
-wavefile {filename = "aud_15.wav"; preload = true;} tone_15;
-wavefile {filename = "aud_16.wav"; preload = true;} tone_16;
 
 wavefile {filename = "PinkNoise.wav"; preload = true;} isi_noise;
 wavefile {filename = "silence1000.wav"; preload = true;} isi_silence;
@@ -166,10 +135,6 @@ sound { wavefile tone_9;} aud_9;
 sound { wavefile tone_10;} aud_10;
 sound { wavefile tone_11;} aud_11;
 sound { wavefile tone_12;} aud_12;
-sound { wavefile tone_13;} aud_13;
-sound { wavefile tone_14;} aud_14;
-sound { wavefile tone_15;} aud_15;
-sound { wavefile tone_16;} aud_16;
 
 sound { wavefile isi_noise; loop_playback = true;} isi_aud;
 sound { wavefile isi_silence; loop_playback = true;} isi_vis;
@@ -248,7 +213,7 @@ fixcross.set_formatted_text(true);
 fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
-int nstims = 16;
+int nstims = 12;
 int nreps = 4;
 int isi;
 int isi_frames;
@@ -366,27 +331,6 @@ begin
 				a_aud_evt.set_event_code(string(whichstim[j] + 10));
 				a_aud_evt.set_port_code(whichstim[j] + 10);			
 				a_aud_evt.set_stimulus(aud_12);
-				a_trl.present();
-			elseif whichstim[j] == 13 then
-				a_aud_evt.set_event_code(string(whichstim[j] + 10));
-				a_aud_evt.set_port_code(whichstim[j] + 10);	
-				a_aud_evt.set_stimulus(aud_13);
-				a_trl.present();
-			elseif whichstim[j] == 14 then
-				a_aud_evt.set_event_code(string(whichstim[j] + 10));
-				a_aud_evt.set_port_code(whichstim[j] + 10);	
-				a_aud_evt.set_stimulus(aud_14);
-				a_trl.present();
-				
-			elseif whichstim[j] == 15 then
-				a_aud_evt.set_event_code(string(whichstim[j] + 10));
-				a_aud_evt.set_port_code(whichstim[j] + 10);	
-				a_aud_evt.set_stimulus(aud_15);
-				a_trl.present();	
-			else 
-				a_aud_evt.set_event_code(string(whichstim[j] + 10));
-				a_aud_evt.set_port_code(whichstim[j] + 10);	
-				a_aud_evt.set_stimulus(aud_16);
 				a_trl.present();
 			end;
 			
@@ -622,72 +566,7 @@ begin
 						pic.present();
 						i = i +1;
 					end;
-				end;
-			elseif whichstim[j] == 13 then
-				v_aud_evt.set_event_code(string(whichstim[j] + 100));
-				v_aud_evt.set_port_code(whichstim[j] + 100);		
-				loop
-					int i = 1
-				until i == 4 begin
-					if i == 1 then
-						pic.set_part(1,bmps_13[i]);
-						v_trl.present();
-						i = i + 1;
-					else
-						pic.set_part(1,bmps_13[i]);
-						pic.present();
-						i = i +1;
-					end;
-				end;
-				
-			elseif whichstim[j] == 14 then
-				v_aud_evt.set_event_code(string(whichstim[j] + 100));
-				v_aud_evt.set_port_code(whichstim[j] + 100);		
-				loop
-					int i = 1
-				until i == 4 begin
-					if i == 1 then
-						pic.set_part(1,bmps_14[i]);
-						v_trl.present();
-						i = i + 1;
-					else
-						pic.set_part(1,bmps_14[i]);
-						pic.present();
-						i = i +1;
-					end;
-				end;
-			elseif whichstim[j] == 15 then
-				v_aud_evt.set_event_code(string(whichstim[j] + 100));
-				v_aud_evt.set_port_code(whichstim[j] + 100);		
-				loop
-					int i = 1
-				until i == 4 begin
-					if i == 1 then
-						pic.set_part(1,bmps_15[i]);
-						v_trl.present();
-						i = i + 1;
-					else
-						pic.set_part(1,bmps_15[i]);
-						pic.present();
-						i = i +1;
-					end;
-				end;
-			else 
-				v_aud_evt.set_event_code(string(whichstim[j] + 100));
-				v_aud_evt.set_port_code(whichstim[j] + 100);		
-				loop
-					int i = 1
-				until i == 4 begin
-					if i == 1 then
-						pic.set_part(1,bmps_16[i]);
-						v_trl.present();
-						i = i + 1;
-					else
-						pic.set_part(1,bmps_16[i]);
-						pic.present();
-						i = i +1;
-					end;
-				end;
+				end 
 			end;			
 			term.print_line(nstims*nreps-j);
 			j = j +1;

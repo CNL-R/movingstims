@@ -14,7 +14,7 @@ addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
 %Define your event codes and each respective intensity value
 Aconds = [11,12,13];
-intensities = [.3 .6 .9];
+intensities = [.25 .5 1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array
