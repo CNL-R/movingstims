@@ -48,7 +48,7 @@ title('Auditory')
 
 %Define your event codes and each respective intensity value
 Vconds = [21,22,23];
-intensities = [.3 .6 .9];
+intensities = [.25 .5 1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array that contains all codes from the experiment
@@ -77,7 +77,7 @@ title('Visual');
 
 %Define your event codes and each respective intensity value
 AVconds = [31,32,33];
-intensities = [0.3 .6 .9];
+intensities = [0.25 .5 1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array

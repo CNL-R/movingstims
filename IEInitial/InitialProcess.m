@@ -10,7 +10,7 @@ addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 %AUDITORY PLOTTER
 
 %Define your event codes and each respective intensity value
-Aconds = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26];
+Aconds = [11,12,13,14,15,16,17,18,19,20,21,22];
 intensities = [0,0.0075,0.015,0.0225,0.03,0.0375,0.045,0.0525,0.06,0.0675,0.075,0.3]; %%CHANGE THIS if you change the stim intensities
 
 %Loading log file 
@@ -47,7 +47,7 @@ title('Auditory')
 %VISUAL PLOTTING
 
 %Define your event codes and each respective intensity value
-Vconds = [101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116];
+Vconds = [101,102,103,104,105,106,107,108,109,110,111,112];
 intensities = [0,0.0250000000000000,0.0333333333333333,0.0416666666666667,0.0500000000000000,0.0583333333333333,0.0666666666666667,0.0750000000000000,0.0833333333333333,0.0916666666666667,0.100000000000000,0.300000000000000];
 
 %Mining your log file
