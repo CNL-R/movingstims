@@ -13,8 +13,8 @@ addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 %AUDITORY PLOTTING
 
 %Define your event codes and each respective intensity value
-Aconds = [11,12,13];
-intensities = [.25 .5 1];
+Aconds = [10,11,12,13];
+intensities = [0 .25 .5 1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array
@@ -47,8 +47,8 @@ title('Auditory')
 %VISUAL PLOTTING
 
 %Define your event codes and each respective intensity value
-Vconds = [21,22,23];
-intensities = [.25 .5 1];
+Vconds = [20,21,22,23];
+intensities = [0 .25 .5 1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array that contains all codes from the experiment
@@ -76,8 +76,8 @@ title('Visual');
 %AUDIOVISUAL PLOTTING
 
 %Define your event codes and each respective intensity value
-AVconds = [31,32,33];
-intensities = [0.25 .5 1];
+AVconds = [30,31,32,33];
+intensities = [0 0.25 .5 1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array

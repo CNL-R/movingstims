@@ -164,8 +164,8 @@ int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-
+#array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
+array<int> blockorder[] = {2};
 
 blockorder.shuffle();
 
@@ -271,6 +271,8 @@ begin
 		loop
 			int j = 1
 		until j > nstims*nreps begin
+			term.print_line(whichstim[j]);
+			
 			isi_frames = random(90,168);
 			loop
 				int i = 1;
@@ -329,8 +331,7 @@ begin
 						i = i +1;
 					end;
 				end;
-				
-				else
+			else
 				v_aud_evt.set_event_code(string(20));
 				v_aud_evt.set_port_code(0 + 20);		
 				loop
@@ -339,7 +340,7 @@ begin
 					if i == 1 then
 						flex = random(1,150);
 						pic.set_part(1,bmps_noise[flex]);
-						pic.present();
+						v_trl.present();
 						i = i + 1;
 					else
 						flex = random(1,150);
