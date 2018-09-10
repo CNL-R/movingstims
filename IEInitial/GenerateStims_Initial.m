@@ -49,7 +49,7 @@ supra = 0.3;
 intensities = [0 linspace(min,max,10) supra];
 
 
-desired_frames = 4;
+desired_frames = 50;
 
 basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\stims';
 for m = 1:size(intensities, 2)
