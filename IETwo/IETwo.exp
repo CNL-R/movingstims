@@ -15,12 +15,12 @@
 </con>
 <dbi></dbi>
 <dbs>button</dbs>
-<ddi>0</ddi>
+<ddi>1</ddi>
 <dds>
 <icm_profile></icm_profile>
 <use_icm>0</use_icm>
 </dds>
-<ddv>Primary Display Driver</ddv>
+<ddv>NVIDIA GeForce GTX 750 Ti</ddv>
 <depchg>1</depchg>
 <discard_windows_messages>0</discard_windows_messages>
 <display_status_window>1</display_status_window>
@@ -34,7 +34,7 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\</dsd>
+<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Test_stims</dsd>
 <dxv>8</dxv>
 <efs>
 <filename>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\IETwo.sce</filename>
@@ -454,7 +454,7 @@
 <sde>
 <buffer_length>2000</buffer_length>
 <custom_buf>primary</custom_buf>
-<default>1</default>
+<default>0</default>
 <dup_channels>1</dup_channels>
 <ex_period>10</ex_period>
 <halt_on_underrun>0</halt_on_underrun>
@@ -466,7 +466,7 @@
 <side_speakers>1</side_speakers>
 <use_rewind_distance>0</use_rewind_distance>
 </sde>
-<sdv>Primary Sound Driver</sdv>
+<sdv>SPDIF Out (Sound Blaster Audigy 5/Rx)</sdv>
 <show_dis>0</show_dis>
 <show_parm>0</show_parm>
 <show_term>1</show_term>

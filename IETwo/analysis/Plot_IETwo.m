@@ -57,6 +57,7 @@ for i = 1:size(block)
     tempblock = [tempblock str2num(cell2mat(block(i)))]; 
 end 
 block = tempblock;
+block = [block 0];
 
 for i = 1:numel(Vconds)                                      %looping through each condition: finding number of hits, number of instances of that stimuli
     stimIndcs = find(block==Vconds(i));                      %   and dividng for the detection rate

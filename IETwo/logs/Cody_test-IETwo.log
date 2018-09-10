@@ -1,0 +1,278 @@
+Scenario - 
+Logfile written - 09/10/2018 14:03:57
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Cody_test	1	Response	255	15570	15237	1
+Cody_test	3	Sound	22	96379	260	1			260		other	0
+Cody_test	4	Sound	22	117554	260	1			260		other	0
+Cody_test	4	Response	1	121489	4195	1
+Cody_test	5	Sound	21	139061	260	1			260		other	0
+Cody_test	6	Sound	21	166913	268	1			260		other	0
+Cody_test	7	Sound	22	183912	261	1			260		other	0
+Cody_test	8	Sound	22	208419	260	1			260		other	0
+Cody_test	9	Sound	23	226425	260	1			260		other	0
+Cody_test	9	Response	1	229248	3083	1
+Cody_test	10	Sound	21	251267	260	1			260		other	0
+Cody_test	11	Sound	20	266939	260	1			260		other	0
+Cody_test	12	Sound	23	285779	260	1			260		other	0
+Cody_test	12	Response	1	288608	3088	1
+Cody_test	13	Sound	23	309621	260	1			260		other	0
+Cody_test	13	Response	1	312688	3326	1
+Cody_test	14	Sound	22	337631	260	1			260		other	0
+Cody_test	15	Sound	21	357804	260	1			260		other	0
+Cody_test	16	Sound	22	383980	260	1			260		other	0
+Cody_test	16	Response	1	390207	6487	1
+Cody_test	17	Sound	23	399819	260	1			260		other	0
+Cody_test	17	Response	1	402927	3367	1
+Cody_test	18	Sound	20	423160	260	1			260		other	0
+Cody_test	19	Sound	23	444501	260	1			260		other	0
+Cody_test	19	Response	1	447006	2765	1
+Cody_test	20	Sound	22	471011	260	1			260		other	0
+Cody_test	20	Response	1	476046	5295	1
+Cody_test	21	Sound	22	495019	260	1			260		other	0
+Cody_test	21	Response	1	498366	3607	2
+Cody_test	22	Sound	22	520861	260	1			260		other	0
+Cody_test	22	Response	1	525486	4884	1
+Cody_test	23	Sound	20	543703	260	1			260		other	0
+Cody_test	24	Sound	23	565044	260	1			260		other	0
+Cody_test	24	Response	1	567405	2622	1
+Cody_test	25	Sound	23	582394	271	1			260		other	0
+Cody_test	25	Response	1	585085	2962	1
+Cody_test	26	Sound	22	606224	260	1			260		other	0
+Cody_test	27	Sound	21	630733	260	1			260		other	0
+Cody_test	27	Response	1	635325	4851	1
+Cody_test	28	Sound	20	652908	260	1			260		other	0
+Cody_test	29	Sound	23	677090	267	1			260		other	0
+Cody_test	29	Response	1	680124	3301	1
+Cody_test	30	Sound	21	694422	260	1			260		other	0
+Cody_test	31	Sound	20	715930	260	1			260		other	0
+Cody_test	32	Sound	23	732269	260	1			260		other	0
+Cody_test	32	Response	1	734924	2915	1
+Cody_test	33	Sound	23	748608	260	1			260		other	0
+Cody_test	33	Response	1	751724	3376	1
+Cody_test	34	Sound	20	775785	261	1			260		other	0
+Cody_test	35	Sound	21	797291	260	1			260		other	0
+Cody_test	36	Sound	22	822983	276	1			260		other	0
+Cody_test	36	Response	1	827803	5096	1
+Cody_test	37	Sound	21	840982	269	1			260		other	0
+Cody_test	38	Sound	21	860147	260	1			260		other	0
+Cody_test	39	Sound	20	882655	260	1			260		other	0
+Cody_test	40	Sound	20	899327	260	1			260		other	0
+Cody_test	41	Sound	22	927178	268	1			260		other	0
+Cody_test	41	Response	1	931322	4412	1
+Cody_test	42	Sound	20	949345	260	1			260		other	0
+Cody_test	43	Sound	23	965517	260	1			260		other	0
+Cody_test	43	Response	1	968442	3185	1
+Cody_test	44	Sound	20	981356	260	1			260		other	0
+Cody_test	45	Sound	20	1005698	260	1			260		other	0
+Cody_test	46	Sound	21	1030374	260	1			260		other	0
+Cody_test	47	Sound	23	1056049	260	1			260		other	0
+Cody_test	47	Response	1	1059321	3532	1
+Cody_test	48	Sound	20	1074221	260	1			260		other	0
+Cody_test	49	Sound	22	1094571	268	1			260		other	0
+Cody_test	50	Sound	20	1121572	260	1			260		other	0
+Cody_test	51	Sound	20	1145247	260	1			260		other	0
+Cody_test	52	Sound	23	1162919	260	1			260		other	0
+Cody_test	52	Response	1	1165960	3300	2
+Cody_test	53	Sound	21	1184427	260	1			260		other	0
+Cody_test	54	Sound	22	1203767	260	1			260		other	0
+Cody_test	55	Sound	20	1223274	260	1			260		other	0
+Cody_test	56	Sound	21	1248949	260	1			260		other	0
+Cody_test	57	Sound	23	1270790	260	1			260		other	0
+Cody_test	57	Response	1	1273639	3108	1
+Cody_test	58	Sound	23	1295466	260	1			260		other	0
+Cody_test	58	Response	1	1299399	4193	1
+Cody_test	59	Sound	20	1322475	260	1			260		other	0
+Cody_test	60	Sound	21	1338481	260	1			260		other	0
+Cody_test	61	Sound	22	1365658	261	1			260		other	0
+Cody_test	62	Sound	21	1381996	260	1			260		other	0
+Cody_test	63	Sound	21	1406857	278	1			260		other	0
+Cody_test	64	Sound	23	1424177	260	1			260		other	0
+Cody_test	64	Response	1	1427638	3720	1
+Cody_test	65	Sound	21	1449520	260	1			260		other	0
+Cody_test	66	Sound	20	1469860	260	1			260		other	0
+Cody_test	67	Sound	22	1496203	260	1			260		other	0
+Cody_test	68	Sound	22	1512708	260	1			260		other	0
+Cody_test	69	Sound	21	1541052	260	1			260		other	0
+Cody_test	70	Sound	23	1559558	260	1			260		other	0
+Cody_test	70	Response	1	1562437	3138	1
+Cody_test	72	Response	255	1597796	15243	1
+Cody_test	74	Sound	22	1670445	274	1			260		other	0
+Cody_test	75	Sound	21	1697943	263	1			260		other	0
+Cody_test	76	Sound	21	1724116	260	1			260		other	0
+Cody_test	77	Sound	20	1741289	260	1			260		other	0
+Cody_test	78	Sound	22	1763296	260	1			260		other	0
+Cody_test	79	Sound	21	1781302	260	1			260		other	0
+Cody_test	80	Sound	23	1797975	260	1			260		other	0
+Cody_test	80	Response	1	1802755	5040	1
+Cody_test	81	Sound	20	1817315	260	1			260		other	0
+Cody_test	82	Sound	23	1840837	274	1			260		other	0
+Cody_test	83	Sound	23	1858336	267	1			260		other	0
+Cody_test	83	Response	1	1861954	3885	1
+Cody_test	84	Sound	21	1882838	260	1			260		other	0
+Cody_test	85	Sound	23	1906013	260	1			260		other	0
+Cody_test	85	Response	1	1910033	4281	1
+Cody_test	86	Sound	21	1928354	260	1			260		other	0
+Cody_test	87	Sound	20	1952032	263	1			260		other	0
+Cody_test	88	Sound	20	1968701	260	1			260		other	0
+Cody_test	89	Sound	22	1991376	260	1			260		other	0
+Cody_test	90	Sound	23	2010383	260	1			260		other	0
+Cody_test	90	Response	1	2015312	5190	1
+Cody_test	91	Sound	23	2027389	260	1			260		other	0
+Cody_test	91	Response	1	2031633	4504	1
+Cody_test	92	Sound	22	2055065	260	1			260		other	0
+Cody_test	93	Sound	23	2075572	260	1			260		other	0
+Cody_test	93	Response	1	2078432	3120	1
+Cody_test	94	Sound	22	2103749	260	1			260		other	0
+Cody_test	95	Sound	21	2130424	260	1			260		other	0
+Cody_test	96	Sound	23	2155267	260	1			260		other	0
+Cody_test	96	Response	1	2158591	3585	1
+Cody_test	97	Sound	20	2172439	260	1			260		other	0
+Cody_test	98	Sound	20	2190779	260	1			260		other	0
+Cody_test	99	Sound	20	2217122	260	1			260		other	0
+Cody_test	100	Sound	23	2237629	260	1			260		other	0
+Cody_test	100	Response	1	2241151	3782	1
+Cody_test	101	Sound	21	2255301	260	1			260		other	0
+Cody_test	102	Sound	22	2277142	260	1			260		other	0
+Cody_test	103	Sound	21	2300817	260	1			260		other	0
+Cody_test	104	Sound	22	2322492	260	1			260		other	0
+Cody_test	105	Sound	20	2338330	260	1			260		other	0
+Cody_test	106	Sound	21	2355337	260	1			260		other	0
+Cody_test	107	Sound	21	2375343	260	1			260		other	0
+Cody_test	108	Sound	22	2394017	260	1			260		other	0
+Cody_test	109	Sound	22	2415191	260	1			260		other	0
+Cody_test	110	Sound	23	2438366	260	1			260		other	0
+Cody_test	110	Response	1	2441069	2963	1
+Cody_test	111	Sound	22	2455371	260	1			260		other	0
+Cody_test	112	Sound	21	2476379	260	1			260		other	0
+Cody_test	113	Sound	20	2493885	260	1			260		other	0
+Cody_test	114	Sound	23	2521228	260	1			260		other	0
+Cody_test	114	Response	1	2524508	3540	1
+Cody_test	115	Sound	23	2546237	260	1			260		other	0
+Cody_test	115	Response	1	2549868	3891	1
+Cody_test	116	Sound	22	2569245	260	1			260		other	0
+Cody_test	117	Sound	22	2597755	260	1			260		other	0
+Cody_test	118	Sound	22	2615928	260	1			260		other	0
+Cody_test	119	Sound	21	2639436	260	1			260		other	0
+Cody_test	120	Sound	21	2657442	260	1			260		other	0
+Cody_test	121	Sound	21	2674448	260	1			260		other	0
+Cody_test	122	Sound	20	2692621	260	1			260		other	0
+Cody_test	123	Sound	23	2720131	260	1			260		other	0
+Cody_test	124	Sound	20	2742639	260	1			260		other	0
+Cody_test	125	Sound	21	2769315	260	1			260		other	0
+Cody_test	126	Sound	23	2785820	260	1			260		other	0
+Cody_test	126	Response	1	2789706	4145	1
+Cody_test	127	Sound	22	2805661	260	1			260		other	0
+Cody_test	128	Sound	23	2834004	260	1			260		other	0
+Cody_test	129	Sound	20	2854011	260	1			260		other	0
+Cody_test	130	Sound	22	2882021	260	1			260		other	0
+Cody_test	131	Sound	23	2910364	260	1			260		other	0
+Cody_test	131	Response	1	2913785	3681	1
+Cody_test	132	Sound	20	2938207	260	1			260		other	0
+Cody_test	133	Sound	21	2960715	260	1			260		other	0
+Cody_test	134	Sound	20	2987058	260	1			260		other	0
+Cody_test	135	Sound	21	3003730	260	1			260		other	0
+Cody_test	136	Sound	22	3023237	260	1			260		other	0
+Cody_test	137	Sound	20	3044082	264	1			260		other	0
+Cody_test	138	Sound	22	3069086	260	1			260		other	0
+Cody_test	139	Sound	23	3092761	260	1			260		other	0
+Cody_test	139	Response	1	3095783	3281	2
+Cody_test	140	Sound	20	3119604	260	1			260		other	0
+Cody_test	141	Sound	20	3145780	260	1			260		other	0
+Cody_test	143	Response	255	3175463	7855	1
+Cody_test	145	Sound	20	3245648	260	1			260		other	0
+Cody_test	146	Sound	23	3271824	260	1			260		other	0
+Cody_test	146	Response	1	3275542	3978	1
+Cody_test	147	Sound	22	3298500	260	1			260		other	0
+Cody_test	148	Sound	21	3314339	260	1			260		other	0
+Cody_test	149	Sound	22	3337347	260	1			260		other	0
+Cody_test	150	Sound	23	3362689	260	1			260		other	0
+Cody_test	150	Response	1	3368581	6152	1
+Cody_test	151	Sound	20	3385697	260	1			260		other	0
+Cody_test	152	Sound	23	3403036	260	1			260		other	0
+Cody_test	152	Response	1	3408581	5804	1
+Cody_test	153	Sound	23	3422210	260	1			260		other	0
+Cody_test	153	Response	1	3425621	3671	1
+Cody_test	154	Sound	21	3443384	260	1			260		other	0
+Cody_test	155	Sound	20	3462224	260	1			260		other	0
+Cody_test	156	Sound	23	3484732	260	1			260		other	0
+Cody_test	156	Response	1	3487860	3388	1
+Cody_test	157	Sound	21	3511908	260	1			260		other	0
+Cody_test	158	Sound	20	3528914	260	1			260		other	0
+Cody_test	159	Sound	22	3555759	262	1			260		other	0
+Cody_test	160	Sound	23	3579265	260	1			260		other	0
+Cody_test	160	Response	1	3582499	3494	1
+Cody_test	161	Sound	20	3602440	260	1			260		other	0
+Cody_test	162	Sound	22	3623113	260	1			260		other	0
+Cody_test	162	Response	1	3628339	5485	1
+Cody_test	163	Sound	22	3643455	261	1			260		other	0
+Cody_test	164	Sound	21	3669797	260	1			260		other	0
+Cody_test	165	Sound	21	3693138	260	1			260		other	0
+Cody_test	166	Sound	20	3709310	260	1			260		other	0
+Cody_test	167	Sound	20	3725316	260	1			260		other	0
+Cody_test	168	Sound	22	3743155	260	1			260		other	0
+Cody_test	169	Sound	21	3771332	260	1			260		other	0
+Cody_test	170	Sound	21	3799175	260	1			260		other	0
+Cody_test	171	Sound	21	3826018	260	1			260		other	0
+Cody_test	172	Sound	20	3851860	260	1			260		other	0
+Cody_test	173	Sound	20	3868045	272	1			260		other	0
+Cody_test	174	Sound	22	3890374	260	1			260		other	0
+Cody_test	175	Sound	23	3910881	260	1			260		other	0
+Cody_test	175	Response	1	3914976	4355	1
+Cody_test	176	Sound	20	3927720	260	1			260		other	0
+Cody_test	177	Sound	21	3944059	260	1			260		other	0
+Cody_test	178	Sound	22	3968901	260	1			260		other	0
+Cody_test	179	Sound	21	3991076	260	1			260		other	0
+Cody_test	180	Sound	23	4017752	260	1			260		other	0
+Cody_test	180	Response	1	4023775	6283	1
+Cody_test	181	Sound	23	4035758	260	1			260		other	0
+Cody_test	181	Response	1	4039215	3717	1
+Cody_test	182	Sound	23	4057436	264	1			260		other	0
+Cody_test	182	Response	1	4061054	3882	1
+Cody_test	183	Sound	22	4076772	260	1			260		other	0
+Cody_test	184	Sound	21	4092778	260	1			260		other	0
+Cody_test	185	Sound	21	4114952	260	1			260		other	0
+Cody_test	186	Sound	23	4132292	260	1			260		other	0
+Cody_test	186	Response	1	4135374	3342	1
+Cody_test	187	Sound	23	4151632	260	1			260		other	0
+Cody_test	187	Response	1	4154814	3442	1
+Cody_test	188	Sound	23	4173473	260	1			260		other	0
+Cody_test	188	Response	1	4176894	3681	1
+Cody_test	189	Sound	21	4197314	260	1			260		other	0
+Cody_test	190	Sound	21	4216829	267	1			260		other	0
+Cody_test	191	Sound	22	4244831	260	1			260		other	0
+Cody_test	192	Sound	23	4263004	260	1			260		other	0
+Cody_test	192	Response	1	4269933	7189	1
+Cody_test	193	Sound	22	4279176	260	1			260		other	0
+Cody_test	194	Sound	21	4302852	260	1			260		other	0
+Cody_test	195	Sound	22	4319857	260	1			260		other	0
+Cody_test	196	Sound	22	4338530	260	1			260		other	0
+Cody_test	197	Sound	22	4367041	260	1			260		other	0
+Cody_test	198	Sound	20	4391382	260	1			260		other	0
+Cody_test	199	Sound	20	4407055	260	1			260		other	0
+Cody_test	200	Sound	23	4428229	260	1			260		other	0
+Cody_test	200	Response	1	4431372	3403	1
+Cody_test	201	Sound	20	4454918	273	1			260		other	0
+Cody_test	202	Sound	21	4471417	267	1			260		other	0
+Cody_test	203	Sound	20	4492918	260	1			260		other	0
+Cody_test	204	Sound	23	4514426	260	1			260		other	0
+Cody_test	204	Response	1	4517851	3685	2
+Cody_test	205	Sound	22	4532265	260	1			260		other	0
+Cody_test	205	Response	1	4537291	5285	1
+Cody_test	206	Sound	20	4556114	267	1			260		other	0
+Cody_test	207	Sound	20	4581949	260	1			260		other	0
+Cody_test	208	Sound	22	4597621	260	1			260		other	0
+Cody_test	208	Response	1	4603930	6569	1
+Cody_test	209	Sound	23	4626131	260	1			260		other	0
+Cody_test	209	Response	1	4629050	3179	1
+Cody_test	210	Sound	22	4646472	260	1			260		other	0
+Cody_test	211	Sound	20	4664478	260	1			260		other	0
+Cody_test	212	Sound	21	4687820	260	1			260		other	0
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	253	1557.15
+1	253	159780
+1	253	317546
+1	253	471465

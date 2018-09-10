@@ -5,88 +5,90 @@ pulse_width = 5;
 active_buttons = 2;
 button_codes = 1, 255;
 no_logfile = false;
+
+stimpoolsize = 50;
 ###############################################################################
 #SDL portion of code
 begin;
 
 # in SDL
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_1/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_1;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_2/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_2;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_3/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_3;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_4/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_4;
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_5/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_5;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_6/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_6;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_7/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_7;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_8/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_8;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_9/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_9;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_10/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_10;
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_11/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_11;
 
 array {
-   LOOP $i 4;
+   LOOP $i stimpoolsize;
    $k = '$i + 1';
    bitmap { filename = "vis_12/annulus_$i.bmp"; };
    ENDLOOP;
@@ -381,11 +383,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_1[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_1[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_1[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_1[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -397,11 +401,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_2[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_2[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_2[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_2[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -413,27 +419,32 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_3[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_3[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_3[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_3[flex]);
 						pic.present();
 						i = i +1;
 					end;
 				end;
 			elseif whichstim[j] == 4 then
+				flex = random(stimpoolsize);
 				v_aud_evt.set_event_code(string(whichstim[j] + 100));
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_4[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_4[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_4[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_4[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -445,11 +456,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_5[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_5[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_5[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_5[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -462,11 +475,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_6[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_6[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_6[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_6[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -478,11 +493,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_7[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_7[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_7[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_7[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -494,11 +511,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_8[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_8[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_8[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_8[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -510,11 +529,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_9[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_9[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_9[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_9[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -526,11 +547,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_10[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_10[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_10[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_10[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -542,11 +565,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_11[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_11[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_11[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_11[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -558,11 +583,13 @@ begin
 					int i = 1
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_12[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_12[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_12[i]);
+						flex = random(stimpoolsize);
+						pic.set_part(1,bmps_12[flex]);
 						pic.present();
 						i = i +1;
 					end;
