@@ -1,8 +1,11 @@
+%9/10/18 Edit - now generates 'desired_frames' frames of visual stimuli for each given
+%intensity value.
+
 %To be ran after InitialProcess.m
 addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
 
 %basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\SUBJECTID_stims';
-basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Cody_stims';
+basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\Test_stims';
 
 supra = 0.3;
 
@@ -45,7 +48,7 @@ end
 
 intensities_vis = [vis25 vis50 supra];
 
-desired_frames = 4;
+desired_frames = 50;
 
 
 for m = 1:size(intensities_vis, 2)
