@@ -11,21 +11,21 @@ begin;
 
 # in SDL
 array {
-   LOOP $i 4;
+   LOOP $i 50;
    $k = '$i + 1';
    bitmap { filename = "vis_1/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_1;
 
 array {
-   LOOP $i 4;
+   LOOP $i 50;
    $k = '$i + 1';
    bitmap { filename = "vis_2/annulus_$i.bmp"; };
    ENDLOOP;
 } bmps_2;
 
 array {
-   LOOP $i 4;
+   LOOP $i 50;
    $k = '$i + 1';
    bitmap { filename = "vis_3/annulus_$i.bmp"; };
    ENDLOOP;
@@ -165,7 +165,7 @@ int flex;
 array<int> whichstim[nstims*nreps];
 
 #array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-array<int> blockorder[] = {2};
+array<int> blockorder[] = {2,2,2};
 
 blockorder.shuffle();
 
@@ -271,8 +271,6 @@ begin
 		loop
 			int j = 1
 		until j > nstims*nreps begin
-			term.print_line(whichstim[j]);
-			
 			isi_frames = random(90,168);
 			loop
 				int i = 1;
@@ -285,16 +283,18 @@ begin
 			
 			if whichstim[j] == 1 then
 				v_aud_evt.set_event_code(string(whichstim[j] + 20));
-				v_aud_evt.set_port_code(whichstim[j] + 20);		
+				v_aud_evt.set_port_code(whichstim[j] + 20);	
 				loop
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_1[i]);
+						flex = random(1,50);	
+						pic.set_part(1,bmps_1[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_1[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_1[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -306,11 +306,13 @@ begin
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_2[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_2[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_2[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_2[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -322,11 +324,13 @@ begin
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
-						pic.set_part(1,bmps_3[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_3[flex]);
 						v_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_3[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_3[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -396,14 +400,16 @@ begin
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
+						flex = random(1,50);
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
 						av_aud_evt.set_port_code(whichstim[j] + 30);	
 						av_aud_evt.set_stimulus(aud_1);
-						pic.set_part(1,bmps_1[i]);
+						pic.set_part(1,bmps_1[flex]);
 						av_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_1[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_1[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -413,14 +419,16 @@ begin
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
+						flex = random(1,50);
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
 						av_aud_evt.set_port_code(whichstim[j] + 30);	
 						av_aud_evt.set_stimulus(aud_2);
-						pic.set_part(1,bmps_2[i]);
+						pic.set_part(1,bmps_2[flex]);
 						av_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_2[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_2[flex]);
 						pic.present();
 						i = i +1;
 					end;
@@ -430,14 +438,16 @@ begin
 					int i = 1;
 				until i == 4 begin
 					if i == 1 then
+						flex = random(1,50);
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
 						av_aud_evt.set_port_code(whichstim[j] + 30);	
 						av_aud_evt.set_stimulus(aud_3);
-						pic.set_part(1,bmps_3[i]);
+						pic.set_part(1,bmps_3[flex]);
 						av_trl.present();
 						i = i + 1;
 					else
-						pic.set_part(1,bmps_3[i]);
+						flex = random(1,50);
+						pic.set_part(1,bmps_3[flex]);
 						pic.present();
 						i = i +1;
 					end;
