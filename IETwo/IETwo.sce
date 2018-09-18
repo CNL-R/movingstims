@@ -164,8 +164,7 @@ int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-#array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-array<int> blockorder[] = {2,2,2};
+array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
 
 blockorder.shuffle();
 
