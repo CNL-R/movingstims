@@ -2,10 +2,10 @@
 %intensity value.
 
 %To be ran after InitialProcess.m
-addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
+addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 
 %basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\SUBJECTID_stims';
-basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\10108003_stims';
+basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108003_stims';
 
 supra = 0.3;
 
@@ -13,7 +13,7 @@ intensities_aud = [aud25 aud50 supra]; %aud25 aud50 and supra come from InitialP
 
 Hz = 1000;
 refreshRate = 50; %in Hz
-frames = 4; %duration of stimuli in frames
+frames = 6; %duration of stimuli in frames
 Ttime = (1/refreshRate) * frames; %Duration of sound (seconds)
 Fs = 44100;
 timeVec = (1/Fs:1/Fs:Ttime);

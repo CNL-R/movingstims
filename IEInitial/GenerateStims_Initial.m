@@ -8,7 +8,7 @@ intensities = [linspace(min,max,11) supra];
 
 Hz = 1000;
 refreshRate = 60; %in Hz
-frames = 4; %length of stimuli in frames
+frames = 6; %length of stimuli in frames
 Ttime = (1/refreshRate) * frames; %Duration of sound (seconds)
 Fs = 44100;
 timeVec = (1/Fs:1/Fs:Ttime);
@@ -43,7 +43,7 @@ end
 
 %% Visual Stimuli
 min = .025;
-max = 0.1;
+max = 0.125;
 supra = 0.3;
 
 intensities = [0 linspace(min,max,10) supra];
@@ -51,7 +51,7 @@ intensities = [0 linspace(min,max,10) supra];
 
 desired_frames = 50;
 
-basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\stims';
+basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IEInitial\stims';
 for m = 1:size(intensities, 2)
     foldername = ['vis_' num2str(m)];
     status = mkdir(basedir, foldername);

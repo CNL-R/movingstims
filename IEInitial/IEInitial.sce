@@ -214,7 +214,7 @@ fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
 int nstims = 12;
-int nreps = 4;
+int nreps = 5;
 int isi;
 int isi_frames;
 int flex;
@@ -380,7 +380,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_1[flex]);
@@ -398,7 +398,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_2[flex]);
@@ -416,7 +416,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_3[flex]);
@@ -435,7 +435,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_4[flex]);
@@ -453,7 +453,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_5[flex]);
@@ -472,7 +472,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_6[flex]);
@@ -490,7 +490,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_7[flex]);
@@ -508,7 +508,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_8[flex]);
@@ -526,7 +526,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_9[flex]);
@@ -544,7 +544,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_10[flex]);
@@ -562,7 +562,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_11[flex]);
@@ -580,7 +580,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 100);		
 				loop
 					int i = 1
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,stimpoolsize);
 						pic.set_part(1,bmps_12[flex]);

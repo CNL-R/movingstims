@@ -286,7 +286,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 20);	
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);	
 						pic.set_part(1,bmps_1[flex]);
@@ -304,7 +304,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 20);		
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
 						pic.set_part(1,bmps_2[flex]);
@@ -322,7 +322,7 @@ begin
 				v_aud_evt.set_port_code(whichstim[j] + 20);		
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
 						pic.set_part(1,bmps_3[flex]);
@@ -340,7 +340,7 @@ begin
 				v_aud_evt.set_port_code(0 + 20);		
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,150);
 						pic.set_part(1,bmps_noise[flex]);
@@ -398,7 +398,7 @@ begin
 			if whichstim[j] == 1 then	
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
@@ -417,7 +417,7 @@ begin
 			elseif whichstim[j] == 2 then	
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
@@ -436,7 +436,7 @@ begin
 			elseif whichstim[j] == 3 then
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
 						av_aud_evt.set_event_code(string(whichstim[j] + 30));
@@ -455,7 +455,7 @@ begin
 			else 
 				loop
 					int i = 1;
-				until i == 4 begin
+				until i == 6 begin
 					if i == 1 then
 						av_aud_evt.set_event_code(string(0 + 30));
 						av_aud_evt.set_port_code(0 + 30);	
