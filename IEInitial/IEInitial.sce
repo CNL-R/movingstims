@@ -254,7 +254,7 @@ begin
 	if blockorder[blocknum] == 1 then
 		isi_aud.present();
 		default.present();
-		isi_frames = random(90,180);
+		isi_frames = random(90,168);
 		loop
 			int i = 1;
 		until i == isi_frames begin
@@ -265,7 +265,7 @@ begin
 		loop
 			int j = 1
 		until j > nstims*nreps begin
-			isi_frames = random(90,180);
+			isi_frames = random(90,168);
 			loop
 				int i = 1;
 			until i == isi_frames begin
@@ -340,7 +340,7 @@ begin
 			
 			if j == nstims*nreps + 1 then
 				default.present();
-				isi_frames = random(90,180);
+				isi_frames = random(90,168);
 				loop
 					int i = 1;
 				until i == isi_frames begin
@@ -353,7 +353,7 @@ begin
 #If Visual Block
 	elseif blockorder[blocknum] == 2 then
 		isi_vis.present();
-		isi_frames = random(90,180);
+		isi_frames = random(90,168);
 		loop
 			int i = 1;
 		until i == isi_frames begin
@@ -365,7 +365,7 @@ begin
 		loop
 			int j = 1
 		until j > nstims*nreps begin
-			isi_frames = random(90,180);
+			isi_frames = random(90,168);
 			loop
 				int i = 1;
 			until i == isi_frames begin
@@ -598,7 +598,7 @@ begin
 			j = j +1;
 			
 			if j == nstims*nreps + 1 then
-				isi_frames = random(90,180);
+				isi_frames = random(90,168);
 				loop
 					int i = 1;
 				until i == isi_frames begin

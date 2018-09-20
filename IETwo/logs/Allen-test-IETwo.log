@@ -1,0 +1,311 @@
+Scenario - 
+Logfile written - 09/18/2018 15:56:21
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Allen-test	1	Response	255	156637	156471	1
+Allen-test	3	Sound	22	238596	260	1			260		other	0
+Allen-test	3	Response	1	245996	7659	1
+Allen-test	4	Sound	22	254935	260	1			260		other	0
+Allen-test	4	Response	1	259596	4920	1
+Allen-test	5	Sound	23	274275	260	1			260		other	0
+Allen-test	5	Response	1	277276	3260	1
+Allen-test	6	Sound	21	298617	260	1			260		other	0
+Allen-test	6	Response	1	304156	5798	1
+Allen-test	7	Sound	20	314956	260	1			260		other	0
+Allen-test	8	Sound	23	341966	260	1			260		other	0
+Allen-test	8	Response	1	344955	3249	1
+Allen-test	9	Sound	23	362807	260	1			260		other	0
+Allen-test	9	Response	1	365515	2968	1
+Allen-test	10	Sound	21	381480	260	1			260		other	0
+Allen-test	11	Sound	20	403488	260	1			260		other	0
+Allen-test	12	Sound	20	430330	260	1			260		other	0
+Allen-test	13	Sound	22	458673	260	1			260		other	0
+Allen-test	13	Response	1	463594	5181	1
+Allen-test	14	Sound	21	477179	260	1			260		other	0
+Allen-test	14	Response	1	481914	4995	1
+Allen-test	15	Sound	20	493352	260	1			260		other	0
+Allen-test	16	Sound	22	513359	260	1			260		other	0
+Allen-test	16	Response	1	517354	4254	1
+Allen-test	17	Sound	23	529532	260	1			260		other	0
+Allen-test	17	Response	1	532634	3362	1
+Allen-test	18	Sound	21	545537	260	1			260		other	0
+Allen-test	18	Response	1	551434	6156	1
+Allen-test	19	Sound	23	569879	260	1			260		other	0
+Allen-test	19	Response	1	572393	2774	1
+Allen-test	20	Sound	22	597889	260	1			260		other	0
+Allen-test	20	Response	1	602073	4444	1
+Allen-test	21	Sound	21	620730	260	1			260		other	0
+Allen-test	22	Sound	20	646412	266	1			260		other	0
+Allen-test	23	Sound	23	666580	260	1			260		other	0
+Allen-test	23	Response	1	669353	3033	1
+Allen-test	24	Sound	22	682585	260	1			260		other	0
+Allen-test	24	Response	1	689512	7187	1
+Allen-test	25	Sound	21	702259	260	1			260		other	0
+Allen-test	26	Sound	21	722432	260	1			260		other	0
+Allen-test	27	Sound	22	739111	266	1			260		other	0
+Allen-test	27	Response	1	743032	4187	1
+Allen-test	28	Sound	22	762113	260	1			260		other	0
+Allen-test	28	Response	1	766391	4538	1
+Allen-test	29	Sound	22	778619	260	1			260		other	0
+Allen-test	29	Response	1	786072	7713	1
+Allen-test	30	Sound	23	798292	260	1			260		other	0
+Allen-test	30	Response	1	801111	3078	1
+Allen-test	31	Sound	20	819967	260	1			260		other	0
+Allen-test	31	Response	1	839351	19644	1
+Allen-test	32	Sound	22	839640	260	1			260		other	0
+Allen-test	33	Sound	20	863315	260	1			260		other	0
+Allen-test	34	Sound	21	888991	260	1			260		other	0
+Allen-test	35	Sound	21	910998	260	1			260		other	0
+Allen-test	36	Sound	23	926671	260	1			260		other	0
+Allen-test	36	Response	1	929590	3179	1
+Allen-test	37	Sound	21	943510	260	1			260		other	0
+Allen-test	37	Response	1	952310	9060	1
+Allen-test	38	Sound	21	959349	260	1			260		other	0
+Allen-test	38	Response	1	965830	6741	1
+Allen-test	39	Sound	23	976188	260	1			260		other	0
+Allen-test	39	Response	1	979110	3181	1
+Allen-test	40	Sound	20	993194	260	1			260		other	0
+Allen-test	41	Sound	23	1009866	260	1			260		other	0
+Allen-test	41	Response	1	1013030	3423	1
+Allen-test	42	Sound	23	1032209	262	1			260		other	0
+Allen-test	42	Response	1	1035109	3161	1
+Allen-test	43	Sound	22	1051048	260	1			260		other	0
+Allen-test	43	Response	1	1055589	4801	1
+Allen-test	44	Sound	23	1076890	260	1			260		other	0
+Allen-test	44	Response	1	1079669	3039	1
+Allen-test	45	Sound	20	1092728	260	1			260		other	0
+Allen-test	46	Sound	21	1116409	265	1			260		other	0
+Allen-test	46	Response	1	1122869	6725	1
+Allen-test	47	Sound	21	1139078	260	1			260		other	0
+Allen-test	47	Response	1	1143188	4370	1
+Allen-test	48	Sound	20	1159252	260	1			260		other	0
+Allen-test	49	Sound	20	1182927	260	1			260		other	0
+Allen-test	50	Sound	22	1208769	260	1			260		other	0
+Allen-test	51	Sound	20	1226609	260	1			260		other	0
+Allen-test	52	Sound	22	1242615	260	1			260		other	0
+Allen-test	53	Sound	20	1265789	260	1			260		other	0
+Allen-test	54	Sound	20	1282808	272	1			260		other	0
+Allen-test	55	Sound	23	1303636	260	1			260		other	0
+Allen-test	55	Response	1	1306787	3411	1
+Allen-test	56	Sound	22	1329145	260	1			260		other	0
+Allen-test	56	Response	1	1332627	3742	1
+Allen-test	57	Sound	21	1352320	260	1			260		other	0
+Allen-test	58	Sound	20	1372007	274	1			260		other	0
+Allen-test	59	Sound	22	1399836	260	1			260		other	0
+Allen-test	60	Sound	22	1418676	260	1			260		other	0
+Allen-test	60	Response	1	1423266	4849	1
+Allen-test	61	Sound	23	1434682	260	1			260		other	0
+Allen-test	61	Response	1	1438546	4124	1
+Allen-test	62	Sound	22	1453355	260	1			260		other	0
+Allen-test	62	Response	1	1457986	4890	1
+Allen-test	63	Sound	20	1469707	272	1			260		other	0
+Allen-test	64	Sound	23	1498206	262	1			260		other	0
+Allen-test	64	Response	1	1501265	3321	1
+Allen-test	65	Sound	21	1519378	260	1			260		other	0
+Allen-test	66	Sound	21	1542220	260	1			260		other	0
+Allen-test	66	Response	1	1547585	5625	1
+Allen-test	67	Sound	21	1567562	260	1			260		other	0
+Allen-test	68	Sound	20	1595906	261	1			260		other	0
+Allen-test	69	Sound	23	1621081	260	1			260		other	0
+Allen-test	69	Response	1	1624224	3403	1
+Allen-test	70	Sound	23	1643088	260	1			260		other	0
+Allen-test	70	Response	1	1646064	3235	1
+Allen-test	72	Response	255	1689584	20333	1
+Allen-test	74	Sound	31	1766965	260	1			260		other	0
+Allen-test	75	Sound	31	1786305	260	1			260		other	0
+Allen-test	76	Sound	31	1809980	260	1			260		other	0
+Allen-test	77	Sound	33	1835489	260	1			260		other	0
+Allen-test	77	Response	1	1838062	2833	1
+Allen-test	78	Sound	33	1859497	260	1			260		other	0
+Allen-test	78	Response	1	1862142	2904	1
+Allen-test	79	Sound	33	1878171	260	1			260		other	0
+Allen-test	79	Response	1	1880702	2791	1
+Allen-test	80	Sound	31	1894843	260	1			260		other	0
+Allen-test	80	Response	1	1902142	7559	1
+Allen-test	81	Sound	32	1916851	260	1			260		other	0
+Allen-test	82	Sound	30	1944360	260	1			260		other	0
+Allen-test	83	Sound	33	1966535	260	1			260		other	0
+Allen-test	83	Response	1	1968699	2424	4
+Allen-test	84	Sound	31	1989543	260	1			260		other	0
+Allen-test	85	Sound	30	2005882	260	1			260		other	0
+Allen-test	86	Sound	32	2032558	260	1			260		other	0
+Allen-test	86	Response	1	2039260	6962	1
+Allen-test	87	Sound	32	2059567	260	1			260		other	0
+Allen-test	87	Response	1	2063740	4433	1
+Allen-test	88	Sound	31	2081075	260	1			260		other	0
+Allen-test	89	Sound	30	2100415	260	1			260		other	0
+Allen-test	90	Sound	30	2116087	260	1			260		other	0
+Allen-test	91	Sound	33	2138929	260	1			260		other	0
+Allen-test	91	Response	1	2141740	3071	1
+Allen-test	92	Sound	32	2162937	260	1			260		other	0
+Allen-test	92	Response	1	2167979	5302	1
+Allen-test	93	Sound	31	2186445	260	1			260		other	0
+Allen-test	94	Sound	31	2213288	260	1			260		other	0
+Allen-test	95	Sound	33	2233628	260	1			260		other	0
+Allen-test	95	Response	1	2236139	2770	1
+Allen-test	96	Sound	31	2249801	260	1			260		other	0
+Allen-test	97	Sound	33	2276477	260	1			260		other	0
+Allen-test	97	Response	1	2278939	2722	1
+Allen-test	98	Sound	31	2297651	260	1			260		other	0
+Allen-test	99	Sound	33	2314501	271	1			260		other	0
+Allen-test	99	Response	1	2316938	2708	1
+Allen-test	100	Sound	32	2341833	260	1			260		other	0
+Allen-test	100	Response	1	2349258	7685	1
+Allen-test	101	Sound	32	2370010	260	1			260		other	0
+Allen-test	102	Sound	31	2392017	260	1			260		other	0
+Allen-test	103	Sound	31	2420527	260	1			260		other	0
+Allen-test	104	Sound	32	2439867	260	1			260		other	0
+Allen-test	104	Response	1	2444537	4930	1
+Allen-test	105	Sound	30	2468044	260	1			260		other	0
+Allen-test	106	Sound	31	2496554	260	1			260		other	0
+Allen-test	107	Sound	31	2523563	260	1			260		other	0
+Allen-test	108	Sound	33	2539736	260	1			260		other	0
+Allen-test	108	Response	1	2542376	2900	1
+Allen-test	109	Sound	33	2560076	260	1			260		other	0
+Allen-test	109	Response	1	2562456	2640	1
+Allen-test	110	Sound	33	2578916	260	1			260		other	0
+Allen-test	110	Response	1	2581256	2599	1
+Allen-test	111	Sound	33	2602257	260	1			260		other	0
+Allen-test	111	Response	1	2604616	2618	1
+Allen-test	112	Sound	33	2620764	260	1			260		other	0
+Allen-test	112	Response	1	2623256	2752	1
+Allen-test	113	Sound	32	2644939	260	1			260		other	0
+Allen-test	113	Response	1	2649895	5216	1
+Allen-test	114	Sound	30	2670615	260	1			260		other	0
+Allen-test	115	Sound	30	2696290	260	1			260		other	0
+Allen-test	116	Sound	33	2721299	260	1			260		other	0
+Allen-test	116	Response	1	2724135	3095	1
+Allen-test	117	Sound	30	2746808	260	1			260		other	0
+Allen-test	118	Sound	30	2762998	277	1			260		other	0
+Allen-test	119	Sound	32	2784321	260	1			260		other	0
+Allen-test	119	Response	1	2791894	7833	1
+Allen-test	120	Sound	30	2805829	260	1			260		other	0
+Allen-test	121	Sound	32	2826336	260	1			260		other	0
+Allen-test	121	Response	1	2831654	5578	2
+Allen-test	122	Sound	30	2845009	260	1			260		other	0
+Allen-test	123	Sound	32	2861682	260	1			260		other	0
+Allen-test	124	Sound	30	2889858	260	1			260		other	0
+Allen-test	125	Sound	30	2917367	260	1			260		other	0
+Allen-test	126	Sound	32	2936374	260	1			260		other	0
+Allen-test	127	Sound	30	2963396	272	1			260		other	0
+Allen-test	128	Sound	31	2981896	266	1			260		other	0
+Allen-test	129	Sound	32	3001064	260	1			260		other	0
+Allen-test	129	Response	1	3005492	4688	1
+Allen-test	130	Sound	32	3028240	260	1			260		other	0
+Allen-test	130	Response	1	3033892	5912	1
+Allen-test	131	Sound	30	3048747	260	1			260		other	0
+Allen-test	132	Sound	32	3066420	260	1			260		other	0
+Allen-test	132	Response	1	3072612	6451	1
+Allen-test	133	Sound	31	3089928	260	1			260		other	0
+Allen-test	134	Sound	31	3117104	260	1			260		other	0
+Allen-test	135	Sound	33	3135277	260	1			260		other	0
+Allen-test	135	Response	1	3138131	3113	1
+Allen-test	136	Sound	32	3159952	260	1			260		other	0
+Allen-test	136	Response	1	3164531	4838	1
+Allen-test	137	Sound	32	3180126	260	1			260		other	0
+Allen-test	137	Response	1	3185331	5464	1
+Allen-test	138	Sound	33	3200800	260	1			260		other	0
+Allen-test	138	Response	1	3203650	3110	1
+Allen-test	139	Sound	33	3223809	260	1			260		other	0
+Allen-test	139	Response	1	3226610	3062	1
+Allen-test	140	Sound	30	3244149	260	1			260		other	0
+Allen-test	141	Sound	30	3266990	260	1			260		other	0
+Allen-test	143	Response	255	3304370	12384	1
+Allen-test	145	Sound	13	3371360	260	1			260		other	0
+Allen-test	145	Response	1	3373809	2709	1
+Allen-test	146	Sound	12	3394201	260	1			260		other	0
+Allen-test	147	Sound	11	3420544	260	1			260		other	0
+Allen-test	148	Sound	13	3447053	260	1			260		other	0
+Allen-test	148	Response	1	3449408	2615	1
+Allen-test	149	Sound	11	3473396	260	1			260		other	0
+Allen-test	150	Sound	10	3491735	260	1			260		other	0
+Allen-test	151	Sound	12	3511909	260	1			260		other	0
+Allen-test	152	Sound	10	3530249	260	1			260		other	0
+Allen-test	152	Response	1	3547887	17898	1
+Allen-test	153	Sound	12	3552092	262	1			260		other	0
+Allen-test	154	Sound	12	3569096	260	1			260		other	0
+Allen-test	154	Response	1	3573247	4410	1
+Allen-test	155	Sound	12	3584268	260	1			260		other	0
+Allen-test	156	Sound	13	3611944	260	1			260		other	0
+Allen-test	156	Response	1	3615007	3322	1
+Allen-test	157	Sound	13	3634292	266	1			260		other	0
+Allen-test	157	Response	1	3637086	3061	2
+Allen-test	158	Sound	12	3657627	260	1			260		other	0
+Allen-test	159	Sound	12	3680802	260	1			260		other	0
+Allen-test	159	Response	1	3689486	8944	1
+Allen-test	160	Sound	10	3704644	260	1			260		other	0
+Allen-test	161	Sound	10	3721816	260	1			260		other	0
+Allen-test	162	Sound	13	3745991	260	1			260		other	0
+Allen-test	162	Response	1	3748686	2954	1
+Allen-test	163	Sound	10	3772334	260	1			260		other	0
+Allen-test	164	Sound	11	3790840	260	1			260		other	0
+Allen-test	165	Sound	12	3808191	271	1			260		other	0
+Allen-test	166	Sound	12	3834191	261	1			260		other	0
+Allen-test	167	Sound	11	3853029	260	1			260		other	0
+Allen-test	168	Sound	12	3873369	260	1			260		other	0
+Allen-test	169	Sound	11	3895710	260	1			260		other	0
+Allen-test	170	Sound	13	3916218	260	1			260		other	0
+Allen-test	170	Response	1	3918844	2886	1
+Allen-test	171	Sound	10	3941560	260	1			260		other	0
+Allen-test	172	Sound	10	3962401	260	1			260		other	0
+Allen-test	173	Sound	12	3982908	260	1			260		other	0
+Allen-test	174	Sound	10	4006416	260	1			260		other	0
+Allen-test	175	Sound	13	4022255	260	1			260		other	0
+Allen-test	175	Response	1	4024603	2608	1
+Allen-test	176	Sound	13	4049097	260	1			260		other	0
+Allen-test	176	Response	1	4052363	3525	1
+Allen-test	177	Sound	11	4074106	260	1			260		other	0
+Allen-test	178	Sound	13	4100449	260	1			260		other	0
+Allen-test	178	Response	1	4103002	2813	1
+Allen-test	179	Sound	13	4122123	260	1			260		other	0
+Allen-test	179	Response	1	4124842	2979	1
+Allen-test	180	Sound	10	4140129	260	1			260		other	0
+Allen-test	181	Sound	11	4166805	260	1			260		other	0
+Allen-test	182	Sound	11	4189814	260	1			260		other	0
+Allen-test	183	Sound	10	4209320	260	1			260		other	0
+Allen-test	184	Sound	13	4225493	260	1			260		other	0
+Allen-test	184	Response	1	4228202	2969	1
+Allen-test	185	Sound	11	4243332	260	1			260		other	0
+Allen-test	186	Sound	10	4263839	260	1			260		other	0
+Allen-test	187	Sound	12	4288848	260	1			260		other	0
+Allen-test	188	Sound	13	4309689	260	1			260		other	0
+Allen-test	188	Response	1	4312520	3091	2
+Allen-test	189	Sound	10	4334364	260	1			260		other	0
+Allen-test	190	Sound	13	4362541	260	1			260		other	0
+Allen-test	190	Response	1	4365160	2880	1
+Allen-test	191	Sound	12	4390717	260	1			260		other	0
+Allen-test	192	Sound	11	4414559	260	1			260		other	0
+Allen-test	193	Sound	11	4438234	260	1			260		other	0
+Allen-test	193	Response	1	4442679	4705	1
+Allen-test	194	Sound	13	4461586	271	1			260		other	0
+Allen-test	194	Response	1	4464119	2804	1
+Allen-test	195	Sound	11	4477914	260	1			260		other	0
+Allen-test	196	Sound	10	4494587	260	1			260		other	0
+Allen-test	197	Sound	10	4521763	260	1			260		other	0
+Allen-test	198	Sound	12	4539769	260	1			260		other	0
+Allen-test	198	Response	1	4544278	4769	2
+Allen-test	199	Sound	10	4560443	260	1			260		other	0
+Allen-test	200	Sound	10	4581617	260	1			260		other	0
+Allen-test	201	Sound	13	4602625	260	1			260		other	0
+Allen-test	201	Response	1	4605478	3113	1
+Allen-test	202	Sound	12	4625299	260	1			260		other	0
+Allen-test	203	Sound	10	4650975	260	1			260		other	0
+Allen-test	204	Sound	11	4678818	260	1			260		other	0
+Allen-test	205	Sound	12	4700992	260	1			260		other	0
+Allen-test	206	Sound	11	4721500	260	1			260		other	0
+Allen-test	207	Sound	13	4738672	260	1			260		other	0
+Allen-test	207	Response	1	4741317	2904	1
+Allen-test	208	Sound	11	4766015	260	1			260		other	0
+Allen-test	209	Sound	12	4784522	260	1			260		other	0
+Allen-test	210	Sound	13	4805029	260	1			260		other	0
+Allen-test	210	Response	1	4807716	2947	1
+Allen-test	211	Sound	11	4832205	260	1			260		other	0
+Allen-test	212	Sound	11	4859715	260	1			260		other	0
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	253	15663.8
+1	253	168958
+1	253	330437
+1	253	487954
