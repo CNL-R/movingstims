@@ -4,10 +4,10 @@
 % sure to ctrl + enter on the sections you want unless you want data files
 % to be accidentally overwriteen. 
 %% I: Plotting A,V & AV Psychometrics
-addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
+addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 
 %Loading log file 
-[filename, path] = uigetfile('C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
+[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %AUDITORY PLOTTING
@@ -103,7 +103,7 @@ plot(intensities, detection(3,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Audiovisual');
  %% II: Save Fig
- savedestination = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\plots';
+ savedestination = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\plots';
  participant = cond.subject{1};
  savefig(fig, strcat(savedestination, '\', participant, '_IETwo.fig'));
  saveas(fig, strcat(savedestination, '\', participant, '_IETwo.png'));

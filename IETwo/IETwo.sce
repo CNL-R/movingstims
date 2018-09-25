@@ -157,15 +157,20 @@ fixcross.set_formatted_text(true);
 fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
-int nstims = 4;
-int nreps = 17;
+int nstims = 2; #true stimuli (not catch trial or supra catch)
+
+int ncatches = 5; #number of catches per block. (if ncatches = 5, there will be 5 supraliminal catchse and 5 zero catch trials in a block)
+int nreps = 25;
+int ntrials = nstims*nreps+2*ncatches;
 int isi;
 int isi_frames;
 int flex;
+array<int> temparr[ncatches];
 array<int> whichstim[nstims*nreps];
-
+term.print_line(whichstim.count());
 #array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-array<int> blockorder[] = {1,2,3};
+array<int> blockorder[] = {1,1,2,2,3,3};
+array<int>bloclorder[] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3} # 8 of each block. 25*8 = 200reps of stims. 40 catches 40 supra catches. 
 
 blockorder.shuffle();
 
@@ -184,12 +189,26 @@ begin
 	end;
 	
 	whichstim.fill(1, nstims*nreps, 0, 0);
+
+	
 	loop
 		int i = 1
 	until i > nstims begin
 		whichstim.fill(nreps*i-(nreps-1),nreps*i,i,0);
 		i = i + 1;
 	end;
+	term.print_line(whichstim.count());
+	
+	loop
+		int i = nstims + 1
+	until i > nstims + 2 begin
+		temparr.fill(1,ncatches,i,0);
+		whichstim.append(temparr);
+		i = i + 1;
+	end;
+	
+	term.print_line(whichstim.count());
+	term.print_line(whichstim);
 	whichstim.shuffle();
 	
 	pause_off.present();
@@ -210,7 +229,7 @@ begin
 
 		loop
 			int j = 1
-		until j > nstims*nreps begin
+		until j > ntrials begin
 			isi_frames = random(90,168);
 			loop
 				int i = 1;
@@ -240,10 +259,10 @@ begin
 				a_trl.present();
 			end;
 			
-			term.print_line(nstims*nreps-j);
+			term.print_line(ntrials-j);
 			j = j +1;
 			
-			if j == nstims*nreps + 1 then
+			if j == ntrials + 1 then
 				default.present();
 				isi_frames = random(90,168);
 				loop
@@ -270,7 +289,7 @@ begin
 		end;
 		loop
 			int j = 1
-		until j > nstims*nreps begin
+		until j > ntrials begin
 			isi_frames = random(90,168);
 			loop
 				int i = 1;
@@ -354,10 +373,10 @@ begin
 					end;
 				end;
 			end;
-			term.print_line(nstims*nreps-j);
+			term.print_line(ntrials-j);
 			j = j +1;
 			
-			if j == nstims*nreps + 1 then
+			if j == ntrials + 1 then
 				isi_frames = random(90,168);
 				loop
 					int i = 1;;
@@ -384,7 +403,7 @@ begin
 		
 		loop	
 			int j = 1;
-		until j > nstims*nreps begin
+		until j > ntrials begin
 			isi_frames = random(90,168);
 			loop
 				int i = 1;
@@ -472,7 +491,7 @@ begin
 					end;					
 				end;				
 			end;
-			term.print_line(nstims*nreps-j);
+			term.print_line(ntrials-j);
 			j = j +1;
 		end;
 		isi_frames = random(90,168);
@@ -482,7 +501,7 @@ begin
 			flex = random(1,150);
 			pic.set_part(1,bmps_noise[flex]);
 			pic.present();
-			i = i + 1;
+			i = i + 1;                                                    
 		end;
 		audio_device.stop(isi_aud);
 	end;

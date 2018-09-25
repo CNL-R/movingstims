@@ -5,7 +5,7 @@
 %% A & V Psychometric Plotting
 %IF YOU'VE CHANGED the intensity values from what is normally used in the
 %experiment change the intensities variables! 
-addpath('C:\Users\lhshaw\Documents\GitHub\movingstims\functions');
+addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 
 %AUDITORY PLOTTER
 
@@ -14,7 +14,7 @@ Aconds = [11,12,13,14,15,16,17,18,19,20,21,22];
 intensities = [0,0.0075,0.015,0.0225,0.03,0.0375,0.045,0.0525,0.06,0.0675,0.075,0.3]; %%CHANGE THIS if you change the stim intensities
 
 %Loading log file 
-[filename, path] = uigetfile('C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\logs\*.log','Please select which AUDITORY .log file to analyze');
+[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IEInitial\logs\*.log','Please select which AUDITORY .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %Mining your log file
@@ -74,7 +74,7 @@ set(gca,'ylim',[0 1]);
 title('Visual');
 %print('Allen','-dsvg')
 %% Save Figs
-savedestination = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\plots';
+savedestination = 'C:\Users\achen52\Documents\GitHub\movingstims\IEInitial\plots';
 participant = cond.subject{1};
 savefig(fig, strcat(savedestination, '\', participant, '_initial.fig'));
 saveas(fig, strcat(savedestination, '\', participant, '_initial.png'));

@@ -1,5 +1,5 @@
 <ver>18.3</ver>
-<efn>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\IETwo.exp</efn>
+<efn>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\IETwo.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -34,11 +34,11 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\10108003_stims</dsd>
+<dsd>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108004_stims</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\IETwo.sce</filename>
-<filename>C:\Users\lhshaw\Documents\GitHub\movingstims\IEInitial\IEInitial.sce</filename>
+<filename>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\IETwo.sce</filename>
+<filename>C:\Users\achen52\Documents\GitHub\movingstims\IEInitial\IEInitial.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -106,7 +106,7 @@
 <idt>0</idt>
 <ilc>0</ilc>
 <ip_chans></ip_chans>
-<lfd>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\logs</lfd>
+<lfd>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs</lfd>
 <lnb>2</lnb>
 <lno>3</lno>
 <log>
@@ -421,7 +421,7 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
-<sfn>C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\IETwo.sce</sfn>
+<sfn>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\IETwo.sce</sfn>
 </sce>
 <sct>
 <capture_device>
