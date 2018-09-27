@@ -170,7 +170,7 @@ array<int> whichstim[nstims*nreps];
 term.print_line(whichstim.count());
 #array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
 array<int> blockorder[] = {1,1,2,2,3,3};
-array<int>bloclorder[] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3} # 8 of each block. 25*8 = 200reps of stims. 40 catches 40 supra catches. 
+#array<int>bloclorder[] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3} # 8 of each block. 25*8 = 200reps of stims. 40 catches 40 supra catches. 
 
 blockorder.shuffle();
 
