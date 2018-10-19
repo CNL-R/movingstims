@@ -85,12 +85,6 @@ array {
    ENDLOOP;
 } bmps_11;
 
-array {
-   LOOP $i 50;
-   $k = '$i + 1';
-   bitmap { filename = "vis_12/annulus_$i.bmp"; };
-   ENDLOOP;
-} bmps_12;
 
 array {
    LOOP $i 150;
@@ -118,7 +112,6 @@ wavefile {filename = "aud_8.wav"; preload = true;} tone_8;
 wavefile {filename = "aud_9.wav"; preload = true;} tone_9;
 wavefile {filename = "aud_10.wav"; preload = true;} tone_10;
 wavefile {filename = "aud_11.wav"; preload = true;} tone_11;
-wavefile {filename = "aud_12.wav"; preload = true;} tone_12;
 
 wavefile {filename = "PinkNoise.wav"; preload = true;} isi_noise;
 wavefile {filename = "silence1000.wav"; preload = true;} isi_silence;
@@ -134,7 +127,6 @@ sound { wavefile tone_8;} aud_8;
 sound { wavefile tone_9;} aud_9;
 sound { wavefile tone_10;} aud_10;
 sound { wavefile tone_11;} aud_11;
-sound { wavefile tone_12;} aud_12;
 
 sound { wavefile isi_noise; loop_playback = true;} isi_aud;
 sound { wavefile isi_silence; loop_playback = true;} isi_vis;
@@ -213,14 +205,14 @@ fixcross.set_formatted_text(true);
 fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
-int nstims = 12;
+int nstims = 11;
 int nreps = 5;
 int isi;
 int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-array<int> blockorder[] = {1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2};
+array<int> blockorder[] = {1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2};
 blockorder.shuffle();
 
 int stimpoolsize = 50;
@@ -327,11 +319,6 @@ begin
 				a_aud_evt.set_event_code(string(whichstim[j] + 10));
 				a_aud_evt.set_port_code(whichstim[j] + 10);	
 				a_aud_evt.set_stimulus(aud_11);
-				a_trl.present();
-			elseif whichstim[j] == 12 then
-				a_aud_evt.set_event_code(string(whichstim[j] + 10));
-				a_aud_evt.set_port_code(whichstim[j] + 10);			
-				a_aud_evt.set_stimulus(aud_12);
 				a_trl.present();
 			end;
 			
@@ -575,24 +562,6 @@ begin
 						i = i +1;
 					end;
 				end;
-			elseif whichstim[j] == 12 then
-				v_aud_evt.set_event_code(string(whichstim[j] + 100));
-				v_aud_evt.set_port_code(whichstim[j] + 100);		
-				loop
-					int i = 1
-				until i == 6 begin
-					if i == 1 then
-						flex = random(1,stimpoolsize);
-						pic.set_part(1,bmps_12[flex]);
-						v_trl.present();
-						i = i + 1;
-					else
-						flex = random(1,stimpoolsize);
-						pic.set_part(1,bmps_12[flex]);
-						pic.present();
-						i = i +1;
-					end;
-				end 
 			end;			
 			term.print_line(nstims*nreps-j);
 			j = j +1;

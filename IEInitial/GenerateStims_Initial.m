@@ -1,10 +1,10 @@
 %% Auditory Stimuli
-min = 0;                                                                %The range of stimuli that you want generated
-max = 0.075;                                                               
-supra = 0.3;
+Amin = 0;                                                                %The range of stimuli that you want generated
+Amax = 0.075;                                                               
+Asupra = 0.3;
 
 %intensities = GenerateParameters(min, max);                                %Generates stims in the range of 0 --> min --> ... --> max --> 0.3
-intensities = [linspace(min,max,11) supra];
+Aintensities = [linspace(Amin,Amax,10) Asupra];
 
 Hz = 1000;
 refreshRate = 60; %in Hz
@@ -26,8 +26,8 @@ rampfcn(end) = 0;
 %End generate ramp
 
 %Generation Loop
-for i = 1:size(intensities,2)
-    amp = intensities(i);
+for i = 1:size(Aintensities,2)
+    amp = Aintensities(i);
     filename = ['aud_' num2str(i) '.wav'];
     %%%%%%%%%%%
     wave = amp.*sin(2 * pi * timeVec * Hz);
@@ -42,17 +42,17 @@ for i = 1:size(intensities,2)
 end 
 
 %% Visual Stimuli
-min = .025;
-max = 0.125;
-supra = 0.3;
+Vmin = .025;
+Vmax = 0.125;
+Vsupra = 0.3;
 
-intensities = [0 linspace(min,max,10) supra];
+Vintensities = [0 linspace(Vmin,Vmax,9) Vsupra];
 
 
 desired_frames = 50;
 
 basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IEInitial\stims';
-for m = 1:size(intensities, 2)
+for m = 1:size(Vintensities, 2)
     foldername = ['vis_' num2str(m)];
     status = mkdir(basedir, foldername);
     status
@@ -66,7 +66,7 @@ for m = 1:size(intensities, 2)
         centery = sizey/2;
         
         %stimulus coherence
-        fudge = intensities(m);
+        fudge = Vintensities(m);
         
         %generate some component arrays
         gaussring = zeros(sizex,sizey);

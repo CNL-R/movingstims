@@ -5,11 +5,11 @@
 addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 
 %basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\SUBJECTID_stims';
-basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108003_stims';
+basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108009_stims';
 
 supra = 0.3;
 
-intensities_aud = [aud25 aud50 supra]; %aud25 aud50 and supra come from InitialProcess.m 
+intensities_aud = [AStimuli supra]; %aud25 aud50 and supra come from InitialProcess.m 
 
 Hz = 1000;
 refreshRate = 50; %in Hz
@@ -46,7 +46,7 @@ for i = 1:size(intensities_aud,2)
     audiowrite(strcat(basedir,'\',filename),waveprod,Fs);
 end 
 
-intensities_vis = [vis25 vis50 supra];
+intensities_vis = [VStimuli supra];
 
 desired_frames = 50;
 

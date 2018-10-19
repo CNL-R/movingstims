@@ -11,10 +11,11 @@ addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %AUDITORY PLOTTING
-
 %Define your event codes and each respective intensity value
-Aconds = [10,11,12,13];
-intensities = [0 .25 .5 1];
+%Aconds = [10,11,12,13];
+%intensities = [0 .25 .5 1];
+Aconds = [10:20];
+Aintensities = [0 0.1, .20, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 1.00];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array
@@ -40,15 +41,15 @@ fig = figure;
 subplot(3,1,1);
 % [param_aud, stat_aud] = sigm_fit(intensities, detection, [], [], 1);
 hold on;
-plot(intensities, detection(1,:),'Marker','o');
+plot(Aintensities, detection(1,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Auditory')
 
 %VISUAL PLOTTING
 
 %Define your event codes and each respective intensity value
-Vconds = [20,21,22,23];
-intensities = [0 .25 .5 1];
+Vconds = [30:40];
+Vintensities = [0:0.1:1];
 
 %Mining your log file
 block = cond.code;                                          %block is a cell array that contains all codes from the experiment
@@ -70,16 +71,16 @@ end
 subplot(3,1,2)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
-plot(intensities, detection(2,:),'Marker','o');
+plot(Aintensities, detection(2,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Visual');
 
 %AUDIOVISUAL PLOTTING
-
 %Define your event codes and each respective intensity value
-AVconds = [30,31,32,33];
-intensities = [0 0.25 .5 1];
-
+%AVconds = [30,31,32,33];
+%intensities = [0 0.25 .5 1];
+AVintensities = [0:0.1:1];
+AVconds = [50:60];
 %Mining your log file
 block = cond.code;                                          %block is a cell array
 tempblock = [];                                             %converting block to a double array
@@ -99,7 +100,7 @@ end
 subplot(3,1,3)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
-plot(intensities, detection(3,:),'Marker','o');
+plot(AVintensities, detection(3,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Audiovisual');
  %% II: Save Fig

@@ -1,0 +1,123 @@
+Scenario - 
+Logfile written - 08/29/2018 14:56:52
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+test	1	Response	255	58369	58036	1
+test	2	Sound	109	132724	260	1			260		other	0
+test	3	Sound	105	150730	260	1			260		other	0
+test	4	Sound	114	175414	268	1			260		other	0
+test	4	Response	1	179886	4741	1
+test	5	Sound	105	196413	261	1			260		other	0
+test	6	Sound	104	217253	260	1			260		other	0
+test	7	Sound	105	241094	260	1			260		other	0
+test	8	Sound	115	263435	260	1			260		other	0
+test	8	Response	1	266844	3669	1
+test	9	Sound	107	284776	260	1			260		other	0
+test	10	Sound	112	301115	260	1			260		other	0
+test	10	Response	1	305004	4149	1
+test	11	Sound	108	326457	260	1			260		other	0
+test	11	Response	1	331243	5046	1
+test	12	Sound	102	343811	275	1			260		other	0
+test	13	Sound	114	372139	260	1			260		other	0
+test	13	Response	1	375802	3924	1
+test	14	Sound	102	397981	260	1			260		other	0
+test	15	Sound	104	427491	260	1			260		other	0
+test	16	Sound	108	447664	260	1			260		other	0
+test	16	Response	1	452281	4876	1
+test	17	Sound	116	474840	260	1			260		other	0
+test	17	Response	1	477800	3220	1
+test	18	Sound	101	492346	260	1			260		other	0
+test	19	Sound	116	510185	260	1			260		other	0
+test	19	Response	1	513239	3314	1
+test	20	Sound	101	532026	260	1			260		other	0
+test	21	Sound	107	554534	260	1			260		other	0
+test	22	Sound	101	579375	260	1			260		other	0
+test	23	Sound	108	606217	260	1			260		other	0
+test	24	Sound	110	635061	260	1			260		other	0
+test	24	Response	1	639717	4916	1
+test	25	Sound	106	654067	260	1			260		other	0
+test	26	Sound	111	683077	260	1			260		other	0
+test	26	Response	1	687556	4739	1
+test	27	Sound	103	712253	260	1			260		other	0
+test	28	Sound	112	732427	260	1			260		other	0
+test	28	Response	1	736435	4268	1
+test	29	Sound	116	751603	263	1			260		other	0
+test	29	Response	1	755714	4374	1
+test	30	Sound	109	781610	260	1			260		other	0
+test	31	Sound	113	802617	260	1			260		other	0
+test	32	Sound	104	825959	260	1			260		other	0
+test	33	Sound	109	853134	260	1			260		other	0
+test	34	Sound	115	878476	260	1			260		other	0
+test	35	Sound	114	897483	260	1			260		other	0
+test	36	Sound	103	916989	260	1			260		other	0
+test	37	Sound	112	937330	260	1			260		other	0
+test	38	Sound	114	964839	260	1			260		other	0
+test	39	Sound	106	987013	260	1			260		other	0
+test	40	Sound	113	1006853	260	1			260		other	0
+test	41	Sound	115	1031862	260	1			260		other	0
+test	42	Sound	101	1048534	260	1			260		other	0
+test	43	Sound	106	1074209	260	1			260		other	0
+test	44	Sound	102	1097050	260	1			260		other	0
+test	45	Sound	109	1123559	260	1			260		other	0
+test	46	Sound	110	1151902	260	1			260		other	0
+test	47	Sound	106	1180579	260	1			260		other	0
+test	48	Sound	113	1203753	260	1			260		other	0
+test	49	Sound	105	1228928	260	1			260		other	0
+test	50	Sound	107	1252937	260	1			260		other	0
+test	51	Sound	111	1282446	260	1			260		other	0
+test	52	Sound	112	1310793	264	1			260		other	0
+test	53	Sound	107	1339299	260	1			260		other	0
+test	54	Sound	111	1359806	260	1			260		other	0
+test	55	Sound	115	1375645	260	1			260		other	0
+test	56	Sound	110	1397992	266	1			260		other	0
+test	57	Sound	104	1415325	260	1			260		other	0
+test	58	Sound	103	1431330	260	1			260		other	0
+test	59	Sound	108	1457172	260	1			260		other	0
+test	60	Sound	113	1484190	269	1			260		other	0
+test	61	Sound	103	1509356	260	1			260		other	0
+test	62	Sound	116	1528030	260	1			260		other	0
+test	63	Sound	110	1544368	260	1			260		other	0
+test	64	Sound	102	1566209	260	1			260		other	0
+test	65	Sound	111	1589550	260	1			260		other	0
+test	66	Response	255	1732414	114534	2
+test	67	Sound	116	1805957	260	1			260		other	0
+test	68	Sound	108	1830632	260	1			260		other	0
+test	69	Sound	114	1854807	260	1			260		other	0
+test	70	Sound	101	1870312	260	1			260		other	0
+test	71	Sound	105	1892819	260	1			260		other	0
+test	72	Sound	103	1919495	260	1			260		other	0
+test	73	Sound	102	1949839	260	1			260		other	0
+test	74	Sound	106	1980349	260	1			260		other	0
+test	75	Sound	113	2010192	260	1			260		other	0
+test	76	Sound	107	2039202	260	1			260		other	0
+test	77	Sound	113	2067880	261	1			260		other	0
+test	78	Sound	109	2094721	260	1			260		other	0
+test	79	Sound	110	2124898	260	1			260		other	0
+test	80	Sound	109	2151240	260	1			260		other	0
+test	81	Sound	103	2175582	260	1			260		other	0
+test	82	Sound	109	2201424	260	1			260		other	0
+test	83	Sound	116	2220597	260	1			260		other	0
+test	84	Sound	104	2245105	260	1			260		other	0
+test	85	Sound	114	2273948	260	1			260		other	0
+test	86	Sound	102	2296789	260	1			260		other	0
+test	87	Sound	106	2321475	270	1			260		other	0
+test	88	Sound	114	2351475	260	1			260		other	0
+test	89	Sound	115	2368981	260	1			260		other	0
+test	90	Sound	115	2389321	260	1			260		other	0
+test	91	Sound	109	2408160	260	1			260		other	0
+test	92	Sound	113	2431002	260	1			260		other	0
+test	93	Sound	110	2452342	260	1			260		other	0
+test	94	Sound	104	2467847	260	1			260		other	0
+test	95	Sound	107	2494190	260	1			260		other	0
+test	96	Sound	104	2520032	260	1			260		other	0
+test	97	Sound	111	2538371	260	1			260		other	0
+test	98	Sound	108	2555543	260	1			260		other	0
+test	99	Sound	115	2571882	260	1			260		other	0
+test	100	Sound	101	2590055	260	1			260		other	0
+test	101	Sound	112	2613396	260	1			260		other	0
+test	102	Sound	112	2631736	260	1			260		other	0
+test	103	Sound	111	2647575	260	1			260		other	0
+test	104	Sound	103	2665748	260	1			260		other	0
+test	105	Sound	105	2692268	271	1			260		other	0
+test	105	Quit		2701276	9279	NA

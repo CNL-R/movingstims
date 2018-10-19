@@ -32,6 +32,50 @@ array {
 } bmps_3;
 
 array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_4/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_4;
+
+array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_5/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_5;
+array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_6/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_6;
+array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_7/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_7;
+array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_8/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_8;
+array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_9/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_9;
+array {
+   LOOP $i 50;
+   $k = '$i + 1';
+   bitmap { filename = "vis_10/annulus_$i.bmp"; };
+   ENDLOOP;
+} bmps_10;
+
+array {
    LOOP $i 150;
    $k = '$i + 1';
    bitmap { filename = "vis_noise/annulus_$i.bmp"; };
@@ -50,6 +94,13 @@ wavefile {filename = "aud_0.wav"; preload = true;} tone_0;
 wavefile {filename = "aud_1.wav"; preload = true;} tone_1;
 wavefile {filename = "aud_2.wav"; preload = true;} tone_2;
 wavefile {filename = "aud_3.wav"; preload = true;} tone_3;
+wavefile {filename = "aud_4.wav"; preload = true;} tone_4;
+wavefile {filename = "aud_5.wav"; preload = true;} tone_5;
+wavefile {filename = "aud_6.wav"; preload = true;} tone_6;
+wavefile {filename = "aud_7.wav"; preload = true;} tone_7;
+wavefile {filename = "aud_8.wav"; preload = true;} tone_8;
+wavefile {filename = "aud_9.wav"; preload = true;} tone_9;
+wavefile {filename = "aud_10.wav"; preload = true;} tone_10;
 
 wavefile {filename = "PinkNoise.wav"; preload = true;} isi_noise;
 wavefile {filename = "silence1000.wav"; preload = true;} isi_silence;
@@ -58,7 +109,13 @@ sound { wavefile tone_0;} aud_0;
 sound { wavefile tone_1;} aud_1;
 sound { wavefile tone_2;} aud_2;
 sound { wavefile tone_3;} aud_3;
-
+sound { wavefile tone_4;} aud_4;
+sound { wavefile tone_5;} aud_5;
+sound { wavefile tone_6;} aud_6;
+sound { wavefile tone_7;} aud_7;
+sound { wavefile tone_8;} aud_8;
+sound { wavefile tone_9;} aud_9;
+sound { wavefile tone_10;} aud_10;
 sound { wavefile isi_noise; loop_playback = true;} isi_aud;
 sound { wavefile isi_silence; loop_playback = true;} isi_vis;
 
@@ -157,20 +214,21 @@ fixcross.set_formatted_text(true);
 fixcross.set_caption("<b>X</b>");
 fixcross.redraw();
 
-int nstims = 2; #true stimuli (not catch trial or supra catch)
+int nstims = 11; #true stimuli (not catch trial or supra catch)
 
-int ncatches = 5; #number of catches per block. (if ncatches = 5, there will be 5 supraliminal catchse and 5 zero catch trials in a block)
-int nreps = 25;
-int ntrials = nstims*nreps+2*ncatches;
+#int ncatches = 5; #number of catches per block. (if ncatches = 5, there will be 5 supraliminal catchse and 5 zero catch trials in a block)
+int nreps = 5;
+#int ntrials = nstims*nreps+2*ncatches;
+int ntrials = nstims*nreps;
 int isi;
 int isi_frames;
 int flex;
-array<int> temparr[ncatches];
+#array<int> temparr[ncatches];
 array<int> whichstim[nstims*nreps];
 term.print_line(whichstim.count());
-#array<int> blockorder[] = {3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2};
-array<int> blockorder[] = {1,1,2,2,3,3};
-#array<int>bloclorder[] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3} # 8 of each block. 25*8 = 200reps of stims. 40 catches 40 supra catches. 
+
+#array<int> blockorder[] = {1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3}; #normal
+array<int> blockorder[] = {3,3,1,3,1,2,3,1,2,3,1,2,3}; #10108009 post crash
 
 blockorder.shuffle();
 
@@ -199,13 +257,13 @@ begin
 	end;
 	term.print_line(whichstim.count());
 	
-	loop
-		int i = nstims + 1
-	until i > nstims + 2 begin
-		temparr.fill(1,ncatches,i,0);
-		whichstim.append(temparr);
-		i = i + 1;
-	end;
+#	loop
+#		int i = nstims + 1
+#	until i > nstims + 2 begin
+#		temparr.fill(1,ncatches,i,0);
+#		whichstim.append(temparr);
+#		i = i + 1;
+#	end;
 	
 	term.print_line(whichstim.count());
 	term.print_line(whichstim);
@@ -251,6 +309,41 @@ begin
 				a_aud_evt.set_event_code(string(whichstim[j] + 10));
 				a_aud_evt.set_port_code(whichstim[j] + 10);	
 				a_aud_evt.set_stimulus(aud_3);
+				a_trl.present();
+			elseif whichstim[j] == 4 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);		
+				a_aud_evt.set_stimulus(aud_4);
+				a_trl.present();
+			elseif whichstim[j] == 5 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);	
+				a_aud_evt.set_stimulus(aud_5);
+				a_trl.present();
+			elseif whichstim[j] == 6 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);		
+				a_aud_evt.set_stimulus(aud_6);
+				a_trl.present();
+			elseif whichstim[j] == 7 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);	
+				a_aud_evt.set_stimulus(aud_7);
+				a_trl.present();
+			elseif whichstim[j] == 8 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);		
+				a_aud_evt.set_stimulus(aud_8);
+				a_trl.present();
+			elseif whichstim[j] == 9 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);	
+				a_aud_evt.set_stimulus(aud_9);
+				a_trl.present();
+			elseif whichstim[j] == 10 then
+				a_aud_evt.set_event_code(string(whichstim[j] + 10));
+				a_aud_evt.set_port_code(whichstim[j] + 10);		
+				a_aud_evt.set_stimulus(aud_10);
 				a_trl.present();
 			else
 				a_aud_evt.set_event_code(string(10));
@@ -301,8 +394,8 @@ begin
 			end;
 			
 			if whichstim[j] == 1 then
-				v_aud_evt.set_event_code(string(whichstim[j] + 20));
-				v_aud_evt.set_port_code(whichstim[j] + 20);	
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);	
 				loop
 					int i = 1;
 				until i == 6 begin
@@ -319,8 +412,8 @@ begin
 					end;
 				end;
 			elseif whichstim[j] == 2 then	
-				v_aud_evt.set_event_code(string(whichstim[j] + 20));
-				v_aud_evt.set_port_code(whichstim[j] + 20);		
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
 				loop
 					int i = 1;
 				until i == 6 begin
@@ -337,8 +430,8 @@ begin
 					end;
 				end;
 			elseif whichstim[j] == 3 then
-				v_aud_evt.set_event_code(string(whichstim[j] + 20));
-				v_aud_evt.set_port_code(whichstim[j] + 20);		
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
 				loop
 					int i = 1;
 				until i == 6 begin
@@ -354,9 +447,135 @@ begin
 						i = i +1;
 					end;
 				end;
+			elseif whichstim[j] == 4 then	
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_4[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_4[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 5 then
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_5[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_5[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 6 then	
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_6[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_6[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 7 then
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_7[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_7[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 8 then	
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_8[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_8[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 9 then
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_9[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_9[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 10 then	
+				v_aud_evt.set_event_code(string(whichstim[j] + 30));
+				v_aud_evt.set_port_code(whichstim[j] + 30);		
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						pic.set_part(1,bmps_10[flex]);
+						v_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_10[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
 			else
-				v_aud_evt.set_event_code(string(20));
-				v_aud_evt.set_port_code(0 + 20);		
+				v_aud_evt.set_event_code(string(30));
+				v_aud_evt.set_port_code(0 + 30);		
 				loop
 					int i = 1;
 				until i == 6 begin
@@ -420,8 +639,8 @@ begin
 				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
-						av_aud_evt.set_event_code(string(whichstim[j] + 30));
-						av_aud_evt.set_port_code(whichstim[j] + 30);	
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
 						av_aud_evt.set_stimulus(aud_1);
 						pic.set_part(1,bmps_1[flex]);
 						av_trl.present();
@@ -439,8 +658,8 @@ begin
 				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
-						av_aud_evt.set_event_code(string(whichstim[j] + 30));
-						av_aud_evt.set_port_code(whichstim[j] + 30);	
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
 						av_aud_evt.set_stimulus(aud_2);
 						pic.set_part(1,bmps_2[flex]);
 						av_trl.present();
@@ -458,8 +677,8 @@ begin
 				until i == 6 begin
 					if i == 1 then
 						flex = random(1,50);
-						av_aud_evt.set_event_code(string(whichstim[j] + 30));
-						av_aud_evt.set_port_code(whichstim[j] + 30);	
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
 						av_aud_evt.set_stimulus(aud_3);
 						pic.set_part(1,bmps_3[flex]);
 						av_trl.present();
@@ -471,13 +690,146 @@ begin
 						i = i +1;
 					end;
 				end; 
+			elseif whichstim[j] == 4 then	
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_4);
+						pic.set_part(1,bmps_4[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_4[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 5 then
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_5);
+						pic.set_part(1,bmps_5[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_5[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end; 
+			elseif whichstim[j] == 6 then	
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_6);
+						pic.set_part(1,bmps_6[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_6[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 7 then
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_7);
+						pic.set_part(1,bmps_7[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_7[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end; 
+			elseif whichstim[j] == 8 then	
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_8);
+						pic.set_part(1,bmps_8[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_8[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
+			elseif whichstim[j] == 9 then
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_9);
+						pic.set_part(1,bmps_9[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_9[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end; 
+			elseif whichstim[j] == 10 then	
+				loop
+					int i = 1;
+				until i == 6 begin
+					if i == 1 then
+						flex = random(1,50);
+						av_aud_evt.set_event_code(string(whichstim[j] + 50));
+						av_aud_evt.set_port_code(whichstim[j] + 50);	
+						av_aud_evt.set_stimulus(aud_10);
+						pic.set_part(1,bmps_10[flex]);
+						av_trl.present();
+						i = i + 1;
+					else
+						flex = random(1,50);
+						pic.set_part(1,bmps_10[flex]);
+						pic.present();
+						i = i +1;
+					end;
+				end;
 			else 
 				loop
 					int i = 1;
 				until i == 6 begin
 					if i == 1 then
-						av_aud_evt.set_event_code(string(0 + 30));
-						av_aud_evt.set_port_code(0 + 30);	
+						av_aud_evt.set_event_code(string(0 + 50));
+						av_aud_evt.set_port_code(0 + 50);	
 						av_aud_evt.set_stimulus(aud_0);
 						flex = random(1,150);
 						pic.set_part(1,bmps_noise[flex]);

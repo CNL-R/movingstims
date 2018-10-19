@@ -1,0 +1,7 @@
+Scenario - 
+Logfile written - 02/26/2018 15:25:44
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Testing	1	Response	255	112073	111740	1
+Testing	1	Quit		251031	250698	NA

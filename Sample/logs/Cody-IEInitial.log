@@ -1,0 +1,1467 @@
+Scenario - 
+Logfile written - 09/05/2018 13:08:13
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Cody	1	Response	255	40405	40238	1
+Cody	2	Sound	108	122054	260	1			260		other	0
+Cody	3	Sound	107	147062	260	1			260		other	0
+Cody	4	Sound	102	174238	260	1			260		other	0
+Cody	5	Sound	104	192415	263	1			260		other	0
+Cody	6	Sound	106	220754	260	1			260		other	0
+Cody	7	Sound	112	238260	260	1			260		other	0
+Cody	7	Response	1	240720	2720	1
+Cody	8	Sound	110	265936	260	1			260		other	0
+Cody	9	Sound	103	288443	260	1			260		other	0
+Cody	10	Sound	107	307116	260	1			260		other	0
+Cody	11	Sound	108	336293	260	1			260		other	0
+Cody	11	Response	1	339678	3645	1
+Cody	12	Sound	105	363969	260	1			260		other	0
+Cody	13	Sound	104	379974	260	1			260		other	0
+Cody	13	Response	1	383117	3403	1
+Cody	14	Sound	102	396813	260	1			260		other	0
+Cody	15	Sound	109	417654	260	1			260		other	0
+Cody	15	Response	1	421596	4202	1
+Cody	16	Sound	105	441328	260	1			260		other	0
+Cody	17	Sound	107	460335	260	1			260		other	0
+Cody	17	Response	1	463756	3680	1
+Cody	18	Sound	101	482509	260	1			260		other	0
+Cody	19	Sound	110	508184	260	1			260		other	0
+Cody	19	Response	1	511115	3190	1
+Cody	20	Sound	105	532026	260	1			260		other	0
+Cody	21	Sound	102	559368	260	1			260		other	0
+Cody	22	Sound	101	582710	260	1			260		other	0
+Cody	23	Sound	110	610886	260	1			260		other	0
+Cody	23	Response	1	614473	3847	1
+Cody	24	Sound	106	633907	273	1			260		other	0
+Cody	24	Response	1	639192	5558	1
+Cody	25	Sound	107	651733	260	1			260		other	0
+Cody	25	Response	1	656872	5399	1
+Cody	26	Sound	110	668239	260	1			260		other	0
+Cody	26	Response	1	671272	3293	1
+Cody	27	Sound	109	689746	260	1			260		other	0
+Cody	27	Response	1	692711	3225	1
+Cody	28	Sound	111	705584	260	1			260		other	0
+Cody	28	Response	1	707991	2666	1
+Cody	29	Sound	102	725091	260	1			260		other	0
+Cody	30	Sound	111	746265	260	1			260		other	0
+Cody	30	Response	1	750150	4145	1
+Cody	31	Sound	101	776108	260	1			260		other	0
+Cody	32	Sound	106	805618	260	1			260		other	0
+Cody	32	Response	1	809589	4230	1
+Cody	33	Sound	109	822457	260	1			260		other	0
+Cody	34	Sound	103	840803	266	1			260		other	0
+Cody	34	Response	1	844708	4171	1
+Cody	35	Sound	106	869140	260	1			260		other	0
+Cody	36	Sound	105	885979	260	1			260		other	0
+Cody	36	Response	1	890627	4908	1
+Cody	37	Sound	103	904151	260	1			260		other	0
+Cody	38	Sound	108	923658	260	1			260		other	0
+Cody	38	Response	1	927266	3868	1
+Cody	39	Sound	108	942001	263	1			260		other	0
+Cody	39	Response	1	946306	4568	1
+Cody	40	Sound	101	972008	260	1			260		other	0
+Cody	41	Sound	104	1000518	260	1			260		other	0
+Cody	42	Sound	112	1018857	260	1			260		other	0
+Cody	42	Response	1	1021424	2827	1
+Cody	43	Sound	111	1046867	260	1			260		other	0
+Cody	43	Response	1	1050064	3457	1
+Cody	44	Sound	111	1073876	260	1			260		other	0
+Cody	44	Response	1	1077343	3727	1
+Cody	45	Sound	112	1097550	260	1			260		other	0
+Cody	45	Response	1	1100063	2772	1
+Cody	46	Sound	103	1125560	260	1			260		other	0
+Cody	46	Response	1	1126062	762	1
+Cody	47	Sound	109	1143066	260	1			260		other	0
+Cody	47	Response	1	1146222	3416	1
+Cody	48	Sound	104	1162072	260	1			260		other	0
+Cody	49	Sound	112	1178411	260	1			260		other	0
+Cody	49	Response	1	1181101	2950	1
+Cody	50	Response	255	1219180	12773	1
+Cody	51	Sound	18	1288948	260	1			260		other	0
+Cody	52	Sound	11	1316294	263	1			260		other	0
+Cody	53	Sound	15	1344801	260	1			260		other	0
+Cody	53	Response	1	1348698	4157	1
+Cody	54	Sound	18	1366975	260	1			260		other	0
+Cody	54	Response	1	1369417	2702	1
+Cody	55	Sound	17	1382814	260	1			260		other	0
+Cody	55	Response	1	1400456	17903	1
+Cody	56	Sound	17	1411992	262	1			260		other	0
+Cody	56	Response	1	1416856	5126	1
+Cody	57	Sound	21	1429496	260	1			260		other	0
+Cody	57	Response	1	1432136	2900	1
+Cody	58	Sound	22	1458506	260	1			260		other	0
+Cody	58	Response	1	1460535	2289	1
+Cody	59	Sound	21	1478513	260	1			260		other	0
+Cody	59	Response	1	1481095	2842	1
+Cody	60	Sound	11	1505191	262	1			260		other	0
+Cody	61	Sound	12	1523361	260	1			260		other	0
+Cody	62	Sound	22	1542201	260	1			260		other	0
+Cody	62	Response	1	1544854	2913	1
+Cody	63	Sound	13	1571377	260	1			260		other	0
+Cody	64	Sound	15	1586716	260	1			260		other	0
+Cody	64	Response	1	1590293	3837	1
+Cody	65	Sound	22	1609890	260	1			260		other	0
+Cody	65	Response	1	1612612	2982	1
+Cody	66	Sound	11	1632398	260	1			260		other	0
+Cody	67	Sound	18	1650571	260	1			260		other	0
+Cody	67	Response	1	1653412	3100	1
+Cody	68	Sound	12	1678588	267	1			260		other	0
+Cody	69	Sound	21	1707757	260	1			260		other	0
+Cody	69	Response	1	1710210	2713	1
+Cody	70	Sound	16	1737267	260	1			260		other	0
+Cody	70	Response	1	1741490	4483	1
+Cody	71	Sound	19	1762275	260	1			260		other	0
+Cody	71	Response	1	1765489	3474	1
+Cody	72	Sound	20	1782615	260	1			260		other	0
+Cody	72	Response	1	1785329	2973	1
+Cody	73	Sound	16	1809124	260	1			260		other	0
+Cody	74	Sound	12	1835633	260	1			260		other	0
+Cody	75	Sound	19	1865644	260	1			260		other	0
+Cody	75	Response	1	1868607	3223	1
+Cody	76	Sound	16	1891152	260	1			260		other	0
+Cody	77	Sound	12	1913660	260	1			260		other	0
+Cody	78	Sound	13	1932666	260	1			260		other	0
+Cody	79	Sound	19	1962510	260	1			260		other	0
+Cody	79	Response	1	1965805	3555	1
+Cody	80	Sound	14	1981683	260	1			260		other	0
+Cody	81	Sound	21	2011693	260	1			260		other	0
+Cody	81	Response	1	2015404	3971	1
+Cody	82	Sound	22	2034201	260	1			260		other	0
+Cody	82	Response	1	2037884	3943	1
+Cody	83	Sound	14	2053874	260	1			260		other	0
+Cody	84	Sound	15	2073547	260	1			260		other	0
+Cody	84	Response	1	2077643	4355	1
+Cody	85	Sound	17	2089052	260	1			260		other	0
+Cody	85	Response	1	2093802	5010	1
+Cody	86	Sound	16	2110226	260	1			260		other	0
+Cody	86	Response	1	2115642	5676	1
+Cody	87	Sound	18	2133067	260	1			260		other	0
+Cody	87	Response	1	2136201	3394	1
+Cody	88	Sound	15	2154579	264	1			260		other	0
+Cody	89	Sound	17	2171414	260	1			260		other	0
+Cody	90	Sound	14	2199090	260	1			260		other	0
+Cody	91	Sound	13	2224432	260	1			260		other	0
+Cody	92	Sound	14	2243104	260	1			260		other	0
+Cody	93	Sound	11	2265445	260	1			260		other	0
+Cody	94	Sound	19	2285952	260	1			260		other	0
+Cody	94	Response	1	2289078	3386	1
+Cody	95	Sound	13	2312795	260	1			260		other	0
+Cody	96	Sound	20	2340637	260	1			260		other	0
+Cody	96	Response	1	2343317	2940	1
+Cody	97	Sound	20	2367313	260	1			260		other	0
+Cody	97	Response	1	2370837	3783	1
+Cody	98	Sound	20	2392488	260	1			260		other	0
+Cody	98	Response	1	2395716	3488	1
+Cody	99	Response	255	2442275	26125	1
+Cody	100	Sound	15	2513872	269	1			260		other	0
+Cody	101	Sound	21	2532372	263	1			260		other	0
+Cody	101	Response	1	2545553	13444	1
+Cody	102	Sound	16	2561045	260	1			260		other	0
+Cody	103	Sound	17	2584720	260	1			260		other	0
+Cody	103	Response	1	2589072	4612	1
+Cody	104	Sound	20	2611571	268	1			260		other	0
+Cody	104	Response	1	2615072	3769	1
+Cody	105	Sound	14	2630570	261	1			260		other	0
+Cody	106	Sound	17	2655410	260	1			260		other	0
+Cody	107	Sound	12	2677085	260	1			260		other	0
+Cody	108	Sound	15	2702927	260	1			260		other	0
+Cody	109	Sound	18	2725434	260	1			260		other	0
+Cody	109	Response	1	2728190	3015	1
+Cody	110	Sound	21	2754944	260	1			260		other	0
+Cody	110	Response	1	2758349	3664	1
+Cody	111	Sound	22	2781287	260	1			260		other	0
+Cody	111	Response	1	2784348	3321	1
+Cody	112	Sound	11	2803794	260	1			260		other	0
+Cody	113	Sound	15	2825968	260	1			260		other	0
+Cody	113	Response	1	2830187	4479	1
+Cody	114	Sound	13	2843808	260	1			260		other	0
+Cody	114	Response	1	2848107	4559	1
+Cody	115	Sound	12	2867983	260	1			260		other	0
+Cody	116	Sound	22	2884822	260	1			260		other	0
+Cody	116	Response	1	2887466	2904	1
+Cody	117	Sound	20	2901494	260	1			260		other	0
+Cody	117	Response	1	2905546	4312	1
+Cody	118	Sound	18	2925335	260	1			260		other	0
+Cody	118	Response	1	2930265	5190	1
+Cody	119	Sound	11	2954345	260	1			260		other	0
+Cody	120	Sound	16	2982364	269	1			260		other	0
+Cody	121	Sound	17	3010864	260	1			260		other	0
+Cody	121	Response	1	3014344	3739	1
+Cody	122	Sound	19	3038374	260	1			260		other	0
+Cody	122	Response	1	3041703	3589	1
+Cody	123	Sound	14	3066716	260	1			260		other	0
+Cody	124	Sound	19	3094392	260	1			260		other	0
+Cody	124	Response	1	3097782	3649	1
+Cody	125	Sound	19	3123736	260	1			260		other	0
+Cody	125	Response	1	3129061	5585	1
+Cody	126	Sound	17	3153412	260	1			260		other	0
+Cody	126	Response	1	3156981	3828	1
+Cody	127	Sound	14	3181760	264	1			260		other	0
+Cody	128	Sound	11	3198761	260	1			260		other	0
+Cody	129	Sound	18	3216934	260	1			260		other	0
+Cody	129	Response	1	3220179	3505	1
+Cody	130	Sound	21	3236274	260	1			260		other	0
+Cody	130	Response	1	3239779	3765	1
+Cody	131	Sound	20	3260782	260	1			260		other	0
+Cody	131	Response	1	3267539	7016	1
+Cody	132	Sound	16	3287625	260	1			260		other	0
+Cody	133	Sound	18	3311966	260	1			260		other	0
+Cody	133	Response	1	3314977	3271	1
+Cody	134	Sound	16	3327305	260	1			260		other	0
+Cody	135	Sound	14	3350813	260	1			260		other	0
+Cody	136	Sound	12	3370819	260	1			260		other	0
+Cody	137	Sound	22	3391660	260	1			260		other	0
+Cody	137	Response	1	3393776	2376	1
+Cody	138	Sound	21	3407499	260	1			260		other	0
+Cody	138	Response	1	3411055	3817	1
+Cody	139	Sound	22	3426672	260	1			260		other	0
+Cody	139	Response	1	3429215	2803	1
+Cody	140	Sound	13	3447012	260	1			260		other	0
+Cody	141	Sound	11	3470855	261	1			260		other	0
+Cody	142	Sound	12	3492861	260	1			260		other	0
+Cody	143	Sound	13	3510200	260	1			260		other	0
+Cody	144	Sound	20	3529206	260	1			260		other	0
+Cody	144	Response	1	3533373	4426	1
+Cody	145	Sound	19	3557716	260	1			260		other	0
+Cody	145	Response	1	3561373	3916	1
+Cody	146	Sound	15	3584392	260	1			260		other	0
+Cody	147	Sound	13	3610734	260	1			260		other	0
+Cody	148	Response	255	3699210	68315	1
+Cody	149	Sound	13	3766120	260	1			260		other	0
+Cody	150	Sound	16	3782792	260	1			260		other	0
+Cody	151	Sound	17	3802149	277	1			260		other	0
+Cody	151	Response	1	3806887	5015	1
+Cody	152	Sound	18	3829641	260	1			260		other	0
+Cody	152	Response	1	3832487	3105	1
+Cody	153	Sound	14	3850148	260	1			260		other	0
+Cody	154	Sound	13	3869321	260	1			260		other	0
+Cody	155	Sound	19	3894830	260	1			260		other	0
+Cody	155	Response	1	3898646	4075	1
+Cody	156	Sound	22	3916347	269	1			260		other	0
+Cody	156	Response	1	3919365	3287	1
+Cody	157	Sound	19	3932509	260	1			260		other	0
+Cody	157	Response	1	3936645	4395	1
+Cody	158	Sound	14	3952683	260	1			260		other	0
+Cody	159	Sound	18	3980692	260	1			260		other	0
+Cody	160	Sound	20	3998365	260	1			260		other	0
+Cody	160	Response	1	4002004	3898	1
+Cody	161	Sound	13	4023207	260	1			260		other	0
+Cody	162	Sound	17	4049049	260	1			260		other	0
+Cody	163	Sound	22	4064388	260	1			260		other	0
+Cody	163	Response	1	4067282	3154	1
+Cody	164	Sound	21	4091744	273	1			260		other	0
+Cody	164	Response	1	4095922	4451	1
+Cody	165	Sound	17	4112237	260	1			260		other	0
+Cody	165	Response	1	4115761	3784	1
+Cody	166	Sound	11	4127409	260	1			260		other	0
+Cody	167	Sound	12	4151917	260	1			260		other	0
+Cody	168	Sound	15	4174758	260	1			260		other	0
+Cody	169	Sound	12	4204101	260	1			260		other	0
+Cody	170	Sound	11	4229443	260	1			260		other	0
+Cody	171	Sound	15	4251617	260	1			260		other	0
+Cody	172	Sound	14	4275792	260	1			260		other	0
+Cody	173	Sound	17	4302968	260	1			260		other	0
+Cody	173	Response	1	4308877	6169	1
+Cody	174	Sound	15	4319641	260	1			260		other	0
+Cody	175	Sound	16	4337980	260	1			260		other	0
+Cody	175	Response	1	4342077	4356	1
+Cody	176	Sound	20	4366990	260	1			260		other	0
+Cody	176	Response	1	4370956	4226	1
+Cody	177	Sound	16	4389338	267	1			260		other	0
+Cody	178	Sound	20	4413672	260	1			260		other	0
+Cody	178	Response	1	4416555	3142	1
+Cody	179	Sound	18	4442349	260	1			260		other	0
+Cody	179	Response	1	4445835	3746	1
+Cody	180	Sound	12	4463856	260	1			260		other	0
+Cody	181	Sound	21	4494037	263	1			260		other	0
+Cody	181	Response	1	4497193	3420	1
+Cody	182	Sound	16	4518208	260	1			260		other	0
+Cody	183	Sound	15	4538881	260	1			260		other	0
+Cody	184	Sound	22	4565557	260	1			260		other	0
+Cody	184	Response	1	4568392	3094	1
+Cody	185	Sound	11	4593900	260	1			260		other	0
+Cody	186	Sound	19	4612406	260	1			260		other	0
+Cody	186	Response	1	4619511	7364	1
+Cody	187	Sound	14	4640249	260	1			260		other	0
+Cody	188	Sound	21	4661433	270	1			260		other	0
+Cody	188	Response	1	4666070	4907	1
+Cody	189	Sound	18	4685764	260	1			260		other	0
+Cody	189	Response	1	4690949	5445	1
+Cody	190	Sound	13	4709106	260	1			260		other	0
+Cody	191	Sound	12	4730113	260	1			260		other	0
+Cody	192	Sound	22	4758132	269	1			260		other	0
+Cody	192	Response	1	4761268	3405	1
+Cody	193	Sound	19	4775631	263	1			260		other	0
+Cody	193	Response	1	4780948	5579	1
+Cody	194	Sound	11	4803304	260	1			260		other	0
+Cody	195	Sound	20	4832648	260	1			260		other	0
+Cody	195	Response	1	4837506	5118	1
+Cody	196	Sound	21	4850487	260	1			260		other	0
+Cody	196	Response	1	4854386	4159	1
+Cody	197	Response	255	4899345	30699	1
+Cody	198	Sound	18	4979197	260	1			260		other	0
+Cody	199	Sound	13	4997203	260	1			260		other	0
+Cody	200	Sound	18	5022545	260	1			260		other	0
+Cody	200	Response	1	5025823	3537	1
+Cody	201	Sound	12	5051226	265	1			260		other	0
+Cody	202	Sound	16	5067727	260	1			260		other	0
+Cody	202	Response	1	5072782	5314	1
+Cody	203	Sound	15	5094903	260	1			260		other	0
+Cody	203	Response	1	5098141	3498	1
+Cody	204	Sound	18	5123579	260	1			260		other	0
+Cody	204	Response	1	5128061	4741	1
+Cody	205	Sound	19	5148425	263	1			260		other	0
+Cody	205	Response	1	5151660	3499	1
+Cody	206	Sound	13	5169762	260	1			260		other	0
+Cody	207	Sound	19	5193103	260	1			260		other	0
+Cody	207	Response	1	5197339	4496	1
+Cody	208	Sound	17	5219779	260	1			260		other	0
+Cody	208	Response	1	5222859	3340	1
+Cody	209	Sound	19	5242453	260	1			260		other	0
+Cody	209	Response	1	5245818	3625	1
+Cody	210	Sound	11	5264961	260	1			260		other	0
+Cody	211	Sound	14	5286635	260	1			260		other	0
+Cody	212	Sound	15	5302307	260	1			260		other	0
+Cody	213	Sound	17	5318312	260	1			260		other	0
+Cody	213	Response	1	5321817	3764	1
+Cody	214	Sound	19	5343987	260	1			260		other	0
+Cody	214	Response	1	5347816	4088	1
+Cody	215	Sound	21	5369829	260	1			260		other	0
+Cody	215	Response	1	5375815	6246	1
+Cody	216	Sound	20	5392337	260	1			260		other	0
+Cody	216	Response	1	5397655	5578	1
+Cody	217	Sound	17	5408509	260	1			260		other	0
+Cody	218	Sound	17	5437853	260	1			260		other	0
+Cody	219	Sound	22	5462694	260	1			260		other	0
+Cody	219	Response	1	5466693	4258	2
+Cody	220	Sound	11	5486369	260	1			260		other	0
+Cody	221	Sound	22	5504208	260	1			260		other	0
+Cody	221	Response	1	5508613	4664	1
+Cody	222	Sound	20	5523048	260	1			260		other	0
+Cody	222	Response	1	5529172	6384	1
+Cody	223	Sound	16	5551557	260	1			260		other	0
+Cody	224	Sound	20	5575732	260	1			260		other	0
+Cody	224	Response	1	5580291	4819	1
+Cody	225	Sound	22	5594739	260	1			260		other	0
+Cody	225	Response	1	5597491	3012	1
+Cody	226	Sound	14	5618916	262	1			260		other	0
+Cody	227	Sound	13	5641755	260	1			260		other	0
+Cody	228	Sound	16	5668430	260	1			260		other	0
+Cody	229	Sound	21	5697607	260	1			260		other	0
+Cody	229	Response	1	5700849	3502	1
+Cody	230	Sound	15	5715780	260	1			260		other	0
+Cody	231	Sound	12	5732619	260	1			260		other	0
+Cody	232	Sound	14	5748958	260	1			260		other	0
+Cody	233	Sound	15	5778968	260	1			260		other	0
+Cody	234	Sound	18	5794973	260	1			260		other	0
+Cody	234	Response	1	5799567	4853	1
+Cody	235	Sound	11	5820649	260	1			260		other	0
+Cody	236	Sound	21	5848658	260	1			260		other	0
+Cody	236	Response	1	5853326	4927	1
+Cody	237	Sound	13	5863830	260	1			260		other	0
+Cody	238	Sound	21	5886338	260	1			260		other	0
+Cody	238	Response	1	5890045	3967	1
+Cody	239	Sound	11	5904011	261	1			260		other	0
+Cody	240	Sound	20	5927685	260	1			260		other	0
+Cody	241	Sound	12	5952026	260	1			260		other	0
+Cody	242	Sound	22	5967865	260	1			260		other	0
+Cody	242	Response	1	5971083	3478	1
+Cody	243	Sound	14	5994541	260	1			260		other	0
+Cody	244	Sound	16	6016548	260	1			260		other	0
+Cody	245	Sound	12	6037889	260	1			260		other	0
+Cody	246	Response	1	6081641	19424	1
+Cody	246	Response	1	6113960	51743	1
+Cody	246	Response	255	6129480	67263	1
+Cody	247	Sound	103	6193441	260	1			260		other	0
+Cody	248	Sound	104	6212615	260	1			260		other	0
+Cody	249	Sound	102	6239957	260	1			260		other	0
+Cody	250	Sound	106	6262465	260	1			260		other	0
+Cody	250	Response	255	6267077	4872	1
+Cody	251	Sound	111	6283138	260	1			260		other	0
+Cody	251	Response	255	6285877	2998	1
+Cody	252	Sound	108	6305646	260	1			260		other	0
+Cody	252	Response	255	6310516	5130	1
+Cody	253	Sound	106	6327003	276	1			260		other	0
+Cody	254	Sound	102	6344159	260	1			260		other	0
+Cody	254	Response	1	6348116	4216	1
+Cody	255	Sound	103	6365002	263	1			260		other	0
+Cody	256	Sound	111	6383839	260	1			260		other	0
+Cody	256	Response	1	6386595	3015	1
+Cody	257	Sound	109	6407847	260	1			260		other	0
+Cody	257	Response	1	6411474	3887	1
+Cody	258	Sound	111	6427521	260	1			260		other	0
+Cody	258	Response	1	6430514	3253	1
+Cody	259	Sound	104	6449701	266	1			260		other	0
+Cody	260	Sound	103	6466201	260	1			260		other	0
+Cody	261	Sound	112	6490209	260	1			260		other	0
+Cody	261	Response	1	6492993	3044	1
+Cody	262	Sound	102	6519718	260	1			260		other	0
+Cody	263	Sound	108	6539225	260	1			260		other	0
+Cody	263	Response	1	6542352	3386	1
+Cody	264	Sound	110	6560566	260	1			260		other	0
+Cody	264	Response	1	6563951	3645	1
+Cody	265	Sound	101	6588575	260	1			260		other	0
+Cody	266	Sound	101	6609098	276	1			260		other	0
+Cody	267	Sound	108	6628756	260	1			260		other	0
+Cody	267	Response	1	6631870	3374	1
+Cody	268	Sound	105	6648429	260	1			260		other	0
+Cody	268	Response	1	6654589	6420	1
+Cody	269	Sound	107	6672604	260	1			260		other	0
+Cody	269	Response	1	6676269	3925	3
+Cody	270	Sound	107	6697445	260	1			260		other	0
+Cody	270	Response	1	6700508	3323	1
+Cody	271	Sound	110	6715785	260	1			260		other	0
+Cody	271	Response	1	6718828	3303	1
+Cody	272	Sound	104	6735125	260	1			260		other	0
+Cody	273	Sound	102	6763968	260	1			260		other	0
+Cody	273	Response	1	6767307	3599	1
+Cody	274	Sound	112	6784142	260	1			260		other	0
+Cody	274	Response	1	6786987	3105	1
+Cody	275	Sound	111	6802648	260	1			260		other	0
+Cody	275	Response	1	6805546	3158	1
+Cody	276	Sound	101	6832324	260	1			260		other	0
+Cody	277	Sound	109	6858500	260	1			260		other	0
+Cody	277	Response	1	6863225	4985	1
+Cody	278	Sound	103	6876006	260	1			260		other	0
+Cody	279	Sound	110	6905849	260	1			260		other	0
+Cody	279	Response	1	6909304	3714	1
+Cody	280	Sound	107	6932858	260	1			260		other	0
+Cody	280	Response	1	6936664	4065	1
+Cody	281	Sound	106	6950531	260	1			260		other	0
+Cody	282	Sound	105	6979041	260	1			260		other	0
+Cody	283	Sound	110	6995891	271	1			260		other	0
+Cody	283	Response	1	6998902	3282	1
+Cody	284	Sound	112	7011719	260	1			260		other	0
+Cody	284	Response	1	7014822	3363	1
+Cody	285	Sound	112	7033059	260	1			260		other	0
+Cody	285	Response	1	7036261	3462	1
+Cody	286	Sound	107	7049398	260	1			260		other	0
+Cody	287	Sound	104	7079908	260	1			260		other	0
+Cody	288	Sound	109	7106417	260	1			260		other	0
+Cody	288	Response	1	7112020	5862	1
+Cody	289	Sound	106	7130259	260	1			260		other	0
+Cody	289	Response	1	7134739	4740	1
+Cody	290	Sound	101	7151099	260	1			260		other	0
+Cody	291	Sound	105	7173106	260	1			260		other	0
+Cody	292	Sound	109	7199949	260	1			260		other	0
+Cody	292	Response	1	7203778	4089	1
+Cody	293	Sound	108	7226458	260	1			260		other	0
+Cody	293	Response	1	7233938	7739	1
+Cody	294	Sound	105	7249132	260	1			260		other	0
+Cody	294	Response	1	7253137	4265	1
+Cody	295	Response	255	7287456	8994	1
+Cody	296	Sound	111	7362171	260	1			260		other	0
+Cody	296	Response	1	7366975	5064	1
+Cody	297	Sound	103	7378843	260	1			260		other	0
+Cody	298	Sound	110	7404185	260	1			260		other	0
+Cody	298	Response	1	7408494	4569	1
+Cody	299	Sound	103	7422691	260	1			260		other	0
+Cody	300	Sound	109	7439864	260	1			260		other	0
+Cody	301	Sound	111	7469382	269	1			260		other	0
+Cody	301	Response	1	7472253	3139	1
+Cody	302	Sound	107	7490547	260	1			260		other	0
+Cody	302	Response	1	7494732	4444	1
+Cody	303	Sound	106	7519224	260	1			260		other	0
+Cody	303	Response	1	7522971	4007	2
+Cody	304	Sound	101	7535229	260	1			260		other	0
+Cody	305	Sound	103	7556903	260	1			260		other	0
+Cody	306	Sound	106	7586747	260	1			260		other	0
+Cody	306	Response	1	7592170	5683	1
+Cody	307	Sound	107	7605920	260	1			260		other	0
+Cody	307	Response	1	7612090	6430	1
+Cody	308	Sound	104	7628427	260	1			260		other	0
+Cody	309	Sound	105	7654103	260	1			260		other	0
+Cody	310	Sound	112	7671279	263	1			260		other	0
+Cody	310	Response	1	7674568	3553	1
+Cody	311	Sound	105	7698284	260	1			260		other	0
+Cody	312	Sound	102	7728294	260	1			260		other	0
+Cody	313	Sound	112	7751302	260	1			260		other	0
+Cody	313	Response	1	7754247	3204	1
+Cody	314	Sound	107	7772477	261	1			260		other	0
+Cody	314	Response	1	7776966	4750	1
+Cody	315	Sound	108	7788648	260	1			260		other	0
+Cody	316	Sound	108	7811156	260	1			260		other	0
+Cody	316	Response	1	7816085	5189	1
+Cody	317	Sound	108	7837832	260	1			260		other	0
+Cody	317	Response	1	7842725	5153	1
+Cody	318	Sound	104	7856175	264	1			260		other	0
+Cody	319	Sound	106	7884347	260	1			260		other	0
+Cody	320	Sound	112	7913190	260	1			260		other	0
+Cody	320	Response	1	7915924	2993	1
+Cody	321	Sound	110	7939866	260	1			260		other	0
+Cody	321	Response	1	7943923	4317	1
+Cody	322	Sound	107	7956205	260	1			260		other	0
+Cody	322	Response	1	7960082	4137	1
+Cody	323	Sound	106	7973044	260	1			260		other	0
+Cody	323	Response	1	7976642	3858	1
+Cody	324	Sound	101	8002054	260	1			260		other	0
+Cody	325	Sound	103	8018559	260	1			260		other	0
+Cody	326	Sound	102	8036732	260	1			260		other	0
+Cody	327	Sound	105	8065742	260	1			260		other	0
+Cody	328	Sound	110	8090250	260	1			260		other	0
+Cody	328	Response	1	8096160	6169	1
+Cody	329	Sound	104	8112771	273	1			260		other	0
+Cody	330	Sound	111	8138933	260	1			260		other	0
+Cody	330	Response	1	8143519	4845	1
+Cody	331	Sound	104	8162942	260	1			260		other	0
+Cody	332	Sound	109	8193452	260	1			260		other	0
+Cody	332	Response	1	8199038	5845	1
+Cody	333	Sound	108	8214792	260	1			260		other	0
+Cody	334	Sound	110	8241468	260	1			260		other	0
+Cody	334	Response	1	8244957	3748	1
+Cody	335	Sound	102	8263309	260	1			260		other	0
+Cody	336	Sound	105	8292986	260	1			260		other	0
+Cody	336	Response	1	8297596	4870	1
+Cody	337	Sound	101	8321667	265	1			260		other	0
+Cody	338	Sound	102	8346170	260	1			260		other	0
+Cody	339	Sound	101	8365510	260	1			260		other	0
+Cody	340	Sound	109	8395366	272	1			260		other	0
+Cody	340	Response	1	8399114	4020	1
+Cody	341	Sound	111	8416027	260	1			260		other	0
+Cody	341	Response	1	8421193	5425	3
+Cody	342	Sound	109	8431699	260	1			260		other	0
+Cody	343	Sound	112	8451206	260	1			260		other	0
+Cody	343	Response	1	8454152	3206	1
+Cody	344	Response	255	8487192	10490	1
+Cody	345	Sound	101	8565245	260	1			260		other	0
+Cody	346	Sound	111	8590253	260	1			260		other	0
+Cody	346	Response	1	8595110	5116	1
+Cody	347	Sound	107	8614428	260	1			260		other	0
+Cody	348	Sound	110	8644605	260	1			260		other	0
+Cody	348	Response	1	8649509	5163	1
+Cody	349	Sound	106	8664445	260	1			260		other	0
+Cody	350	Sound	107	8690960	266	1			260		other	0
+Cody	351	Sound	109	8712128	260	1			260		other	0
+Cody	351	Response	1	8717667	5799	1
+Cody	352	Sound	101	8731134	260	1			260		other	0
+Cody	353	Sound	101	8747306	260	1			260		other	0
+Cody	354	Sound	104	8766646	260	1			260		other	0
+Cody	355	Sound	108	8791158	264	1			260		other	0
+Cody	355	Response	1	8795425	4531	1
+Cody	356	Sound	105	8816997	260	1			260		other	0
+Cody	357	Sound	108	8841672	260	1			260		other	0
+Cody	357	Response	1	8845425	4013	1
+Cody	358	Sound	111	8865180	260	1			260		other	0
+Cody	359	Sound	102	8885186	260	1			260		other	0
+Cody	360	Sound	105	8901359	260	1			260		other	0
+Cody	360	Response	1	8906143	5045	1
+Cody	361	Sound	111	8925200	260	1			260		other	0
+Cody	362	Sound	105	8952542	260	1			260		other	0
+Cody	363	Sound	112	8975884	260	1			260		other	0
+Cody	363	Response	1	8979102	3478	1
+Cody	364	Sound	102	9004893	260	1			260		other	0
+Cody	365	Sound	105	9024734	260	1			260		other	0
+Cody	366	Sound	110	9042073	260	1			260		other	0
+Cody	366	Response	1	9048140	6327	1
+Cody	367	Sound	102	9064747	260	1			260		other	0
+Cody	368	Sound	112	9092423	260	1			260		other	0
+Cody	368	Response	1	9096219	4056	1
+Cody	369	Sound	102	9118932	260	1			260		other	0
+Cody	370	Sound	111	9144774	260	1			260		other	0
+Cody	370	Response	1	9152138	7624	1
+Cody	371	Sound	103	9163280	260	1			260		other	0
+Cody	372	Sound	108	9193624	260	1			260		other	0
+Cody	372	Response	1	9198697	5333	1
+Cody	373	Sound	103	9223301	260	1			260		other	0
+Cody	374	Sound	106	9243474	260	1			260		other	0
+Cody	375	Sound	106	9262814	260	1			260		other	0
+Cody	376	Sound	101	9290490	260	1			260		other	0
+Cody	377	Sound	106	9317666	260	1			260		other	0
+Cody	378	Sound	110	9338006	260	1			260		other	0
+Cody	378	Response	1	9345014	7268	1
+Cody	379	Sound	110	9359514	260	1			260		other	0
+Cody	380	Sound	104	9377853	260	1			260		other	0
+Cody	381	Sound	107	9398360	260	1			260		other	0
+Cody	382	Sound	103	9426536	260	1			260		other	0
+Cody	383	Sound	112	9456713	260	1			260		other	0
+Cody	383	Response	1	9460132	3678	1
+Cody	384	Sound	104	9473719	260	1			260		other	0
+Cody	385	Sound	103	9504246	276	1			260		other	0
+Cody	386	Sound	109	9525570	260	1			260		other	0
+Cody	386	Response	1	9531331	6020	1
+Cody	387	Sound	109	9547577	260	1			260		other	0
+Cody	388	Sound	107	9563916	260	1			260		other	0
+Cody	389	Sound	104	9580422	260	1			260		other	0
+Cody	390	Sound	112	9599095	260	1			260		other	0
+Cody	390	Response	1	9601729	2894	1
+Cody	391	Sound	108	9618768	260	1			260		other	0
+Cody	392	Sound	109	9639608	260	1			260		other	0
+Cody	393	Response	255	9674688	15419	1
+Cody	394	Sound	13	9754147	260	1			260		other	0
+Cody	395	Sound	15	9771820	260	1			260		other	0
+Cody	396	Sound	13	9799840	272	1			260		other	0
+Cody	397	Sound	17	9822504	260	1			260		other	0
+Cody	397	Response	1	9827164	4920	1
+Cody	398	Sound	16	9843678	260	1			260		other	0
+Cody	398	Response	1	9849404	5986	1
+Cody	399	Sound	14	9869520	260	1			260		other	0
+Cody	400	Sound	19	9899697	260	1			260		other	0
+Cody	400	Response	1	9902523	3086	1
+Cody	401	Sound	20	9929373	260	1			260		other	0
+Cody	401	Response	1	9932842	3728	1
+Cody	402	Sound	20	9953715	260	1			260		other	0
+Cody	402	Response	1	9958442	4987	1
+Cody	403	Sound	21	9982058	260	1			260		other	0
+Cody	403	Response	1	9989481	7683	1
+Cody	404	Sound	20	9998730	260	1			260		other	0
+Cody	404	Response	1	10002601	4130	1
+Cody	405	Sound	18	10021405	260	1			260		other	0
+Cody	405	Response	1	10027720	6575	1
+Cody	406	Sound	19	10038244	260	1			260		other	0
+Cody	406	Response	1	10041640	3656	1
+Cody	407	Sound	20	10058936	278	1			260		other	0
+Cody	407	Response	1	10061800	3142	1
+Cody	408	Sound	14	10078757	260	1			260		other	0
+Cody	409	Sound	19	10094763	260	1			260		other	0
+Cody	409	Response	1	10097559	3056	1
+Cody	410	Sound	12	10114603	260	1			260		other	0
+Cody	411	Sound	13	10130942	260	1			260		other	0
+Cody	412	Sound	17	10148281	260	1			260		other	0
+Cody	412	Response	1	10151798	3777	1
+Cody	413	Sound	18	10170288	260	1			260		other	0
+Cody	413	Response	1	10175797	5769	1
+Cody	414	Sound	15	10195463	260	1			260		other	0
+Cody	415	Sound	14	10223806	260	1			260		other	0
+Cody	416	Sound	11	10247314	260	1			260		other	0
+Cody	417	Sound	21	10264654	260	1			260		other	0
+Cody	417	Response	1	10276515	12121	1
+Cody	418	Sound	12	10281159	260	1			260		other	0
+Cody	419	Sound	12	10305501	260	1			260		other	0
+Cody	420	Sound	18	10321339	260	1			260		other	0
+Cody	420	Response	1	10327634	6554	1
+Cody	421	Sound	11	10341346	260	1			260		other	0
+Cody	422	Sound	22	10357852	260	1			260		other	0
+Cody	422	Response	1	10361714	4121	1
+Cody	423	Sound	15	10379030	264	1			260		other	0
+Cody	424	Sound	14	10395865	260	1			260		other	0
+Cody	425	Sound	17	10418539	260	1			260		other	0
+Cody	426	Sound	17	10435878	260	1			260		other	0
+Cody	427	Sound	21	10456385	260	1			260		other	0
+Cody	427	Response	1	10462432	6306	1
+Cody	428	Sound	22	10480728	261	1			260		other	0
+Cody	428	Response	1	10485551	5084	1
+Cody	429	Sound	18	10506069	260	1			260		other	0
+Cody	430	Sound	19	10527243	260	1			260		other	0
+Cody	430	Response	1	10531230	4247	1
+Cody	431	Sound	21	10546416	260	1			260		other	0
+Cody	431	Response	1	10549550	3394	1
+Cody	432	Sound	22	10563426	265	1			260		other	0
+Cody	432	Response	1	10566349	3188	1
+Cody	433	Sound	13	10589597	260	1			260		other	0
+Cody	434	Sound	11	10612105	260	1			260		other	0
+Cody	435	Sound	12	10640114	260	1			260		other	0
+Cody	436	Sound	16	10663955	260	1			260		other	0
+Cody	436	Response	1	10669707	6011	1
+Cody	437	Sound	16	10682795	260	1			260		other	0
+Cody	438	Sound	15	10711138	260	1			260		other	0
+Cody	439	Sound	16	10729478	260	1			260		other	0
+Cody	440	Sound	11	10746650	260	1			260		other	0
+Cody	441	Sound	22	10770658	260	1			260		other	0
+Cody	441	Response	1	10775865	5466	1
+Cody	442	Response	255	10870903	82919	1
+Cody	443	Sound	101	10948719	261	1			260		other	0
+Cody	444	Sound	107	10979062	260	1			260		other	0
+Cody	444	Response	1	10983381	4578	1
+Cody	445	Sound	102	11001403	260	1			260		other	0
+Cody	446	Sound	108	11017575	260	1			260		other	0
+Cody	447	Sound	110	11034081	260	1			260		other	0
+Cody	447	Response	1	11037380	3559	1
+Cody	448	Sound	103	11057089	260	1			260		other	0
+Cody	449	Sound	103	11083431	260	1			260		other	0
+Cody	449	Response	1	11093459	10287	1
+Cody	450	Sound	105	11108439	260	1			260		other	0
+Cody	451	Sound	109	11124445	260	1			260		other	0
+Cody	451	Response	1	11129298	5113	1
+Cody	452	Sound	108	11149953	260	1			260		other	0
+Cody	452	Response	1	11154657	4964	1
+Cody	453	Sound	102	11166459	260	1			260		other	0
+Cody	454	Sound	104	11184315	277	1			260		other	0
+Cody	455	Sound	101	11204972	260	1			260		other	0
+Cody	456	Sound	102	11229981	260	1			260		other	0
+Cody	457	Sound	103	11254656	260	1			260		other	0
+Cody	458	Sound	112	11282165	260	1			260		other	0
+Cody	458	Response	1	11285535	3629	1
+Cody	459	Sound	102	11303339	260	1			260		other	0
+Cody	460	Sound	111	11320678	260	1			260		other	0
+Cody	461	Sound	104	11339518	260	1			260		other	0
+Cody	462	Sound	103	11360525	260	1			260		other	0
+Cody	463	Sound	106	11381365	260	1			260		other	0
+Cody	464	Sound	105	11410711	262	1			260		other	0
+Cody	465	Sound	106	11440385	260	1			260		other	0
+Cody	466	Sound	107	11459725	260	1			260		other	0
+Cody	467	Sound	111	11478398	260	1			260		other	0
+Cody	467	Response	1	11481930	3792	1
+Cody	468	Sound	111	11494070	260	1			260		other	0
+Cody	469	Sound	108	11516244	260	1			260		other	0
+Cody	470	Sound	112	11536918	260	1			260		other	0
+Cody	470	Response	1	11540889	4231	1
+Cody	471	Sound	106	11559759	260	1			260		other	0
+Cody	472	Sound	110	11580933	260	1			260		other	0
+Cody	473	Sound	106	11597608	262	1			260		other	0
+Cody	474	Sound	110	11616278	260	1			260		other	0
+Cody	474	Response	1	11620808	4789	1
+Cody	475	Sound	104	11634618	260	1			260		other	0
+Cody	476	Sound	108	11652290	260	1			260		other	0
+Cody	477	Sound	112	11676306	268	1			260		other	0
+Cody	478	Sound	109	11693971	260	1			260		other	0
+Cody	479	Sound	104	11715145	260	1			260		other	0
+Cody	480	Sound	111	11744321	260	1			260		other	0
+Cody	480	Response	1	11747525	3464	1
+Cody	481	Sound	101	11761494	260	1			260		other	0
+Cody	482	Sound	107	11786669	260	1			260		other	0
+Cody	483	Sound	112	11803842	260	1			260		other	0
+Cody	483	Response	1	11808084	4502	1
+Cody	484	Sound	105	11830184	260	1			260		other	0
+Cody	485	Sound	109	11858360	260	1			260		other	0
+Cody	486	Sound	101	11873865	260	1			260		other	0
+Cody	487	Sound	105	11892372	260	1			260		other	0
+Cody	488	Sound	109	11908377	260	1			260		other	0
+Cody	489	Sound	110	11931218	260	1			260		other	0
+Cody	490	Sound	107	11954393	260	1			260		other	0
+Cody	491	Response	255	12509910	527354	1
+Cody	492	Sound	16	12590775	260	1			260		other	0
+Cody	493	Sound	17	12610948	260	1			260		other	0
+Cody	493	Response	1	12615188	4499	1
+Cody	494	Sound	18	12630289	261	1			260		other	0
+Cody	494	Response	1	12633107	3079	1
+Cody	495	Sound	16	12652796	260	1			260		other	0
+Cody	495	Response	1	12658466	5930	1
+Cody	496	Sound	22	12680488	276	1			260		other	0
+Cody	496	Response	1	12682946	2734	1
+Cody	497	Sound	11	12701312	260	1			260		other	0
+Cody	498	Sound	13	12718318	260	1			260		other	0
+Cody	499	Sound	12	12739992	260	1			260		other	0
+Cody	500	Sound	22	12759165	260	1			260		other	0
+Cody	500	Response	1	12761985	3079	1
+Cody	501	Sound	15	12784841	260	1			260		other	0
+Cody	502	Sound	14	12811350	260	1			260		other	0
+Cody	503	Sound	18	12834024	260	1			260		other	0
+Cody	503	Response	1	12836943	3179	1
+Cody	504	Sound	20	12856532	260	1			260		other	0
+Cody	504	Response	1	12859422	3151	1
+Cody	505	Sound	12	12872370	260	1			260		other	0
+Cody	506	Sound	20	12887542	260	1			260		other	0
+Cody	506	Response	1	12890222	2939	1
+Cody	507	Sound	14	12913384	260	1			260		other	0
+Cody	508	Sound	13	12929723	260	1			260		other	0
+Cody	509	Sound	22	12952564	260	1			260		other	0
+Cody	509	Response	1	12955100	2796	1
+Cody	510	Sound	13	12969236	260	1			260		other	0
+Cody	511	Sound	20	12995245	260	1			260		other	0
+Cody	511	Response	1	12998780	3794	1
+Cody	512	Sound	19	13017086	260	1			260		other	0
+Cody	512	Response	1	13020619	3793	1
+Cody	513	Sound	14	13033258	260	1			260		other	0
+Cody	514	Sound	14	13062768	260	1			260		other	0
+Cody	515	Sound	17	13084942	260	1			260		other	0
+Cody	515	Response	1	13092938	8255	1
+Cody	516	Sound	19	13113619	260	1			260		other	0
+Cody	516	Response	1	13117417	4058	1
+Cody	517	Sound	16	13133125	260	1			260		other	0
+Cody	518	Sound	18	13154299	260	1			260		other	0
+Cody	518	Response	1	13157817	3777	1
+Cody	519	Sound	19	13180141	260	1			260		other	0
+Cody	519	Response	1	13182296	2414	1
+Cody	520	Sound	17	13208818	260	1			260		other	0
+Cody	520	Response	1	13211815	3258	1
+Cody	521	Sound	15	13232492	260	1			260		other	0
+Cody	522	Sound	11	13248831	260	1			260		other	0
+Cody	523	Sound	16	13267678	266	1			260		other	0
+Cody	523	Response	1	13269894	2483	1
+Cody	524	Sound	19	13283677	261	1			260		other	0
+Cody	524	Response	1	13287414	3997	1
+Cody	525	Sound	18	13305684	260	1			260		other	0
+Cody	525	Response	1	13309013	3589	1
+Cody	526	Sound	12	13331692	260	1			260		other	0
+Cody	527	Sound	21	13349876	270	1			260		other	0
+Cody	527	Response	1	13353332	3727	1
+Cody	528	Sound	11	13379042	260	1			260		other	0
+Cody	529	Sound	13	13404884	260	1			260		other	0
+Cody	530	Sound	22	13425558	260	1			260		other	0
+Cody	530	Response	1	13428691	3393	1
+Cody	531	Sound	21	13440896	260	1			260		other	0
+Cody	531	Response	1	13444691	4054	1
+Cody	532	Sound	15	13464404	260	1			260		other	0
+Cody	532	Response	1	13467569	3425	2
+Cody	533	Sound	12	13487912	260	1			260		other	0
+Cody	534	Sound	21	13517089	260	1			260		other	0
+Cody	534	Response	1	13520049	3220	1
+Cody	535	Sound	17	13539930	260	1			260		other	0
+Cody	535	Response	1	13547328	7658	1
+Cody	536	Sound	11	13566439	260	1			260		other	0
+Cody	537	Sound	21	13587779	260	1			260		other	0
+Cody	537	Response	1	13591247	3728	1
+Cody	538	Sound	20	13613621	260	1			260		other	0
+Cody	538	Response	1	13616607	3245	1
+Cody	539	Sound	15	13629971	271	1			260		other	0
+Cody	540	Response	255	13660526	13240	1
+Cody	541	Sound	12	13742669	264	1			260		other	0
+Cody	542	Sound	22	13764672	260	1			260		other	0
+Cody	542	Response	1	13767564	3151	1
+Cody	543	Sound	21	13781345	260	1			260		other	0
+Cody	543	Response	1	13785644	4559	1
+Cody	544	Sound	20	13807687	260	1			260		other	0
+Cody	544	Response	1	13810603	3176	1
+Cody	545	Sound	15	13834029	260	1			260		other	0
+Cody	545	Response	1	13838282	4513	1
+Cody	546	Sound	19	13863706	260	1			260		other	0
+Cody	546	Response	1	13866522	3075	1
+Cody	547	Sound	16	13879044	260	1			260		other	0
+Cody	548	Sound	12	13906220	260	1			260		other	0
+Cody	549	Sound	19	13932566	263	1			260		other	0
+Cody	549	Response	1	13935561	3258	1
+Cody	550	Sound	17	13950902	260	1			260		other	0
+Cody	550	Response	1	13954120	3477	1
+Cody	551	Sound	21	13974577	260	1			260		other	0
+Cody	551	Response	1	13978760	4442	1
+Cody	552	Sound	13	13992264	275	1			260		other	0
+Cody	553	Sound	20	14013090	260	1			260		other	0
+Cody	553	Response	1	14016119	3289	1
+Cody	554	Sound	11	14039099	260	1			260		other	0
+Cody	555	Sound	18	14067608	260	1			260		other	0
+Cody	555	Response	1	14075078	7729	1
+Cody	556	Sound	16	14092117	260	1			260		other	0
+Cody	557	Sound	11	14114291	260	1			260		other	0
+Cody	558	Sound	16	14137465	260	1			260		other	0
+Cody	559	Sound	17	14159306	260	1			260		other	0
+Cody	560	Sound	14	14187649	260	1			260		other	0
+Cody	561	Sound	14	14208990	260	1			260		other	0
+Cody	562	Sound	22	14234832	260	1			260		other	0
+Cody	562	Response	1	14238514	3942	1
+Cody	563	Sound	22	14259840	260	1			260		other	0
+Cody	563	Response	1	14263634	4053	1
+Cody	564	Sound	14	14282359	271	1			260		other	0
+Cody	565	Sound	18	14300187	260	1			260		other	0
+Cody	565	Response	1	14307073	7145	1
+Cody	566	Sound	17	14321695	260	1			260		other	0
+Cody	567	Sound	15	14348870	260	1			260		other	0
+Cody	568	Sound	14	14368377	260	1			260		other	0
+Cody	569	Sound	20	14384557	268	1			260		other	0
+Cody	569	Response	1	14390111	5822	1
+Cody	570	Sound	15	14409724	260	1			260		other	0
+Cody	571	Sound	16	14432065	260	1			260		other	0
+Cody	572	Sound	17	14454239	260	1			260		other	0
+Cody	572	Response	1	14460670	6690	1
+Cody	573	Response	1	14483389	233	1
+Cody	573	Sound	11	14483416	260	1			260		other	0
+Cody	574	Sound	19	14501422	260	1			260		other	0
+Cody	575	Sound	18	14529265	260	1			260		other	0
+Cody	576	Sound	13	14550605	260	1			260		other	0
+Cody	577	Sound	22	14568954	269	1			260		other	0
+Cody	577	Response	1	14573867	5183	1
+Cody	578	Sound	21	14593787	260	1			260		other	0
+Cody	579	Sound	12	14619796	260	1			260		other	0
+Cody	580	Sound	15	14639135	260	1			260		other	0
+Cody	581	Sound	13	14667478	260	1			260		other	0
+Cody	582	Sound	11	14688986	260	1			260		other	0
+Cody	583	Sound	18	14718329	260	1			260		other	0
+Cody	584	Sound	12	14744838	260	1			260		other	0
+Cody	585	Sound	13	14761510	260	1			260		other	0
+Cody	586	Sound	21	14789520	260	1			260		other	0
+Cody	586	Response	1	14795143	5883	1
+Cody	587	Sound	19	14810527	260	1			260		other	0
+Cody	587	Response	1	14815463	5196	1
+Cody	588	Sound	20	14833534	260	1			260		other	0
+Cody	588	Response	1	14838582	5307	1
+Cody	589	Response	1	14880741	19210	1
+Cody	589	Response	1	14912021	50490	1
+Cody	589	Response	255	14921140	59609	1
+Cody	590	Sound	18	14996423	260	1			260		other	0
+Cody	591	Sound	11	15023599	260	1			260		other	0
+Cody	592	Sound	18	15053776	260	1			260		other	0
+Cody	592	Response	1	15057698	4181	1
+Cody	593	Sound	22	15070948	260	1			260		other	0
+Cody	593	Response	1	15073857	3169	1
+Cody	594	Sound	22	15098624	260	1			260		other	0
+Cody	594	Response	1	15101137	2772	1
+Cody	595	Sound	17	15118298	260	1			260		other	0
+Cody	595	Response	1	15121936	3898	1
+Cody	596	Sound	13	15143473	260	1			260		other	0
+Cody	597	Sound	20	15170649	260	1			260		other	0
+Cody	597	Response	1	15177375	6986	1
+Cody	598	Sound	13	15188822	260	1			260		other	0
+Cody	599	Sound	13	15205661	260	1			260		other	0
+Cody	600	Sound	13	15234671	260	1			260		other	0
+Cody	601	Sound	14	15250176	260	1			260		other	0
+Cody	602	Sound	17	15270516	260	1			260		other	0
+Cody	602	Response	1	15283373	13117	1
+Cody	603	Sound	21	15293190	260	1			260		other	0
+Cody	603	Response	1	15296653	3722	2
+Cody	604	Sound	16	15314197	260	1			260		other	0
+Cody	605	Sound	12	15338540	261	1			260		other	0
+Cody	606	Sound	20	15368716	260	1			260		other	0
+Cody	606	Response	1	15374651	6195	2
+Cody	607	Sound	21	15393057	260	1			260		other	0
+Cody	607	Response	1	15401291	8493	1
+Cody	608	Sound	12	15421739	264	1			260		other	0
+Cody	609	Sound	22	15440407	260	1			260		other	0
+Cody	609	Response	1	15444330	4183	1
+Cody	609	Response	1	15459449	19302	1
+Cody	610	Sound	14	15463081	260	1			260		other	0
+Cody	610	Response	1	15470809	7988	1
+Cody	611	Sound	16	15483088	260	1			260		other	0
+Cody	611	Response	1	15502248	19420	1
+Cody	612	Sound	16	15503095	260	1			260		other	0
+Cody	613	Sound	20	15528437	260	1			260		other	0
+Cody	613	Response	1	15531928	3751	1
+Cody	614	Sound	22	15552445	260	1			260		other	0
+Cody	614	Response	1	15558407	6222	1
+Cody	614	Response	1	15566247	14062	1
+Cody	615	Sound	11	15579787	260	1			260		other	0
+Cody	616	Sound	19	15597626	260	1			260		other	0
+Cody	616	Response	1	15601607	4240	1
+Cody	617	Sound	18	15624303	260	1			260		other	0
+Cody	617	Response	1	15628966	4923	1
+Cody	618	Sound	18	15642975	260	1			260		other	0
+Cody	618	Response	1	15649685	6970	1
+Cody	619	Sound	19	15668317	260	1			260		other	0
+Cody	619	Response	1	15680725	12667	1
+Cody	620	Sound	12	15688491	260	1			260		other	0
+Cody	621	Sound	14	15706997	260	1			260		other	0
+Cody	622	Sound	15	15736841	260	1			260		other	0
+Cody	623	Sound	14	15754513	260	1			260		other	0
+Cody	624	Sound	12	15778688	260	1			260		other	0
+Cody	625	Sound	17	15800362	260	1			260		other	0
+Cody	626	Sound	20	15817034	260	1			260		other	0
+Cody	626	Response	1	15820962	4187	1
+Cody	627	Sound	19	15838875	260	1			260		other	0
+Cody	627	Response	1	15844322	5706	1
+Cody	628	Sound	16	15861049	260	1			260		other	0
+Cody	629	Sound	17	15881556	260	1			260		other	0
+Cody	630	Sound	11	15911400	260	1			260		other	0
+Cody	631	Sound	19	15940409	260	1			260		other	0
+Cody	631	Response	1	15948079	7930	1
+Cody	632	Sound	21	15960416	260	1			260		other	0
+Cody	632	Response	1	15965119	4963	1
+Cody	633	Sound	21	15988759	260	1			260		other	0
+Cody	633	Response	1	15993118	4619	1
+Cody	634	Sound	15	16008099	260	1			260		other	0
+Cody	635	Sound	11	16033441	260	1			260		other	0
+Cody	636	Sound	15	16049946	260	1			260		other	0
+Cody	637	Sound	15	16065285	260	1			260		other	0
+Cody	637	Response	1	16074157	9131	1
+Cody	638	Response	1	16125036	40924	1
+Cody	638	Response	255	16139916	55804	1
+Cody	639	Sound	105	16214502	260	1			260		other	0
+Cody	640	Sound	108	16231008	260	1			260		other	0
+Cody	640	Response	255	16234714	3965	1
+Cody	641	Sound	103	16260851	260	1			260		other	0
+Cody	642	Sound	111	16286693	260	1			260		other	0
+Cody	642	Response	1	16289992	3559	1
+Cody	643	Sound	109	16304033	260	1			260		other	0
+Cody	644	Sound	108	16329875	260	1			260		other	0
+Cody	645	Sound	111	16359051	260	1			260		other	0
+Cody	645	Response	1	16362311	3519	1
+Cody	646	Sound	103	16378058	260	1			260		other	0
+Cody	647	Sound	104	16403900	260	1			260		other	0
+Cody	648	Sound	104	16422740	260	1			260		other	0
+Cody	649	Sound	106	16438912	260	1			260		other	0
+Cody	650	Sound	107	16458752	260	1			260		other	0
+Cody	650	Response	1	16462149	3657	1
+Cody	651	Sound	108	16479592	260	1			260		other	0
+Cody	651	Response	1	16485908	6576	1
+Cody	652	Sound	107	16502767	260	1			260		other	0
+Cody	653	Sound	109	16532619	268	1			260		other	0
+Cody	653	Response	1	16536147	3797	1
+Cody	654	Sound	109	16561953	260	1			260		other	0
+Cody	654	Response	1	16565187	3493	1
+Cody	655	Sound	103	16592130	260	1			260		other	0
+Cody	656	Sound	107	16612637	260	1			260		other	0
+Cody	656	Response	1	16617186	4808	1
+Cody	657	Sound	108	16631143	260	1			260		other	0
+Cody	657	Response	1	16634865	3982	1
+Cody	658	Sound	112	16654151	260	1			260		other	0
+Cody	658	Response	1	16656785	2893	1
+Cody	659	Sound	101	16678493	260	1			260		other	0
+Cody	660	Sound	110	16694665	260	1			260		other	0
+Cody	660	Response	1	16698704	4299	1
+Cody	661	Sound	105	16721507	260	1			260		other	0
+Cody	662	Sound	106	16746849	260	1			260		other	0
+Cody	662	Response	1	16751583	4993	1
+Cody	663	Sound	103	16773859	260	1			260		other	0
+Cody	664	Sound	106	16790364	260	1			260		other	0
+Cody	664	Response	1	16793502	3398	1
+Cody	665	Sound	110	16810371	260	1			260		other	0
+Cody	665	Response	1	16814462	4351	1
+Cody	666	Sound	110	16826543	260	1			260		other	0
+Cody	666	Response	1	16830621	4338	1
+Cody	667	Sound	101	16848384	260	1			260		other	0
+Cody	668	Sound	102	16866390	260	1			260		other	0
+Cody	669	Sound	111	16892399	260	1			260		other	0
+Cody	669	Response	1	16895500	3361	1
+Cody	670	Sound	112	16908071	260	1			260		other	0
+Cody	670	Response	1	16912140	4329	1
+Cody	671	Sound	101	16934246	260	1			260		other	0
+Cody	672	Sound	112	16961589	260	1			260		other	0
+Cody	672	Response	1	16964139	2810	1
+Cody	673	Sound	106	16987764	260	1			260		other	0
+Cody	673	Response	1	16991418	3913	1
+Cody	674	Sound	112	17007110	265	1			260		other	0
+Cody	674	Response	1	17009978	3133	1
+Cody	675	Sound	102	17022610	260	1			260		other	0
+Cody	676	Sound	105	17040115	260	1			260		other	0
+Cody	677	Sound	109	17069292	260	1			260		other	0
+Cody	677	Response	1	17072856	3824	1
+Cody	678	Sound	110	17090132	260	1			260		other	0
+Cody	678	Response	1	17094296	4424	1
+Cody	679	Sound	102	17115808	260	1			260		other	0
+Cody	680	Sound	107	17137815	260	1			260		other	0
+Cody	680	Response	1	17142375	4820	1
+Cody	681	Sound	105	17164157	260	1			260		other	0
+Cody	682	Sound	101	17186832	260	1			260		other	0
+Cody	683	Sound	102	17203671	260	1			260		other	0
+Cody	684	Sound	111	17220176	260	1			260		other	0
+Cody	684	Response	1	17223653	3737	1
+Cody	685	Sound	104	17246519	260	1			260		other	0
+Cody	686	Sound	104	17275528	260	1			260		other	0
+Cody	687	Response	255	17355571	64217	1
+Cody	688	Sound	105	17420577	260	1			260		other	0
+Cody	689	Sound	108	17450921	260	1			260		other	0
+Cody	689	Response	1	17454529	3867	1
+Cody	690	Sound	105	17475429	260	1			260		other	0
+Cody	691	Sound	103	17492935	260	1			260		other	0
+Cody	692	Sound	108	17522779	260	1			260		other	0
+Cody	692	Response	1	17526367	3848	1
+Cody	693	Sound	101	17544620	260	1			260		other	0
+Cody	694	Sound	112	17563300	267	1			260		other	0
+Cody	694	Response	1	17566126	3093	1
+Cody	695	Sound	111	17590635	260	1			260		other	0
+Cody	695	Response	1	17594126	3750	1
+Cody	696	Sound	110	17611309	260	1			260		other	0
+Cody	696	Response	1	17615085	4036	1
+Cody	697	Sound	102	17634650	260	1			260		other	0
+Cody	698	Sound	109	17663827	260	1			260		other	0
+Cody	698	Response	1	17667084	3517	1
+Cody	699	Sound	107	17683833	260	1			260		other	0
+Cody	699	Response	1	17688684	5110	1
+Cody	700	Sound	103	17707175	260	1			260		other	0
+Cody	701	Sound	101	17735518	260	1			260		other	0
+Cody	702	Sound	112	17760526	260	1			260		other	0
+Cody	702	Response	1	17763162	2896	1
+Cody	703	Sound	103	17788702	260	1			260		other	0
+Cody	704	Sound	106	17816045	260	1			260		other	0
+Cody	704	Response	1	17820841	5056	1
+Cody	705	Sound	101	17843895	267	1			260		other	0
+Cody	706	Sound	106	17873898	260	1			260		other	0
+Cody	706	Response	1	17878120	4482	1
+Cody	707	Sound	104	17894071	260	1			260		other	0
+Cody	708	Sound	109	17911411	260	1			260		other	0
+Cody	708	Response	1	17918519	7368	1
+Cody	709	Sound	110	17934093	268	1			260		other	0
+Cody	709	Response	1	17939239	5414	1
+Cody	710	Sound	110	17954593	261	1			260		other	0
+Cody	710	Response	1	17958918	4586	1
+Cody	711	Sound	111	17975933	260	1			260		other	0
+Cody	711	Response	1	17979478	3805	1
+Cody	712	Sound	105	18000274	260	1			260		other	0
+Cody	713	Sound	102	18030791	267	1			260		other	0
+Cody	714	Sound	107	18050624	260	1			260		other	0
+Cody	714	Response	1	18054836	4472	1
+Cody	715	Sound	108	18069797	260	1			260		other	0
+Cody	715	Response	1	18073796	4258	1
+Cody	716	Sound	104	18096473	260	1			260		other	0
+Cody	717	Sound	110	18112979	260	1			260		other	0
+Cody	717	Response	1	18116195	3476	1
+Cody	718	Sound	106	18142489	260	1			260		other	0
+Cody	719	Sound	104	18168164	260	1			260		other	0
+Cody	720	Sound	109	18187504	260	1			260		other	0
+Cody	720	Response	1	18191794	4549	1
+Cody	721	Sound	102	18216347	260	1			260		other	0
+Cody	722	Sound	112	18243523	260	1			260		other	0
+Cody	722	Response	1	18246592	3329	1
+Cody	723	Sound	112	18273533	260	1			260		other	0
+Cody	723	Response	1	18277232	3958	1
+Cody	724	Sound	108	18301709	260	1			260		other	0
+Cody	724	Response	1	18306671	5222	1
+Cody	725	Sound	109	18320386	263	1			260		other	0
+Cody	725	Response	1	18324831	4708	1
+Cody	726	Sound	102	18337888	260	1			260		other	0
+Cody	727	Sound	104	18355561	260	1			260		other	0
+Cody	728	Sound	105	18378402	260	1			260		other	0
+Cody	728	Response	1	18384030	5887	1
+Cody	729	Sound	106	18404911	260	1			260		other	0
+Cody	729	Response	1	18408029	3378	1
+Cody	730	Sound	107	18420917	260	1			260		other	0
+Cody	730	Response	1	18424669	4012	1
+Cody	731	Sound	111	18439923	260	1			260		other	0
+Cody	731	Response	1	18443228	3565	1
+Cody	732	Sound	103	18458929	260	1			260		other	0
+Cody	733	Sound	107	18480936	260	1			260		other	0
+Cody	733	Response	1	18484748	4071	1
+Cody	734	Sound	111	18508946	260	1			260		other	0
+Cody	734	Response	1	18511787	3100	1
+Cody	735	Sound	101	18532121	260	1			260		other	0
+Cody	736	Response	255	18556586	9140	1
+Cody	737	Sound	102	18628654	260	1			260		other	0
+Cody	738	Sound	105	18652328	260	1			260		other	0
+Cody	739	Sound	109	18676503	260	1			260		other	0
+Cody	739	Response	1	18680504	4260	1
+Cody	740	Sound	104	18706513	260	1			260		other	0
+Cody	741	Sound	107	18733022	260	1			260		other	0
+Cody	741	Response	1	18736582	3820	1
+Cody	742	Sound	101	18761878	273	1			260		other	0
+Cody	743	Sound	109	18789208	260	1			260		other	0
+Cody	743	Response	1	18792981	4033	1
+Cody	744	Sound	111	18813216	260	1			260		other	0
+Cody	744	Response	1	18818501	5544	1
+Cody	745	Sound	110	18834723	260	1			260		other	0
+Cody	746	Sound	101	18858732	260	1			260		other	0
+Cody	747	Sound	106	18889242	260	1			260		other	0
+Cody	747	Response	1	18893459	4477	1
+Cody	748	Sound	104	18919252	260	1			260		other	0
+Cody	749	Sound	107	18937425	260	1			260		other	0
+Cody	749	Response	1	18941938	4773	1
+Cody	750	Sound	110	18954097	260	1			260		other	0
+Cody	750	Response	1	18961618	7780	1
+Cody	751	Sound	106	18971936	260	1			260		other	0
+Cody	752	Sound	108	18991943	260	1			260		other	0
+Cody	752	Response	1	18996097	4414	1
+Cody	753	Sound	105	19012951	260	1			260		other	0
+Cody	754	Sound	102	19029289	260	1			260		other	0
+Cody	755	Sound	103	19052464	260	1			260		other	0
+Cody	756	Sound	102	19070470	260	1			260		other	0
+Cody	757	Sound	111	19094478	260	1			260		other	0
+Cody	757	Response	1	19097935	3717	1
+Cody	758	Sound	107	19114485	260	1			260		other	0
+Cody	758	Response	1	19118655	4430	1
+Cody	759	Sound	110	19140660	260	1			260		other	0
+Cody	759	Response	1	19144894	4494	1
+Cody	760	Sound	112	19164502	260	1			260		other	0
+Cody	760	Response	1	19168013	3771	1
+Cody	761	Sound	106	19194512	260	1			260		other	0
+Cody	762	Sound	105	19212184	260	1			260		other	0
+Cody	763	Sound	111	19231191	260	1			260		other	0
+Cody	763	Response	1	19234892	3961	1
+Cody	764	Sound	108	19253869	264	1			260		other	0
+Cody	764	Response	1	19258252	4646	1
+Cody	765	Sound	103	19280874	260	1			260		other	0
+Cody	766	Sound	108	19303716	260	1			260		other	0
+Cody	766	Response	1	19308971	5515	1
+Cody	767	Sound	112	19332068	269	1			260		other	0
+Cody	767	Response	1	19335370	3571	1
+Cody	768	Sound	103	19347731	260	1			260		other	0
+Cody	769	Sound	105	19374406	260	1			260		other	0
+Cody	770	Sound	106	19404416	260	1			260		other	0
+Cody	770	Response	1	19408809	4652	1
+Cody	771	Sound	101	19421922	260	1			260		other	0
+Cody	772	Sound	102	19442429	260	1			260		other	0
+Cody	773	Sound	109	19468605	260	1			260		other	0
+Cody	773	Response	1	19472087	3742	1
+Cody	774	Sound	112	19492780	260	1			260		other	0
+Cody	774	Response	1	19496167	3647	1
+Cody	775	Sound	103	19512453	260	1			260		other	0
+Cody	776	Sound	104	19542464	261	1			260		other	0
+Cody	777	Sound	104	19564971	260	1			260		other	0
+Cody	778	Sound	107	19586478	260	1			260		other	0
+Cody	778	Response	1	19591205	4987	1
+Cody	779	Sound	110	19615988	260	1			260		other	0
+Cody	779	Response	1	19619604	3876	1
+Cody	780	Sound	111	19639163	260	1			260		other	0
+Cody	780	Response	1	19643364	4461	1
+Cody	781	Sound	108	19656335	260	1			260		other	0
+Cody	782	Sound	101	19680343	260	1			260		other	0
+Cody	783	Sound	109	19699850	260	1			260		other	0
+Cody	783	Response	1	19703283	3693	1
+Cody	784	Sound	112	19724861	262	1			260		other	0
+Cody	784	Response	1	19728162	3564	1
+Cody	785	Response	255	19810721	59700	1
+Cody	786	Sound	16	19896758	267	1			260		other	0
+Cody	787	Sound	21	19914589	260	1			260		other	0
+Cody	787	Response	1	19920158	5829	1
+Cody	788	Sound	21	19937097	260	1			260		other	0
+Cody	788	Response	1	19940238	3401	1
+Cody	789	Sound	14	19952602	260	1			260		other	0
+Cody	790	Sound	17	19967941	260	1			260		other	0
+Cody	790	Response	1	19971037	3356	1
+Cody	791	Sound	19	19995783	260	1			260		other	0
+Cody	791	Response	1	19998797	3273	1
+Cody	792	Sound	22	20012122	260	1			260		other	0
+Cody	792	Response	1	20014956	3094	1
+Cody	793	Sound	11	20035797	260	1			260		other	0
+Cody	794	Sound	16	20065974	260	1			260		other	0
+Cody	794	Response	1	20070715	5001	1
+Cody	795	Sound	19	20096154	263	1			260		other	0
+Cody	795	Response	1	20099515	3624	1
+Cody	796	Sound	12	20117158	260	1			260		other	0
+Cody	797	Sound	14	20147001	260	1			260		other	0
+Cody	798	Sound	14	20172510	260	1			260		other	0
+Cody	799	Sound	13	20197018	260	1			260		other	0
+Cody	800	Sound	22	20214858	260	1			260		other	0
+Cody	800	Response	1	20218152	3554	1
+Cody	801	Sound	17	20238866	260	1			260		other	0
+Cody	801	Response	1	20243431	4826	1
+Cody	802	Sound	16	20254204	260	1			260		other	0
+Cody	803	Sound	15	20271210	260	1			260		other	0
+Cody	804	Sound	18	20288551	261	1			260		other	0
+Cody	804	Response	1	20293271	4981	1
+Cody	805	Sound	21	20309890	260	1			260		other	0
+Cody	805	Response	1	20313830	4200	1
+Cody	806	Sound	11	20331730	260	1			260		other	0
+Cody	807	Sound	13	20355572	260	1			260		other	0
+Cody	808	Sound	19	20383415	260	1			260		other	0
+Cody	808	Response	1	20387029	3874	1
+Cody	809	Sound	12	20398920	260	1			260		other	0
+Cody	810	Sound	14	20423762	260	1			260		other	0
+Cody	811	Sound	12	20442101	260	1			260		other	0
+Cody	812	Sound	12	20464776	260	1			260		other	0
+Cody	812	Response	1	20472867	8351	1
+Cody	813	Sound	15	20488951	260	1			260		other	0
+Cody	814	Sound	15	20514626	260	1			260		other	0
+Cody	815	Sound	11	20534466	260	1			260		other	0
+Cody	816	Sound	16	20559808	260	1			260		other	0
+Cody	817	Sound	20	20582816	260	1			260		other	0
+Cody	817	Response	1	20585585	3029	1
+Cody	818	Sound	19	20606157	260	1			260		other	0
+Cody	818	Response	1	20609344	3447	1
+Cody	819	Sound	13	20625163	260	1			260		other	0
+Cody	820	Sound	11	20653506	260	1			260		other	0
+Cody	821	Sound	15	20682850	260	1			260		other	0
+Cody	822	Sound	20	20711026	260	1			260		other	0
+Cody	822	Response	1	20715742	4976	1
+Cody	823	Sound	13	20730866	260	1			260		other	0
+Cody	824	Sound	21	20757042	260	1			260		other	0
+Cody	824	Response	1	20761821	5039	1
+Cody	825	Sound	18	20777215	260	1			260		other	0
+Cody	825	Response	1	20782380	5425	2
+Cody	826	Sound	18	20798055	260	1			260		other	0
+Cody	826	Response	1	20801820	4025	1
+Cody	827	Sound	22	20826898	260	1			260		other	0
+Cody	827	Response	1	20829820	3181	1
+Cody	828	Sound	17	20845741	262	1			260		other	0
+Cody	828	Response	1	20868219	22741	1
+Cody	829	Sound	17	20868579	260	1			260		other	0
+Cody	830	Sound	18	20889586	260	1			260		other	0
+Cody	830	Response	1	20893818	4492	1
+Cody	831	Sound	20	20909926	260	1			260		other	0
+Cody	831	Response	1	20914298	4631	1
+Cody	832	Sound	20	20928933	260	1			260		other	0
+Cody	832	Response	1	20932458	3784	1
+Cody	833	Sound	22	20958109	260	1			260		other	0
+Cody	833	Response	1	20962617	4767	1
+Cody	834	Response	255	21000856	21920	1
+Cody	835	Sound	111	21077317	260	1			260		other	0
+Cody	835	Response	1	21080774	3718	1
+Cody	836	Sound	105	21095156	260	1			260		other	0
+Cody	837	Sound	108	21124835	263	1			260		other	0
+Cody	837	Response	1	21129494	4921	1
+Cody	838	Sound	111	21140505	260	1			260		other	0
+Cody	838	Response	1	21143733	3488	1
+Cody	839	Sound	109	21156010	260	1			260		other	0
+Cody	839	Response	1	21160053	4303	1
+Cody	840	Sound	106	21181852	260	1			260		other	0
+Cody	840	Response	1	21185892	4300	1
+Cody	841	Sound	110	21209861	260	1			260		other	0
+Cody	841	Response	1	21213572	3970	1
+Cody	842	Sound	110	21225700	260	1			260		other	0
+Cody	842	Response	1	21229091	3651	1
+Cody	843	Sound	102	21255377	260	1			260		other	0
+Cody	844	Sound	104	21281052	260	1			260		other	0
+Cody	845	Sound	101	21299892	260	1			260		other	0
+Cody	846	Sound	105	21322399	260	1			260		other	0
+Cody	847	Sound	103	21349242	260	1			260		other	0
+Cody	848	Sound	103	21366748	260	1			260		other	0
+Cody	849	Sound	104	21397091	260	1			260		other	0
+Cody	850	Sound	107	21414597	260	1			260		other	0
+Cody	850	Response	1	21419408	5070	1
+Cody	851	Sound	102	21437438	260	1			260		other	0
+Cody	852	Sound	107	21464948	260	1			260		other	0
+Cody	852	Response	1	21468766	4078	1
+Cody	853	Sound	103	21492290	260	1			260		other	0
+Cody	854	Sound	105	21521967	260	1			260		other	0
+Cody	855	Sound	107	21548309	260	1			260		other	0
+Cody	855	Response	1	21553485	5435	1
+Cody	856	Sound	108	21576327	268	1			260		other	0
+Cody	857	Sound	109	21591991	260	1			260		other	0
+Cody	858	Sound	104	21619500	260	1			260		other	0
+Cody	859	Sound	102	21639174	260	1			260		other	0
+Cody	860	Sound	112	21658180	260	1			260		other	0
+Cody	860	Response	1	21661243	3322	1
+Cody	861	Sound	107	21675186	260	1			260		other	0
+Cody	861	Response	1	21679562	4636	1
+Cody	862	Sound	110	21704029	260	1			260		other	0
+Cody	862	Response	1	21707962	4193	1
+Cody	863	Sound	109	21723369	260	1			260		other	0
+Cody	863	Response	1	21726521	3412	1
+Cody	864	Sound	104	21753224	272	1			260		other	0
+Cody	865	Sound	101	21782889	260	1			260		other	0
+Cody	866	Sound	101	21804729	260	1			260		other	0
+Cody	867	Sound	110	21826904	260	1			260		other	0
+Cody	867	Response	1	21831559	4915	1
+Cody	868	Sound	109	21845910	260	1			260		other	0
+Cody	869	Sound	111	21872753	260	1			260		other	0
+Cody	869	Response	1	21876598	4105	1
+Cody	870	Sound	111	21902596	260	1			260		other	0
+Cody	870	Response	1	21906278	3941	1
+Cody	871	Sound	101	21923770	260	1			260		other	0
+Cody	872	Sound	103	21943621	270	1			260		other	0
+Cody	873	Sound	106	21973453	260	1			260		other	0
+Cody	873	Response	1	21977956	4763	1
+Cody	874	Sound	112	21998462	260	1			260		other	0
+Cody	874	Response	1	22001956	3754	1
+Cody	875	Sound	112	22021470	260	1			260		other	0
+Cody	875	Response	1	22024915	3705	1
+Cody	876	Sound	112	22047145	260	1			260		other	0
+Cody	876	Response	1	22050675	3789	1
+Cody	877	Sound	108	22074488	260	1			260		other	0
+Cody	877	Response	1	22080594	6366	1
+Cody	878	Sound	102	22103497	260	1			260		other	0
+Cody	879	Sound	108	22127006	260	1			260		other	0
+Cody	879	Response	1	22130833	4087	1
+Cody	880	Sound	106	22151517	263	1			260		other	0
+Cody	880	Response	1	22156192	4939	1
+Cody	881	Sound	106	22174355	260	1			260		other	0
+Cody	881	Response	1	22181792	7697	1
+Cody	882	Sound	105	22199530	260	1			260		other	0
+Cody	882	Response	1	22203871	4601	1
+Cody	883	Response	255	22226591	8568	1
+Cody	884	Sound	108	22307414	274	1			260		other	0
+Cody	884	Response	1	22311549	4409	1
+Cody	885	Sound	106	22334414	264	1			260		other	0
+Cody	885	Response	1	22337709	3560	1
+Cody	886	Sound	112	22363586	260	1			260		other	0
+Cody	886	Response	1	22366348	3022	2
+Cody	887	Sound	105	22387761	260	1			260		other	0
+Cody	888	Sound	107	22414269	260	1			260		other	0
+Cody	889	Sound	101	22438444	260	1			260		other	0
+Cody	890	Sound	102	22465954	260	1			260		other	0
+Cody	891	Sound	103	22490962	260	1			260		other	0
+Cody	892	Sound	108	22508968	260	1			260		other	0
+Cody	893	Sound	101	22532976	260	1			260		other	0
+Cody	894	Sound	103	22556151	260	1			260		other	0
+Cody	895	Sound	104	22579159	260	1			260		other	0
+Cody	896	Sound	110	22608169	260	1			260		other	0
+Cody	896	Response	1	22612343	4434	1
+Cody	897	Sound	101	22631510	260	1			260		other	0
+Cody	898	Sound	105	22659853	260	1			260		other	0
+Cody	899	Sound	112	22685707	272	1			260		other	0
+Cody	899	Response	1	22689222	3787	1
+Cody	900	Sound	103	22702707	266	1			260		other	0
+Cody	901	Sound	107	22733044	260	1			260		other	0
+Cody	902	Sound	102	22750717	260	1			260		other	0
+Cody	903	Sound	102	22776226	260	1			260		other	0
+Cody	904	Sound	108	22802401	260	1			260		other	0
+Cody	904	Response	1	22806979	4838	1
+Cody	905	Sound	111	22826909	260	1			260		other	0
+Cody	905	Response	1	22830979	4329	1
+Cody	906	Sound	106	22850084	260	1			260		other	0
+Cody	906	Response	1	22854818	4994	1
+Cody	907	Sound	111	22878760	260	1			260		other	0
+Cody	907	Response	1	22882578	4077	2
+Cody	908	Sound	109	22906269	260	1			260		other	0
+Cody	908	Response	1	22910497	4487	1
+Cody	909	Sound	104	22933779	260	1			260		other	0
+Cody	910	Sound	106	22957620	260	1			260		other	0
+Cody	910	Response	1	22962256	4895	1
+Cody	911	Sound	101	22980461	260	1			260		other	0
+Cody	912	Sound	109	23001802	260	1			260		other	0
+Cody	912	Response	1	23005295	3753	1
+Cody	913	Sound	112	23026143	260	1			260		other	0
+Cody	913	Response	1	23030654	4771	1
+Cody	914	Sound	110	23049485	260	1			260		other	0
+Cody	914	Response	1	23053374	4149	1
+Cody	915	Sound	111	23070325	260	1			260		other	0
+Cody	915	Response	1	23074174	4108	1
+Cody	916	Sound	104	23094167	260	1			260		other	0
+Cody	917	Sound	107	23112339	260	1			260		other	0
+Cody	917	Response	1	23116493	4413	1
+Cody	918	Sound	108	23134514	260	1			260		other	0
+Cody	918	Response	1	23139053	4799	1
+Cody	919	Sound	103	23150352	260	1			260		other	0
+Cody	920	Sound	102	23166858	260	1			260		other	0
+Cody	921	Sound	109	23194701	260	1			260		other	0
+Cody	921	Response	1	23199051	4610	1
+Cody	922	Sound	109	23217708	260	1			260		other	0
+Cody	922	Response	1	23222651	5202	1
+Cody	923	Sound	112	23243884	260	1			260		other	0
+Cody	923	Response	1	23246890	3266	1
+Cody	924	Sound	111	23266897	265	1			260		other	0
+Cody	924	Response	1	23270490	3858	1
+Cody	925	Sound	105	23297068	260	1			260		other	0
+Cody	926	Sound	105	23320576	260	1			260		other	0
+Cody	927	Sound	110	23345252	260	1			260		other	0
+Cody	927	Response	1	23349608	4616	1
+Cody	928	Sound	110	23362257	260	1			260		other	0
+Cody	928	Response	1	23367767	5770	2
+Cody	929	Sound	106	23387432	260	1			260		other	0
+Cody	930	Sound	104	23410440	260	1			260		other	0
+Cody	931	Sound	107	23430947	260	1			260		other	0
+Cody	931	Response	1	23435446	4759	3
+Cody	932	Response	255	23457926	8652	1
+Cody	933	Sound	22	23538817	260	1			260		other	0
+Cody	933	Response	1	23542484	3927	1
+Cody	934	Sound	18	23561825	260	1			260		other	0
+Cody	934	Response	1	23565444	3878	1
+Cody	935	Sound	22	23578664	260	1			260		other	0
+Cody	935	Response	1	23581124	2720	1
+Cody	936	Sound	18	23597170	260	1			260		other	0
+Cody	936	Response	1	23600563	3653	1
+Cody	937	Sound	17	23615510	260	1			260		other	0
+Cody	937	Response	1	23618083	2832	1
+Cody	938	Sound	13	23638851	260	1			260		other	0
+Cody	939	Sound	19	23663693	260	1			260		other	0
+Cody	939	Response	1	23666802	3369	1
+Cody	940	Sound	20	23693703	260	1			260		other	0
+Cody	940	Response	1	23696241	2798	1
+Cody	941	Sound	18	23722546	260	1			260		other	0
+Cody	941	Response	1	23726400	4114	1
+Cody	942	Sound	17	23742219	260	1			260		other	0
+Cody	942	Response	1	23746080	4120	1
+Cody	943	Sound	19	23766228	260	1			260		other	0
+Cody	943	Response	1	23769680	3712	1
+Cody	944	Sound	14	23781733	260	1			260		other	0
+Cody	945	Sound	15	23801073	260	1			260		other	0
+Cody	946	Sound	20	23823747	260	1			260		other	0
+Cody	946	Response	1	23827118	3631	1
+Cody	947	Sound	12	23843587	260	1			260		other	0
+Cody	948	Sound	16	23868262	260	1			260		other	0
+Cody	948	Response	1	23874317	6315	1
+Cody	949	Sound	15	23890103	260	1			260		other	0
+Cody	949	Response	1	23895037	5194	1
+Cody	950	Sound	15	23910443	260	1			260		other	0
+Cody	951	Sound	21	23934451	260	1			260		other	0
+Cody	951	Response	1	23937916	3725	1
+Cody	952	Sound	22	23951124	260	1			260		other	0
+Cody	952	Response	1	23953836	2972	1
+Cody	953	Sound	13	23978133	260	1			260		other	0
+Cody	954	Sound	21	23998973	260	1			260		other	0
+Cody	954	Response	1	24002315	3602	1
+Cody	955	Sound	20	24016146	260	1			260		other	0
+Cody	955	Response	1	24019354	3469	1
+Cody	956	Sound	12	24040654	260	1			260		other	0
+Cody	957	Sound	11	24069330	260	1			260		other	0
+Cody	958	Sound	16	24087170	260	1			260		other	0
+Cody	959	Sound	16	24112678	260	1			260		other	0
+Cody	960	Sound	11	24135686	260	1			260		other	0
+Cody	961	Sound	22	24151358	260	1			260		other	0
+Cody	961	Response	1	24154552	3453	1
+Cody	962	Sound	14	24166863	260	1			260		other	0
+Cody	963	Sound	21	24186703	260	1			260		other	0
+Cody	963	Response	1	24190231	3787	1
+Cody	964	Sound	16	24202709	260	1			260		other	0
+Cody	965	Sound	13	24229385	260	1			260		other	0
+Cody	966	Sound	13	24251225	260	1			260		other	0
+Cody	967	Sound	12	24270579	273	1			260		other	0
+Cody	968	Sound	20	24290905	260	1			260		other	0
+Cody	968	Response	1	24294388	3743	2
+Cody	969	Sound	11	24318581	260	1			260		other	0
+Cody	970	Sound	15	24335587	260	1			260		other	0
+Cody	971	Sound	18	24355927	260	1			260		other	0
+Cody	971	Response	1	24359908	4240	1
+Cody	972	Sound	14	24372933	260	1			260		other	0
+Cody	973	Sound	14	24393440	260	1			260		other	0
+Cody	974	Sound	17	24411279	260	1			260		other	0
+Cody	974	Response	1	24416306	5287	1
+Cody	975	Sound	19	24439456	260	1			260		other	0
+Cody	975	Response	1	24444946	5750	1
+Cody	976	Sound	11	24458128	260	1			260		other	0
+Cody	977	Sound	17	24477475	266	1			260		other	0
+Cody	978	Sound	19	24504311	260	1			260		other	0
+Cody	978	Response	1	24508464	4413	1
+Cody	979	Sound	12	24523651	260	1			260		other	0
+Cody	980	Sound	21	24552827	260	1			260		other	0
+Cody	980	Response	1	24557664	5096	1
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	11	1.44834e+06

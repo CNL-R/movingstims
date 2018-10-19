@@ -34,7 +34,7 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108004_stims</dsd>
+<dsd>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108004_2_stims</dsd>
 <dxv>8</dxv>
 <efs>
 <filename>C:\Users\achen52\Documents\GitHub\movingstims\IETwo\IETwo.sce</filename>
@@ -456,7 +456,7 @@
 <custom_buf>primary</custom_buf>
 <default>0</default>
 <dup_channels>1</dup_channels>
-<ex_period>10</ex_period>
+<ex_period>20</ex_period>
 <halt_on_underrun>0</halt_on_underrun>
 <max_mix_length>50</max_mix_length>
 <min_mix_length>25</min_mix_length>
