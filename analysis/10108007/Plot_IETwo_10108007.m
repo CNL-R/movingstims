@@ -25,8 +25,14 @@ end
 block = tempblock;
 block(end) = 0; 
 
-output = BehavioralStruct(block)                             %creating data struct to hold information
-                                                             
+%10108007 Manipulation: Removing blocks 20 plus if they are auditory
+blockstarts = find(block==255);
+removefromblock = 20;                                   %remove all trials after block x
+removeindx = blockstarts(removefromblock + 1); 
+block(removeindx:end) = [];                                                             
+
+blockidentities = IdentifyBlocks(block)                         %creating data struct to hold information
+
 %Jank method of getting hit rate. Could be updated. 
 numberhits = zeros(3,numel(Aconds));                         %initializing arrays for: holding number of hits, intances and detection rate
 numberstims = zeros(3,numel(Aconds));                        %   for each stimuli
@@ -102,11 +108,11 @@ title('Auditory, Visual and Audiovisual Detection versus Intended Detectability'
 legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast');
 xlabel('Intended Detectability');
 ylabel('Hit Probability');
- %% II: Save Fig
- savedestination = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\plots';
- participant = cond.subject{1};
- savefig(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.fig'));
- saveas(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.png'));
+%  %% II: Save Fig
+%  savedestination = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\plots';
+%  participant = cond.subject{1};
+%  savefig(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.fig'));
+%  saveas(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.png'));
 
  
  % notes - code could be written to be more efficient, but currently works.

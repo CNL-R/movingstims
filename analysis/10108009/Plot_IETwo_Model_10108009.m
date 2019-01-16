@@ -6,9 +6,12 @@
 %% I: Plotting A,V & AV Psychometrics
 addpath('C:\Users\Allenine\Documents\GitHub\movingstims\functions');
 
-%Loading log file 
-[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
+%10108009 Change - Appending Two Log Files
+%Loading FIRST log file 
+%[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
 %[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
+path = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\';
+filename = '10108009-IETwo.log';
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %AUDITORY PLOTTING
@@ -23,10 +26,27 @@ for i = 1:size(block)
     tempblock = [tempblock str2num(cell2mat(block(i)))];
 end 
 block = tempblock;
-block(end) = 0; 
 
-output = BehavioralStruct(block)                             %creating data struct to hold information
-                                                             
+%10108009 Change - Appending 2nd Log File
+%[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
+filename = '10108009_2-IETwo.log';
+[struct, cond] = importPresentationLog(strcat(path,filename));
+secondblock = cond.code;
+tempblock = [];    
+for i = 1:size(secondblock)                                       
+    tempblock = [tempblock str2num(cell2mat(secondblock(i)))];
+end 
+secondblock = tempblock;
+secondblock(end) = 0; 
+
+block = [block secondblock];
+block(end) = 0;
+
+
+blockidentities = IdentifyBlocks(block);                         %creating data struct to hold information
+disp(['Auditory: ' num2str(numel(find(blockidentities==1)))])
+disp(['Visual: ' num2str(numel(find(blockidentities==2)))])
+disp(['Audiovisual: ' num2str(numel(find(blockidentities==3)))])
 %Jank method of getting hit rate. Could be updated. 
 numberhits = zeros(3,numel(Aconds));                         %initializing arrays for: holding number of hits, intances and detection rate
 numberstims = zeros(3,numel(Aconds));                        %   for each stimuli
@@ -38,10 +58,6 @@ for i = 1:numel(Aconds)                                      %looping through ea
     numberstims(1,i) = numel(stimIndcs);
     detection(1,i) = numberhits(1,i) / numberstims(1,i);
 end 
-output.auditory.codes = Aconds; 
-output.auditory.intensities = Aintensities; 
-output.auditory.detection = detection(1,:); 
-output.auditory.numberstims = numberstims(1,:); 
 fig = figure;
 %subplot(3,1,1);
 % [param_aud, stat_aud] = sigm_fit(intensities, detection, [], [], 1);
@@ -63,10 +79,6 @@ for i = 1:numel(Vconds)                                      %looping through ea
     numberstims(2,i) = numel(stimIndcs);
     detection(2,i) = numberhits(2,i) / numberstims(2,i);
 end 
-output.auditory.codes = Vconds; 
-output.auditory.intensities = Vintensities; 
-output.auditory.detection = detection(2,:); 
-output.auditory.numberstims = numberstims(2,:); 
 %subplot(3,1,2)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
@@ -88,10 +100,6 @@ for i = 1:numel(AVconds)                                      %looping through e
     numberstims(3,i) = numel(stimIndcs);
     detection(3,i) = numberhits(3,i) / numberstims(3,i);
 end 
-output.auditory.codes = AVconds; 
-output.auditory.intensities = AVintensities; 
-output.auditory.detection = detection(3,:); 
-output.auditory.numberstims = numberstims(3,:); 
 %subplot(3,1,3)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
@@ -99,16 +107,15 @@ plot(AVintensities, detection(3,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Auditory, Visual and Audiovisual Detection versus Intended Detectability');
 
-legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast');
+%MODEL
+sumterm = detection(1,:) + detection(2,:);
+jointprobability = detection(1,:).*detection(2,:);
+model = sumterm - jointprobability;
+plot(AVintensities, model, 'Marker', 'o');
+
+%MODEL2
+
+
+legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast', 'P(A)+P(V) - P(A)P(V)');
 xlabel('Intended Detectability');
 ylabel('Hit Probability');
- %% II: Save Fig
- savedestination = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\plots';
- participant = cond.subject{1};
- savefig(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.fig'));
- saveas(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.png'));
-
- 
- % notes - code could be written to be more efficient, but currently works.
- %  code currently reloads the log file for every modality. It could just
- %  do it once and reuse that variable...

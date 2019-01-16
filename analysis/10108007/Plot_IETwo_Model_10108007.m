@@ -5,11 +5,12 @@
 % to be accidentally overwriteen. 
 %% I: Plotting A,V & AV Psychometrics
 addpath('C:\Users\Allenine\Documents\GitHub\movingstims\functions');
+filename = '10108007-IETwo.log';
+path = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\';
 
 %Loading log file 
-[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
-%[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
+
 
 %AUDITORY PLOTTING
 %Define your event codes and each respective intensity value
@@ -25,8 +26,14 @@ end
 block = tempblock;
 block(end) = 0; 
 
-output = BehavioralStruct(block)                             %creating data struct to hold information
-                                                             
+%10108007 Manipulation: Removing blocks 20 plus if they are auditory
+blockstarts = find(block==255);
+removefromblock = 20;                                   %remove all trials after block x
+removeindx = blockstarts(removefromblock + 1); 
+block(removeindx:end) = [];                                                             
+
+blockidentities = IdentifyBlocks(block)                         %creating data struct to hold information
+
 %Jank method of getting hit rate. Could be updated. 
 numberhits = zeros(3,numel(Aconds));                         %initializing arrays for: holding number of hits, intances and detection rate
 numberstims = zeros(3,numel(Aconds));                        %   for each stimuli
@@ -43,15 +50,13 @@ output.auditory.intensities = Aintensities;
 output.auditory.detection = detection(1,:); 
 output.auditory.numberstims = numberstims(1,:); 
 fig = figure;
-%subplot(3,1,1);
-% [param_aud, stat_aud] = sigm_fit(intensities, detection, [], [], 1);
+
 hold on;
 plot(Aintensities, detection(1,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Auditory')
 
 %VISUAL PLOTTING
-
 %Define your event codes and each respective intensity value
 Vconds = [30:40];
 Vintensities = [0:0.1:1];
@@ -67,8 +72,7 @@ output.auditory.codes = Vconds;
 output.auditory.intensities = Vintensities; 
 output.auditory.detection = detection(2,:); 
 output.auditory.numberstims = numberstims(2,:); 
-%subplot(3,1,2)
-% [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
+
 hold on; 
 plot(Aintensities, detection(2,:),'Marker','o');
 set(gca,'ylim',[0 1]);
@@ -76,8 +80,6 @@ title('Visual');
 
 %AUDIOVISUAL PLOTTING
 %Define your event codes and each respective intensity value
-%AVconds = [30,31,32,33];
-%intensities = [0 0.25 .5 1];
 AVintensities = [0:0.1:1];
 AVconds = [50:60];
 
@@ -92,23 +94,19 @@ output.auditory.codes = AVconds;
 output.auditory.intensities = AVintensities; 
 output.auditory.detection = detection(3,:); 
 output.auditory.numberstims = numberstims(3,:); 
-%subplot(3,1,3)
-% [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
+
 hold on; 
 plot(AVintensities, detection(3,:),'Marker','o');
 set(gca,'ylim',[0 1]);
 title('Auditory, Visual and Audiovisual Detection versus Intended Detectability');
 
-legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast');
+%MODEL
+sumterm = detection(1,:) + detection(2,:);
+jointprobability = detection(1,:).*detection(2,:);
+model = sumterm - jointprobability;
+plot(AVintensities, model, 'Marker', 'o');
+
+legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast', 'P(A)+P(V) - P(A)P(V)');
+
 xlabel('Intended Detectability');
 ylabel('Hit Probability');
- %% II: Save Fig
- savedestination = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\plots';
- participant = cond.subject{1};
- savefig(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.fig'));
- saveas(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.png'));
-
- 
- % notes - code could be written to be more efficient, but currently works.
- %  code currently reloads the log file for every modality. It could just
- %  do it once and reuse that variable...

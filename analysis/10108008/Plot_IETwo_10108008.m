@@ -4,16 +4,15 @@
 % sure to ctrl + enter on the sections you want unless you want data files
 % to be accidentally overwriteen. 
 %% I: Plotting A,V & AV Psychometrics
-addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
+addpath('C:\Users\Allenine\Documents\GitHub\movingstims\functions');
 
 %Loading log file 
-[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
+[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
+%[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %AUDITORY PLOTTING
 %Define your event codes and each respective intensity value
-%Aconds = [10,11,12,13];
-%intensities = [0 .25 .5 1];
 Aconds = [10:20];
 Aintensities = [0 0.1, .20, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 1.00];
 
@@ -26,6 +25,17 @@ end
 block = tempblock;
 block(end) = 0; 
 
+%10108008 Manipulation: Removing blocks 15 plus if they are auditory
+blockstarts = find(block==255);
+removefromblock = 15;                                   %remove all trials after block x
+removeindx = blockstarts(removefromblock + 1); 
+block(removeindx:end) = [];                                                             
+block(end) = 0;
+blockidentities = IdentifyBlocks(block);                         %creating data struct to hold information
+disp(['Auditory: ' num2str(numel(find(blockidentities==1)))])
+disp(['Visual: ' num2str(numel(find(blockidentities==2)))])
+disp(['Audiovisual: ' num2str(numel(find(blockidentities==3)))])
+%Jank method of getting hit rate. Could be updated. 
 numberhits = zeros(3,numel(Aconds));                         %initializing arrays for: holding number of hits, intances and detection rate
 numberstims = zeros(3,numel(Aconds));                        %   for each stimuli
 detection = zeros(3,numel(Aconds));
@@ -36,7 +46,6 @@ for i = 1:numel(Aconds)                                      %looping through ea
     numberstims(1,i) = numel(stimIndcs);
     detection(1,i) = numberhits(1,i) / numberstims(1,i);
 end 
-
 fig = figure;
 %subplot(3,1,1);
 % [param_aud, stat_aud] = sigm_fit(intensities, detection, [], [], 1);
@@ -51,15 +60,6 @@ title('Auditory')
 Vconds = [30:40];
 Vintensities = [0:0.1:1];
 
-%Mining your log file
-block = cond.code;                                          %block is a cell array that contains all codes from the experiment
-tempblock = [];                                             %converting block to a double array
-for i = 1:size(block)                                       
-    tempblock = [tempblock str2num(cell2mat(block(i)))]; 
-end 
-block = tempblock;
-block = [block 0];
-
 for i = 1:numel(Vconds)                                      %looping through each condition: finding number of hits, number of instances of that stimuli
     stimIndcs = find(block==Vconds(i));                      %   and dividng for the detection rate
     indcsplus1 = block(stimIndcs+1);
@@ -67,7 +67,6 @@ for i = 1:numel(Vconds)                                      %looping through ea
     numberstims(2,i) = numel(stimIndcs);
     detection(2,i) = numberhits(2,i) / numberstims(2,i);
 end 
-
 %subplot(3,1,2)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
@@ -81,13 +80,6 @@ title('Visual');
 %intensities = [0 0.25 .5 1];
 AVintensities = [0:0.1:1];
 AVconds = [50:60];
-%Mining your log file
-block = cond.code;                                          %block is a cell array
-tempblock = [];                                             %converting block to a double array
-for i = 1:size(block)                                       
-    tempblock = [tempblock str2num(cell2mat(block(i)))]; 
-end 
-block = tempblock;
 
 for i = 1:numel(AVconds)                                      %looping through each condition: finding number of hits, number of instances of that stimuli
     stimIndcs = find(block==AVconds(i));                      %   and dividng for the detection rate
@@ -96,7 +88,6 @@ for i = 1:numel(AVconds)                                      %looping through e
     numberstims(3,i) = numel(stimIndcs);
     detection(3,i) = numberhits(3,i) / numberstims(3,i);
 end 
-
 %subplot(3,1,3)
 % [param_vis, stat_vis] = sigm_fit(intensities, detection, [], [], 1);
 hold on; 
@@ -107,11 +98,11 @@ title('Auditory, Visual and Audiovisual Detection versus Intended Detectability'
 legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast');
 xlabel('Intended Detectability');
 ylabel('Hit Probability');
- %% II: Save Fig
- savedestination = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\plots';
- participant = cond.subject{1};
- savefig(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.fig'));
- saveas(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.png'));
+%  %% II: Save Fig
+%  savedestination = 'C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\plots';
+%  participant = cond.subject{1};
+%  savefig(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.fig'));
+%  saveas(fig, strcat(savedestination, '\', participant, '_IETwo_CoPlot.png'));
 
  
  % notes - code could be written to be more efficient, but currently works.
