@@ -213,6 +213,8 @@ int flex;
 array<int> whichstim[nstims*nreps];
 
 array<int> blockorder[] = {1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2};
+#array<int> blockorder[] = {1,1,1,1,1,2,2,2,2};
+#array<int> blockorder[] = {1,1,1,1,2,2,2,2,2};
 blockorder.shuffle();
 
 int stimpoolsize = 50;

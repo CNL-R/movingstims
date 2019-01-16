@@ -37,7 +37,8 @@
 <dsd>C:\Users\achen52\Documents\GitHub\movingstims\Sample\stims</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\achen52\Documents\GitHub\movingstims\Sample\IEInitial.sce</filename>
+<filename>C:\Users\achen52\Documents\GitHub\movingstims\Sample\Sample.sce</filename>
+<filename>C:\Users\achen52\Documents\GitHub\movingstims\Sample\Sample.exp</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -126,7 +127,7 @@
 <lsl>0</lsl>
 <maxpv>-1</maxpv>
 <minpv>19</minpv>
-<nam>IE-Initial</nam>
+<nam>Sample</nam>
 <one_processor>2</one_processor>
 <oports>
 <p>
@@ -420,7 +421,7 @@
 <offset>50</offset>
 <offset>48</offset>
 </idv>
-<sfn>C:\Users\achen52\Documents\GitHub\movingstims\Sample\IEInitial.sce</sfn>
+<sfn>C:\Users\achen52\Documents\GitHub\movingstims\Sample\Sample.sce</sfn>
 </sce>
 <sct>
 <capture_device>

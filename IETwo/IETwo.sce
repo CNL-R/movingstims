@@ -227,8 +227,9 @@ int flex;
 array<int> whichstim[nstims*nreps];
 term.print_line(whichstim.count());
 
-#array<int> blockorder[] = {1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3}; #normal
-array<int> blockorder[] = {3,3,1,3,1,2,3,1,2,3,1,2,3}; #10108009 post crash
+#array<int> blockorder[] = {1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3}; #full exp
+array<int> blockorder[] = {1,1,1,1,1,2,2,2,2,2,3,3,3,3,3}; #half exp
+
 
 blockorder.shuffle();
 
