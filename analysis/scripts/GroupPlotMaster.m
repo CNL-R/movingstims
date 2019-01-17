@@ -1,7 +1,7 @@
-plotmode = 4; %1: STD Shadow 2: SEM Shadow 3:STD Error Bars 4:SEM Error Bars
-numbersubjects = 5;
-alldetections = zeros(5,3,11);
-allmodels = zeros(5,11);
+plotmode = 2; %1: STD Shadow 2: SEM Shadow 3:STD Error Bars 4:SEM Error Bars
+numbersubjects = 13;
+alldetections = zeros(numbersubjects,3,11);
+allmodels = zeros(numbersubjects,11);
 
 %Participant 1 (10108007)
 Plot_IETwo_Model_10108007
@@ -24,6 +24,46 @@ end
 Plot_IETwo_Model_10108009
 alldetections(5,:,:) = detection;
 allmodels(5,:) = model;
+
+%Participant 6 (10108010)
+Plot_IETwo_Model_10108010
+alldetections(6,:,:) = detection;
+allmodels(6,:) = model;
+
+%Participant 7
+Plot_IETwo_Model_10108011
+alldetections(7,:,:) = detection;
+allmodels(7,:) = model;
+
+%Participant 8
+Plot_IETwo_Model_10108012
+alldetections(8,:,:) = detection;
+allmodels(8,:) = model;
+
+%Participant 9
+Plot_IETwo_Model_10108013
+alldetections(9,:,:) = detection;
+allmodels(9,:) = model;
+
+%Participant 10
+Plot_IETwo_Model_10108014
+alldetections(10,:,:) = detection;
+allmodels(10,:) = model;
+
+%Participant 11
+Plot_IETwo_Model_10108015
+alldetections(11,:,:) = detection;
+allmodels(11,:) = model;
+
+%Participant 12
+Plot_IETwo_Model_10108016
+alldetections(12,:,:) = detection;
+allmodels(12,:) = model;
+
+%Participant 13
+Plot_IETwo_Model_10108017
+alldetections(13,:,:) = detection;
+allmodels(13,:) = model;
 %% 
 close('all')
 
@@ -82,3 +122,5 @@ elseif plotmode == 4
     ylabel('Hit Probability');
     set(gca,'ylim',[0 1]);
 end
+
+title('')
