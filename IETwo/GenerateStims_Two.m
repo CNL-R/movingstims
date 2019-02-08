@@ -5,7 +5,7 @@
 addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 
 %basedir = 'C:\Users\lhshaw\Documents\GitHub\movingstims\IETwo\SUBJECTID_stims';
-basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108019_stims';
+basedir = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\10108023_stims';
 
 supra = 0.3;
 

@@ -212,8 +212,7 @@ int isi_frames;
 int flex;
 array<int> whichstim[nstims*nreps];
 
-array<int> blockorder[] = {2,1};
-blockorder.shuffle();
+array<int> blockorder[] = {1,2};
 
 int stimpoolsize = 50;
 loop
