@@ -4,14 +4,14 @@
 % sure to ctrl + enter on the sections you want unless you want data files
 % to be accidentally overwriteen. 
 %% I: Plotting A,V & AV Psychometrics
-addpath('C:\Users\Allenine\Documents\GitHub\movingstims\functions');
+addpath('C:\Users\achen52\Documents\GitHub\movingstims\functions');
 
 %101080016 - Appending Two Log Files
 %Loading FIRST log file 
 %[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
 %[filename, path] = uigetfile('C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
 path = 'C:\Users\achen52\Documents\GitHub\movingstims\IETwo\logs\';
-filename = '10108021_1-IETwo.log';
+filename = '10108022_1-IETwo.log';
 [struct, cond] = importPresentationLog(strcat(path,filename));
 
 %AUDITORY PLOTTING
@@ -29,7 +29,7 @@ block = tempblock;
 
 %10108009 Change - Appending 2nd Log File
 %[filename, path] = uigetfile('C:\Users\Allenine\Documents\GitHub\movingstims\IETwo\logs\*.log','Please select which AUDITORY .log file to analyze');
-filename = '10108021_2-IETwo.log';
+filename = '10108022_2-IETwo.log';
 [struct, cond] = importPresentationLog(strcat(path,filename));
 secondblock = cond.code;
 tempblock = [];    
@@ -116,6 +116,6 @@ plot(AVintensities, model, 'Marker', 'o');
 %MODEL2
 
 
-legend('Auditory', 'Visual', 'Audiovisual', 'P(A)+P(V) - P(A)P(V)','Location', 'southeast');
+legend('Auditory', 'Visual', 'Audiovisual', 'Location', 'southeast', 'P(A)+P(V) - P(A)P(V)');
 xlabel('Intended Detectability');
 ylabel('Hit Probability');
