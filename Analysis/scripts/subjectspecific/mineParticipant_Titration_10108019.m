@@ -112,6 +112,8 @@ else
     tempVgreater = 0.1;
     PHASEII_INTENSITIES.v = [PHASEII_INTENSITIES.v tempVgreater(1) * timeunit];
 end
+PHASEII_INTENSITIES.a = [0 PHASEII_INTENSITIES.a 0.3]
+PHASEII_INTENSITIES.v = [0 PHASEII_INTENSITIES.v 0.3]
 end 
 %% ORGANIZING OUTPUT
 TITRATION.detection.a = detection(1:length(AcondsInitial));

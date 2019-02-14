@@ -313,3 +313,7 @@ struct = [struct1 struct2];
 DATA(i).phaseII = mineParticipant_PhaseII(struct);
 DATA(i).phaseII.intensities = temp_intensities;
 
+%% SAVING DATA
+path = 'C:\Users\achen52\Documents\GitHub\SMART-IE-Data'
+filename = 'DATA.mat';
+save(fullfile(path,filename), 'DATA')

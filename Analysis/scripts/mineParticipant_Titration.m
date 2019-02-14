@@ -108,6 +108,8 @@ PHASEII_INTENSITIES.a = [PHASEII_INTENSITIES.a tempAgreater(1) * timeunit];
 tempVgreater = find(visSigmoid >= detectabilities(i));
 PHASEII_INTENSITIES.v = [PHASEII_INTENSITIES.v tempVgreater(1) * timeunit];
 end 
+PHASEII_INTENSITIES.a = [0 PHASEII_INTENSITIES.a 0.3];
+PHASEII_INTENSITIES.v = [0 PHASEII_INTENSITIES.v 0.3];
 %% ORGANIZING OUTPUT
 TITRATION.detection.a = detection(1:length(AcondsInitial));
 TITRATION.detection.v = detection(length(AcondsInitial) + 1:length(AcondsInitial)+length(VcondsInitial));
