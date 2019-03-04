@@ -1,0 +1,63 @@
+Scenario - 
+Logfile written - 02/20/2019 10:02:10
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+testing	1	Response	255	812340	812007	1
+testing	1	Response	1	847779	847446	1
+testing	2	Sound	107	889185	316	1			260		other	0
+testing	3	Sound	103	906385	343	1			260		other	0
+testing	4	Sound	104	932784	401	1			260		other	0
+testing	5	Sound	101	954183	460	1			260		other	0
+testing	6	Sound	104	980782	384	1			260		other	0
+testing	7	Sound	109	1005981	411	1			260		other	0
+testing	8	Sound	106	1032380	298	1			260		other	0
+testing	9	Sound	103	1051179	425	1			260		other	0
+testing	10	Sound	110	1077578	316	1			260		other	0
+testing	11	Sound	110	1095978	376	1			260		other	0
+testing	12	Sound	106	1113577	303	1			260		other	0
+testing	13	Sound	111	1139776	327	1			260		other	0
+testing	14	Sound	106	1156176	389	1			260		other	0
+testing	15	Sound	108	1178575	447	1			260		other	0
+testing	16	Sound	111	1199574	272	1			260		other	0
+testing	17	Sound	104	1223973	330	1			260		other	0
+testing	18	Sound	111	1251772	287	1			260		other	0
+testing	19	Sound	102	1273171	346	1			260		other	0
+testing	20	Sound	104	1299970	470	1			260		other	0
+testing	21	Sound	101	1326769	427	1			260		other	0
+testing	22	Sound	110	1350168	319	1			260		other	0
+testing	23	Sound	106	1377967	276	1			260		other	0
+testing	24	Sound	102	1404766	400	1			260		other	0
+testing	25	Sound	109	1427166	292	1			260		other	0
+testing	26	Sound	105	1447365	318	1			260		other	0
+testing	27	Sound	108	1470364	309	1			260		other	0
+testing	28	Sound	110	1495363	467	1			260		other	0
+testing	29	Sound	107	1517762	359	1			260		other	0
+testing	30	Sound	110	1543361	451	1			260		other	0
+testing	31	Sound	105	1562560	310	1			260		other	0
+testing	32	Sound	108	1588560	468	1			260		other	0
+testing	33	Sound	101	1615958	358	1			260		other	0
+testing	34	Sound	103	1637558	284	1			260		other	0
+testing	35	Sound	103	1659557	443	1			260		other	0
+testing	36	Sound	105	1684756	300	1			260		other	0
+testing	37	Sound	109	1707755	459	1			260		other	0
+testing	38	Sound	101	1734754	282	1			260		other	0
+testing	39	Sound	108	1752554	410	1			260		other	0
+testing	40	Sound	111	1779152	333	1			260		other	0
+testing	41	Sound	108	1799952	459	1			260		other	0
+testing	42	Sound	102	1819351	352	1			260		other	0
+testing	43	Sound	109	1839750	412	1			260		other	0
+testing	44	Sound	105	1867549	369	1			260		other	0
+testing	45	Sound	105	1892348	326	1			260		other	0
+testing	46	Sound	102	1914148	286	1			260		other	0
+testing	47	Sound	104	1930147	280	1			260		other	0
+testing	48	Sound	111	1956346	303	1			260		other	0
+testing	49	Sound	102	1974745	364	1			260		other	0
+testing	50	Sound	106	1998344	289	1			260		other	0
+testing	51	Sound	103	2024943	379	1			260		other	0
+testing	52	Sound	107	2047342	438	1			260		other	0
+testing	53	Sound	107	2071342	429	1			260		other	0
+testing	54	Sound	101	2098941	353	1			260		other	0
+testing	55	Sound	107	2127340	410	1			260		other	0
+testing	56	Sound	109	2145739	303	1			260		other	0
+testing	57	Quit		6316374	4149017	NA
