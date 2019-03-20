@@ -3,8 +3,29 @@ basePath = 'C:\Users\achen52\Documents\GitHub\movingstims\';                    
 %Experiment-wide Parameters
 AintensitiesInitial = [0, 0.0083, 0.0167, 0.0250, 0.0333, 0.0417, 0.0500, 0.0583, 0.0667, 0.0750, 0.3000];
 VintensitiesInitial = [0, 0.0250, 0.0375, 0.0500, 0.0625, 0.0750, 0.087, 0.1000, 0.1125, 0.1250, 0.3000];
-%% 10108009
+
+%% 10108006
 i = 1;
+
+%Phase I
+path = [basePath 'IEInitial\logs\'];
+filename = '10108006-IEInitial.log';
+[struct, ~] = importPresentationLog(strcat(path,filename));
+DATA(i).participant = '10108006';
+[DATA(i).titration temp_intensities] = mineParticipant_Titration(struct);
+
+%Phase II
+path = [basePath 'IETwo\logs\'];
+filename = '10108006_1-IETwo.log';
+[struct1, ~] = importPresentationLog(strcat(path,filename));
+filename = '10108006_2-IETwo.log'
+[struct2, ~] = importPresentationLog(strcat(path,filename));
+struct = [struct1 struct2];
+DATA(i).phaseII = mineParticipant_PhaseII(struct);
+DATA(i).phaseII.intensities = temp_intensities;
+
+%% 10108009
+i = i + 1;
 
 %Phase I
 path = [basePath 'IEInitial\logs\'];
@@ -313,6 +334,47 @@ struct = [struct1 struct2];
 DATA(i).phaseII = mineParticipant_PhaseII(struct);
 DATA(i).phaseII.intensities = temp_intensities;
 
+%% 10108024
+i = i + 1;
+
+DATA(i).participant = '10108024';
+%Phase I
+path = [basePath 'IEInitial\logs\'];
+filename = [DATA(i).participant '-IEInitial.log'];
+[struct, ~] = importPresentationLog(strcat(path,filename));
+
+[DATA(i).titration temp_intensities] = mineParticipant_Titration(struct);
+
+%Phase II
+path = [basePath 'IETwo\logs\'];
+filename = [DATA(i).participant '_1-IETwo.log'];
+[struct1, ~] = importPresentationLog(strcat(path,filename));
+filename = [DATA(i).participant '_2-IETwo.log'];
+[struct2, ~] = importPresentationLog(strcat(path,filename));
+struct = [struct1 struct2];
+DATA(i).phaseII = mineParticipant_PhaseII(struct);
+DATA(i).phaseII.intensities = temp_intensities;
+
+%% 10108025
+i = i + 1;
+
+DATA(i).participant = '10108025';
+%Phase I
+path = [basePath 'IEInitial\logs\'];
+filename = [DATA(i).participant '-IEInitial.log'];
+[struct, ~] = importPresentationLog(strcat(path,filename));
+
+[DATA(i).titration temp_intensities] = mineParticipant_Titration(struct);
+
+%Phase II
+path = [basePath 'IETwo\logs\'];
+filename = [DATA(i).participant '_1-IETwo.log'];
+[struct1, ~] = importPresentationLog(strcat(path,filename));
+filename = [DATA(i).participant '_2-IETwo.log'];
+[struct2, ~] = importPresentationLog(strcat(path,filename));
+struct = [struct1 struct2];
+DATA(i).phaseII = mineParticipant_PhaseII(struct);
+DATA(i).phaseII.intensities = temp_intensities;
 %% SAVING DATA
 path = 'C:\Users\achen52\Documents\GitHub\SMART-IE-Data'
 filename = 'DATA.mat';

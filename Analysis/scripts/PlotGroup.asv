@@ -1,0 +1,44 @@
+data = DATA_filtered;
+%data = DATA;
+
+numParticipants = length(data)
+a = zeros(numParticipants,11);
+v = zeros(numParticipants,11);
+av = zeros(numParticipants,11);
+x = [0:0.1:1];
+for i = 1:numParticipants
+y = data(i).phaseII.detection;
+hold on;
+a(i,:) = y.a;
+v(i,:) = y.v;
+av(i,:) = y.av;
+end 
+
+colors = {[31,120,180],[166,206,227];
+          [227,26,28], [251,154,153];
+          [255,127,0], [253,191,111];
+          [84,39,136], [128,115,172]};
+plot_variance = @(x,lower,upper,color) set(fill([x,x(end:-1:1)],[upper,lower(end:-1:1)],color),'EdgeColor','none', 'FaceAlpha', 0.25, 'HandleVisibility', 'off');
+figure;
+plot(x,mean(a), 'Color' ,colors{1,1}./255);
+hold on;
+plot_variance(x, mean(a) - std(a)/sqrt(numParticipants), mean(a) + std(a)/sqrt(numParticipants), colors{1,2}./255)
+plot(x,mean(v), 'Color', colors{2,1}./255);
+plot_variance(x, mean(v) - std(v)/sqrt(numParticipants), mean(v) + std(v)/sqrt(numParticipants), colors{2,2}./255)
+plot(x,mean(av), 'Color', colors{3,1}./255);
+plot_variance(x, mean(av) - std(av)/sqrt(numParticipants), mean(av) + std(av)/sqrt(numParticipants), colors{3,2}./255)
+%modelmean = mean(a)+mean(v)-mean(a).*mean(v);
+modelmean = mean(a+v-a.*v);
+modelSEM = std(a+v-a.*v)/sqrt(numParticipants);
+plot(x,modelmean,'Color', colors{4,1}./255);
+plot_variance(x, modelmean-modelSEM, modelmean+modelSEM, colors{4,2}./255)
+
+xlabel('Intended Detectability')
+ylabel('Actual Detectability')
+title('Group Analysis of 12 Individuals')
+legend({'Auditory','Visual','Audiovisual','P(A)+P(V)-P(A)P(V)'}, 'Location', 'southeast')
+
+%SAVING as -dsvg
+filename = 'Po';
+path = 'C:\Users\achen52\Documents\GitHub\SMART-IE-Data';
+print(fullfile(path,filename), '-dsvg')

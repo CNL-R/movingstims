@@ -1,0 +1,11 @@
+% Filters participants
+%Total Hit Rate < 10%
+numParticipants = length(DATA);
+participant = cell(1,numParticipants);
+hitrate = zeros(1,numParticipants);
+for i = 1:numParticipants
+    participant{i} = DATA(i).participant;
+    hitrate(i) = mean(DATA(i).phaseII.detection.v)
+end 
+
+%
